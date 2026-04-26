@@ -26,17 +26,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Connect to Tailscale and configure exit node
+      - name: Install jq and Tailscale
         run: |
-          echo "Connecting to Tailscale..."
-          # Note: tailscale/github-action setup will be done inline here
-          # This would normally use: uses: tailscale/github-action@v2
-          # But we're doing it manually in the fetch script instead
-          
-          echo "Tailscale setup will happen in the fetch script"
+          sudo apt-get update
+          sudo apt-get install -y jq
+          # Install Tailscale
+          curl -fsSL https://tailscale.com/install.sh | sh
       
       - name: Run fetch and process script
         run: |
