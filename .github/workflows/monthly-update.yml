@@ -14,6 +14,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -30,28 +34,34 @@ jobs:
       - name: Commit changes
         run: |
           git add data/
-          git commit -m "chore: update toll plaza data for $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "chore: update toll plaza data for ${{ steps.date.outputs.date }}" || echo "No changes to commit"
 
       - name: Push changes
-        run: git push
+        run: git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get latest data
         id: data-info
         run: |
-          TOTAL_PLAZAS=$(jq 'length' data/latest.json)
-          NHAI_COUNT=$(jq '[.[] | select(.data_source == "nhai")] | length' data/latest.json)
-          STATE_COUNT=$(jq '[.[] | select(.data_source == "state")] | length' data/latest.json)
-          echo "TOTAL_PLAZAS=$TOTAL_PLAZAS" >> $GITHUB_OUTPUT
-          echo "NHAI_COUNT=$NHAI_COUNT" >> $GITHUB_OUTPUT
-          echo "STATE_COUNT=$STATE_COUNT" >> $GITHUB_OUTPUT
+          if [ -f data/latest.json ]; then
+            TOTAL_PLAZAS=$(jq 'length' data/latest.json)
+            NHAI_COUNT=$(jq '[.[] | select(.data_source == "nhai")] | length' data/latest.json)
+            STATE_COUNT=$(jq '[.[] | select(.data_source == "state")] | length' data/latest.json)
+            echo "TOTAL_PLAZAS=$TOTAL_PLAZAS" >> $GITHUB_OUTPUT
+            echo "NHAI_COUNT=$NHAI_COUNT" >> $GITHUB_OUTPUT
+            echo "STATE_COUNT=$STATE_COUNT" >> $GITHUB_OUTPUT
+          else
+            echo "TOTAL_PLAZAS=0" >> $GITHUB_OUTPUT
+            echo "NHAI_COUNT=0" >> $GITHUB_OUTPUT
+            echo "STATE_COUNT=0" >> $GITHUB_OUTPUT
+          fi
 
       - name: Create Release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v1
         with:
           tag_name: v${{ steps.date.outputs.date }}
-          release_name: Toll Plazas Data - ${{ steps.date.outputs.date }}
+          name: Toll Plazas Data - ${{ steps.date.outputs.date }}
           body: |
             India Toll Plazas Dataset Update
 
@@ -61,13 +71,11 @@ jobs:
             - State Highway Toll Plazas: ${{ steps.data-info.outputs.STATE_COUNT }}
 
             **Download:**
-            - [Latest JSON](https://raw.githubusercontent.com/${{ github.repository }}/master/data/latest.json)
-            - [Versioned Data](https://github.com/${{ github.repository }}/tree/master/data/${{ steps.date.outputs.date }})
+            - [Latest JSON](https://raw.githubusercontent.com/${{ github.repository }}/main/data/latest.json)
+            - [Versioned Data](https://github.com/${{ github.repository }}/tree/main/data/${{ steps.date.outputs.date }})
 
             **Update Date:** ${{ steps.date.outputs.date }}
           draft: false
           prerelease: false
-
-      - name: Get current date
-        id: date
-        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
