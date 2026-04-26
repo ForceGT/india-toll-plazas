@@ -23,6 +23,19 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTH_KEY }}
 
+      - name: Wait for Tailscale connection
+        run: |
+          echo "Waiting for Tailscale to establish connection..."
+          for i in {1..30}; do
+            if tailscale status | grep -q "100\\."; then
+              echo "✓ Tailscale connected"
+              tailscale status
+              break
+            fi
+            echo "Attempt $i/30 - waiting for Tailscale..."
+            sleep 2
+          done
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -44,6 +57,10 @@ jobs:
           jq --version
           echo "Bash version:"
           bash --version
+
+      - name: Diagnose Tailscale connectivity
+        run: node ./scripts/diagnoseTailscale.js
+        continue-on-error: true
 
       - name: Run fetch and process script
         run: |
