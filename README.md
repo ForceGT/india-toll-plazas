@@ -1,8 +1,6 @@
 # India Toll Plazas Dataset
 
-<div style="text-align: center;">
-  <img src="static/banner-v2.png" alt="India Toll Plazas Banner" style="border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 100%; margin: 20px 0;">
-</div>
+![India Toll Plazas Banner](static/banner-v3.png)
 
 An open-source, regularly updated dataset of toll plazas across Indian national highways and state highways. Data is sourced from the National Highways Authority of India (NHAI) via the RajMargyatra web application and supplemented with state highway toll data.
 
