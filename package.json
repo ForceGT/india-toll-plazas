@@ -1,0 +1,30 @@
+{
+  "name": "india-toll-plazas",
+  "version": "1.0.0",
+  "description": "Open-source dataset of toll plazas in India (NHAI + State Highways) with monthly updates",
+  "main": "fetch-and-process.sh",
+  "scripts": {
+    "fetch": "node scripts/fetchNhaiTollplazas.js",
+    "fetch-details": "node scripts/fetchNhaiDetails.js",
+    "get-vehicle-types": "node scripts/getVehicleTypes.js",
+    "get-states": "node scripts/getStates.js",
+    "process-nhai": "node scripts/processNhai.js",
+    "process-state": "node scripts/processStateHighways.js",
+    "merge": "node scripts/merge.js",
+    "update": "./fetch-and-process.sh"
+  },
+  "keywords": [
+    "toll",
+    "plaza",
+    "india",
+    "nhai",
+    "toll-rates",
+    "highways",
+    "dataset",
+    "open-data"
+  ],
+  "author": "",
+  "license": "Government Open Data License",
+  "dependencies": {},
+  "devDependencies": {}
+}

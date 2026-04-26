@@ -1,0 +1,73 @@
+name: Monthly Data Update
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run fetch and process script
+        run: bash ./fetch-and-process.sh
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit changes
+        run: |
+          git add data/
+          git commit -m "chore: update toll plaza data for $(date +%Y-%m-%d)" || echo "No changes to commit"
+
+      - name: Push changes
+        run: git push
+
+      - name: Get latest data
+        id: data-info
+        run: |
+          TOTAL_PLAZAS=$(jq 'length' data/latest.json)
+          NHAI_COUNT=$(jq '[.[] | select(.data_source == "nhai")] | length' data/latest.json)
+          STATE_COUNT=$(jq '[.[] | select(.data_source == "state")] | length' data/latest.json)
+          echo "TOTAL_PLAZAS=$TOTAL_PLAZAS" >> $GITHUB_OUTPUT
+          echo "NHAI_COUNT=$NHAI_COUNT" >> $GITHUB_OUTPUT
+          echo "STATE_COUNT=$STATE_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.date.outputs.date }}
+          release_name: Toll Plazas Data - ${{ steps.date.outputs.date }}
+          body: |
+            India Toll Plazas Dataset Update
+
+            **Data Summary:**
+            - Total Toll Plazas: ${{ steps.data-info.outputs.TOTAL_PLAZAS }}
+            - NHAI Toll Plazas: ${{ steps.data-info.outputs.NHAI_COUNT }}
+            - State Highway Toll Plazas: ${{ steps.data-info.outputs.STATE_COUNT }}
+
+            **Download:**
+            - [Latest JSON](https://raw.githubusercontent.com/${{ github.repository }}/master/data/latest.json)
+            - [Versioned Data](https://github.com/${{ github.repository }}/tree/master/data/${{ steps.date.outputs.date }})
+
+            **Update Date:** ${{ steps.date.outputs.date }}
+          draft: false
+          prerelease: false
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
