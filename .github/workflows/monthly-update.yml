@@ -18,6 +18,11 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTH_KEY }}
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -46,7 +51,8 @@ jobs:
           bash ./fetch-and-process.sh
         timeout-minutes: 120
         env:
-          USE_PROXY: "true"
+          USE_TAILSCALE_EXIT_NODE: "true"
+          TAILSCALE_EXIT_NODE_IP: "100.117.159.206"
 
       - name: Configure git
         run: |
