@@ -19,16 +19,13 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
       - name: Get latest data info
         id: data-info
         run: |
           if [ -f data/latest.json ]; then
-            TOTAL_PLAZAS=$(jq 'length' data/latest.json)
-            NHAI_COUNT=$(jq '[.[] | select(.data_source == "nhai")] | length' data/latest.json)
-            STATE_COUNT=$(jq '[.[] | select(.data_source == "state")] | length' data/latest.json)
+            TOTAL_PLAZAS=$(cat data/latest.json | python3 -c "import sys, json; print(len(json.load(sys.stdin)))")
+            NHAI_COUNT=$(cat data/latest.json | python3 -c "import sys, json; data=json.load(sys.stdin); print(sum(1 for p in data if p.get('data_source')=='nhai'))")
+            STATE_COUNT=$(cat data/latest.json | python3 -c "import sys, json; data=json.load(sys.stdin); print(sum(1 for p in data if p.get('data_source')=='state'))")
             echo "TOTAL_PLAZAS=$TOTAL_PLAZAS" >> $GITHUB_OUTPUT
             echo "NHAI_COUNT=$NHAI_COUNT" >> $GITHUB_OUTPUT
             echo "STATE_COUNT=$STATE_COUNT" >> $GITHUB_OUTPUT
