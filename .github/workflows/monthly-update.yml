@@ -19,39 +19,32 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
+      - name: Install Tailscale
+        run: |
+          curl -fsSL https://tailscale.com/install.sh | sh
+
       - name: Connect to Tailscale
-        uses: tailscale/github-action@v2
-        with:
-          oauth-client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
-        timeout-minutes: 5
+        run: |
+          sudo tailscale up --authkey=${{ secrets.TAILSCALE_AUTH_KEY }} --accept-dns=false --accept-routes=true 2>&1 || true
+          sleep 10
+          sudo tailscale status
 
       - name: Wait for Tailscale connection
         run: |
           echo "Waiting for Tailscale to establish connection..."
-          max_attempts=60
-          attempt=0
-          
-          while [ $attempt -lt $max_attempts ]; do
+          for i in {1..30}; do
             if sudo tailscale status 2>/dev/null | grep -q "100\."; then
               echo "✓ Tailscale connected!"
               break
             fi
-            attempt=$((attempt + 1))
-            echo "Attempt $attempt/$max_attempts..."
+            echo "Attempt $i/30..."
             sleep 2
           done
-          
-          if [ $attempt -eq $max_attempts ]; then
-            echo "✗ Tailscale failed to connect after 2 minutes"
-            echo "Please ensure Tailscale is running on your phone and set as exit node"
-            exit 1
-          fi
 
       - name: Configure exit node
         run: |
           echo "Looking for phone exit node..."
-          PHONE_IP=$(sudo tailscale status 2>/dev/null | grep -i "android\|phone" | awk '{print $1}' | head -1)
+          PHONE_IP=$(sudo tailscale status 2>/dev/null | grep -i "android" | awk '{print $1}' | head -1)
           
           if [ -z "$PHONE_IP" ]; then
             echo "Warning: Could not find phone, trying default IP..."
@@ -59,13 +52,13 @@ jobs:
           fi
           
           echo "Setting exit node to: $PHONE_IP"
-          sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true 2>&1
+          sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true
           
           echo "Waiting 5 seconds for exit node to establish..."
           sleep 5
           
-          echo "Final Tailscale status:"
-          sudo tailscale status 2>/dev/null || echo "Could not get status"
+          echo "Tailscale status:"
+          sudo tailscale status
 
       - name: Verify connectivity
         run: |
@@ -73,7 +66,7 @@ jobs:
           if timeout 10 curl -s -I https://rajmargyatra.nhai.gov.in/nhai/api/getTollplazaName 2>&1 | head -n 1; then
             echo "✓ API is reachable"
           else
-            echo "✗ API not reachable - may indicate Tailscale exit node is not working"
+            echo "✗ API not reachable"
             exit 1
           fi
 
@@ -151,8 +144,9 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: |
-          echo "Workflow failed! Please check:"
+          echo "❌ Workflow failed!"
+          echo "Please check:"
           echo "1. Is your phone powered on and connected to WiFi?"
           echo "2. Is Tailscale running on your phone?"
-          echo "3. Is the phone set as exit node?"
-          echo "4. Check the full logs at: https://github.com/${{ github.repository }}/actions"
+          echo "3. Is the phone set as exit node in Tailscale?"
+          echo "Check logs: https://github.com/${{ github.repository }}/actions"
