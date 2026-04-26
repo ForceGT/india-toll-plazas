@@ -18,6 +18,12 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTH_KEY }}
+          version: 1.68.1
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -26,20 +32,28 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install jq and Tailscale
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-          # Install Tailscale
-          curl -fsSL https://tailscale.com/install.sh | sh
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
       
+      - name: Configure Tailscale exit node (if connected)
+        run: |
+          # Check if Tailscale is connected
+          if command -v tailscale &> /dev/null && tailscale status &> /dev/null; then
+            echo "Tailscale is connected"
+            PHONE_IP=$(tailscale status | grep -i "android" | awk '{print $1}' | head -1)
+            if [ -n "$PHONE_IP" ]; then
+              echo "Found phone exit node: $PHONE_IP"
+              sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true
+            fi
+          else
+            echo "Tailscale not available or not connected, using direct connection"
+          fi
+
       - name: Run fetch and process script
         run: |
           set -x
           bash ./fetch-and-process.sh
         timeout-minutes: 120
-        env:
-          TAILSCALE_AUTH_KEY: ${{ secrets.TAILSCALE_AUTH_KEY }}
 
       - name: Configure git
         run: |
