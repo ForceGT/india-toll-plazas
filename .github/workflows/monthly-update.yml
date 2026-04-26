@@ -36,11 +36,20 @@ jobs:
             sleep 2
           done
       
-      - name: Set Tailscale exit node for all traffic
+      - name: Discover and set Tailscale exit node
         run: |
+          echo "Discovering Tailscale exit nodes..."
+          # List all Tailscale status to find the exit node device
+          PHONE_IP=$(tailscale status | grep -i "android\|mobile\|phone" | awk '{print $1}' | head -1)
+          
+          if [ -z "$PHONE_IP" ]; then
+            echo "Could not automatically discover phone IP, using manual IP..."
+            PHONE_IP="100.71.85.41"
+          fi
+          
+          echo "Phone Tailscale IP: $PHONE_IP"
           echo "Configuring Tailscale to route through exit node..."
-          # Use exit node for all internet traffic
-          tailscale set --exit-node=100.117.159.206 --exit-node-allow-lan-access=true
+          tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true
           echo "✓ Exit node configured"
           sleep 5
 
