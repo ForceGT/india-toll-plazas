@@ -12,6 +12,48 @@ echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}India Toll Plazas - Data Fetch & Process${NC}"
 echo -e "${GREEN}========================================${NC}"
 
+# Check if running in GitHub Actions and set up Tailscale if needed
+if [ -n "$GITHUB_ACTIONS" ]; then
+  echo -e "${YELLOW}Setting up Tailscale for GitHub Actions...${NC}"
+  
+  # Connect to Tailscale using the auth key
+  if [ -z "$TAILSCALE_AUTH_KEY" ]; then
+    echo -e "${RED}Error: TAILSCALE_AUTH_KEY not set${NC}"
+    exit 1
+  fi
+  
+  echo "Initializing Tailscale..."
+  sudo tailscale up --authkey="$TAILSCALE_AUTH_KEY" --accept-dns=false || true
+  
+  # Wait for Tailscale to connect
+  echo "Waiting for Tailscale connection..."
+  for i in {1..30}; do
+    if tailscale status | grep -q "100\\."; then
+      echo "✓ Tailscale connected"
+      break
+    fi
+    echo "Attempt $i/30..."
+    sleep 1
+  done
+  
+  # Discover and set exit node
+  echo "Discovering Tailscale exit node..."
+  PHONE_IP=$(tailscale status | grep -i "android\|mobile\|phone" | awk '{print $1}' | head -1)
+  
+  if [ -z "$PHONE_IP" ]; then
+    echo "Could not auto-discover phone IP, using fallback..."
+    PHONE_IP="100.71.85.41"
+  fi
+  
+  echo "Phone Tailscale IP: $PHONE_IP"
+  echo "Configuring exit node..."
+  sudo tailscale set --exit-node="$PHONE_IP" --exit-node-allow-lan-access=true
+  echo "✓ Tailscale exit node configured"
+  sleep 2
+else
+  echo -e "${YELLOW}Running locally (not in GitHub Actions)${NC}"
+fi
+
 # Get current date
 CURRENT_DATE=$(date +%Y-%m-%d)
 DATA_DIR="./data"

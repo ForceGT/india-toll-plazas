@@ -18,41 +18,6 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-      - name: Connect to Tailscale
-        uses: tailscale/github-action@v2
-        with:
-          authkey: ${{ secrets.TAILSCALE_AUTH_KEY }}
-
-      - name: Wait for Tailscale connection
-        run: |
-          echo "Waiting for Tailscale to establish connection..."
-          for i in {1..30}; do
-            if tailscale status | grep -q "100\\."; then
-              echo "✓ Tailscale connected"
-              tailscale status
-              break
-            fi
-            echo "Attempt $i/30 - waiting for Tailscale..."
-            sleep 2
-          done
-      
-      - name: Discover and set Tailscale exit node
-        run: |
-          echo "Discovering Tailscale exit nodes..."
-          # List all Tailscale status to find the exit node device
-          PHONE_IP=$(tailscale status | grep -i "android\|mobile\|phone" | awk '{print $1}' | head -1)
-          
-          if [ -z "$PHONE_IP" ]; then
-            echo "Could not automatically discover phone IP, using manual IP..."
-            PHONE_IP="100.71.85.41"
-          fi
-          
-          echo "Phone Tailscale IP: $PHONE_IP"
-          echo "Configuring Tailscale to route through exit node..."
-          sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true
-          echo "✓ Exit node configured"
-          sleep 5
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -64,26 +29,22 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Verify tools
+      - name: Connect to Tailscale and configure exit node
         run: |
-          echo "Node version:"
-          node --version
-          echo "NPM version:"
-          npm --version
-          echo "jq version:"
-          jq --version
-          echo "Bash version:"
-          bash --version
-
-      - name: Diagnose Tailscale connectivity
-        run: node ./scripts/diagnoseTailscale.js
-        continue-on-error: true
-
+          echo "Connecting to Tailscale..."
+          # Note: tailscale/github-action setup will be done inline here
+          # This would normally use: uses: tailscale/github-action@v2
+          # But we're doing it manually in the fetch script instead
+          
+          echo "Tailscale setup will happen in the fetch script"
+      
       - name: Run fetch and process script
         run: |
           set -x
           bash ./fetch-and-process.sh
         timeout-minutes: 120
+        env:
+          TAILSCALE_AUTH_KEY: ${{ secrets.TAILSCALE_AUTH_KEY }}
 
       - name: Configure git
         run: |
