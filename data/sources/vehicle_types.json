@@ -1,0 +1,30 @@
+[
+  {
+    "detail_id": 31,
+    "detail_name": "3 AXLE"
+  },
+  {
+    "detail_id": 32,
+    "detail_name": "4 TO 6 AXLE"
+  },
+  {
+    "detail_id": 33,
+    "detail_name": "7 AXLE"
+  },
+  {
+    "detail_id": 34,
+    "detail_name": "BUS/TRUCK"
+  },
+  {
+    "detail_id": 35,
+    "detail_name": "CAR/JEEP/VAN"
+  },
+  {
+    "detail_id": 36,
+    "detail_name": "HCM/EME"
+  },
+  {
+    "detail_id": 37,
+    "detail_name": "LCV"
+  }
+]
