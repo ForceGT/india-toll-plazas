@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
@@ -42,6 +45,8 @@ jobs:
           set -x
           bash ./fetch-and-process.sh
         timeout-minutes: 120
+        env:
+          USE_PROXY: "true"
 
       - name: Configure git
         run: |

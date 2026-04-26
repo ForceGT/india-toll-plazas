@@ -1,0 +1,4778 @@
+[
+  {
+    "tollplaza_id": 368,
+    "tollplaza_name": "18th Mile (Lakshmipur ) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1220,
+    "tollplaza_name": "3M Toll Plaza"
+  },
+  {
+    "tollplaza_id": 381,
+    "tollplaza_name": "6ML (Sixml) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 356,
+    "tollplaza_name": "Aaini"
+  },
+  {
+    "tollplaza_id": 634,
+    "tollplaza_name": "Aashapur"
+  },
+  {
+    "tollplaza_id": 1022,
+    "tollplaza_name": "Abubshahar (Close Loop Toll  )"
+  },
+  {
+    "tollplaza_id": 929,
+    "tollplaza_name": "Abul Khurana "
+  },
+  {
+    "tollplaza_id": 197,
+    "tollplaza_name": "Aganampudi"
+  },
+  {
+    "tollplaza_id": 1243,
+    "tollplaza_name": "Agrahara (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1152,
+    "tollplaza_name": "Ahilyanagar (Ahmednagar) Bypass Toll Plaza"
+  },
+  {
+    "tollplaza_id": 173,
+    "tollplaza_name": "Ahmadpur(Ahamadpur)"
+  },
+  {
+    "tollplaza_id": 780,
+    "tollplaza_name": "Ahmedabad Ring Road 2"
+  },
+  {
+    "tollplaza_id": 767,
+    "tollplaza_name": "Ahmedabad (Ring Road)  (Entry Exit Toll)"
+  },
+  {
+    "tollplaza_id": 260,
+    "tollplaza_name": "Ahmedabad Vadodra Expressways "
+  },
+  {
+    "tollplaza_id": 431,
+    "tollplaza_name": "Aihar"
+  },
+  {
+    "tollplaza_id": 496,
+    "tollplaza_name": "Aindhi"
+  },
+  {
+    "tollplaza_id": 164,
+    "tollplaza_name": "Ait"
+  },
+  {
+    "tollplaza_id": 1264,
+    "tollplaza_name": "Akbarganj Simra (Tikri)"
+  },
+  {
+    "tollplaza_id": 305,
+    "tollplaza_name": "Akhepura"
+  },
+  {
+    "tollplaza_id": 1177,
+    "tollplaza_name": "Akhtiyari Kotila"
+  },
+  {
+    "tollplaza_id": 485,
+    "tollplaza_name": "Aksada"
+  },
+  {
+    "tollplaza_id": 958,
+    "tollplaza_name": "Akwabad"
+  },
+  {
+    "tollplaza_id": 1166,
+    "tollplaza_name": "Alagapada Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1158,
+    "tollplaza_name": "Alewa (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1023,
+    "tollplaza_name": "Alikan (Close Loop Toll  )"
+  },
+  {
+    "tollplaza_id": 298,
+    "tollplaza_name": "Aliyapur"
+  },
+  {
+    "tollplaza_id": 214,
+    "tollplaza_name": "Amakathadu"
+  },
+  {
+    "tollplaza_id": 477,
+    "tollplaza_name": "Amdi"
+  },
+  {
+    "tollplaza_id": 772,
+    "tollplaza_name": "Amipur Baleni"
+  },
+  {
+    "tollplaza_id": 148,
+    "tollplaza_name": "Amoli"
+  },
+  {
+    "tollplaza_id": 957,
+    "tollplaza_name": "Amora Moiddinpur"
+  },
+  {
+    "tollplaza_id": 805,
+    "tollplaza_name": "Amrawali Khera (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 819,
+    "tollplaza_name": "Anakdhal"
+  },
+  {
+    "tollplaza_id": 766,
+    "tollplaza_name": "Anand (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 34,
+    "tollplaza_name": "Anantram"
+  },
+  {
+    "tollplaza_id": 710,
+    "tollplaza_name": "Andhiyari"
+  },
+  {
+    "tollplaza_id": 40,
+    "tollplaza_name": "Anewadi"
+  },
+  {
+    "tollplaza_id": 1114,
+    "tollplaza_name": "Anjam Dham Fee Plaza"
+  },
+  {
+    "tollplaza_id": 884,
+    "tollplaza_name": "Annampalli"
+  },
+  {
+    "tollplaza_id": 1281,
+    "tollplaza_name": "Antraliya (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1223,
+    "tollplaza_name": "Arifke Fee Plaza"
+  },
+  {
+    "tollplaza_id": 159,
+    "tollplaza_name": "Arjunali"
+  },
+  {
+    "tollplaza_id": 10,
+    "tollplaza_name": "Aroli"
+  },
+  {
+    "tollplaza_id": 1115,
+    "tollplaza_name": "Asada Ki Beri"
+  },
+  {
+    "tollplaza_id": 245,
+    "tollplaza_name": "Asanpur"
+  },
+  {
+    "tollplaza_id": 510,
+    "tollplaza_name": "Ashiv"
+  },
+  {
+    "tollplaza_id": 966,
+    "tollplaza_name": "Ashta Toll Plaza"
+  },
+  {
+    "tollplaza_id": 465,
+    "tollplaza_name": "Asroga"
+  },
+  {
+    "tollplaza_id": 54,
+    "tollplaza_name": "Athur (Tindivanam)"
+  },
+  {
+    "tollplaza_id": 675,
+    "tollplaza_name": "Atraila Shiv Gulam No 3"
+  },
+  {
+    "tollplaza_id": 261,
+    "tollplaza_name": "Attibele (Betl)"
+  },
+  {
+    "tollplaza_id": 1116,
+    "tollplaza_name": "Attigulipura Fee Plaza"
+  },
+  {
+    "tollplaza_id": 1024,
+    "tollplaza_name": "Ayeshpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 441,
+    "tollplaza_name": "Azizpur"
+  },
+  {
+    "tollplaza_id": 896,
+    "tollplaza_name": "Babhniyawan"
+  },
+  {
+    "tollplaza_id": 286,
+    "tollplaza_name": "Babina"
+  },
+  {
+    "tollplaza_id": 529,
+    "tollplaza_name": "Bachhuan"
+  },
+  {
+    "tollplaza_id": 1170,
+    "tollplaza_name": "Badagaon (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 813,
+    "tollplaza_name": "Badagawn"
+  },
+  {
+    "tollplaza_id": 483,
+    "tollplaza_name": "Badaiyiguda"
+  },
+  {
+    "tollplaza_id": 635,
+    "tollplaza_name": "Badarpur"
+  },
+  {
+    "tollplaza_id": 229,
+    "tollplaza_name": "Badauri"
+  },
+  {
+    "tollplaza_id": 387,
+    "tollplaza_name": "Badava"
+  },
+  {
+    "tollplaza_id": 404,
+    "tollplaza_name": "Badbar"
+  },
+  {
+    "tollplaza_id": 600,
+    "tollplaza_name": "Badeibadkudar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 580,
+    "tollplaza_name": "Badewadi"
+  },
+  {
+    "tollplaza_id": 1196,
+    "tollplaza_name": "Badhera(Bhadera ) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 550,
+    "tollplaza_name": "Badighati"
+  },
+  {
+    "tollplaza_id": 1209,
+    "tollplaza_name": "Badkapara (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 402,
+    "tollplaza_name": "Badopatti"
+  },
+  {
+    "tollplaza_id": 267,
+    "tollplaza_name": "Bagaliya"
+  },
+  {
+    "tollplaza_id": 154,
+    "tollplaza_name": "Bagepalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1025,
+    "tollplaza_name": "Baggad"
+  },
+  {
+    "tollplaza_id": 1224,
+    "tollplaza_name": "Bagrana  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 659,
+    "tollplaza_name": "Bagwada Fee Plaza"
+  },
+  {
+    "tollplaza_id": 666,
+    "tollplaza_name": "Bahadrabad"
+  },
+  {
+    "tollplaza_id": 783,
+    "tollplaza_name": "Bahala"
+  },
+  {
+    "tollplaza_id": 926,
+    "tollplaza_name": "Baharagaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 798,
+    "tollplaza_name": "Bahri (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1147,
+    "tollplaza_name": "Baiji Toll Plaza"
+  },
+  {
+    "tollplaza_id": 802,
+    "tollplaza_name": "Bainsi (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1013,
+    "tollplaza_name": "Baiti Kala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1266,
+    "tollplaza_name": "Bajheri Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1298,
+    "tollplaza_name": "Bakhtyarpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 807,
+    "tollplaza_name": "Bakori"
+  },
+  {
+    "tollplaza_id": 1101,
+    "tollplaza_name": "Bakutra TP29 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 657,
+    "tollplaza_name": "Balachera"
+  },
+  {
+    "tollplaza_id": 716,
+    "tollplaza_name": "Balana"
+  },
+  {
+    "tollplaza_id": 1026,
+    "tollplaza_name": "Balani toll Plaza"
+  },
+  {
+    "tollplaza_id": 1027,
+    "tollplaza_name": "Balapura ( Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1028,
+    "tollplaza_name": "Balenahalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 198,
+    "tollplaza_name": "Balgudar"
+  },
+  {
+    "tollplaza_id": 537,
+    "tollplaza_name": "Balibhasa"
+  },
+  {
+    "tollplaza_id": 1029,
+    "tollplaza_name": "Balleepur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 726,
+    "tollplaza_name": "Balluana"
+  },
+  {
+    "tollplaza_id": 963,
+    "tollplaza_name": "Baloh Fee Plaza"
+  },
+  {
+    "tollplaza_id": 911,
+    "tollplaza_name": "Bamhori Kurmin"
+  },
+  {
+    "tollplaza_id": 794,
+    "tollplaza_name": "Bamla"
+  },
+  {
+    "tollplaza_id": 397,
+    "tollplaza_name": "Banajodi (Padmapur)"
+  },
+  {
+    "tollplaza_id": 1249,
+    "tollplaza_name": "Banaundi "
+  },
+  {
+    "tollplaza_id": 139,
+    "tollplaza_name": "Bandalo (Manguli )Toll Plaza"
+  },
+  {
+    "tollplaza_id": 569,
+    "tollplaza_name": "Bandapalli"
+  },
+  {
+    "tollplaza_id": 834,
+    "tollplaza_name": "Bandlapalli"
+  },
+  {
+    "tollplaza_id": 24,
+    "tollplaza_name": "Banglaore-Nelamangala Plaza (Towards Bangalore)"
+  },
+  {
+    "tollplaza_id": 701,
+    "tollplaza_name": "Bankapur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 157,
+    "tollplaza_name": "Bann"
+  },
+  {
+    "tollplaza_id": 1117,
+    "tollplaza_name": "Banpimpri Toll Plaza"
+  },
+  {
+    "tollplaza_id": 423,
+    "tollplaza_name": "Banskopa"
+  },
+  {
+    "tollplaza_id": 377,
+    "tollplaza_name": "Banthadi"
+  },
+  {
+    "tollplaza_id": 425,
+    "tollplaza_name": "Banushi"
+  },
+  {
+    "tollplaza_id": 464,
+    "tollplaza_name": "Bara"
+  },
+  {
+    "tollplaza_id": 300,
+    "tollplaza_name": "Baragarh (Barhaguda)"
+  },
+  {
+    "tollplaza_id": 919,
+    "tollplaza_name": "Barai Toll Plaza"
+  },
+  {
+    "tollplaza_id": 36,
+    "tollplaza_name": "Barajore Toll Plaza"
+  },
+  {
+    "tollplaza_id": 271,
+    "tollplaza_name": "Baretha KM 21.120"
+  },
+  {
+    "tollplaza_id": 1092,
+    "tollplaza_name": "Barhima Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1279,
+    "tollplaza_name": "Barkheda Barod (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 150,
+    "tollplaza_name": "Barkheda (Chandlai)"
+  },
+  {
+    "tollplaza_id": 279,
+    "tollplaza_name": "Baros"
+  },
+  {
+    "tollplaza_id": 604,
+    "tollplaza_name": "Barsalpur"
+  },
+  {
+    "tollplaza_id": 236,
+    "tollplaza_name": "Barsoni"
+  },
+  {
+    "tollplaza_id": 1274,
+    "tollplaza_name": "Barwaikheda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 420,
+    "tollplaza_name": "Basapuram"
+  },
+  {
+    "tollplaza_id": 979,
+    "tollplaza_name": "Basheerapur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1235,
+    "tollplaza_name": "Basinenipalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 709,
+    "tollplaza_name": "Bass"
+  },
+  {
+    "tollplaza_id": 9,
+    "tollplaza_name": "Bassi"
+  },
+  {
+    "tollplaza_id": 113,
+    "tollplaza_name": "Baswant (Pimpalgaon)"
+  },
+  {
+    "tollplaza_id": 622,
+    "tollplaza_name": "Bathalapalli"
+  },
+  {
+    "tollplaza_id": 1292,
+    "tollplaza_name": "Bautha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1118,
+    "tollplaza_name": "Bawada Toll plaza"
+  },
+  {
+    "tollplaza_id": 1296,
+    "tollplaza_name": "Bawani Khera"
+  },
+  {
+    "tollplaza_id": 1185,
+    "tollplaza_name": "Bedoli (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 732,
+    "tollplaza_name": "Beermandi"
+  },
+  {
+    "tollplaza_id": 530,
+    "tollplaza_name": "Behram"
+  },
+  {
+    "tollplaza_id": 890,
+    "tollplaza_name": "Bela (Baheliya) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 505,
+    "tollplaza_name": "Belekeri"
+  },
+  {
+    "tollplaza_id": 695,
+    "tollplaza_name": "Belgada"
+  },
+  {
+    "tollplaza_id": 234,
+    "tollplaza_name": "Beliyad"
+  },
+  {
+    "tollplaza_id": 1082,
+    "tollplaza_name": "Belkuri Toll Plaza"
+  },
+  {
+    "tollplaza_id": 461,
+    "tollplaza_name": "Belon"
+  },
+  {
+    "tollplaza_id": 1267,
+    "tollplaza_name": "Belsar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 685,
+    "tollplaza_name": "Bhadbhid"
+  },
+  {
+    "tollplaza_id": 968,
+    "tollplaza_name": "Bhadeswar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 789,
+    "tollplaza_name": "Bhagada Narayanpur"
+  },
+  {
+    "tollplaza_id": 405,
+    "tollplaza_name": "Bhagan"
+  },
+  {
+    "tollplaza_id": 308,
+    "tollplaza_name": "Bhagemari  (Patanswangi ) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 517,
+    "tollplaza_name": "Bhago Majra"
+  },
+  {
+    "tollplaza_id": 885,
+    "tollplaza_name": "Bhagupur"
+  },
+  {
+    "tollplaza_id": 240,
+    "tollplaza_name": "Bhagwada"
+  },
+  {
+    "tollplaza_id": 587,
+    "tollplaza_name": "Bhagwanpur"
+  },
+  {
+    "tollplaza_id": 215,
+    "tollplaza_name": "Bhalgam"
+  },
+  {
+    "tollplaza_id": 902,
+    "tollplaza_name": "Bhalkhi (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 548,
+    "tollplaza_name": "Bhamb Raja"
+  },
+  {
+    "tollplaza_id": 913,
+    "tollplaza_name": "Bhandaraj (Entry Exit )Toll"
+  },
+  {
+    "tollplaza_id": 1106,
+    "tollplaza_name": "Bhaneda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 520,
+    "tollplaza_name": "Bharatkund"
+  },
+  {
+    "tollplaza_id": 1091,
+    "tollplaza_name": "Bhartana"
+  },
+  {
+    "tollplaza_id": 252,
+    "tollplaza_name": "Bhartana"
+  },
+  {
+    "tollplaza_id": 37,
+    "tollplaza_name": "Bharudi"
+  },
+  {
+    "tollplaza_id": 316,
+    "tollplaza_name": "Bhatia"
+  },
+  {
+    "tollplaza_id": 273,
+    "tollplaza_name": "Bhatwada"
+  },
+  {
+    "tollplaza_id": 1189,
+    "tollplaza_name": "Bhavaninagar"
+  },
+  {
+    "tollplaza_id": 442,
+    "tollplaza_name": "Bhavdeen"
+  },
+  {
+    "tollplaza_id": 344,
+    "tollplaza_name": "Bhiknoor"
+  },
+  {
+    "tollplaza_id": 71,
+    "tollplaza_name": "Bhiladi"
+  },
+  {
+    "tollplaza_id": 1031,
+    "tollplaza_name": "Bhirandiyara Fee Plaza"
+  },
+  {
+    "tollplaza_id": 1032,
+    "tollplaza_name": "Bhitaha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 736,
+    "tollplaza_name": "Bhojpur (DME Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 513,
+    "tollplaza_name": "Bhojpuri"
+  },
+  {
+    "tollplaza_id": 480,
+    "tollplaza_name": "Bhokarwadi (Maliwadi)"
+  },
+  {
+    "tollplaza_id": 724,
+    "tollplaza_name": "Bhordu"
+  },
+  {
+    "tollplaza_id": 932,
+    "tollplaza_name": "Bhuni"
+  },
+  {
+    "tollplaza_id": 1005,
+    "tollplaza_name": "Bhuteda (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1289,
+    "tollplaza_name": "Biharibigha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 202,
+    "tollplaza_name": "Bijapur (Kasaba) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1090,
+    "tollplaza_name": "Bijora"
+  },
+  {
+    "tollplaza_id": 1271,
+    "tollplaza_name": "Bijwasan Toll Plaza "
+  },
+  {
+    "tollplaza_id": 631,
+    "tollplaza_name": "Bilakbarpur (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 717,
+    "tollplaza_name": "Binawas"
+  },
+  {
+    "tollplaza_id": 323,
+    "tollplaza_name": "Birami"
+  },
+  {
+    "tollplaza_id": 718,
+    "tollplaza_name": "Biratiya Kalan"
+  },
+  {
+    "tollplaza_id": 714,
+    "tollplaza_name": "Bisalwas"
+  },
+  {
+    "tollplaza_id": 555,
+    "tollplaza_name": "Bishunpurwa"
+  },
+  {
+    "tollplaza_id": 467,
+    "tollplaza_name": "Bogalur"
+  },
+  {
+    "tollplaza_id": 880,
+    "tollplaza_name": "Boharipar/Bahoripar (Khursi)  Fee Plaza"
+  },
+  {
+    "tollplaza_id": 759,
+    "tollplaza_name": "Bolangir"
+  },
+  {
+    "tollplaza_id": 211,
+    "tollplaza_name": "Bolapalli"
+  },
+  {
+    "tollplaza_id": 1211,
+    "tollplaza_name": "Bonli (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 22,
+    "tollplaza_name": "Boothakudi"
+  },
+  {
+    "tollplaza_id": 427,
+    "tollplaza_name": "Bor Charnan"
+  },
+  {
+    "tollplaza_id": 918,
+    "tollplaza_name": "Borgaon"
+  },
+  {
+    "tollplaza_id": 239,
+    "tollplaza_name": "Boriach"
+  },
+  {
+    "tollplaza_id": 161,
+    "tollplaza_name": "Borkhedi (Nagpur Bypass)"
+  },
+  {
+    "tollplaza_id": 1033,
+    "tollplaza_name": "Borvihir Toll Plaza"
+  },
+  {
+    "tollplaza_id": 394,
+    "tollplaza_name": "Brahmanapalli"
+  },
+  {
+    "tollplaza_id": 7,
+    "tollplaza_name": "Brahmarakotlu Toll Plaza"
+  },
+  {
+    "tollplaza_id": 27,
+    "tollplaza_name": "Brijghat"
+  },
+  {
+    "tollplaza_id": 777,
+    "tollplaza_name": "Buchawas( Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 435,
+    "tollplaza_name": "Buchireddypalem"
+  },
+  {
+    "tollplaza_id": 191,
+    "tollplaza_name": "Budhanam Fee Plaza"
+  },
+  {
+    "tollplaza_id": 1084,
+    "tollplaza_name": "Budhanpur TP25  (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 988,
+    "tollplaza_name": "Bungri  TP10 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1258,
+    "tollplaza_name": "Burakayalakota"
+  },
+  {
+    "tollplaza_id": 549,
+    "tollplaza_name": "Butati (Kuchera)"
+  },
+  {
+    "tollplaza_id": 1128,
+    "tollplaza_name": "Chabri Toll Plaza (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 817,
+    "tollplaza_name": "Chachadgaon"
+  },
+  {
+    "tollplaza_id": 336,
+    "tollplaza_name": "Chagalmarri"
+  },
+  {
+    "tollplaza_id": 674,
+    "tollplaza_name": "Chahar"
+  },
+  {
+    "tollplaza_id": 727,
+    "tollplaza_name": "Chainwa (Chapraitha)  Fee Plaza"
+  },
+  {
+    "tollplaza_id": 617,
+    "tollplaza_name": "Chak Bamaniya"
+  },
+  {
+    "tollplaza_id": 25,
+    "tollplaza_name": "Chalageri Toll Plaza"
+  },
+  {
+    "tollplaza_id": 359,
+    "tollplaza_name": "Chalakwadi"
+  },
+  {
+    "tollplaza_id": 821,
+    "tollplaza_name": "Champa"
+  },
+  {
+    "tollplaza_id": 284,
+    "tollplaza_name": "Chandermore (Kishorpur  ) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 117,
+    "tollplaza_name": "Chandimandir"
+  },
+  {
+    "tollplaza_id": 1238,
+    "tollplaza_name": "Chandi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 778,
+    "tollplaza_name": "Chandlana (Entry Exit )"
+  },
+  {
+    "tollplaza_id": 111,
+    "tollplaza_name": "Chandwad"
+  },
+  {
+    "tollplaza_id": 690,
+    "tollplaza_name": "Chapirevula"
+  },
+  {
+    "tollplaza_id": 472,
+    "tollplaza_name": "Chapra (Bioara - Dewas)"
+  },
+  {
+    "tollplaza_id": 241,
+    "tollplaza_name": "Charoti"
+  },
+  {
+    "tollplaza_id": 948,
+    "tollplaza_name": "Chatrapatti "
+  },
+  {
+    "tollplaza_id": 403,
+    "tollplaza_name": "Chaudhriwas"
+  },
+  {
+    "tollplaza_id": 132,
+    "tollplaza_name": "Chaukadi"
+  },
+  {
+    "tollplaza_id": 1034,
+    "tollplaza_name": "Chautala (Close Loop Toll  )"
+  },
+  {
+    "tollplaza_id": 1078,
+    "tollplaza_name": "Chechat (Entry Exit ) Toll Plaza  "
+  },
+  {
+    "tollplaza_id": 247,
+    "tollplaza_name": "Chennasamudram"
+  },
+  {
+    "tollplaza_id": 463,
+    "tollplaza_name": "Chhajarsi"
+  },
+  {
+    "tollplaza_id": 881,
+    "tollplaza_name": "Chhajju Nagar(EPE) Close Loop Toll"
+  },
+  {
+    "tollplaza_id": 585,
+    "tollplaza_name": "Chhapar"
+  },
+  {
+    "tollplaza_id": 486,
+    "tollplaza_name": "Chhapwa"
+  },
+  {
+    "tollplaza_id": 551,
+    "tollplaza_name": "Chhara"
+  },
+  {
+    "tollplaza_id": 928,
+    "tollplaza_name": "Chhegaon Makhan Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1015,
+    "tollplaza_name": "Chhotian"
+  },
+  {
+    "tollplaza_id": 715,
+    "tollplaza_name": "Chhoti Villor"
+  },
+  {
+    "tollplaza_id": 347,
+    "tollplaza_name": "Chhuhipali"
+  },
+  {
+    "tollplaza_id": 98,
+    "tollplaza_name": "Chiddan"
+  },
+  {
+    "tollplaza_id": 292,
+    "tollplaza_name": "Chikhlikala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 373,
+    "tollplaza_name": "Chila Chond"
+  },
+  {
+    "tollplaza_id": 275,
+    "tollplaza_name": "Chillakallu"
+  },
+  {
+    "tollplaza_id": 761,
+    "tollplaza_name": "Chinaganjam Toll Plaza"
+  },
+  {
+    "tollplaza_id": 386,
+    "tollplaza_name": "Chinthalapalem"
+  },
+  {
+    "tollplaza_id": 367,
+    "tollplaza_name": "Chinthapally"
+  },
+  {
+    "tollplaza_id": 663,
+    "tollplaza_name": "Chitlapalli"
+  },
+  {
+    "tollplaza_id": 221,
+    "tollplaza_name": "Chitora Toll Plaza"
+  },
+  {
+    "tollplaza_id": 23,
+    "tollplaza_name": "Chittampatti"
+  },
+  {
+    "tollplaza_id": 1145,
+    "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 226,
+    "tollplaza_name": "Chokkenahalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 758,
+    "tollplaza_name": "Cholasamudram"
+  },
+  {
+    "tollplaza_id": 274,
+    "tollplaza_name": "Chollang"
+  },
+  {
+    "tollplaza_id": 39,
+    "tollplaza_name": "Choryasi"
+  },
+  {
+    "tollplaza_id": 1035,
+    "tollplaza_name": "Chota Mawana Toll Plaza"
+  },
+  {
+    "tollplaza_id": 566,
+    "tollplaza_name": "Chotiya"
+  },
+  {
+    "tollplaza_id": 26,
+    "tollplaza_name": "Choundha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1036,
+    "tollplaza_name": "Chowlaggere Toll plaza"
+  },
+  {
+    "tollplaza_id": 297,
+    "tollplaza_name": "Chullimada Hamlet (Pampampallam)"
+  },
+  {
+    "tollplaza_id": 1089,
+    "tollplaza_name": "Dabhedi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1037,
+    "tollplaza_name": "Dabwali (Close Loop Toll  )"
+  },
+  {
+    "tollplaza_id": 1099,
+    "tollplaza_name": "Dadal TP 20 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 775,
+    "tollplaza_name": "Dadri (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 31,
+    "tollplaza_name": "Daffi"
+  },
+  {
+    "tollplaza_id": 582,
+    "tollplaza_name": "Dagrai Toll Plaza"
+  },
+  {
+    "tollplaza_id": 287,
+    "tollplaza_name": "Dahalapar , Chirang"
+  },
+  {
+    "tollplaza_id": 243,
+    "tollplaza_name": "Dahar"
+  },
+  {
+    "tollplaza_id": 1214,
+    "tollplaza_name": "Dahegam Toll Plaza (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1213,
+    "tollplaza_name": "Dakan Kotra"
+  },
+  {
+    "tollplaza_id": 295,
+    "tollplaza_name": "Dakhina Sekhpur"
+  },
+  {
+    "tollplaza_id": 1161,
+    "tollplaza_name": "Dakuamunda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1006,
+    "tollplaza_name": "Dalavada (Close Loop Toll) "
+  },
+  {
+    "tollplaza_id": 922,
+    "tollplaza_name": "Dalsagar"
+  },
+  {
+    "tollplaza_id": 835,
+    "tollplaza_name": "Danamaiahgaaripalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 945,
+    "tollplaza_name": "Dangiyawas"
+  },
+  {
+    "tollplaza_id": 231,
+    "tollplaza_name": "Dankuni Toll Plaza**"
+  },
+  {
+    "tollplaza_id": 99,
+    "tollplaza_name": "Dappar (Ambala Chandigarh )"
+  },
+  {
+    "tollplaza_id": 888,
+    "tollplaza_name": "Darapur"
+  },
+  {
+    "tollplaza_id": 312,
+    "tollplaza_name": "Dari"
+  },
+  {
+    "tollplaza_id": 790,
+    "tollplaza_name": "Darjing Toll Plaza"
+  },
+  {
+    "tollplaza_id": 47,
+    "tollplaza_name": "Daroda"
+  },
+  {
+    "tollplaza_id": 1300,
+    "tollplaza_name": "Darwha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1018,
+    "tollplaza_name": "Dasarkhed Toll Plaza"
+  },
+  {
+    "tollplaza_id": 785,
+    "tollplaza_name": "Dasna (DME Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 630,
+    "tollplaza_name": "Dasna (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 474,
+    "tollplaza_name": "Dattigaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 178,
+    "tollplaza_name": "Daulatpura Fee Plaza (KOTA)"
+  },
+  {
+    "tollplaza_id": 1203,
+    "tollplaza_name": "Daulatpura Toll Plaza (JAI)"
+  },
+  {
+    "tollplaza_id": 454,
+    "tollplaza_name": "Davuluru"
+  },
+  {
+    "tollplaza_id": 436,
+    "tollplaza_name": "D C Palli"
+  },
+  {
+    "tollplaza_id": 193,
+    "tollplaza_name": "Debra"
+  },
+  {
+    "tollplaza_id": 304,
+    "tollplaza_name": "Deederganj"
+  },
+  {
+    "tollplaza_id": 1229,
+    "tollplaza_name": "Dehuroad  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 253,
+    "tollplaza_name": "Deingposah"
+  },
+  {
+    "tollplaza_id": 984,
+    "tollplaza_name": "Deogarh TP15 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1146,
+    "tollplaza_name": "Deora TP 21 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 414,
+    "tollplaza_name": "Deoria*"
+  },
+  {
+    "tollplaza_id": 1139,
+    "tollplaza_name": "Derhi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 944,
+    "tollplaza_name": "Deshnok TP8  (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 225,
+    "tollplaza_name": "Devanahalli ( Sadahalli) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 645,
+    "tollplaza_name": "Devgaon Plaza"
+  },
+  {
+    "tollplaza_id": 1273,
+    "tollplaza_name": "Devghat  Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1141,
+    "tollplaza_name": "Devikulam Plaza"
+  },
+  {
+    "tollplaza_id": 1173,
+    "tollplaza_name": "Devkuli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 383,
+    "tollplaza_name": "Dhadhar"
+  },
+  {
+    "tollplaza_id": 1003,
+    "tollplaza_name": "Dhamnod (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 11,
+    "tollplaza_name": "Dhaneshwar"
+  },
+  {
+    "tollplaza_id": 348,
+    "tollplaza_name": "Dhank"
+  },
+  {
+    "tollplaza_id": 1113,
+    "tollplaza_name": "Dharampur-Danta"
+  },
+  {
+    "tollplaza_id": 440,
+    "tollplaza_name": "Dhareri Jattan"
+  },
+  {
+    "tollplaza_id": 671,
+    "tollplaza_name": "Dharmaram"
+  },
+  {
+    "tollplaza_id": 119,
+    "tollplaza_name": "Dhilwan"
+  },
+  {
+    "tollplaza_id": 468,
+    "tollplaza_name": "Dhoki"
+  },
+  {
+    "tollplaza_id": 995,
+    "tollplaza_name": "Dhulepura"
+  },
+  {
+    "tollplaza_id": 110,
+    "tollplaza_name": "Dhumiyani"
+  },
+  {
+    "tollplaza_id": 743,
+    "tollplaza_name": "Dhumka Tondgaon"
+  },
+  {
+    "tollplaza_id": 118,
+    "tollplaza_name": "Dighal"
+  },
+  {
+    "tollplaza_id": 492,
+    "tollplaza_name": "Dilawarpur"
+  },
+  {
+    "tollplaza_id": 1130,
+    "tollplaza_name": "DME 52 Plaza (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1123,
+    "tollplaza_name": "DME Akshardham Plaza  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1126,
+    "tollplaza_name": "DME CWG Flyover Plaza (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1124,
+    "tollplaza_name": "DME Ghazipur Plaza  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1132,
+    "tollplaza_name": "DME Mehrauli Plaza (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1131,
+    "tollplaza_name": "DME Noida Plaza (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1207,
+    "tollplaza_name": "DME Partapur Plaza (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1038,
+    "tollplaza_name": "DodakaToll Plaza (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 378,
+    "tollplaza_name": "Doli"
+  },
+  {
+    "tollplaza_id": 1039,
+    "tollplaza_name": "Dondpur"
+  },
+  {
+    "tollplaza_id": 1140,
+    "tollplaza_name": "Dongrale Toll Plaza"
+  },
+  {
+    "tollplaza_id": 629,
+    "tollplaza_name": "Duhai (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 739,
+    "tollplaza_name": "Dukkavanipalem"
+  },
+  {
+    "tollplaza_id": 574,
+    "tollplaza_name": "Dularpur"
+  },
+  {
+    "tollplaza_id": 458,
+    "tollplaza_name": "Dumberwadi"
+  },
+  {
+    "tollplaza_id": 836,
+    "tollplaza_name": "Dumpalagattu Paatimeeda Palli"
+  },
+  {
+    "tollplaza_id": 1129,
+    "tollplaza_name": "Dundahera Plaza (DME Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 914,
+    "tollplaza_name": "Dungarpur (Entry Exit ) Toll"
+  },
+  {
+    "tollplaza_id": 434,
+    "tollplaza_name": "Durgamvaripalli"
+  },
+  {
+    "tollplaza_id": 3,
+    "tollplaza_name": "Durg Bypass (Dhamdanaka)"
+  },
+  {
+    "tollplaza_id": 334,
+    "tollplaza_name": "Eathakota"
+  },
+  {
+    "tollplaza_id": 662,
+    "tollplaza_name": "Edalhatu Toll Plaza"
+  },
+  {
+    "tollplaza_id": 263,
+    "tollplaza_name": "Elevated Section/ Electronic City"
+  },
+  {
+    "tollplaza_id": 61,
+    "tollplaza_name": "Eliyarpathi"
+  },
+  {
+    "tollplaza_id": 796,
+    "tollplaza_name": "Enamkariyanandal"
+  },
+  {
+    "tollplaza_id": 1233,
+    "tollplaza_name": "Ena Toll Plaza "
+  },
+  {
+    "tollplaza_id": 1181,
+    "tollplaza_name": "Etaura Bujurg Toll Plaza"
+  },
+  {
+    "tollplaza_id": 83,
+    "tollplaza_name": "Etturvattam"
+  },
+  {
+    "tollplaza_id": 1040,
+    "tollplaza_name": "Fajalpur Toll Plaza (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 811,
+    "tollplaza_name": "Faridpur"
+  },
+  {
+    "tollplaza_id": 12,
+    "tollplaza_name": "Fatehpur"
+  },
+  {
+    "tollplaza_id": 632,
+    "tollplaza_name": "Fatehpur Rampur (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 683,
+    "tollplaza_name": "Ferozeshah"
+  },
+  {
+    "tollplaza_id": 291,
+    "tollplaza_name": "Fulara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 318,
+    "tollplaza_name": "Gabhana (Somna Toll plaza"
+  },
+  {
+    "tollplaza_id": 637,
+    "tollplaza_name": "Gadanki"
+  },
+  {
+    "tollplaza_id": 1041,
+    "tollplaza_name": "Gadha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 311,
+    "tollplaza_name": "Gadoi"
+  },
+  {
+    "tollplaza_id": 750,
+    "tollplaza_name": "Gadpuri"
+  },
+  {
+    "tollplaza_id": 1198,
+    "tollplaza_name": "Gajangarh Toll Plaza"
+  },
+  {
+    "tollplaza_id": 686,
+    "tollplaza_name": "Galia"
+  },
+  {
+    "tollplaza_id": 143,
+    "tollplaza_name": "Gamjal"
+  },
+  {
+    "tollplaza_id": 961,
+    "tollplaza_name": "Gananguru Plaza"
+  },
+  {
+    "tollplaza_id": 1239,
+    "tollplaza_name": "Gandaboyanapalle Toll Plaza"
+  },
+  {
+    "tollplaza_id": 993,
+    "tollplaza_name": "Ganebail Toll Plaza"
+  },
+  {
+    "tollplaza_id": 603,
+    "tollplaza_name": "Gangajali"
+  },
+  {
+    "tollplaza_id": 1042,
+    "tollplaza_name": "Gangarampalayam"
+  },
+  {
+    "tollplaza_id": 120,
+    "tollplaza_name": "Gangaycha Jatt"
+  },
+  {
+    "tollplaza_id": 1043,
+    "tollplaza_name": "Gantyada"
+  },
+  {
+    "tollplaza_id": 1112,
+    "tollplaza_name": "Garhdevi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1007,
+    "tollplaza_name": "Garoth (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1204,
+    "tollplaza_name": "Gazole (Bagsarai )Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1183,
+    "tollplaza_name": "Geela Ki Nangal (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 309,
+    "tollplaza_name": "Gegal"
+  },
+  {
+    "tollplaza_id": 124,
+    "tollplaza_name": "Ghaggar (Sambhu)"
+  },
+  {
+    "tollplaza_id": 754,
+    "tollplaza_name": "Ghamroj"
+  },
+  {
+    "tollplaza_id": 1302,
+    "tollplaza_name": "Ghaneshpur"
+  },
+  {
+    "tollplaza_id": 188,
+    "tollplaza_name": "Ghanghri"
+  },
+  {
+    "tollplaza_id": 123,
+    "tollplaza_name": "Gharaunda (Karnal)"
+  },
+  {
+    "tollplaza_id": 907,
+    "tollplaza_name": "Ghata Samsabad (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1178,
+    "tollplaza_name": "Ghatta Toll Plaza"
+  },
+  {
+    "tollplaza_id": 531,
+    "tollplaza_name": "Ghogarkuthi"
+  },
+  {
+    "tollplaza_id": 107,
+    "tollplaza_name": "Ghoti"
+  },
+  {
+    "tollplaza_id": 518,
+    "tollplaza_name": "Ghulal"
+  },
+  {
+    "tollplaza_id": 1016,
+    "tollplaza_name": "Gogela fee Plaza"
+  },
+  {
+    "tollplaza_id": 100,
+    "tollplaza_name": "Gogunda (Jaswantgarh)"
+  },
+  {
+    "tollplaza_id": 490,
+    "tollplaza_name": "Gollaprolu"
+  },
+  {
+    "tollplaza_id": 116,
+    "tollplaza_name": "Gondhkhairi/ Kondhali"
+  },
+  {
+    "tollplaza_id": 920,
+    "tollplaza_name": "Gopalpura (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1210,
+    "tollplaza_name": "Gopalpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 923,
+    "tollplaza_name": "Goragaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 898,
+    "tollplaza_name": "Gorribanda"
+  },
+  {
+    "tollplaza_id": 559,
+    "tollplaza_name": "Gorsar"
+  },
+  {
+    "tollplaza_id": 1011,
+    "tollplaza_name": "Goshtani"
+  },
+  {
+    "tollplaza_id": 760,
+    "tollplaza_name": "Govindpur"
+  },
+  {
+    "tollplaza_id": 371,
+    "tollplaza_name": "Govindpur (Old Name Brajrajnagar)"
+  },
+  {
+    "tollplaza_id": 525,
+    "tollplaza_name": "Gowraram"
+  },
+  {
+    "tollplaza_id": 290,
+    "tollplaza_name": "Guabari"
+  },
+  {
+    "tollplaza_id": 136,
+    "tollplaza_name": "Gudipada ( Gangapada)"
+  },
+  {
+    "tollplaza_id": 181,
+    "tollplaza_name": "Gudur (Hyd-Yadgiri)"
+  },
+  {
+    "tollplaza_id": 223,
+    "tollplaza_name": "Guilalu Toll Plaza"
+  },
+  {
+    "tollplaza_id": 357,
+    "tollplaza_name": "Gulalpurva"
+  },
+  {
+    "tollplaza_id": 643,
+    "tollplaza_name": "Gulhaura"
+  },
+  {
+    "tollplaza_id": 1301,
+    "tollplaza_name": "Gulzarpur (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 599,
+    "tollplaza_name": "Gumanpura"
+  },
+  {
+    "tollplaza_id": 665,
+    "tollplaza_name": "Gummadidala"
+  },
+  {
+    "tollplaza_id": 362,
+    "tollplaza_name": "Gundmi (Sasthan ) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 134,
+    "tollplaza_name": "Gurapalli"
+  },
+  {
+    "tollplaza_id": 66,
+    "tollplaza_name": "Gurau (Semra Atikabad)"
+  },
+  {
+    "tollplaza_id": 575,
+    "tollplaza_name": "Gurhe(Chowikiman)"
+  },
+  {
+    "tollplaza_id": 1287,
+    "tollplaza_name": "Gurthari (Pathrala -2)"
+  },
+  {
+    "tollplaza_id": 462,
+    "tollplaza_name": "Hadwa"
+  },
+  {
+    "tollplaza_id": 443,
+    "tollplaza_name": "Halaharvi"
+  },
+  {
+    "tollplaza_id": 514,
+    "tollplaza_name": "Haldgaon"
+  },
+  {
+    "tollplaza_id": 699,
+    "tollplaza_name": "Halligudi"
+  },
+  {
+    "tollplaza_id": 830,
+    "tollplaza_name": "Handia (Sujala) (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 235,
+    "tollplaza_name": "Hariabara"
+  },
+  {
+    "tollplaza_id": 428,
+    "tollplaza_name": "Harimma"
+  },
+  {
+    "tollplaza_id": 594,
+    "tollplaza_name": "Harro Near Ganne"
+  },
+  {
+    "tollplaza_id": 158,
+    "tollplaza_name": "Harsa Mansar"
+  },
+  {
+    "tollplaza_id": 680,
+    "tollplaza_name": "Harshili Toll Plaza"
+  },
+  {
+    "tollplaza_id": 499,
+    "tollplaza_name": "Harwal Toll Plaza"
+  },
+  {
+    "tollplaza_id": 395,
+    "tollplaza_name": "Hasanpur (Sainkul)"
+  },
+  {
+    "tollplaza_id": 1215,
+    "tollplaza_name": "Hassangarh (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 426,
+    "tollplaza_name": "Hathitala"
+  },
+  {
+    "tollplaza_id": 1162,
+    "tollplaza_name": "Hatibari Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1135,
+    "tollplaza_name": "Hativale Fee Plaza"
+  },
+  {
+    "tollplaza_id": 679,
+    "tollplaza_name": "Hatnoor"
+  },
+  {
+    "tollplaza_id": 4,
+    "tollplaza_name": "Hattargi"
+  },
+  {
+    "tollplaza_id": 833,
+    "tollplaza_name": "Hauj (Sirakonee )"
+  },
+  {
+    "tollplaza_id": 246,
+    "tollplaza_name": "Hebbalu"
+  },
+  {
+    "tollplaza_id": 1244,
+    "tollplaza_name": "Hedaginabele (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 851,
+    "tollplaza_name": "Heeran Khedi"
+  },
+  {
+    "tollplaza_id": 363,
+    "tollplaza_name": "Hejmadi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 904,
+    "tollplaza_name": "Hilalpur (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1197,
+    "tollplaza_name": "Hindore Toll Plaza"
+  },
+  {
+    "tollplaza_id": 546,
+    "tollplaza_name": "Hingonia"
+  },
+  {
+    "tollplaza_id": 996,
+    "tollplaza_name": "Hirapur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 2,
+    "tollplaza_name": "Hirebgewadi Toll plaza"
+  },
+  {
+    "tollplaza_id": 703,
+    "tollplaza_name": "Hirehalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 277,
+    "tollplaza_name": "Hitnal"
+  },
+  {
+    "tollplaza_id": 711,
+    "tollplaza_name": "Hitouta"
+  },
+  {
+    "tollplaza_id": 360,
+    "tollplaza_name": "Hivargaon Pavsa"
+  },
+  {
+    "tollplaza_id": 506,
+    "tollplaza_name": "Holegadde Toll Plaza "
+  },
+  {
+    "tollplaza_id": 153,
+    "tollplaza_name": "Hoskote Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1044,
+    "tollplaza_name": "H.Pudhupatti"
+  },
+  {
+    "tollplaza_id": 925,
+    "tollplaza_name": "Hulikunte"
+  },
+  {
+    "tollplaza_id": 1216,
+    "tollplaza_name": "Humanyupur (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 641,
+    "tollplaza_name": "Husludanga"
+  },
+  {
+    "tollplaza_id": 504,
+    "tollplaza_name": "Husnapur"
+  },
+  {
+    "tollplaza_id": 755,
+    "tollplaza_name": "Ichgaon"
+  },
+  {
+    "tollplaza_id": 990,
+    "tollplaza_name": "IDTL Toll Plaza-A"
+  },
+  {
+    "tollplaza_id": 927,
+    "tollplaza_name": "IDTL Toll Plaza-B"
+  },
+  {
+    "tollplaza_id": 170,
+    "tollplaza_name": "Indalwai"
+  },
+  {
+    "tollplaza_id": 1127,
+    "tollplaza_name": "Indirapuram (DME Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 322,
+    "tollplaza_name": "Indranagar"
+  },
+  {
+    "tollplaza_id": 1218,
+    "tollplaza_name": "Issapur Kheri (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1246,
+    "tollplaza_name": "Itapa Toll Plaza"
+  },
+  {
+    "tollplaza_id": 729,
+    "tollplaza_name": "Itaura Bujurg"
+  },
+  {
+    "tollplaza_id": 172,
+    "tollplaza_name": "Itunja (Itaunja Karondi)"
+  },
+  {
+    "tollplaza_id": 332,
+    "tollplaza_name": "IVRCL Chengapally Tollways Limited (Kaniyur)"
+  },
+  {
+    "tollplaza_id": 1150,
+    "tollplaza_name": "IVRCL ramp plaza (Dattigaon ,Authority's Part)"
+  },
+  {
+    "tollplaza_id": 931,
+    "tollplaza_name": "Jagahedi"
+  },
+  {
+    "tollplaza_id": 661,
+    "tollplaza_name": "Jagatpur Patti"
+  },
+  {
+    "tollplaza_id": 481,
+    "tollplaza_name": "Jagtara"
+  },
+  {
+    "tollplaza_id": 294,
+    "tollplaza_name": "Jaitpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 940,
+    "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 67,
+    "tollplaza_name": "Jajau (Old Baretha)"
+  },
+  {
+    "tollplaza_id": 788,
+    "tollplaza_name": "Jajirakallu  Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1180,
+    "tollplaza_name": "Jajoosan TP 22 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 625,
+    "tollplaza_name": "Jakhauli  (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 232,
+    "tollplaza_name": "Jaladhulagori (Dhulagarh)"
+  },
+  {
+    "tollplaza_id": 516,
+    "tollplaza_name": "Jalouli"
+  },
+  {
+    "tollplaza_id": 21,
+    "tollplaza_name": "Jamli Toll Pllaza  (Sendhwa )"
+  },
+  {
+    "tollplaza_id": 1157,
+    "tollplaza_name": "Jamni (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1167,
+    "tollplaza_name": "JamniNH152D (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1236,
+    "tollplaza_name": "Jamnipali Toll Plaza"
+  },
+  {
+    "tollplaza_id": 673,
+    "tollplaza_name": "Jansanpur"
+  },
+  {
+    "tollplaza_id": 389,
+    "tollplaza_name": "Jasnathnagar"
+  },
+  {
+    "tollplaza_id": 1285,
+    "tollplaza_name": "Jassi Bagwali"
+  },
+  {
+    "tollplaza_id": 938,
+    "tollplaza_name": "Jaswantpura"
+  },
+  {
+    "tollplaza_id": 779,
+    "tollplaza_name": "Jat Guwana (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 987,
+    "tollplaza_name": "Jathon Ki Dhani ( Hanuman Sagar ) TP 12 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 669,
+    "tollplaza_name": "Jawahar Nagar"
+  },
+  {
+    "tollplaza_id": 1188,
+    "tollplaza_name": "Jawr Toll Plaza"
+  },
+  {
+    "tollplaza_id": 955,
+    "tollplaza_name": "Jeerangachh Toll Plaza"
+  },
+  {
+    "tollplaza_id": 542,
+    "tollplaza_name": "Jelli Palli"
+  },
+  {
+    "tollplaza_id": 976,
+    "tollplaza_name": "Jhalmala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 977,
+    "tollplaza_name": "Jhamudihi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 707,
+    "tollplaza_name": "Jharoti"
+  },
+  {
+    "tollplaza_id": 773,
+    "tollplaza_name": "Jharpokharia"
+  },
+  {
+    "tollplaza_id": 1087,
+    "tollplaza_name": "Jhinjholi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 850,
+    "tollplaza_name": "Jhiriya Toll Plaza"
+  },
+  {
+    "tollplaza_id": 577,
+    "tollplaza_name": " Jichho Toll Plaza (Bhagalpur)"
+  },
+  {
+    "tollplaza_id": 1174,
+    "tollplaza_name": "Jindapur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 430,
+    "tollplaza_name": "Jindpur"
+  },
+  {
+    "tollplaza_id": 962,
+    "tollplaza_name": "Jita Kherli Kiranj Toll Plaza"
+  },
+  {
+    "tollplaza_id": 612,
+    "tollplaza_name": "Jiwana"
+  },
+  {
+    "tollplaza_id": 623,
+    "tollplaza_name": "Jodi Dharmapuram"
+  },
+  {
+    "tollplaza_id": 1045,
+    "tollplaza_name": "Jogewala (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 415,
+    "tollplaza_name": "Jogipura"
+  },
+  {
+    "tollplaza_id": 848,
+    "tollplaza_name": "Jognihai "
+  },
+  {
+    "tollplaza_id": 583,
+    "tollplaza_name": "Joharia Shaikh Toll Plaza"
+  },
+  {
+    "tollplaza_id": 102,
+    "tollplaza_name": "Jojro Ka Kheda"
+  },
+  {
+    "tollplaza_id": 997,
+    "tollplaza_name": "Jonnada"
+  },
+  {
+    "tollplaza_id": 1098,
+    "tollplaza_name": "Jorawargadh  TP27 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 832,
+    "tollplaza_name": "Jorwara"
+  },
+  {
+    "tollplaza_id": 20,
+    "tollplaza_name": "Joya"
+  },
+  {
+    "tollplaza_id": 293,
+    "tollplaza_name": "Jungawani Toll Plaza"
+  },
+  {
+    "tollplaza_id": 539,
+    "tollplaza_name": "Kachnaria"
+  },
+  {
+    "tollplaza_id": 1297,
+    "tollplaza_name": "Kachwar"
+  },
+  {
+    "tollplaza_id": 786,
+    "tollplaza_name": "Kadabhalli (Kirasave) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1001,
+    "tollplaza_name": "Kadaligarh Toll PLaza"
+  },
+  {
+    "tollplaza_id": 1270,
+    "tollplaza_name": "Kadarampalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1156,
+    "tollplaza_name": "Kadhavani Toll Plaza"
+  },
+  {
+    "tollplaza_id": 521,
+    "tollplaza_name": "Kadisahena"
+  },
+  {
+    "tollplaza_id": 365,
+    "tollplaza_name": "Kadthal"
+  },
+  {
+    "tollplaza_id": 653,
+    "tollplaza_name": "Kaichachkoot Toll Plaza"
+  },
+  {
+    "tollplaza_id": 494,
+    "tollplaza_name": "Kair Fakir Ki Dhani"
+  },
+  {
+    "tollplaza_id": 656,
+    "tollplaza_name": "Kaithi"
+  },
+  {
+    "tollplaza_id": 1153,
+    "tollplaza_name": "Kakan Toll Plaza"
+  },
+  {
+    "tollplaza_id": 747,
+    "tollplaza_name": "Kalajhar"
+  },
+  {
+    "tollplaza_id": 208,
+    "tollplaza_name": "Kalaparru"
+  },
+  {
+    "tollplaza_id": 571,
+    "tollplaza_name": "Kalapathar"
+  },
+  {
+    "tollplaza_id": 725,
+    "tollplaza_name": "Kala Tibba"
+  },
+  {
+    "tollplaza_id": 906,
+    "tollplaza_name": "Kalinger (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 752,
+    "tollplaza_name": "Kallakudi"
+  },
+  {
+    "tollplaza_id": 411,
+    "tollplaza_name": "Kamkole Toll Plaza"
+  },
+  {
+    "tollplaza_id": 782,
+    "tollplaza_name": "Kananakatte"
+  },
+  {
+    "tollplaza_id": 691,
+    "tollplaza_name": "Kandra Toll Plaza"
+  },
+  {
+    "tollplaza_id": 959,
+    "tollplaza_name": "Kaniminike Toll Plaza"
+  },
+  {
+    "tollplaza_id": 593,
+    "tollplaza_name": "Kannegala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 498,
+    "tollplaza_name": "Kannoli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 396,
+    "tollplaza_name": "Kantaghar (Dhenkikote)"
+  },
+  {
+    "tollplaza_id": 84,
+    "tollplaza_name": "Kappalur"
+  },
+  {
+    "tollplaza_id": 88,
+    "tollplaza_name": "Karabylu (Bellur Cross)"
+  },
+  {
+    "tollplaza_id": 1046,
+    "tollplaza_name": "Karadiya ( Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1168,
+    "tollplaza_name": "Karagadahalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 887,
+    "tollplaza_name": "Karahewala"
+  },
+  {
+    "tollplaza_id": 126,
+    "tollplaza_name": "Karanja (Ghadge)"
+  },
+  {
+    "tollplaza_id": 195,
+    "tollplaza_name": "Karapadu (Old Bellupada)"
+  },
+  {
+    "tollplaza_id": 889,
+    "tollplaza_name": "Karel"
+  },
+  {
+    "tollplaza_id": 912,
+    "tollplaza_name": "Karigawan"
+  },
+  {
+    "tollplaza_id": 1047,
+    "tollplaza_name": "Kariyamangalam Fee Plaza"
+  },
+  {
+    "tollplaza_id": 224,
+    "tollplaza_name": "Karjeevanhally Toll Plaza"
+  },
+  {
+    "tollplaza_id": 749,
+    "tollplaza_name": "Karman"
+  },
+  {
+    "tollplaza_id": 668,
+    "tollplaza_name": "Karodi"
+  },
+  {
+    "tollplaza_id": 213,
+    "tollplaza_name": "Kasepalli"
+  },
+  {
+    "tollplaza_id": 735,
+    "tollplaza_name": "Kashi (DME Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1304,
+    "tollplaza_name": "Katha"
+  },
+  {
+    "tollplaza_id": 258,
+    "tollplaza_name": "Kathpur"
+  },
+  {
+    "tollplaza_id": 733,
+    "tollplaza_name": "Kathuwas"
+  },
+  {
+    "tollplaza_id": 1073,
+    "tollplaza_name": "Katiyara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 133,
+    "tollplaza_name": "Katoghan"
+  },
+  {
+    "tollplaza_id": 956,
+    "tollplaza_name": "Kauwakhoh (Hariharnath)Toll Plaza"
+  },
+  {
+    "tollplaza_id": 190,
+    "tollplaza_name": "Kaza"
+  },
+  {
+    "tollplaza_id": 876,
+    "tollplaza_name": "Keesara Fee Plaza"
+  },
+  {
+    "tollplaza_id": 667,
+    "tollplaza_name": "Keezhkuppam"
+  },
+  {
+    "tollplaza_id": 49,
+    "tollplaza_name": "Kelapur"
+  },
+  {
+    "tollplaza_id": 296,
+    "tollplaza_name": "Kelwad Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1111,
+    "tollplaza_name": "Kesla Toll Plaza"
+  },
+  {
+    "tollplaza_id": 601,
+    "tollplaza_name": "Khachrol (Hoda)"
+  },
+  {
+    "tollplaza_id": 1149,
+    "tollplaza_name": "Khadaka  Toll Plaza"
+  },
+  {
+    "tollplaza_id": 398,
+    "tollplaza_name": "Khadda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1290,
+    "tollplaza_name": "Khadernagar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 280,
+    "tollplaza_name": "Khairabad (Barabhari)"
+  },
+  {
+    "tollplaza_id": 1155,
+    "tollplaza_name": "Khairamunda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 93,
+    "tollplaza_name": "Khalghat Toll Plaza"
+  },
+  {
+    "tollplaza_id": 905,
+    "tollplaza_name": "Khalilpur (NH -DVE Exit) "
+  },
+  {
+    "tollplaza_id": 576,
+    "tollplaza_name": "Khamar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 307,
+    "tollplaza_name": "Khambara"
+  },
+  {
+    "tollplaza_id": 104,
+    "tollplaza_name": "Khandi Obari"
+  },
+  {
+    "tollplaza_id": 242,
+    "tollplaza_name": "Khaniwade"
+  },
+  {
+    "tollplaza_id": 299,
+    "tollplaza_name": "Khanna"
+  },
+  {
+    "tollplaza_id": 1195,
+    "tollplaza_name": "Khara"
+  },
+  {
+    "tollplaza_id": 1159,
+    "tollplaza_name": "Kharak Pandwa (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 568,
+    "tollplaza_name": "Kharbi"
+  },
+  {
+    "tollplaza_id": 237,
+    "tollplaza_name": "Kharik"
+  },
+  {
+    "tollplaza_id": 803,
+    "tollplaza_name": "Kharkhara (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1093,
+    "tollplaza_name": "Kharsodkhurd Toll Plaza"
+  },
+  {
+    "tollplaza_id": 613,
+    "tollplaza_name": "Khatkar"
+  },
+  {
+    "tollplaza_id": 572,
+    "tollplaza_name": "Khawasa"
+  },
+  {
+    "tollplaza_id": 1277,
+    "tollplaza_name": "Khedakhajuria (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 756,
+    "tollplaza_name": "Khedi"
+  },
+  {
+    "tollplaza_id": 112,
+    "tollplaza_name": "Khed Shivapur"
+  },
+  {
+    "tollplaza_id": 781,
+    "tollplaza_name": "Kheerwa"
+  },
+  {
+    "tollplaza_id": 166,
+    "tollplaza_name": "Khemana"
+  },
+  {
+    "tollplaza_id": 776,
+    "tollplaza_name": "Kherari (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 672,
+    "tollplaza_name": "Khereitangiri"
+  },
+  {
+    "tollplaza_id": 799,
+    "tollplaza_name": "Kheri Sharaf Ali (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 227,
+    "tollplaza_name": "Kherki Daula"
+  },
+  {
+    "tollplaza_id": 466,
+    "tollplaza_name": "Kherwasani Toll Plaza"
+  },
+  {
+    "tollplaza_id": 705,
+    "tollplaza_name": "Khiriya Toll Plaza"
+  },
+  {
+    "tollplaza_id": 985,
+    "tollplaza_name": "Khudiyala TP 14 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 451,
+    "tollplaza_name": "Khuian Malkan"
+  },
+  {
+    "tollplaza_id": 1136,
+    "tollplaza_name": "Khuian Sarvar Plaza"
+  },
+  {
+    "tollplaza_id": 160,
+    "tollplaza_name": "Khumari (Kamptee - Kanhan Bypass)/ Tekadi"
+  },
+  {
+    "tollplaza_id": 1186,
+    "tollplaza_name": "Khurikhud (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 800,
+    "tollplaza_name": "Kilazafargarh (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1299,
+    "tollplaza_name": "Kingaon"
+  },
+  {
+    "tollplaza_id": 744,
+    "tollplaza_name": "Kini"
+  },
+  {
+    "tollplaza_id": 897,
+    "tollplaza_name": "Kiratpur"
+  },
+  {
+    "tollplaza_id": 95,
+    "tollplaza_name": "Kishangarh (Badgaon)"
+  },
+  {
+    "tollplaza_id": 1176,
+    "tollplaza_name": "Kishanpura toll plaza"
+  },
+  {
+    "tollplaza_id": 340,
+    "tollplaza_name": "Kishorpura"
+  },
+  {
+    "tollplaza_id": 526,
+    "tollplaza_name": "Kitlana"
+  },
+  {
+    "tollplaza_id": 591,
+    "tollplaza_name": "K N Huindy"
+  },
+  {
+    "tollplaza_id": 563,
+    "tollplaza_name": "Kobadi"
+  },
+  {
+    "tollplaza_id": 757,
+    "tollplaza_name": "Kodai Road (Kozhinjipatti)"
+  },
+  {
+    "tollplaza_id": 692,
+    "tollplaza_name": "Kodikottai"
+  },
+  {
+    "tollplaza_id": 5,
+    "tollplaza_name": "Kognoli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 828,
+    "tollplaza_name": "Kokhraj (Sihori Uparhar) (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 610,
+    "tollplaza_name": "Kokpara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 552,
+    "tollplaza_name": "Komalla"
+  },
+  {
+    "tollplaza_id": 553,
+    "tollplaza_name": "Komatipalli"
+  },
+  {
+    "tollplaza_id": 372,
+    "tollplaza_name": "Konder"
+  },
+  {
+    "tollplaza_id": 366,
+    "tollplaza_name": "Konetipuram"
+  },
+  {
+    "tollplaza_id": 92,
+    "tollplaza_name": "Korai"
+  },
+  {
+    "tollplaza_id": 276,
+    "tollplaza_name": "Korlaphadu"
+  },
+  {
+    "tollplaza_id": 417,
+    "tollplaza_name": "Kota Bypass (Sakatpura )"
+  },
+  {
+    "tollplaza_id": 670,
+    "tollplaza_name": "Kothagudem"
+  },
+  {
+    "tollplaza_id": 1251,
+    "tollplaza_name": "Kothapalli"
+  },
+  {
+    "tollplaza_id": 1049,
+    "tollplaza_name": "Kothattai"
+  },
+  {
+    "tollplaza_id": 620,
+    "tollplaza_name": "Kothiya"
+  },
+  {
+    "tollplaza_id": 618,
+    "tollplaza_name": "Kot Karor"
+  },
+  {
+    "tollplaza_id": 1108,
+    "tollplaza_name": "Kovilvenni Toll Plaza"
+  },
+  {
+    "tollplaza_id": 676,
+    "tollplaza_name": "Koyla"
+  },
+  {
+    "tollplaza_id": 75,
+    "tollplaza_name": "Krishnagiri"
+  },
+  {
+    "tollplaza_id": 1242,
+    "tollplaza_name": "Krishnarajapura (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 140,
+    "tollplaza_name": "Krishnavaram"
+  },
+  {
+    "tollplaza_id": 527,
+    "tollplaza_name": "Kuchadi"
+  },
+  {
+    "tollplaza_id": 1293,
+    "tollplaza_name": "Kudaiya Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1171,
+    "tollplaza_name": "Kukma Toll Plaza"
+  },
+  {
+    "tollplaza_id": 921,
+    "tollplaza_name": "Kulhariya"
+  },
+  {
+    "tollplaza_id": 1120,
+    "tollplaza_name": "Kulumapalya Toll Plaza"
+  },
+  {
+    "tollplaza_id": 72,
+    "tollplaza_name": "Kumbalam"
+  },
+  {
+    "tollplaza_id": 1269,
+    "tollplaza_name": "Kumbla Toll Plaza"
+  },
+  {
+    "tollplaza_id": 543,
+    "tollplaza_name": "Kumhari"
+  },
+  {
+    "tollplaza_id": 1154,
+    "tollplaza_name": "Kundi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 345,
+    "tollplaza_name": "Kunwarpur"
+  },
+  {
+    "tollplaza_id": 101,
+    "tollplaza_name": "Kurali (Behrampur)"
+  },
+  {
+    "tollplaza_id": 578,
+    "tollplaza_name": "Kurana"
+  },
+  {
+    "tollplaza_id": 950,
+    "tollplaza_name": "Kurankhed Toll Plaza"
+  },
+  {
+    "tollplaza_id": 930,
+    "tollplaza_name": "Kurungudi ( Veerananallur )"
+  },
+  {
+    "tollplaza_id": 1228,
+    "tollplaza_name": "Kusgaon (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1212,
+    "tollplaza_name": "Kusthala  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1050,
+    "tollplaza_name": "Laban ( Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1019,
+    "tollplaza_name": "Labhera Toll plaza"
+  },
+  {
+    "tollplaza_id": 524,
+    "tollplaza_name": "Lacchiwala"
+  },
+  {
+    "tollplaza_id": 125,
+    "tollplaza_name": "Ladowal"
+  },
+  {
+    "tollplaza_id": 302,
+    "tollplaza_name": "Ladpalwan"
+  },
+  {
+    "tollplaza_id": 109,
+    "tollplaza_name": "Lakhanpur"
+  },
+  {
+    "tollplaza_id": 862,
+    "tollplaza_name": "Lakhasar"
+  },
+  {
+    "tollplaza_id": 129,
+    "tollplaza_name": "Lalanagar"
+  },
+  {
+    "tollplaza_id": 162,
+    "tollplaza_name": "Laling (Dhule)"
+  },
+  {
+    "tollplaza_id": 522,
+    "tollplaza_name": "Lal Ka Khera"
+  },
+  {
+    "tollplaza_id": 638,
+    "tollplaza_name": "Lamber"
+  },
+  {
+    "tollplaza_id": 152,
+    "tollplaza_name": "Lambia Kalan"
+  },
+  {
+    "tollplaza_id": 400,
+    "tollplaza_name": "Landhari"
+  },
+  {
+    "tollplaza_id": 17,
+    "tollplaza_name": "L and T Krishnagiri Thopur (Palayam) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1260,
+    "tollplaza_name": "Lanela Toll Plaza"
+  },
+  {
+    "tollplaza_id": 382,
+    "tollplaza_name": "Lasedi"
+  },
+  {
+    "tollplaza_id": 445,
+    "tollplaza_name": "Lathi"
+  },
+  {
+    "tollplaza_id": 1051,
+    "tollplaza_name": "Laxamannagar TP 11  (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 216,
+    "tollplaza_name": "Laxmannath"
+  },
+  {
+    "tollplaza_id": 167,
+    "tollplaza_name": "Laxmipuram"
+  },
+  {
+    "tollplaza_id": 256,
+    "tollplaza_name": "Lechchumanapatti"
+  },
+  {
+    "tollplaza_id": 438,
+    "tollplaza_name": "Lehrabega"
+  },
+  {
+    "tollplaza_id": 259,
+    "tollplaza_name": "Lembalakudi"
+  },
+  {
+    "tollplaza_id": 355,
+    "tollplaza_name": "Lilamba"
+  },
+  {
+    "tollplaza_id": 432,
+    "tollplaza_name": "Limdi"
+  },
+  {
+    "tollplaza_id": 764,
+    "tollplaza_name": "Limha"
+  },
+  {
+    "tollplaza_id": 1148,
+    "tollplaza_name": "Linglapura"
+  },
+  {
+    "tollplaza_id": 975,
+    "tollplaza_name": "Lodam Toll Plaza"
+  },
+  {
+    "tollplaza_id": 694,
+    "tollplaza_name": "Lohari Toll Plaza"
+  },
+  {
+    "tollplaza_id": 453,
+    "tollplaza_name": "Lomshinong"
+  },
+  {
+    "tollplaza_id": 1237,
+    "tollplaza_name": "Loni Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1303,
+    "tollplaza_name": "Loni (UP)"
+  },
+  {
+    "tollplaza_id": 700,
+    "tollplaza_name": "Ludana"
+  },
+  {
+    "tollplaza_id": 82,
+    "tollplaza_name": "Ludhawai"
+  },
+  {
+    "tollplaza_id": 317,
+    "tollplaza_name": "Luharali"
+  },
+  {
+    "tollplaza_id": 375,
+    "tollplaza_name": "Mada "
+  },
+  {
+    "tollplaza_id": 590,
+    "tollplaza_name": "Madai Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1107,
+    "tollplaza_name": "Madangundi"
+  },
+  {
+    "tollplaza_id": 532,
+    "tollplaza_name": "Madanpur (Assam) Toll"
+  },
+  {
+    "tollplaza_id": 973,
+    "tollplaza_name": "Madanpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 196,
+    "tollplaza_name": "Madapam"
+  },
+  {
+    "tollplaza_id": 351,
+    "tollplaza_name": "Madina Korsan"
+  },
+  {
+    "tollplaza_id": 278,
+    "tollplaza_name": "Madrak"
+  },
+  {
+    "tollplaza_id": 869,
+    "tollplaza_name": "Madukkarai"
+  },
+  {
+    "tollplaza_id": 370,
+    "tollplaza_name": "Mahanth Maniyari"
+  },
+  {
+    "tollplaza_id": 974,
+    "tollplaza_name": "Maharajpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 533,
+    "tollplaza_name": "Mahasamudram"
+  },
+  {
+    "tollplaza_id": 128,
+    "tollplaza_name": "Mahuvan Toll Plaza"
+  },
+  {
+    "tollplaza_id": 810,
+    "tollplaza_name": "Maigalganj"
+  },
+  {
+    "tollplaza_id": 96,
+    "tollplaza_name": "Maithi"
+  },
+  {
+    "tollplaza_id": 469,
+    "tollplaza_name": "Majhgawan Toll Plaza"
+  },
+  {
+    "tollplaza_id": 69,
+    "tollplaza_name": "Makhel"
+  },
+  {
+    "tollplaza_id": 244,
+    "tollplaza_name": "Makrauli Kalan"
+  },
+  {
+    "tollplaza_id": 970,
+    "tollplaza_name": "Malegaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 106,
+    "tollplaza_name": "Malera"
+  },
+  {
+    "tollplaza_id": 1052,
+    "tollplaza_name": "Malhipur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 941,
+    "tollplaza_name": "Malkisar  TP5 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1053,
+    "tollplaza_name": "Mallian Toll Plaza"
+  },
+  {
+    "tollplaza_id": 64,
+    "tollplaza_name": "Malthone Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1151,
+    "tollplaza_name": "Mamrejpur Fee Plaza"
+  },
+  {
+    "tollplaza_id": 753,
+    "tollplaza_name": "Managethi"
+  },
+  {
+    "tollplaza_id": 946,
+    "tollplaza_name": "Manaklavo"
+  },
+  {
+    "tollplaza_id": 1225,
+    "tollplaza_name": "Manambadi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 740,
+    "tollplaza_name": "Manan"
+  },
+  {
+    "tollplaza_id": 1256,
+    "tollplaza_name": "Manapuram Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1248,
+    "tollplaza_name": "Mana Toll Plaza "
+  },
+  {
+    "tollplaza_id": 255,
+    "tollplaza_name": "Manavasi"
+  },
+  {
+    "tollplaza_id": 315,
+    "tollplaza_name": "Mandal (Vyara)"
+  },
+  {
+    "tollplaza_id": 1137,
+    "tollplaza_name": "Mandamarri Toll Plaza"
+  },
+  {
+    "tollplaza_id": 493,
+    "tollplaza_name": "Mandana (Kota)"
+  },
+  {
+    "tollplaza_id": 341,
+    "tollplaza_name": "Mandawada (Gomati)"
+  },
+  {
+    "tollplaza_id": 650,
+    "tollplaza_name": "Mandawara ( Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 56,
+    "tollplaza_name": "Mandawnagar"
+  },
+  {
+    "tollplaza_id": 538,
+    "tollplaza_name": "Manderdisa"
+  },
+  {
+    "tollplaza_id": 540,
+    "tollplaza_name": "Mandir Hasaud"
+  },
+  {
+    "tollplaza_id": 419,
+    "tollplaza_name": "Mandva"
+  },
+  {
+    "tollplaza_id": 1208,
+    "tollplaza_name": "Mandwara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 410,
+    "tollplaza_name": "Mangalgi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1231,
+    "tollplaza_name": "Mangapatnam Toll Plaza"
+  },
+  {
+    "tollplaza_id": 142,
+    "tollplaza_name": "Manoharabad"
+  },
+  {
+    "tollplaza_id": 177,
+    "tollplaza_name": "Manoharpur"
+  },
+  {
+    "tollplaza_id": 822,
+    "tollplaza_name": "Mansar (Kamptee - Kanhan Bypass)/ Tekadi"
+  },
+  {
+    "tollplaza_id": 238,
+    "tollplaza_name": "Maranga"
+  },
+  {
+    "tollplaza_id": 1054,
+    "tollplaza_name": "Maroud Toll Plaza"
+  },
+  {
+    "tollplaza_id": 738,
+    "tollplaza_name": "Marripalem"
+  },
+  {
+    "tollplaza_id": 192,
+    "tollplaza_name": "Marur"
+  },
+  {
+    "tollplaza_id": 482,
+    "tollplaza_name": "Masora"
+  },
+  {
+    "tollplaza_id": 849,
+    "tollplaza_name": "Masuriha "
+  },
+  {
+    "tollplaza_id": 326,
+    "tollplaza_name": "Mathani"
+  },
+  {
+    "tollplaza_id": 644,
+    "tollplaza_name": "Mauhari Toll Plaza"
+  },
+  {
+    "tollplaza_id": 626,
+    "tollplaza_name": "Maujpur (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 628,
+    "tollplaza_name": "Mawikalan (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 606,
+    "tollplaza_name": "Medapi"
+  },
+  {
+    "tollplaza_id": 1079,
+    "tollplaza_name": "Medininagar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1055,
+    "tollplaza_name": "Medipally Toll Plaza"
+  },
+  {
+    "tollplaza_id": 951,
+    "tollplaza_name": "Medshi Sawarkhda"
+  },
+  {
+    "tollplaza_id": 983,
+    "tollplaza_name": "Meghawas  TP 16 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 218,
+    "tollplaza_name": "Mehra (Gwalior Bypass) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 573,
+    "tollplaza_name": "Mejia"
+  },
+  {
+    "tollplaza_id": 392,
+    "tollplaza_name": "Mekalavaripalli Fee Plaza"
+  },
+  {
+    "tollplaza_id": 991,
+    "tollplaza_name": "Mengaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1221,
+    "tollplaza_name": "Merlapaka Fee Plaza"
+  },
+  {
+    "tollplaza_id": 331,
+    "tollplaza_name": "Methoon"
+  },
+  {
+    "tollplaza_id": 475,
+    "tollplaza_name": "Methwada (Ghatabillod) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 41,
+    "tollplaza_name": "Mettupatti*"
+  },
+  {
+    "tollplaza_id": 519,
+    "tollplaza_name": "Mikirati Hawgaon"
+  },
+  {
+    "tollplaza_id": 306,
+    "tollplaza_name": "Milanpur"
+  },
+  {
+    "tollplaza_id": 433,
+    "tollplaza_name": "Milk Majra"
+  },
+  {
+    "tollplaza_id": 602,
+    "tollplaza_name": "Millampalli"
+  },
+  {
+    "tollplaza_id": 882,
+    "tollplaza_name": "Mirzapur  ( Kyampur )"
+  },
+  {
+    "tollplaza_id": 457,
+    "tollplaza_name": "Mohammad Ibrahimpur"
+  },
+  {
+    "tollplaza_id": 1257,
+    "tollplaza_name": "Mohana Toll Plaza"
+  },
+  {
+    "tollplaza_id": 32,
+    "tollplaza_name": "Mohania"
+  },
+  {
+    "tollplaza_id": 804,
+    "tollplaza_name": "Mohna (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 488,
+    "tollplaza_name": "Mohtara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 333,
+    "tollplaza_name": "Mokha"
+  },
+  {
+    "tollplaza_id": 1179,
+    "tollplaza_name": "Mokhupura TP23 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 980,
+    "tollplaza_name": "Moothli  TP18  (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 910,
+    "tollplaza_name": "Mopidevi"
+  },
+  {
+    "tollplaza_id": 391,
+    "tollplaza_name": "Morani (Pokaran)"
+  },
+  {
+    "tollplaza_id": 78,
+    "tollplaza_name": "Morattandi"
+  },
+  {
+    "tollplaza_id": 1254,
+    "tollplaza_name": "Mormugao Port Toll Plaza"
+  },
+  {
+    "tollplaza_id": 713,
+    "tollplaza_name": "Morwala"
+  },
+  {
+    "tollplaza_id": 390,
+    "tollplaza_name": "Motisar (Khanori)"
+  },
+  {
+    "tollplaza_id": 964,
+    "tollplaza_name": "Moura Toll Plaza"
+  },
+  {
+    "tollplaza_id": 512,
+    "tollplaza_name": "Mudipar"
+  },
+  {
+    "tollplaza_id": 901,
+    "tollplaza_name": "Mudiveedu"
+  },
+  {
+    "tollplaza_id": 823,
+    "tollplaza_name": "Mudiyapara"
+  },
+  {
+    "tollplaza_id": 446,
+    "tollplaza_name": "Mud Kheda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1105,
+    "tollplaza_name": "Mujhera Fee Plaza"
+  },
+  {
+    "tollplaza_id": 380,
+    "tollplaza_name": "Mujras"
+  },
+  {
+    "tollplaza_id": 1219,
+    "tollplaza_name": "Mulawad Toll Plaza"
+  },
+  {
+    "tollplaza_id": 283,
+    "tollplaza_name": "Mulbagal Toll Plaza"
+  },
+  {
+    "tollplaza_id": 51,
+    "tollplaza_name": "Mundiyar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1240,
+    "tollplaza_name": "Mundka-Bakkarwala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1278,
+    "tollplaza_name": "Mundla Sondhiya (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 595,
+    "tollplaza_name": "Mungari"
+  },
+  {
+    "tollplaza_id": 696,
+    "tollplaza_name": "Mungwari Toll Plaza"
+  },
+  {
+    "tollplaza_id": 894,
+    "tollplaza_name": "Munjuluru"
+  },
+  {
+    "tollplaza_id": 664,
+    "tollplaza_name": "Munnanur"
+  },
+  {
+    "tollplaza_id": 684,
+    "tollplaza_name": "(Murma) Hesmi Mandar"
+  },
+  {
+    "tollplaza_id": 1056,
+    "tollplaza_name": "Mustapur Fee Plaza"
+  },
+  {
+    "tollplaza_id": 476,
+    "tollplaza_name": "Muthojipet"
+  },
+  {
+    "tollplaza_id": 131,
+    "tollplaza_name": "Muziana Hetim"
+  },
+  {
+    "tollplaza_id": 768,
+    "tollplaza_name": "Nadiad"
+  },
+  {
+    "tollplaza_id": 1057,
+    "tollplaza_name": "Nagampatti Fee Plaza"
+  },
+  {
+    "tollplaza_id": 264,
+    "tollplaza_name": "Nagarhalla Toll Plaza"
+  },
+  {
+    "tollplaza_id": 564,
+    "tollplaza_name": "Nageshri"
+  },
+  {
+    "tollplaza_id": 1169,
+    "tollplaza_name": "Nagla Toll Plaza "
+  },
+  {
+    "tollplaza_id": 1119,
+    "tollplaza_name": "NAGPUR BYPASS CHECK TOLL PLAZA"
+  },
+  {
+    "tollplaza_id": 903,
+    "tollplaza_name": "Nagwan"
+  },
+  {
+    "tollplaza_id": 487,
+    "tollplaza_name": "Nainsar"
+  },
+  {
+    "tollplaza_id": 698,
+    "tollplaza_name": "Nalavadi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 59,
+    "tollplaza_name": "Nallur"
+  },
+  {
+    "tollplaza_id": 1104,
+    "tollplaza_name": "Nalluru Devanahalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 511,
+    "tollplaza_name": "Namkhana"
+  },
+  {
+    "tollplaza_id": 1083,
+    "tollplaza_name": "Nana Masera (Mota Masera) TP 24 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 816,
+    "tollplaza_name": "Nandani*"
+  },
+  {
+    "tollplaza_id": 50,
+    "tollplaza_name": "Nandgaon Peth"
+  },
+  {
+    "tollplaza_id": 1058,
+    "tollplaza_name": "Nangilikondan Fee Plaza"
+  },
+  {
+    "tollplaza_id": 325,
+    "tollplaza_name": "Nangli Toll Plaza (Gaddurur)"
+  },
+  {
+    "tollplaza_id": 80,
+    "tollplaza_name": "Nanguneri"
+  },
+  {
+    "tollplaza_id": 421,
+    "tollplaza_name": "Nannuru"
+  },
+  {
+    "tollplaza_id": 105,
+    "tollplaza_name": "Narayanpura"
+  },
+  {
+    "tollplaza_id": 598,
+    "tollplaza_name": "Narsana"
+  },
+  {
+    "tollplaza_id": 864,
+    "tollplaza_name": "Narsingharh"
+  },
+  {
+    "tollplaza_id": 401,
+    "tollplaza_name": "Narwana"
+  },
+  {
+    "tollplaza_id": 1191,
+    "tollplaza_name": "Nashik Sinner Tollways Limited"
+  },
+  {
+    "tollplaza_id": 651,
+    "tollplaza_name": "Nashirabad"
+  },
+  {
+    "tollplaza_id": 376,
+    "tollplaza_name": "Nashri"
+  },
+  {
+    "tollplaza_id": 15,
+    "tollplaza_name": "Nathakarai*"
+  },
+  {
+    "tollplaza_id": 206,
+    "tollplaza_name": "Nathavalasa"
+  },
+  {
+    "tollplaza_id": 624,
+    "tollplaza_name": "Navasari"
+  },
+  {
+    "tollplaza_id": 509,
+    "tollplaza_name": "Nawabganj (Adampur) (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 175,
+    "tollplaza_name": "Nawabganj (Lucknow)"
+  },
+  {
+    "tollplaza_id": 1232,
+    "tollplaza_name": "Nayagaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1280,
+    "tollplaza_name": "Nayakheda ( Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1004,
+    "tollplaza_name": "Nayapura (Close Loop Toll) "
+  },
+  {
+    "tollplaza_id": 314,
+    "tollplaza_name": "Nazirakhat Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1008,
+    "tollplaza_name": "Neemthur (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 342,
+    "tollplaza_name": "Negadiya"
+  },
+  {
+    "tollplaza_id": 719,
+    "tollplaza_name": "Nekawala"
+  },
+  {
+    "tollplaza_id": 42,
+    "tollplaza_name": "Nelamangala Toll Plaza (Doddakarenahalli )"
+  },
+  {
+    "tollplaza_id": 19,
+    "tollplaza_name": "Nemili (Sriperumbudur)"
+  },
+  {
+    "tollplaza_id": 682,
+    "tollplaza_name": "Netra"
+  },
+  {
+    "tollplaza_id": 1190,
+    "tollplaza_name": "Newada kanthi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 706,
+    "tollplaza_name": "Newli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 121,
+    "tollplaza_name": "Nijjarpura"
+  },
+  {
+    "tollplaza_id": 859,
+    "tollplaza_name": "Nimbaheda"
+  },
+  {
+    "tollplaza_id": 856,
+    "tollplaza_name": "Nimbali"
+  },
+  {
+    "tollplaza_id": 361,
+    "tollplaza_name": "Nimbaniya Ki Dhani (Bayatu)"
+  },
+  {
+    "tollplaza_id": 597,
+    "tollplaza_name": "Nimbasar"
+  },
+  {
+    "tollplaza_id": 1164,
+    "tollplaza_name": "Nimbhi "
+  },
+  {
+    "tollplaza_id": 429,
+    "tollplaza_name": "Nimbi Jodha"
+  },
+  {
+    "tollplaza_id": 1103,
+    "tollplaza_name": "Nimgaon Khalu Fee Plaza"
+  },
+  {
+    "tollplaza_id": 998,
+    "tollplaza_name": "Nipaniya Toll Plaza"
+  },
+  {
+    "tollplaza_id": 288,
+    "tollplaza_name": "Niyamatpur Ekrotiya"
+  },
+  {
+    "tollplaza_id": 449,
+    "tollplaza_name": "Nokhra"
+  },
+  {
+    "tollplaza_id": 943,
+    "tollplaza_name": "Norangdesar  TP7 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1000,
+    "tollplaza_name": "Nunmath Toll Plaza"
+  },
+  {
+    "tollplaza_id": 346,
+    "tollplaza_name": "Nuruddinpur"
+  },
+  {
+    "tollplaza_id": 858,
+    "tollplaza_name": "Ochadi"
+  },
+  {
+    "tollplaza_id": 489,
+    "tollplaza_name": "Odaki Pipkhar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 528,
+    "tollplaza_name": "Okhamadhi"
+  },
+  {
+    "tollplaza_id": 1284,
+    "tollplaza_name": "Olavanna Fee Plaza"
+  },
+  {
+    "tollplaza_id": 14,
+    "tollplaza_name": "Omalur (Kottagoundapatty)"
+  },
+  {
+    "tollplaza_id": 1134,
+    "tollplaza_name": "Osargaon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 330,
+    "tollplaza_name": "Paat Sahanipur (Pipli)"
+  },
+  {
+    "tollplaza_id": 801,
+    "tollplaza_name": "Pabanawa (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 567,
+    "tollplaza_name": "Pachira"
+  },
+  {
+    "tollplaza_id": 636,
+    "tollplaza_name": "Pachwara"
+  },
+  {
+    "tollplaza_id": 479,
+    "tollplaza_name": "Padalshingi"
+  },
+  {
+    "tollplaza_id": 1163,
+    "tollplaza_name": "Padla Hadliya Plaza"
+  },
+  {
+    "tollplaza_id": 647,
+    "tollplaza_name": "Padmanavapur"
+  },
+  {
+    "tollplaza_id": 416,
+    "tollplaza_name": "Pagara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1014,
+    "tollplaza_name": "Pagariya (Semalkhedi )Toll Plaza"
+  },
+  {
+    "tollplaza_id": 338,
+    "tollplaza_name": "Pahammawlein"
+  },
+  {
+    "tollplaza_id": 1059,
+    "tollplaza_name": "Painampalli Khalu"
+  },
+  {
+    "tollplaza_id": 439,
+    "tollplaza_name": "Paind"
+  },
+  {
+    "tollplaza_id": 1175,
+    "tollplaza_name": "Paithna"
+  },
+  {
+    "tollplaza_id": 409,
+    "tollplaza_name": "Palaya Gandharvakottai"
+  },
+  {
+    "tollplaza_id": 917,
+    "tollplaza_name": "Palhan Toll Plaza"
+  },
+  {
+    "tollplaza_id": 86,
+    "tollplaza_name": "Paliyekkara"
+  },
+  {
+    "tollplaza_id": 999,
+    "tollplaza_name": "Palkhanda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 523,
+    "tollplaza_name": "Pallai"
+  },
+  {
+    "tollplaza_id": 77,
+    "tollplaza_name": "Pallikonda"
+  },
+  {
+    "tollplaza_id": 228,
+    "tollplaza_name": "Palsit"
+  },
+  {
+    "tollplaza_id": 1252,
+    "tollplaza_name": "Paluvai"
+  },
+  {
+    "tollplaza_id": 989,
+    "tollplaza_name": "Panchu  TP9 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 839,
+    "tollplaza_name": "Panchvati Colony(Vishakapatnam Port Connectivity)"
+  },
+  {
+    "tollplaza_id": 1222,
+    "tollplaza_name": "Pandane Toll Plaza"
+  },
+  {
+    "tollplaza_id": 607,
+    "tollplaza_name": "Pandillapalli"
+  },
+  {
+    "tollplaza_id": 455,
+    "tollplaza_name": "Pandutala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 447,
+    "tollplaza_name": "Panihaar"
+  },
+  {
+    "tollplaza_id": 640,
+    "tollplaza_name": "Panikauri"
+  },
+  {
+    "tollplaza_id": 122,
+    "tollplaza_name": "Panipat Elevated"
+  },
+  {
+    "tollplaza_id": 826,
+    "tollplaza_name": "Panniyankara"
+  },
+  {
+    "tollplaza_id": 184,
+    "tollplaza_name": "Panthangi"
+  },
+  {
+    "tollplaza_id": 723,
+    "tollplaza_name": "Panthwada"
+  },
+  {
+    "tollplaza_id": 353,
+    "tollplaza_name": "Para Fee Plaza (MP)"
+  },
+  {
+    "tollplaza_id": 660,
+    "tollplaza_name": "Paraghat"
+  },
+  {
+    "tollplaza_id": 58,
+    "tollplaza_name": "Paranur (Chengalpet)"
+  },
+  {
+    "tollplaza_id": 1205,
+    "tollplaza_name": "Para Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1074,
+    "tollplaza_name": "Pardi Makta"
+  },
+  {
+    "tollplaza_id": 1262,
+    "tollplaza_name": "Parewar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 478,
+    "tollplaza_name": "Pargaon"
+  },
+  {
+    "tollplaza_id": 94,
+    "tollplaza_name": "Parsoni Khem"
+  },
+  {
+    "tollplaza_id": 939,
+    "tollplaza_name": "Parwa"
+  },
+  {
+    "tollplaza_id": 185,
+    "tollplaza_name": "Paschim Madati"
+  },
+  {
+    "tollplaza_id": 452,
+    "tollplaza_name": "Pasyih"
+  },
+  {
+    "tollplaza_id": 633,
+    "tollplaza_name": "Patariya Goyal Toll Plaza"
+  },
+  {
+    "tollplaza_id": 45,
+    "tollplaza_name": "Patas"
+  },
+  {
+    "tollplaza_id": 763,
+    "tollplaza_name": "Pata Toll Plaza"
+  },
+  {
+    "tollplaza_id": 982,
+    "tollplaza_name": "Patau  TP17 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 497,
+    "tollplaza_name": "Patgaon( Kokrajhar )"
+  },
+  {
+    "tollplaza_id": 937,
+    "tollplaza_name": "Patharahata Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1286,
+    "tollplaza_name": "Pathrala Toll Plaza"
+  },
+  {
+    "tollplaza_id": 470,
+    "tollplaza_name": "Pathroundi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 933,
+    "tollplaza_name": "Patni Pratapur"
+  },
+  {
+    "tollplaza_id": 1010,
+    "tollplaza_name": "Patrachauli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 689,
+    "tollplaza_name": "Patroda"
+  },
+  {
+    "tollplaza_id": 329,
+    "tollplaza_name": "Pattaraiperumbudur "
+  },
+  {
+    "tollplaza_id": 1060,
+    "tollplaza_name": "Pawangaon Plaza"
+  },
+  {
+    "tollplaza_id": 1255,
+    "tollplaza_name": "Pedagaruvu Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1172,
+    "tollplaza_name": "Pelak (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 949,
+    "tollplaza_name": "Penur Toll Palza"
+  },
+  {
+    "tollplaza_id": 581,
+    "tollplaza_name": "Peont"
+  },
+  {
+    "tollplaza_id": 272,
+    "tollplaza_name": "Phoop (Barahi) KM 105.300"
+  },
+  {
+    "tollplaza_id": 501,
+    "tollplaza_name": "Phulwadi*"
+  },
+  {
+    "tollplaza_id": 1102,
+    "tollplaza_name": "Phulwariya toll plaza"
+  },
+  {
+    "tollplaza_id": 495,
+    "tollplaza_name": "Pidhi"
+  },
+  {
+    "tollplaza_id": 1143,
+    "tollplaza_name": "Pimparkhed Toll Plaza"
+  },
+  {
+    "tollplaza_id": 886,
+    "tollplaza_name": "Pimparwadi"
+  },
+  {
+    "tollplaza_id": 909,
+    "tollplaza_name": "Pinan (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 310,
+    "tollplaza_name": "Pipalaz"
+  },
+  {
+    "tollplaza_id": 1160,
+    "tollplaza_name": "Pipalwas Plaza"
+  },
+  {
+    "tollplaza_id": 144,
+    "tollplaza_name": "Pippalwada"
+  },
+  {
+    "tollplaza_id": 38,
+    "tollplaza_name": "Pithadia"
+  },
+  {
+    "tollplaza_id": 281,
+    "tollplaza_name": "Pithai"
+  },
+  {
+    "tollplaza_id": 460,
+    "tollplaza_name": "Pokhraira"
+  },
+  {
+    "tollplaza_id": 1206,
+    "tollplaza_name": "Pongalur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 200,
+    "tollplaza_name": "Ponnambalapatti"
+  },
+  {
+    "tollplaza_id": 301,
+    "tollplaza_name": "Ponnarimangalam"
+  },
+  {
+    "tollplaza_id": 207,
+    "tollplaza_name": "Pottipadu"
+  },
+  {
+    "tollplaza_id": 827,
+    "tollplaza_name": "Pratappur"
+  },
+  {
+    "tollplaza_id": 792,
+    "tollplaza_name": "Pudapada-Nildungri"
+  },
+  {
+    "tollplaza_id": 62,
+    "tollplaza_name": "Pudhurpandiyapuram"
+  },
+  {
+    "tollplaza_id": 89,
+    "tollplaza_name": "Pudukottai (Vagaikulam)"
+  },
+  {
+    "tollplaza_id": 971,
+    "tollplaza_name": "Pudur"
+  },
+  {
+    "tollplaza_id": 182,
+    "tollplaza_name": "Pullur"
+  },
+  {
+    "tollplaza_id": 145,
+    "tollplaza_name": "Pundag  Toll Plaza"
+  },
+  {
+    "tollplaza_id": 748,
+    "tollplaza_name": "Pupunki"
+  },
+  {
+    "tollplaza_id": 621,
+    "tollplaza_name": "Puraini"
+  },
+  {
+    "tollplaza_id": 422,
+    "tollplaza_name": "Purankhedi /Ircon Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1272,
+    "tollplaza_name": "Pusla Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1217,
+    "tollplaza_name": "Puthi (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 825,
+    "tollplaza_name": "Putru Toll Plaza"
+  },
+  {
+    "tollplaza_id": 720,
+    "tollplaza_name": "Rabawata"
+  },
+  {
+    "tollplaza_id": 350,
+    "tollplaza_name": "Radhvanaj (Kheda ) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 313,
+    "tollplaza_name": "Raha(Saragaon)"
+  },
+  {
+    "tollplaza_id": 374,
+    "tollplaza_name": "Raibha"
+  },
+  {
+    "tollplaza_id": 179,
+    "tollplaza_name": "Raikal"
+  },
+  {
+    "tollplaza_id": 321,
+    "tollplaza_name": "Raipur"
+  },
+  {
+    "tollplaza_id": 147,
+    "tollplaza_name": "Rajadhok"
+  },
+  {
+    "tollplaza_id": 883,
+    "tollplaza_name": "Rajatadripura Toll Plaza"
+  },
+  {
+    "tollplaza_id": 899,
+    "tollplaza_name": "Rajchandrapur  (Howrah) Toll Plaza*"
+  },
+  {
+    "tollplaza_id": 168,
+    "tollplaza_name": "Raje(Old Naraur)"
+  },
+  {
+    "tollplaza_id": 677,
+    "tollplaza_name": "Rajorakhurd"
+  },
+  {
+    "tollplaza_id": 52,
+    "tollplaza_name": "Raksha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1245,
+    "tollplaza_name": "Ramanathapuram Toll Plaza"
+  },
+  {
+    "tollplaza_id": 352,
+    "tollplaza_name": "Ramayana/Mayer"
+  },
+  {
+    "tollplaza_id": 444,
+    "tollplaza_name": "Ramdevra"
+  },
+  {
+    "tollplaza_id": 1261,
+    "tollplaza_name": "Ramgarh Toll Plaza"
+  },
+  {
+    "tollplaza_id": 588,
+    "tollplaza_name": "Ramnagar Gansiyari"
+  },
+  {
+    "tollplaza_id": 53,
+    "tollplaza_name": "Ramnagar Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1253,
+    "tollplaza_name": "Rampei"
+  },
+  {
+    "tollplaza_id": 186,
+    "tollplaza_name": "Rampura"
+  },
+  {
+    "tollplaza_id": 1250,
+    "tollplaza_name": "Rampura (NH-548 B)"
+  },
+  {
+    "tollplaza_id": 534,
+    "tollplaza_name": "Rangalibazna"
+  },
+  {
+    "tollplaza_id": 791,
+    "tollplaza_name": "Rangamatia Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1283,
+    "tollplaza_name": "Rangamati Toll Plaza"
+  },
+  {
+    "tollplaza_id": 385,
+    "tollplaza_name": "Rapur"
+  },
+  {
+    "tollplaza_id": 18,
+    "tollplaza_name": "Rasampalayam"
+  },
+  {
+    "tollplaza_id": 860,
+    "tollplaza_name": "Rashidpura"
+  },
+  {
+    "tollplaza_id": 187,
+    "tollplaza_name": "Rasoiya Dhamna"
+  },
+  {
+    "tollplaza_id": 737,
+    "tollplaza_name": "Rasoolpur (DME Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1080,
+    "tollplaza_name": "Rasoolpur Sikrod (EPE Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 969,
+    "tollplaza_name": "Rasulpur Mithegaon"
+  },
+  {
+    "tollplaza_id": 924,
+    "tollplaza_name": "Rati Rampura Plaza"
+  },
+  {
+    "tollplaza_id": 393,
+    "tollplaza_name": "Raviguntapalli"
+  },
+  {
+    "tollplaza_id": 1012,
+    "tollplaza_name": "Reddypalem Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1291,
+    "tollplaza_name": "R Kothapalli "
+  },
+  {
+    "tollplaza_id": 339,
+    "tollplaza_name": "Rohad"
+  },
+  {
+    "tollplaza_id": 934,
+    "tollplaza_name": "Rohisa"
+  },
+  {
+    "tollplaza_id": 473,
+    "tollplaza_name": "Rojwas Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1061,
+    "tollplaza_name": "Rolla"
+  },
+  {
+    "tollplaza_id": 141,
+    "tollplaza_name": "Rolmamda"
+  },
+  {
+    "tollplaza_id": 174,
+    "tollplaza_name": "Ronahi(Raunahi)"
+  },
+  {
+    "tollplaza_id": 954,
+    "tollplaza_name": "Routara"
+  },
+  {
+    "tollplaza_id": 1268,
+    "tollplaza_name": "Rudravaram Toll Plaza"
+  },
+  {
+    "tollplaza_id": 327,
+    "tollplaza_name": "Runni Shaidpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 379,
+    "tollplaza_name": "Rupakheda"
+  },
+  {
+    "tollplaza_id": 812,
+    "tollplaza_name": "Sabli Powayan"
+  },
+  {
+    "tollplaza_id": 829,
+    "tollplaza_name": "Sahson (Bhopatpur)(Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 354,
+    "tollplaza_name": "Saidpur Patedha"
+  },
+  {
+    "tollplaza_id": 615,
+    "tollplaza_name": "Saini Majara"
+  },
+  {
+    "tollplaza_id": 85,
+    "tollplaza_name": "Salaipudhur"
+  },
+  {
+    "tollplaza_id": 448,
+    "tollplaza_name": "Salasar"
+  },
+  {
+    "tollplaza_id": 130,
+    "tollplaza_name": "Salemgarh"
+  },
+  {
+    "tollplaza_id": 508,
+    "tollplaza_name": "Sali Bamandanga"
+  },
+  {
+    "tollplaza_id": 484,
+    "tollplaza_name": "Saliwada Toll Plaza"
+  },
+  {
+    "tollplaza_id": 879,
+    "tollplaza_name": "Salva Jaroda"
+  },
+  {
+    "tollplaza_id": 48,
+    "tollplaza_name": "Samakhiyali"
+  },
+  {
+    "tollplaza_id": 90,
+    "tollplaza_name": "Samayapuram"
+  },
+  {
+    "tollplaza_id": 1230,
+    "tollplaza_name": "Sameerapalem Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1062,
+    "tollplaza_name": "Samiyala (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 981,
+    "tollplaza_name": "Sangana  TP19 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1144,
+    "tollplaza_name": "Sangariya TP1 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1063,
+    "tollplaza_name": "Sanpa (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 614,
+    "tollplaza_name": "Sanwara"
+  },
+  {
+    "tollplaza_id": 1125,
+    "tollplaza_name": "Sarai Kale Khan (DME Close Loop Toll) "
+  },
+  {
+    "tollplaza_id": 712,
+    "tollplaza_name": "Sarai Sundar"
+  },
+  {
+    "tollplaza_id": 965,
+    "tollplaza_name": "Sarandi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 741,
+    "tollplaza_name": "Sarasdol Toll Plaza"
+  },
+  {
+    "tollplaza_id": 171,
+    "tollplaza_name": "Sardewadi / Indapur"
+  },
+  {
+    "tollplaza_id": 586,
+    "tollplaza_name": "Sarsawa"
+  },
+  {
+    "tollplaza_id": 33,
+    "tollplaza_name": "Sasaram"
+  },
+  {
+    "tollplaza_id": 558,
+    "tollplaza_name": "Satbhaiya"
+  },
+  {
+    "tollplaza_id": 1097,
+    "tollplaza_name": "Sathyagala Toll Plaza "
+  },
+  {
+    "tollplaza_id": 199,
+    "tollplaza_name": "Saukala"
+  },
+  {
+    "tollplaza_id": 220,
+    "tollplaza_name": "Sawaleshwar**"
+  },
+  {
+    "tollplaza_id": 605,
+    "tollplaza_name": "Sawara (Seora) Toll Plaza"
+  },
+  {
+    "tollplaza_id": 584,
+    "tollplaza_name": "Sayed Majra"
+  },
+  {
+    "tollplaza_id": 1017,
+    "tollplaza_name": "Seetharampuram"
+  },
+  {
+    "tollplaza_id": 503,
+    "tollplaza_name": "Sehatganj Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1275,
+    "tollplaza_name": "Seliyamedu Fee Plaza"
+  },
+  {
+    "tollplaza_id": 900,
+    "tollplaza_name": "Selu"
+  },
+  {
+    "tollplaza_id": 535,
+    "tollplaza_name": "Selu Ambu"
+  },
+  {
+    "tollplaza_id": 1282,
+    "tollplaza_name": "Semli Kakad (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 655,
+    "tollplaza_name": "Semraraja"
+  },
+  {
+    "tollplaza_id": 424,
+    "tollplaza_name": "Semri"
+  },
+  {
+    "tollplaza_id": 114,
+    "tollplaza_name": "Sendurwafa"
+  },
+  {
+    "tollplaza_id": 91,
+    "tollplaza_name": "Sengurichi"
+  },
+  {
+    "tollplaza_id": 875,
+    "tollplaza_name": "Sergarh"
+  },
+  {
+    "tollplaza_id": 1138,
+    "tollplaza_name": "Sevugampatti Toll Plaza"
+  },
+  {
+    "tollplaza_id": 608,
+    "tollplaza_name": "Shahabpur"
+  },
+  {
+    "tollplaza_id": 250,
+    "tollplaza_name": "Shahapur"
+  },
+  {
+    "tollplaza_id": 471,
+    "tollplaza_name": "Shahdol Toll Plaza"
+  },
+  {
+    "tollplaza_id": 176,
+    "tollplaza_name": "Shahjahanpur"
+  },
+  {
+    "tollplaza_id": 916,
+    "tollplaza_name": "Shahpur"
+  },
+  {
+    "tollplaza_id": 734,
+    "tollplaza_name": "Shahpura Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1088,
+    "tollplaza_name": "Shahpur Kalyanpur"
+  },
+  {
+    "tollplaza_id": 180,
+    "tollplaza_name": "Shakapur"
+  },
+  {
+    "tollplaza_id": 156,
+    "tollplaza_name": "Shantigrama  Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1227,
+    "tollplaza_name": "Shedung  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 908,
+    "tollplaza_name": "Sheetal (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 774,
+    "tollplaza_name": "Sheikhpura"
+  },
+  {
+    "tollplaza_id": 892,
+    "tollplaza_name": "Shembal"
+  },
+  {
+    "tollplaza_id": 388,
+    "tollplaza_name": "Shenbagampettai"
+  },
+  {
+    "tollplaza_id": 137,
+    "tollplaza_name": "Shergarh (Close Loop Toll  )"
+  },
+  {
+    "tollplaza_id": 565,
+    "tollplaza_name": "Sherpur Chamaraha"
+  },
+  {
+    "tollplaza_id": 960,
+    "tollplaza_name": "Sheshagirihalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 285,
+    "tollplaza_name": "Shibpur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1226,
+    "tollplaza_name": "Shilphata  (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 115,
+    "tollplaza_name": "Shirpur"
+  },
+  {
+    "tollplaza_id": 507,
+    "tollplaza_name": "Shirur Toll Plaza"
+  },
+  {
+    "tollplaza_id": 384,
+    "tollplaza_name": "Shobhasar"
+  },
+  {
+    "tollplaza_id": 1096,
+    "tollplaza_name": "Shringverpur Toll Plaza (Close Loop Toll  )"
+  },
+  {
+    "tollplaza_id": 708,
+    "tollplaza_name": "Shrishikalan"
+  },
+  {
+    "tollplaza_id": 1184,
+    "tollplaza_name": "Shyamsinghpura Virtual (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 865,
+    "tollplaza_name": "Sidhpura"
+  },
+  {
+    "tollplaza_id": 146,
+    "tollplaza_name": "Sikandra"
+  },
+  {
+    "tollplaza_id": 13,
+    "tollplaza_name": "Simliya"
+  },
+  {
+    "tollplaza_id": 609,
+    "tollplaza_name": "Singarajupally"
+  },
+  {
+    "tollplaza_id": 806,
+    "tollplaza_name": "Singarenipalli"
+  },
+  {
+    "tollplaza_id": 986,
+    "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 687,
+    "tollplaza_name": "Sirohi Bahali"
+  },
+  {
+    "tollplaza_id": 547,
+    "tollplaza_name": "Sitarampura"
+  },
+  {
+    "tollplaza_id": 30,
+    "tollplaza_name": "Siwaya"
+  },
+  {
+    "tollplaza_id": 1095,
+    "tollplaza_name": "Somanahalli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 194,
+    "tollplaza_name": "Sonapetya"
+  },
+  {
+    "tollplaza_id": 248,
+    "tollplaza_name": "Songir"
+  },
+  {
+    "tollplaza_id": 459,
+    "tollplaza_name": "Sonho"
+  },
+  {
+    "tollplaza_id": 541,
+    "tollplaza_name": "Sonkacch"
+  },
+  {
+    "tollplaza_id": 399,
+    "tollplaza_name": "Sonvarsha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 151,
+    "tollplaza_name": "Sonwa (Sonva)"
+  },
+  {
+    "tollplaza_id": 358,
+    "tollplaza_name": "Sonway Toll Plaza"
+  },
+  {
+    "tollplaza_id": 831,
+    "tollplaza_name": "Soraon (Rajapur Maksudan)(Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 406,
+    "tollplaza_name": "Sosokhurd"
+  },
+  {
+    "tollplaza_id": 135,
+    "tollplaza_name": "Srirampur Toll plaza"
+  },
+  {
+    "tollplaza_id": 952,
+    "tollplaza_name": "Sub Gavhan Kh (Sabgavhan )"
+  },
+  {
+    "tollplaza_id": 1263,
+    "tollplaza_name": "Sukekulan Mopa Toll Plaza"
+  },
+  {
+    "tollplaza_id": 648,
+    "tollplaza_name": "Sukhuapada Toll Plaza"
+  },
+  {
+    "tollplaza_id": 536,
+    "tollplaza_name": "Sulkhapara"
+  },
+  {
+    "tollplaza_id": 209,
+    "tollplaza_name": "Sullurpet"
+  },
+  {
+    "tollplaza_id": 1288,
+    "tollplaza_name": "Sulung  Toll Plaza"
+  },
+  {
+    "tollplaza_id": 210,
+    "tollplaza_name": "Sunambatti (Musunuru)"
+  },
+  {
+    "tollplaza_id": 1064,
+    "tollplaza_name": "Sundarpara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1182,
+    "tollplaza_name": "Sundarpura (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1241,
+    "tollplaza_name": "Sundrapalya (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 219,
+    "tollplaza_name": "Surajbari"
+  },
+  {
+    "tollplaza_id": 57,
+    "tollplaza_name": "Surapattu (Chennai Bypass II)"
+  },
+  {
+    "tollplaza_id": 233,
+    "tollplaza_name": "Surjapur"
+  },
+  {
+    "tollplaza_id": 328,
+    "tollplaza_name": "S V Puram"
+  },
+  {
+    "tollplaza_id": 992,
+    "tollplaza_name": "Taddanpally Toll Plaza"
+  },
+  {
+    "tollplaza_id": 364,
+    "tollplaza_name": "Talapady"
+  },
+  {
+    "tollplaza_id": 742,
+    "tollplaza_name": "Talen (Mirzapur)"
+  },
+  {
+    "tollplaza_id": 500,
+    "tollplaza_name": "Talmod*"
+  },
+  {
+    "tollplaza_id": 413,
+    "tollplaza_name": "Tamalwadi**"
+  },
+  {
+    "tollplaza_id": 769,
+    "tollplaza_name": "Tamdoli"
+  },
+  {
+    "tollplaza_id": 878,
+    "tollplaza_name": "Tamsabad"
+  },
+  {
+    "tollplaza_id": 407,
+    "tollplaza_name": "Tand Balidih"
+  },
+  {
+    "tollplaza_id": 212,
+    "tollplaza_name": "Tangutur"
+  },
+  {
+    "tollplaza_id": 681,
+    "tollplaza_name": "Tankla"
+  },
+  {
+    "tollplaza_id": 935,
+    "tollplaza_name": "Tarana"
+  },
+  {
+    "tollplaza_id": 895,
+    "tollplaza_name": "Taroda Kasba"
+  },
+  {
+    "tollplaza_id": 824,
+    "tollplaza_name": "Tarpongi"
+  },
+  {
+    "tollplaza_id": 678,
+    "tollplaza_name": "Tarwa Deva"
+  },
+  {
+    "tollplaza_id": 745,
+    "tollplaza_name": "Tasawade"
+  },
+  {
+    "tollplaza_id": 97,
+    "tollplaza_name": "Tatiyawas"
+  },
+  {
+    "tollplaza_id": 936,
+    "tollplaza_name": "Telipara"
+  },
+  {
+    "tollplaza_id": 35,
+    "tollplaza_name": "Tendua "
+  },
+  {
+    "tollplaza_id": 1081,
+    "tollplaza_name": "Tetla Toll Plaza "
+  },
+  {
+    "tollplaza_id": 1133,
+    "tollplaza_name": "Thakri (Raisinghnagar) Toll plaza"
+  },
+  {
+    "tollplaza_id": 1,
+    "tollplaza_name": "Thakurtola (End Of Durg Bypass)"
+  },
+  {
+    "tollplaza_id": 616,
+    "tollplaza_name": "Thana"
+  },
+  {
+    "tollplaza_id": 1085,
+    "tollplaza_name": "Tharad TP26 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 728,
+    "tollplaza_name": "Thawe (Brindavan)"
+  },
+  {
+    "tollplaza_id": 765,
+    "tollplaza_name": "Thenepalli"
+  },
+  {
+    "tollplaza_id": 797,
+    "tollplaza_name": "Thennamadevi"
+  },
+  {
+    "tollplaza_id": 149,
+    "tollplaza_name": "Thikariya (Jaipur)"
+  },
+  {
+    "tollplaza_id": 704,
+    "tollplaza_name": "Thimmalapura Toll Plaza"
+  },
+  {
+    "tollplaza_id": 289,
+    "tollplaza_name": "Thiriya Khetal Fee Plaza"
+  },
+  {
+    "tollplaza_id": 722,
+    "tollplaza_name": "Thirpali Bari"
+  },
+  {
+    "tollplaza_id": 43,
+    "tollplaza_name": "Thirumandurai"
+  },
+  {
+    "tollplaza_id": 254,
+    "tollplaza_name": "Thiruparaithurai"
+  },
+  {
+    "tollplaza_id": 815,
+    "tollplaza_name": "Thirupathisaram"
+  },
+  {
+    "tollplaza_id": 456,
+    "tollplaza_name": "Thiruppachethi"
+  },
+  {
+    "tollplaza_id": 702,
+    "tollplaza_name": "Thiruvallam"
+  },
+  {
+    "tollplaza_id": 972,
+    "tollplaza_name": "Thiruvangad Toll Plaza"
+  },
+  {
+    "tollplaza_id": 978,
+    "tollplaza_name": "Thuvakudi"
+  },
+  {
+    "tollplaza_id": 751,
+    "tollplaza_name": "Tidagundi**"
+  },
+  {
+    "tollplaza_id": 861,
+    "tollplaza_name": "Tidiayasar"
+  },
+  {
+    "tollplaza_id": 1002,
+    "tollplaza_name": "Timarwani (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 65,
+    "tollplaza_name": "Titarpani"
+  },
+  {
+    "tollplaza_id": 721,
+    "tollplaza_name": "Titoli"
+  },
+  {
+    "tollplaza_id": 646,
+    "tollplaza_name": "Toda"
+  },
+  {
+    "tollplaza_id": 1276,
+    "tollplaza_name": "Tulheda (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 6,
+    "tollplaza_name": "Tundla"
+  },
+  {
+    "tollplaza_id": 1142,
+    "tollplaza_name": "Tuptakli Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1020,
+    "tollplaza_name": "Turup Toll Plaza"
+  },
+  {
+    "tollplaza_id": 942,
+    "tollplaza_name": "Uchharangdesar  TP6 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 863,
+    "tollplaza_name": "Udairamsar"
+  },
+  {
+    "tollplaza_id": 697,
+    "tollplaza_name": "Ujara Toll Plaza"
+  },
+  {
+    "tollplaza_id": 639,
+    "tollplaza_name": "Ujroo"
+  },
+  {
+    "tollplaza_id": 596,
+    "tollplaza_name": "Umapur"
+  },
+  {
+    "tollplaza_id": 1075,
+    "tollplaza_name": "Umred"
+  },
+  {
+    "tollplaza_id": 1247,
+    "tollplaza_name": "Umri Toll Plaza"
+  },
+  {
+    "tollplaza_id": 967,
+    "tollplaza_name": "Undewadi (Supe) Toll Palza"
+  },
+  {
+    "tollplaza_id": 820,
+    "tollplaza_name": "Undri"
+  },
+  {
+    "tollplaza_id": 204,
+    "tollplaza_name": "Undvariya"
+  },
+  {
+    "tollplaza_id": 335,
+    "tollplaza_name": "Unguturu"
+  },
+  {
+    "tollplaza_id": 891,
+    "tollplaza_name": "U Ponnalagaram"
+  },
+  {
+    "tollplaza_id": 814,
+    "tollplaza_name": "Upparpatti"
+  },
+  {
+    "tollplaza_id": 1021,
+    "tollplaza_name": "Upputuru Toll Plaza"
+  },
+  {
+    "tollplaza_id": 28,
+    "tollplaza_name": "Usaka ( Chamari)"
+  },
+  {
+    "tollplaza_id": 619,
+    "tollplaza_name": "Usma"
+  },
+  {
+    "tollplaza_id": 324,
+    "tollplaza_name": "Uthamam"
+  },
+  {
+    "tollplaza_id": 654,
+    "tollplaza_name": "Vaddupalli"
+  },
+  {
+    "tollplaza_id": 515,
+    "tollplaza_name": "Vadodara  (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 108,
+    "tollplaza_name": "Vaghasiya"
+  },
+  {
+    "tollplaza_id": 771,
+    "tollplaza_name": "Vaidyakinhi"
+  },
+  {
+    "tollplaza_id": 68,
+    "tollplaza_name": "Vaiguntham"
+  },
+  {
+    "tollplaza_id": 87,
+    "tollplaza_name": "Valavanthankottai"
+  },
+  {
+    "tollplaza_id": 795,
+    "tollplaza_name": "Vallam"
+  },
+  {
+    "tollplaza_id": 818,
+    "tollplaza_name": "Valsang"
+  },
+  {
+    "tollplaza_id": 55,
+    "tollplaza_name": "Vanagaram (Chennai Bypass)"
+  },
+  {
+    "tollplaza_id": 251,
+    "tollplaza_name": "Vanagari"
+  },
+  {
+    "tollplaza_id": 163,
+    "tollplaza_name": "Vanana"
+  },
+  {
+    "tollplaza_id": 79,
+    "tollplaza_name": "Vaniyambadi"
+  },
+  {
+    "tollplaza_id": 257,
+    "tollplaza_name": "Vantada"
+  },
+  {
+    "tollplaza_id": 73,
+    "tollplaza_name": "Varahi"
+  },
+  {
+    "tollplaza_id": 1100,
+    "tollplaza_name": "Varnosari TP28 (Close Loop Toll)"
+  },
+  {
+    "tollplaza_id": 1165,
+    "tollplaza_name": "Varshamedi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 217,
+    "tollplaza_name": "Varwade**"
+  },
+  {
+    "tollplaza_id": 349,
+    "tollplaza_name": "Vasad Toll Plaza"
+  },
+  {
+    "tollplaza_id": 282,
+    "tollplaza_name": "Vavadikhurd"
+  },
+  {
+    "tollplaza_id": 16,
+    "tollplaza_name": "Veeracholapuram (West)*"
+  },
+  {
+    "tollplaza_id": 1086,
+    "tollplaza_name": "Veeranjaneyapuram"
+  },
+  {
+    "tollplaza_id": 762,
+    "tollplaza_name": "Veeravalli"
+  },
+  {
+    "tollplaza_id": 994,
+    "tollplaza_name": "Velampatti Toll Plaza"
+  },
+  {
+    "tollplaza_id": 74,
+    "tollplaza_name": "Velanchettiyur"
+  },
+  {
+    "tollplaza_id": 1065,
+    "tollplaza_name": "Velva Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1110,
+    "tollplaza_name": "Vembukudi Toll Plaza"
+  },
+  {
+    "tollplaza_id": 183,
+    "tollplaza_name": "Vempadu"
+  },
+  {
+    "tollplaza_id": 203,
+    "tollplaza_name": "Venkatachallam Fee Plaza"
+  },
+  {
+    "tollplaza_id": 1265,
+    "tollplaza_name": "Venkatapalem Toll Plaza"
+  },
+  {
+    "tollplaza_id": 693,
+    "tollplaza_name": "Vennathur"
+  },
+  {
+    "tollplaza_id": 1259,
+    "tollplaza_name": "Vettichira Toll Plaza"
+  },
+  {
+    "tollplaza_id": 165,
+    "tollplaza_name": "Vighakhet"
+  },
+  {
+    "tollplaza_id": 70,
+    "tollplaza_name": "Vijayamangalam Toll Plaza"
+  },
+  {
+    "tollplaza_id": 76,
+    "tollplaza_name": "Vikravandi(Villupuram)*"
+  },
+  {
+    "tollplaza_id": 658,
+    "tollplaza_name": "Vishankheda Toll Plaza"
+  },
+  {
+    "tollplaza_id": 953,
+    "tollplaza_name": "Wadgaon "
+  },
+  {
+    "tollplaza_id": 303,
+    "tollplaza_name": "Waryam Nangal"
+  },
+  {
+    "tollplaza_id": 592,
+    "tollplaza_name": "Yeddore"
+  },
+  {
+    "tollplaza_id": 412,
+    "tollplaza_name": "Yedshi**"
+  },
+  {
+    "tollplaza_id": 545,
+    "tollplaza_name": "Yerkaram"
+  },
+  {
+    "tollplaza_id": 544,
+    "tollplaza_name": "Yerradoddi"
+  },
+  {
+    "tollplaza_id": 1295,
+    "tollplaza_name": "Yogini Mata"
+  },
+  {
+    "tollplaza_id": 1066,
+    "tollplaza_name": "Zalimpura (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 437,
+    "tollplaza_name": "Zidda"
+  }
+]
