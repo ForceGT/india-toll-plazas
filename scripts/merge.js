@@ -50,11 +50,20 @@ async function mergeDataSources() {
       fs.mkdirSync(dataDir, { recursive: true });
     }
 
-    // Save merged data
+    // Save merged data (both prettified and minified)
     const latestFile = path.join(dataDir, 'latest.json');
+    const latestMinFile = path.join(dataDir, 'latest.min.json');
+    
+    // Prettified version for readability
     fs.writeFileSync(latestFile, JSON.stringify(combined, null, 2));
     console.log(`Saved combined dataset to ${latestFile}`);
-
+    
+    // Minified version for size optimization and raw API access
+    fs.writeFileSync(latestMinFile, JSON.stringify(combined));
+    const prettySizeKb = (fs.statSync(latestFile).size / 1024).toFixed(2);
+    const minSizeKb = (fs.statSync(latestMinFile).size / 1024).toFixed(2);
+    console.log(`Prettified: ${prettySizeKb}KB | Minified: ${minSizeKb}KB (${((1 - minSizeKb/prettySizeKb) * 100).toFixed(1)}% smaller)`);
+    
     return combined;
   } catch (error) {
     console.error('Error merging data sources:', error.message);
