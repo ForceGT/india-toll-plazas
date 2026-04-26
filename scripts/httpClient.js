@@ -1,5 +1,6 @@
 const https = require('https');
 const http = require('http');
+const zlib = require('zlib');
 
 function makeRequest(url, method, data, headers) {
   return makeDirectRequest(url, method, data, headers);
@@ -30,13 +31,24 @@ function makeDirectRequest(url, method, data, headers) {
 
     const protocol = url.startsWith('https') ? https : http;
     const req = protocol.request(url, options, (res) => {
+      let stream = res;
+
+      // Handle compression
+      if (res.headers['content-encoding'] === 'gzip') {
+        stream = res.pipe(zlib.createGunzip());
+      } else if (res.headers['content-encoding'] === 'deflate') {
+        stream = res.pipe(zlib.createInflate());
+      } else if (res.headers['content-encoding'] === 'br') {
+        stream = res.pipe(zlib.createBrotliDecompress());
+      }
+
       let body = '';
 
-      res.on('data', chunk => {
+      stream.on('data', chunk => {
         body += chunk;
       });
 
-      res.on('end', () => {
+      stream.on('end', () => {
         try {
           if (res.statusCode >= 400) {
             const error = new Error(`HTTP ${res.statusCode}: ${body.substring(0, 200)}`);
@@ -52,6 +64,8 @@ function makeDirectRequest(url, method, data, headers) {
           reject(error);
         }
       });
+
+      stream.on('error', reject);
     });
 
     req.on('error', reject);
