@@ -23,7 +23,7 @@ This repository maintains a clean, curated dataset of toll plazas with:
 The latest combined dataset is always available at:
 
 ```
-https://raw.githubusercontent.com/[username]/india-toll-plazas/master/data/latest.json
+https://raw.githubusercontent.com/ForceGT/india-toll-plazas/main/data/latest.json
 ```
 
 ### Using Python
@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/[username]/india-toll-plazas/master/data/lates
 import json
 import urllib.request
 
-url = "https://raw.githubusercontent.com/[username]/india-toll-plazas/master/data/latest.json"
+url = "https://raw.githubusercontent.com/ForceGT/india-toll-plazas/main/data/latest.json"
 with urllib.request.urlopen(url) as response:
     toll_plazas = json.loads(response.read())
 
@@ -48,7 +48,7 @@ print(f"NHAI: {nhai_count}, State Highways: {state_count}")
 
 ```javascript
 const toll_plazas = await fetch(
-  'https://raw.githubusercontent.com/[username]/india-toll-plazas/master/data/latest.json'
+  'https://raw.githubusercontent.com/ForceGT/india-toll-plazas/main/data/latest.json'
 ).then(r => r.json());
 
 console.log(`Total toll plazas: ${toll_plazas.length}`);
@@ -60,7 +60,7 @@ console.log(`Plazas in Rajasthan: ${rajasthanPlazas.length}`);
 ### Using cURL
 
 ```bash
-curl https://raw.githubusercontent.com/[username]/india-toll-plazas/master/data/latest.json | jq '.[] | select(.state_name == "MAHARASHTRA")'
+curl https://raw.githubusercontent.com/ForceGT/india-toll-plazas/main/data/latest.json | jq '.[] | select(.state_name == "MAHARASHTRA")'
 ```
 
 ## Data Structure
