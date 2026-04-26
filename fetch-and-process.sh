@@ -23,12 +23,14 @@ if [ -n "$GITHUB_ACTIONS" ]; then
   fi
   
   echo "Initializing Tailscale..."
-  sudo tailscale up --authkey="$TAILSCALE_AUTH_KEY" --accept-dns=false || true
+  # Use --accept-routes and --accept-dns flags to avoid interactive prompts
+  sudo tailscale up --authkey="$TAILSCALE_AUTH_KEY" --accept-dns=false --accept-routes=true 2>&1 || true
   
   # Wait for Tailscale to connect
   echo "Waiting for Tailscale connection..."
   for i in {1..30}; do
-    if tailscale status | grep -q "100\\."; then
+    STATUS=$(sudo tailscale status 2>&1)
+    if echo "$STATUS" | grep -q "100\\."; then
       echo "✓ Tailscale connected"
       break
     fi
@@ -38,7 +40,7 @@ if [ -n "$GITHUB_ACTIONS" ]; then
   
   # Discover and set exit node
   echo "Discovering Tailscale exit node..."
-  PHONE_IP=$(tailscale status | grep -i "android\|mobile\|phone" | awk '{print $1}' | head -1)
+  PHONE_IP=$(sudo tailscale status 2>&1 | grep -i "android\|mobile\|phone" | awk '{print $1}' | head -1)
   
   if [ -z "$PHONE_IP" ]; then
     echo "Could not auto-discover phone IP, using fallback..."
@@ -47,7 +49,7 @@ if [ -n "$GITHUB_ACTIONS" ]; then
   
   echo "Phone Tailscale IP: $PHONE_IP"
   echo "Configuring exit node..."
-  sudo tailscale set --exit-node="$PHONE_IP" --exit-node-allow-lan-access=true
+  sudo tailscale set --exit-node="$PHONE_IP" --exit-node-allow-lan-access=true 2>&1 || true
   echo "✓ Tailscale exit node configured"
   sleep 2
 else
