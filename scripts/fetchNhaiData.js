@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 const API_BASE_URL = 'https://rajmargyatra.nhai.gov.in/nhai/api';
-const CONCURRENT_REQUESTS = 5;
-const DELAY_BETWEEN_BATCHES = 200;
+const CONCURRENT_REQUESTS = 10;
+const DELAY_BETWEEN_BATCHES = 100;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
