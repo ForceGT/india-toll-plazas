@@ -47,13 +47,26 @@ jobs:
           PHONE_IP=$(sudo tailscale status 2>/dev/null | grep -i "android" | awk '{print $1}' | head -1)
           
           if [ -z "$PHONE_IP" ]; then
-            echo "Warning: Could not find phone, trying default IP..."
-            PHONE_IP="100.71.85.41"
+            echo "❌ Could not find Android phone in Tailscale network"
+            echo "Make sure:"
+            echo "  1. Phone has Tailscale installed and running"
+            echo "  2. Phone is connected to the Tailscale network"
+            exit 1
           fi
           
-          echo "Setting exit node to: $PHONE_IP"
-          sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true
+          echo "Found phone: $PHONE_IP"
+          echo "Setting as exit node..."
           
+          RESULT=$(sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true 2>&1)
+          
+          if echo "$RESULT" | grep -q "not advertising an exit node"; then
+            echo "❌ ERROR: Phone is not advertising an exit node!"
+            echo "Please enable 'Use as exit node' in Tailscale app on your phone"
+            echo "Settings → Route settings → Check 'Use as exit node'"
+            exit 1
+          fi
+          
+          echo "✓ Exit node configured"
           echo "Waiting 5 seconds for exit node to establish..."
           sleep 5
           
