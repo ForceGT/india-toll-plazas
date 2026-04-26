@@ -31,9 +31,9 @@ chmod +x ./scripts/*.js
 echo -e "${YELLOW}Step 1/7: Fetching NHAI toll plaza names...${NC}"
 node ./scripts/fetchNhaiTollplazas.js || { echo -e "${RED}Failed to fetch toll plaza names${NC}"; exit 1; }
 
-# Step 2: Fetch NHAI toll plaza details
-echo -e "${YELLOW}Step 2/7: Fetching NHAI toll plaza details...${NC}"
-node ./scripts/fetchNhaiDetails.js || { echo -e "${RED}Failed to fetch toll plaza details${NC}"; exit 1; }
+# Step 2: Fetch NHAI toll plaza details (using parallel fetcher with caching)
+echo -e "${YELLOW}Step 2/7: Fetching NHAI toll plaza details (parallel with caching)...${NC}"
+node ./scripts/fetchNhaiDetailsParallel.js || { echo -e "${RED}Failed to fetch toll plaza details${NC}"; exit 1; }
 
 # Step 3: Fetch vehicle types (optional)
 echo -e "${YELLOW}Step 3/7: Fetching vehicle types...${NC}"
