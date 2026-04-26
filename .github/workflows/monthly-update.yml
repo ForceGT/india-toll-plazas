@@ -23,8 +23,25 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Verify tools
+        run: |
+          echo "Node version:"
+          node --version
+          echo "NPM version:"
+          npm --version
+          echo "jq version:"
+          jq --version
+          echo "Bash version:"
+          bash --version
+
       - name: Run fetch and process script
-        run: bash ./fetch-and-process.sh
+        run: |
+          set -x
+          bash ./fetch-and-process.sh
+        timeout-minutes: 120
 
       - name: Configure git
         run: |
