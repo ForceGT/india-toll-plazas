@@ -22,8 +22,8 @@ jobs:
       - name: Connect to Tailscale
         uses: tailscale/github-action@v2
         with:
-          oauth-client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
+          client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
+          client-secret: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
 
       - name: Wait for Tailscale connection
         run: |
