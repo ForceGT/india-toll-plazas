@@ -30,9 +30,9 @@ The script takes approximately **3-4 minutes** to fetch all 1194 toll plazas.
 
 **Note:** GitHub Actions runners are blocked by the NHAI API due to cloud IP restrictions. For this reason, the data must be fetched locally where you have a residential IP. See README.md for more details.
 
-✅ Check [data/latest.json](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/main/data/latest.json) to see the latest data after pushing.`;
+✅ Check [data/latest.json](https://github.com/${ context.repo.owner }/${ context.repo.repo }/blob/main/data/latest.json) to see the latest data after pushing.`;
             
-            await github.rest.issues.create({
+            github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: '📅 Monthly Data Update Reminder',
