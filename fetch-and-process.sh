@@ -27,13 +27,12 @@ mkdir -p "$DATA_DIR/sources"
 # Ensure scripts directory has execute permissions
 chmod +x ./scripts/*.js
 
-# Step 1: Fetch NHAI toll plaza names
-echo -e "${YELLOW}Step 1/7: Fetching NHAI toll plaza names...${NC}"
-node ./scripts/fetchNhaiTollplazas.js || { echo -e "${RED}Failed to fetch toll plaza names${NC}"; exit 1; }
+# Step 1: Fetch NHAI toll plaza names and details using Puppeteer (browser-based)
+echo -e "${YELLOW}Step 1/7: Fetching NHAI toll plaza data via browser (Puppeteer)...${NC}"
+node ./scripts/fetchWithPuppeteer.js || { echo -e "${RED}Failed to fetch toll plaza data${NC}"; exit 1; }
 
-# Step 2: Fetch NHAI toll plaza details (using parallel fetcher with caching)
-echo -e "${YELLOW}Step 2/7: Fetching NHAI toll plaza details (parallel with caching)...${NC}"
-node ./scripts/fetchNhaiDetailsParallel.js || { echo -e "${RED}Failed to fetch toll plaza details${NC}"; exit 1; }
+# Skip old fetch steps as Puppeteer handles both name and details
+echo -e "${YELLOW}Step 2/7: Skipping separate detail fetch (already done by Puppeteer)...${NC}"
 
 # Step 3: Fetch vehicle types (optional)
 echo -e "${YELLOW}Step 3/7: Fetching vehicle types...${NC}"
