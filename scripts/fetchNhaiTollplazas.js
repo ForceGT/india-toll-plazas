@@ -24,6 +24,7 @@ const headers = {
 async function fetchTollplazaNames() {
   try {
     console.log('Fetching all toll plaza names...');
+    console.log(`URL: ${API_URL}`);
     
     const result = await rateLimiter.request(async () => {
       return await makeRequest(API_URL, 'POST', {}, headers);
@@ -43,6 +44,17 @@ async function fetchTollplazaNames() {
     return plazas;
   } catch (error) {
     console.error('Error fetching toll plaza names:', error.message);
+    if (error.statusCode === 403) {
+      console.error('403 Forbidden: The API may be blocking requests. Possible causes:');
+      console.error('  - Rate limiting enforced by server');
+      console.error('  - IP blocking by server');
+      console.error('  - Request headers not matching expected format');
+      console.error('  - CORS policy rejection');
+      console.error('\nTry:');
+      console.error('  - Increase delay in config/rate-limit.json');
+      console.error('  - Run from a browser context or proxy');
+      console.error('  - Check if API requires authentication');
+    }
     process.exit(1);
   }
 }

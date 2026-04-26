@@ -20,9 +20,10 @@ function makeRequest(url, method, data, headers) {
       res.on('end', () => {
         try {
           if (res.statusCode >= 400) {
-            const error = new Error(`HTTP ${res.statusCode}`);
+            const error = new Error(`HTTP ${res.statusCode}: ${body.substring(0, 200)}`);
             error.statusCode = res.statusCode;
             error.body = body;
+            error.headers = res.headers;
             reject(error);
           } else {
             const parsed = JSON.parse(body);
