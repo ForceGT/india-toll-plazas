@@ -12,29 +12,9 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const body = `🔔 Time to update the toll plaza dataset!
-
-**Steps to follow:**
-
-1. Make sure your phone/device has internet access
-2. Run the fetch script locally:
-   \`\`\`bash
-   bash ./fetch-and-process.sh
-   \`\`\`
-3. Once completed, push the changes:
-   \`\`\`bash
-   git push origin main
-   \`\`\`
-
-The script takes approximately **3-4 minutes** to fetch all 1194 toll plazas.
-
-**Note:** GitHub Actions runners are blocked by the NHAI API due to cloud IP restrictions. For this reason, the data must be fetched locally where you have a residential IP. See README.md for more details.
-
-✅ Check [data/latest.json](https://github.com/${ context.repo.owner }/${ context.repo.repo }/blob/main/data/latest.json) to see the latest data after pushing.`;
-            
             github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: '📅 Monthly Data Update Reminder',
-              body: body
+              title: '📅 Monthly Data Update Reminder - Time to Update Toll Plaza Data',
+              body: 'Time to update the toll plaza dataset!\n\nSteps to follow:\n1. Run: bash ./fetch-and-process.sh\n2. Wait for completion (~3-4 minutes)\n3. Run: git push origin main\n\nGitHub Actions will automatically create a release with the updated data.\n\nNote: Data must be fetched locally due to NHAI API IP blocking of cloud runners. See README.md for details.'
             });
