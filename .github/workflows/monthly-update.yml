@@ -35,6 +35,14 @@ jobs:
             echo "Attempt $i/30 - waiting for Tailscale..."
             sleep 2
           done
+      
+      - name: Set Tailscale exit node for all traffic
+        run: |
+          echo "Configuring Tailscale to route through exit node..."
+          # Use exit node for all internet traffic
+          tailscale set --exit-node=100.117.159.206 --exit-node-allow-lan-access=true
+          echo "✓ Exit node configured"
+          sleep 5
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -67,9 +75,6 @@ jobs:
           set -x
           bash ./fetch-and-process.sh
         timeout-minutes: 120
-        env:
-          USE_TAILSCALE_EXIT_NODE: "true"
-          TAILSCALE_EXIT_NODE_IP: "100.117.159.206"
 
       - name: Configure git
         run: |
