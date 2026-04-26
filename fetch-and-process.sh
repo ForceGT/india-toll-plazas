@@ -56,18 +56,14 @@ echo -e "${YELLOW}Step 7/7: Organizing versioned data...${NC}"
 cp "$DATA_DIR/sources/nhai.json" "$SOURCES_DIR/nhai.json" 2>/dev/null || true
 cp "$DATA_DIR/sources/state_highways.json" "$SOURCES_DIR/state_highways.json" 2>/dev/null || true
 cp "$DATA_DIR/latest.json" "$VERSIONED_DIR/tollplazas.json"
-cp "$DATA_DIR/latest.min.json" "$VERSIONED_DIR/tollplazas.min.json" 2>/dev/null || true
 
 # Log summary
 TOTAL_PLAZAS=$(jq 'length' "$DATA_DIR/latest.json" 2>/dev/null || echo "unknown")
-PRETTY_SIZE=$(du -h "$DATA_DIR/latest.json" 2>/dev/null | awk '{print $1}')
-MIN_SIZE=$(du -h "$DATA_DIR/latest.min.json" 2>/dev/null | awk '{print $1}')
+SIZE=$(du -h "$DATA_DIR/latest.json" 2>/dev/null | awk '{print $1}')
 echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}✓ Data update completed successfully${NC}"
 echo -e "${GREEN}Date: $CURRENT_DATE${NC}"
 echo -e "${GREEN}Total toll plazas: $TOTAL_PLAZAS${NC}"
-echo -e "${GREEN}Output: $DATA_DIR/latest.json (${PRETTY_SIZE})${NC}"
-echo -e "${GREEN}Output: $DATA_DIR/latest.min.json (${MIN_SIZE})${NC}"
+echo -e "${GREEN}Output: $DATA_DIR/latest.json (${SIZE})${NC}"
 echo -e "${GREEN}Versioned: $VERSIONED_DIR/tollplazas.json${NC}"
-echo -e "${GREEN}Versioned: $VERSIONED_DIR/tollplazas.min.json${NC}"
 echo -e "${GREEN}========================================${NC}"
