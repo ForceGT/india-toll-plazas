@@ -258,6 +258,43 @@ node scripts/merge.js                   # Merge all sources
 - Bash
 - jq (for GitHub Actions release creation)
 
+## Data Update Process
+
+### Monthly Updates
+
+This dataset is updated **monthly on the 1st of each month**.
+
+**How updates work:**
+1. Automated GitHub Actions reminder is triggered at **10:00 AM IST**
+2. You receive a reminder issue in this repository
+3. You run the fetch script locally:
+   ```bash
+   bash ./fetch-and-process.sh
+   ```
+4. Once completed (~3-4 minutes), push the changes:
+   ```bash
+   git push origin main
+   ```
+5. GitHub Actions automatically creates a release with the new dataset
+
+### Why Local Execution?
+
+The NHAI API blocks requests from cloud infrastructure (GitHub Actions runners) due to IP-based rate limiting. The fetch script must be run from a residential IP address to succeed.
+
+**Workaround attempted:** Tailscale VPN routing through a phone's residential IP was explored but proved unreliable due to:
+- Tailscale daemon startup delays in CI/CD environments
+- Exit node availability dependency on phone being powered on
+- OAuth credential issues with GitHub Actions
+
+**Solution:** Running the script locally ensures reliable, fast data collection without external dependencies.
+
+### Estimated Time
+
+- **Fetch & Process**: ~3-4 minutes
+- **Push to GitHub**: < 1 minute
+- **Release Creation**: Automatic
+- **Total Time**: ~5 minutes
+
 ## Data Sources & Attribution
 
 - **NHAI Data**: National Highways Authority of India ([rajmargyatra.nhai.gov.in](https://rajmargyatra.nhai.gov.in))

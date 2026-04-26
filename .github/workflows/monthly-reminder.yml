@@ -1,0 +1,38 @@
+name: Monthly Reminder - Time to Update Data
+
+on:
+  schedule:
+    - cron: '30 4 1 * *'  # 10:00 AM IST on the 1st of every month (4:30 UTC)
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create reminder issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '📅 Monthly Data Update Reminder',
+              body: `🔔 Time to update the toll plaza dataset!
+
+**Steps to follow:**
+1. Make sure your phone/device has internet access
+2. Run the fetch script locally:
+   \`\`\`bash
+   bash ./fetch-and-process.sh
+   \`\`\`
+3. Once completed, push the changes:
+   \`\`\`bash
+   git push origin main
+   \`\`\`
+
+The script takes approximately **3-4 minutes** to fetch all 1194 toll plazas.
+
+**Note:** GitHub Actions runners are blocked by the NHAI API due to cloud IP restrictions. For this reason, the data must be fetched locally where you have a residential IP. See README.md for more details.
+
+✅ Check [data/latest.json](https://github.com/${{ github.repository }}/blob/main/data/latest.json) to see the latest data after pushing.
+`
+            })

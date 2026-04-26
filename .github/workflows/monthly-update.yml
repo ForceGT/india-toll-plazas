@@ -1,16 +1,15 @@
-name: Monthly Data Update
+name: Create Release on Data Update
 
 on:
-  schedule:
-    - cron: '0 0 1 * *'
-  workflow_dispatch:
+  push:
+    paths:
+      - 'data/latest.json'
 
 jobs:
-  update-data:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    timeout-minutes: 180
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,138 +18,10 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-      - name: Debug OAuth Secrets
-        run: |
-          if [ -z "${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}" ]; then
-            echo "❌ TAILSCALE_OAUTH_CLIENT_ID is MISSING"
-          else
-            echo "✓ TAILSCALE_OAUTH_CLIENT_ID is set (length: ${#TAILSCALE_OAUTH_CLIENT_ID})"
-          fi
-          
-          if [ -z "${{ secrets.TAILSCALE_OAUTH_SECRET }}" ]; then
-            echo "❌ TAILSCALE_OAUTH_SECRET is MISSING"
-          else
-            echo "✓ TAILSCALE_OAUTH_SECRET is set (length: ${#TAILSCALE_OAUTH_SECRET})"
-          fi
-          
-          if [ -z "${{ secrets.TAILSCALE_AUTH_KEY }}" ]; then
-            echo "❌ TAILSCALE_AUTH_KEY is MISSING"
-          else
-            echo "✓ TAILSCALE_AUTH_KEY is set (length: ${#TAILSCALE_AUTH_KEY})"
-          fi
-
-      - name: Install Tailscale
-        run: |
-          curl -fsSL https://tailscale.com/install.sh | sh
-
-      - name: Connect to Tailscale with OAuth
-        env:
-          TS_OAUTH_CLIENT_ID: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
-          TS_OAUTH_CLIENT_SECRET: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
-        run: |
-          echo "Attempting OAuth connection..."
-          echo "Client ID length: ${#TS_OAUTH_CLIENT_ID}"
-          echo "Client Secret length: ${#TS_OAUTH_CLIENT_SECRET}"
-          
-          # Try OAuth connection via environment variables
-          if [ -n "$TS_OAUTH_CLIENT_ID" ] && [ -n "$TS_OAUTH_CLIENT_SECRET" ]; then
-            echo "Setting up OAuth credentials..."
-            sudo TAILSCALE_OAUTH_CLIENT_ID="$TS_OAUTH_CLIENT_ID" TAILSCALE_OAUTH_CLIENT_SECRET="$TS_OAUTH_CLIENT_SECRET" tailscale up --accept-dns=false --accept-routes=true 2>&1 || true
-          else
-            echo "OAuth secrets not available, falling back to authkey"
-            sudo tailscale up --authkey=${{ secrets.TAILSCALE_AUTH_KEY }} --accept-dns=false --accept-routes=true 2>&1 || true
-          fi
-          
-          sleep 10
-          sudo tailscale status
-
-      - name: Wait for Tailscale connection
-        run: |
-          echo "Waiting for Tailscale to establish connection..."
-          for i in {1..30}; do
-            if sudo tailscale status 2>/dev/null | grep -q "100\."; then
-              echo "✓ Tailscale connected!"
-              break
-            fi
-            echo "Attempt $i/30..."
-            sleep 2
-          done
-
-      - name: Configure exit node
-        run: |
-          echo "Looking for phone exit node..."
-          PHONE_IP=$(sudo tailscale status 2>/dev/null | grep -i "android" | awk '{print $1}' | head -1)
-          
-          if [ -z "$PHONE_IP" ]; then
-            echo "❌ Could not find Android phone in Tailscale network"
-            echo "Make sure:"
-            echo "  1. Phone has Tailscale installed and running"
-            echo "  2. Phone is connected to the Tailscale network"
-            exit 1
-          fi
-          
-          echo "Found phone: $PHONE_IP"
-          echo "Setting as exit node..."
-          
-          RESULT=$(sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true 2>&1)
-          
-          if echo "$RESULT" | grep -q "not advertising an exit node"; then
-            echo "❌ ERROR: Phone is not advertising an exit node!"
-            echo "Please enable 'Use as exit node' in Tailscale app on your phone"
-            echo "Settings → Route settings → Check 'Use as exit node'"
-            exit 1
-          fi
-          
-          echo "✓ Exit node configured"
-          echo "Waiting 5 seconds for exit node to establish..."
-          sleep 5
-          
-          echo "Tailscale status:"
-          sudo tailscale status
-
-      - name: Verify connectivity
-        run: |
-          echo "Testing connectivity to NHAI API..."
-          if timeout 10 curl -s -I https://rajmargyatra.nhai.gov.in/nhai/api/getTollplazaName 2>&1 | head -n 1; then
-            echo "✓ API is reachable"
-          else
-            echo "✗ API not reachable"
-            exit 1
-          fi
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
-
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Run fetch and process script
-        run: |
-          set -x
-          bash ./fetch-and-process.sh
-        timeout-minutes: 120
-
-      - name: Configure git
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-
-      - name: Commit changes
-        run: |
-          git add data/
-          git commit -m "chore: update toll plaza data for ${{ steps.date.outputs.date }}" || echo "No changes to commit"
-
-      - name: Push changes
-        run: git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Get latest data
+      - name: Get latest data info
         id: data-info
         run: |
           if [ -f data/latest.json ]; then
@@ -188,13 +59,3 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Notify on failure
-        if: failure()
-        run: |
-          echo "❌ Workflow failed!"
-          echo "Please check:"
-          echo "1. Is your phone powered on and connected to WiFi?"
-          echo "2. Is Tailscale running on your phone?"
-          echo "3. Is the phone set as exit node in Tailscale?"
-          echo "Check logs: https://github.com/${{ github.repository }}/actions"
