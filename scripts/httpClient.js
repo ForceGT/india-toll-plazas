@@ -1,23 +1,14 @@
 const https = require('https');
-const proxyFetcher = require('./proxyFetcher');
 
 function makeRequest(url, method, data, headers) {
   // Check if we should use Tailscale exit node (preferred in GitHub Actions)
   const useTailscaleExitNode = process.env.USE_TAILSCALE_EXIT_NODE === 'true';
   
   if (useTailscaleExitNode) {
-    // Route through Tailscale exit node
+    // Route through Tailscale exit node using direct HTTPS
     return makeTailscaleRequest(url, method, data, headers);
-  }
-  
-  // Check if we should use proxy (fallback)
-  const useProxy = process.env.USE_PROXY !== 'false';
-  
-  if (useProxy) {
-    // Route through proxy
-    return proxyFetcher.makeRequestWithProxy(url, method, data, headers);
   } else {
-    // Direct connection
+    // Direct connection (local development)
     return makeDirectRequest(url, method, data, headers);
   }
 }
