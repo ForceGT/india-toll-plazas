@@ -1,7 +1,7 @@
 {
-  "delayBetweenRequests": 2000,
-  "maxRetries": 10,
-  "initialBackoffMs": 5000,
-  "maxBackoffMs": 60000,
+  "delayBetweenRequests": 5000,
+  "maxRetries": 20,
+  "initialBackoffMs": 10000,
+  "maxBackoffMs": 120000,
   "backoffMultiplier": 2
 }
