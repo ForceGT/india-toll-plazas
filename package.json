@@ -28,7 +28,7 @@
   "dependencies": {
     "https-proxy-agent": "^7.0.0",
     "http-proxy-agent": "^7.0.0",
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^24.15.0"
   },
   "devDependencies": {}
 }
