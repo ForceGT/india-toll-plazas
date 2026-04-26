@@ -19,13 +19,48 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
+      - name: Debug OAuth Secrets
+        run: |
+          if [ -z "${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}" ]; then
+            echo "❌ TAILSCALE_OAUTH_CLIENT_ID is MISSING"
+          else
+            echo "✓ TAILSCALE_OAUTH_CLIENT_ID is set (length: ${#TAILSCALE_OAUTH_CLIENT_ID})"
+          fi
+          
+          if [ -z "${{ secrets.TAILSCALE_OAUTH_SECRET }}" ]; then
+            echo "❌ TAILSCALE_OAUTH_SECRET is MISSING"
+          else
+            echo "✓ TAILSCALE_OAUTH_SECRET is set (length: ${#TAILSCALE_OAUTH_SECRET})"
+          fi
+          
+          if [ -z "${{ secrets.TAILSCALE_AUTH_KEY }}" ]; then
+            echo "❌ TAILSCALE_AUTH_KEY is MISSING"
+          else
+            echo "✓ TAILSCALE_AUTH_KEY is set (length: ${#TAILSCALE_AUTH_KEY})"
+          fi
+
       - name: Install Tailscale
         run: |
           curl -fsSL https://tailscale.com/install.sh | sh
 
-      - name: Connect to Tailscale
+      - name: Connect to Tailscale with OAuth
+        env:
+          TS_OAUTH_CLIENT_ID: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
+          TS_OAUTH_CLIENT_SECRET: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
         run: |
-          sudo tailscale up --authkey=${{ secrets.TAILSCALE_AUTH_KEY }} --accept-dns=false --accept-routes=true 2>&1 || true
+          echo "Attempting OAuth connection..."
+          echo "Client ID length: ${#TS_OAUTH_CLIENT_ID}"
+          echo "Client Secret length: ${#TS_OAUTH_CLIENT_SECRET}"
+          
+          # Try OAuth connection via environment variables
+          if [ -n "$TS_OAUTH_CLIENT_ID" ] && [ -n "$TS_OAUTH_CLIENT_SECRET" ]; then
+            echo "Setting up OAuth credentials..."
+            sudo TAILSCALE_OAUTH_CLIENT_ID="$TS_OAUTH_CLIENT_ID" TAILSCALE_OAUTH_CLIENT_SECRET="$TS_OAUTH_CLIENT_SECRET" tailscale up --accept-dns=false --accept-routes=true 2>&1 || true
+          else
+            echo "OAuth secrets not available, falling back to authkey"
+            sudo tailscale up --authkey=${{ secrets.TAILSCALE_AUTH_KEY }} --accept-dns=false --accept-routes=true 2>&1 || true
+          fi
+          
           sleep 10
           sudo tailscale status
 
