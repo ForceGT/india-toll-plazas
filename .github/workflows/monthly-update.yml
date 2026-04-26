@@ -24,6 +24,41 @@ jobs:
           authkey: ${{ secrets.TAILSCALE_AUTH_KEY }}
           version: 1.68.1
 
+      - name: Wait and verify Tailscale connection
+        run: |
+          echo "Waiting for Tailscale to connect..."
+          for i in {1..30}; do
+            if sudo tailscale status 2>&1 | grep -q "100\."; then
+              echo "✓ Tailscale connected!"
+              echo ""
+              echo "Tailscale status:"
+              sudo tailscale status
+              break
+            fi
+            echo "Attempt $i/30 - waiting..."
+            sleep 2
+          done
+
+      - name: Discover and set exit node
+        run: |
+          echo "Discovering exit node..."
+          PHONE_IP=$(sudo tailscale status 2>&1 | grep -i "android" | awk '{print $1}' | head -1)
+          
+          if [ -z "$PHONE_IP" ]; then
+            echo "Warning: Could not auto-discover phone IP, trying fallback..."
+            PHONE_IP="100.71.85.41"
+          fi
+          
+          echo "Phone IP: $PHONE_IP"
+          echo "Setting as exit node..."
+          sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true 2>&1 || true
+          
+          echo "Waiting 3 seconds for exit node to establish..."
+          sleep 3
+          
+          echo "Final Tailscale status:"
+          sudo tailscale status
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -34,20 +69,6 @@ jobs:
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
-      
-      - name: Configure Tailscale exit node (if connected)
-        run: |
-          # Check if Tailscale is connected
-          if command -v tailscale &> /dev/null && tailscale status &> /dev/null; then
-            echo "Tailscale is connected"
-            PHONE_IP=$(tailscale status | grep -i "android" | awk '{print $1}' | head -1)
-            if [ -n "$PHONE_IP" ]; then
-              echo "Found phone exit node: $PHONE_IP"
-              sudo tailscale set --exit-node=$PHONE_IP --exit-node-allow-lan-access=true
-            fi
-          else
-            echo "Tailscale not available or not connected, using direct connection"
-          fi
 
       - name: Run fetch and process script
         run: |
