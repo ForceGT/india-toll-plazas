@@ -15,8 +15,8 @@ This repository maintains a clean, curated dataset of toll plazas with:
 - **Project details** (type, chainage, lanes, etc.)
 
 **Data Sources:**
-- **NHAI (National Highways)**: ~400+ toll plazas with comprehensive data
-- **State Highways**: Manually curated state highway toll plazas
+- **NHAI (National Highways)**: ~1191 toll plazas with comprehensive data
+- **State Highways**: 2 toll plazas (Rajasthan) with curated data
 
 ## Quick Start
 
@@ -157,6 +157,16 @@ Each vehicle type has 4 rate formats: single, return, monthly, commercial
   - Service information
 
 When using data, always check `data_source` and `data_confidence` to understand data quality.
+
+## State Highway Coverage
+
+### Currently Covered States
+
+**Rajasthan** (2 toll plazas)
+- Sitarampura Toll Plaza (Ring Road)
+- Jaipur-Bhilwara State Highway Toll Plaza
+
+*More states coming soon through community contributions. See [STATE_HIGHWAYS.md](./STATE_HIGHWAYS.md) for how to contribute.*
 
 ## Data Updates
 
