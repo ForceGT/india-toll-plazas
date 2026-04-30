@@ -166,6 +166,8 @@ When using data, always check `data_source` and `data_confidence` to understand 
 - Sitarampura Toll Plaza (Ring Road)
 - Jaipur-Bhilwara State Highway Toll Plaza
 
+**Research (Wikipedia SH list → plazas in this dataset):** [docs/RAJASTHAN_SH_TOLL_MAP.md](docs/RAJASTHAN_SH_TOLL_MAP.md) — heuristic place-name overlap for each [RJ state highway](https://en.wikipedia.org/wiki/List_of_state_highways_in_Rajasthan) row; re-run with `node scripts/buildRajasthanShTollMap.js` after updates.
+
 *More states coming soon through community contributions. See [STATE_HIGHWAYS.md](./STATE_HIGHWAYS.md) for how to contribute.*
 
 ## Data Updates

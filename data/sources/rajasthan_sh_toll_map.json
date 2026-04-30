@@ -1,0 +1,6794 @@
+{
+  "generated_at": "2026-04-30T09:01:47.544Z",
+  "source_sh_list": "https://en.wikipedia.org/wiki/List_of_state_highways_in_Rajasthan",
+  "methodology": "Token overlap between Wikipedia beltway place tokens (length>=4) and NHAI/state plaza name+location in Rajasthan. Not authoritative alignment with SH geometry.",
+  "total_sh_rows": 92,
+  "routes": [
+    {
+      "sh_route": "1",
+      "length_km": "6",
+      "beltway_plain": "Jhalawar (MP. Border) to Mathura (UP Border) via Jhalarapatan, Jhalawar, Baran, Mangrol, Itawah, Genta(गैंता)-Maakhida (A Rajasthan's longest Bridge on Chambal river, Laban, Lakheri, Indergarh, Sawai Madhopur, Bhadoti, Gangapur City, Suroth, Hindaun, Bayana, Bharatpur.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "sawai",
+            "madhopur"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "sawai",
+            "madhopur"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 148,
+          "tollplaza_name": "Amoli",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 98.500",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 732,
+          "tollplaza_name": "Beermandi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 27.700",
+          "token_hits": [
+            "jhalawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 12,
+          "tollplaza_name": "Fatehpur",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 461.290",
+          "token_hits": [
+            "baran"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 92,
+          "tollplaza_name": "Korai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 30.090",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1050,
+          "tollplaza_name": "Laban ( Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "laban"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 82,
+          "tollplaza_name": "Ludhawai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 64.570",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 331,
+          "tollplaza_name": "Methoon",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "jhalawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 13,
+          "tollplaza_name": "Simliya",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "baran"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "2",
+      "length_km": "210",
+      "beltway_plain": "Dausa to Kuchaman via Lawan, Tunga, Chaksu, Phagi, Mozmabad, Dudu, Sambhar, Nawan, Palari, Kuchaman City.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 2102,
+          "tollplaza_name": "Jaipur-Bhilwara State Highway Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Jaipur to Phagi section on Jaipur-Bhilwara State Highway",
+          "token_hits": [
+            "phagi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 719,
+          "tollplaza_name": "Nekawala",
+          "data_source": "nhai",
+          "nh_no": "11A  (New 148)",
+          "location_snippet": "CH 11.750",
+          "token_hits": [
+            "dausa"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 720,
+          "tollplaza_name": "Rabawata",
+          "data_source": "nhai",
+          "nh_no": "11A",
+          "location_snippet": "at km 78.500 (at km. 77.872 existing chainage)",
+          "token_hits": [
+            "dausa"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1184,
+          "tollplaza_name": "Shyamsinghpura Virtual (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "dausa"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 721,
+          "tollplaza_name": "Titoli",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "at km 15.500 (at km. 15.570 existing chainage)",
+          "token_hits": [
+            "dausa"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "2A",
+      "length_km": "44",
+      "beltway_plain": "Dholpur (NH 3) to Rajakhera up to State Border",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 373,
+          "tollplaza_name": "Chila Chond",
+          "data_source": "nhai",
+          "nh_no": "11B",
+          "location_snippet": "142.35",
+          "token_hits": [
+            "dholpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 372,
+          "tollplaza_name": "Konder",
+          "data_source": "nhai",
+          "nh_no": "11B",
+          "location_snippet": "91.8",
+          "token_hits": [
+            "dholpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 677,
+          "tollplaza_name": "Rajorakhurd",
+          "data_source": "nhai",
+          "nh_no": "123",
+          "location_snippet": "Rajora Khurd",
+          "token_hits": [
+            "dholpur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "2B",
+      "length_km": "53",
+      "beltway_plain": "Palari to Khatu via Managlana, Makrana.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "2C",
+      "length_km": "78",
+      "beltway_plain": "Jaipur to Nawan via Jobner, Pachkodiya",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1224,
+          "tollplaza_name": "Bagrana  (Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 150,
+          "tollplaza_name": "Barkheda (Chandlai)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 30.500",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1185,
+          "tollplaza_name": "Bedoli (Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1203,
+          "tollplaza_name": "Daulatpura Toll Plaza (JAI)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1183,
+          "tollplaza_name": "Geela Ki Nangal (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2102,
+          "tollplaza_name": "Jaipur-Bhilwara State Highway Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Jaipur to Phagi section on Jaipur-Bhilwara State Highway",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1186,
+          "tollplaza_name": "Khurikhud (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 95,
+          "tollplaza_name": "Kishangarh (Badgaon)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 360.700",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 177,
+          "tollplaza_name": "Manoharpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 211.000",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 147,
+          "tollplaza_name": "Rajadhok",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 204.700",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 176,
+          "tollplaza_name": "Shahjahanpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 115.000",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1184,
+          "tollplaza_name": "Shyamsinghpura Virtual (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 146,
+          "tollplaza_name": "Sikandra",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 156.600",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2101,
+          "tollplaza_name": "Sitarampura Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Km 30.520 on Jaipur Ring Road",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 151,
+          "tollplaza_name": "Sonwa (Sonva)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 105.000",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1182,
+          "tollplaza_name": "Sundarpura (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 97,
+          "tollplaza_name": "Tatiyawas",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 257.00",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 149,
+          "tollplaza_name": "Thikariya (Jaipur)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 286.700",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "3",
+      "length_km": "267.2",
+      "beltway_plain": "Ganganagar to Bikaner via Chunawadh, Padampur, Gajsinghpur, Raisinghnagar, Anupgarh, Gharsana, Chattargarh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1220,
+          "tollplaza_name": "3M Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "911",
+          "location_snippet": "Km 9+550 (Jhinjholi Village-Haryana)",
+          "token_hits": [
+            "ganganagar",
+            "raisinghnagar"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 381,
+          "tollplaza_name": "6ML (Sixml) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "229.1",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1196,
+          "tollplaza_name": "Badhera(Bhadera ) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1145,
+          "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Chohilanwali",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 944,
+          "tollplaza_name": "Deshnok TP8  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Deshnok",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1197,
+          "tollplaza_name": "Hindore Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1195,
+          "tollplaza_name": "Khara",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 781,
+          "tollplaza_name": "Kheerwa",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 141.830",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 941,
+          "tollplaza_name": "Malkisar  TP5 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Malkisar",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 859,
+          "tollplaza_name": "Nimbaheda",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "TP 221 SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 449,
+          "tollplaza_name": "Nokhra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Varanasi-Gorakhpur",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 943,
+          "tollplaza_name": "Norangdesar  TP7 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Norangdesar",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 858,
+          "tollplaza_name": "Ochadi",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 989,
+          "tollplaza_name": "Panchu  TP9 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Panchu (Bikaner)",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 939,
+          "tollplaza_name": "Parwa",
+          "data_source": "nhai",
+          "nh_no": "89 (New 62)",
+          "location_snippet": "NEAR BY DESHNOKH",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1144,
+          "tollplaza_name": "Sangariya TP1 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Hatiwale",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1133,
+          "tollplaza_name": "Thakri (Raisinghnagar) Toll plaza",
+          "data_source": "nhai",
+          "nh_no": "911",
+          "location_snippet": "42NP",
+          "token_hits": [
+            "raisinghnagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 942,
+          "tollplaza_name": "Uchharangdesar  TP6 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Uchharangdesar",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "6",
+      "length_km": "159.6",
+      "beltway_plain": "Dungargarh (NH 11) to Rajgarh via Sardarshahar, Taranagar.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "rajgarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "6A",
+      "length_km": "137",
+      "beltway_plain": "Sawai Bari (SH-6) to Sattasar via Varsisar, Lunkaransar",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1196,
+          "tollplaza_name": "Badhera(Bhadera ) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "lunkaransar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "sawai"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "sawai"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 104,
+          "tollplaza_name": "Khandi Obari",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 859,
+          "tollplaza_name": "Nimbaheda",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "TP 221 SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "lunkaransar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 858,
+          "tollplaza_name": "Ochadi",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "lunkaransar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "7",
+      "length_km": "409.05",
+      "beltway_plain": "Kishangarh to Sangaria via Roopangarh, Parbatsar, Manglana, Kuchaman City, Losal, Salasar, Ratangarh, Sardarshahar, Pallu, Rawatsar, Hanumangarh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 383,
+          "tollplaza_name": "Dhadhar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "69",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 428,
+          "tollplaza_name": "Harimma",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 258.555",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 756,
+          "tollplaza_name": "Khedi",
+          "data_source": "nhai",
+          "nh_no": " 79 , 79A",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 95,
+          "tollplaza_name": "Kishangarh (Badgaon)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 360.700",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 382,
+          "tollplaza_name": "Lasedi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "8.7",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 429,
+          "tollplaza_name": "Nimbi Jodha",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 199.985",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1160,
+          "tollplaza_name": "Pipalwas Plaza",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 384,
+          "tollplaza_name": "Shobhasar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "144.5",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 149,
+          "tollplaza_name": "Thikariya (Jaipur)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 286.700",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "7A",
+      "length_km": "42.7",
+      "beltway_plain": "Hanumangarh to Abohar via Sadulshahar.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "7B",
+      "length_km": "85",
+      "beltway_plain": "Sadulshahar Ganganagar, Mirzawala, Karanpur.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1220,
+          "tollplaza_name": "3M Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "911",
+          "location_snippet": "Km 9+550 (Jhinjholi Village-Haryana)",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 381,
+          "tollplaza_name": "6ML (Sixml) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "229.1",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1197,
+          "tollplaza_name": "Hindore Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "7C",
+      "length_km": "37",
+      "beltway_plain": "Ratangarh to Talchhapar.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "7D",
+      "length_km": "72",
+      "beltway_plain": "Ranasar (SH-7) to Ladnun via Daulatpura, Didwana",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "daulatpura"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1203,
+          "tollplaza_name": "Daulatpura Toll Plaza (JAI)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "daulatpura"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "7E",
+      "length_km": "71",
+      "beltway_plain": "Sarwar to Kishangarh via Arai",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 756,
+          "tollplaza_name": "Khedi",
+          "data_source": "nhai",
+          "nh_no": " 79 , 79A",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 95,
+          "tollplaza_name": "Kishangarh (Badgaon)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 360.700",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1160,
+          "tollplaza_name": "Pipalwas Plaza",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 149,
+          "tollplaza_name": "Thikariya (Jaipur)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 286.700",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "8",
+      "length_km": "124",
+      "beltway_plain": "Sikar to Luharu up to State Border via Nawalgarh, Mukandgarh, Jhunjhunu, Baggar, Chirawa, Surajargh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 305,
+          "tollplaza_name": "Akhepura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 324.638",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1025,
+          "tollplaza_name": "Baggad",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "BAGGAR (Ch. 136 to 137)",
+          "token_hits": [
+            "baggar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "8A",
+      "length_km": "86",
+      "beltway_plain": "Sikar to Pachkodia via Lalas, Ghatwa, Danta, Ramgarh, Renwal.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 305,
+          "tollplaza_name": "Akhepura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 324.638",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1261,
+          "tollplaza_name": "Ramgarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "ramgarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "8B",
+      "length_km": "25.5",
+      "beltway_plain": "Jatawali to Kaladera via Chomu",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "9",
+      "length_km": "99.8",
+      "beltway_plain": "Dabok (NH 76) to Chittaurgarh via Mavli, Bhopalsagar, Kapasan.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "9A",
+      "length_km": "125.8",
+      "beltway_plain": "Katunda to Shri Chhatarpura via Bharodia, Cheechat, Ramganj Mandi.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 732,
+          "tollplaza_name": "Beermandi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 27.700",
+          "token_hits": [
+            "mandi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 986,
+          "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Sirmandi (jodhpur)",
+          "token_hits": [
+            "mandi"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "9B",
+      "length_km": "11",
+      "beltway_plain": "Suket to Ramganj Mandi.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 732,
+          "tollplaza_name": "Beermandi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 27.700",
+          "token_hits": [
+            "mandi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 986,
+          "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Sirmandi (jodhpur)",
+          "token_hits": [
+            "mandi"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "10",
+      "length_km": "315",
+      "beltway_plain": "Swaroopganj (Junction of NH 14) to Ratlam up to State Border via Royada, Kotada, Kherwara, Dungarpur, Sagwara, Garhi, Banswara, Danpur.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1163,
+          "tollplaza_name": "Padla Hadliya Plaza",
+          "data_source": "nhai",
+          "nh_no": "927A",
+          "location_snippet": "at Km/Ch.182.00",
+          "token_hits": [
+            "dungarpur",
+            "sagwara"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 914,
+          "tollplaza_name": "Dungarpur (Entry Exit ) Toll",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "At Ch. 210.972",
+          "token_hits": [
+            "dungarpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 100,
+          "tollplaza_name": "Gogunda (Jaswantgarh)",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "swaroopganj"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 106,
+          "tollplaza_name": "Malera",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "swaroopganj"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "11",
+      "length_km": "108",
+      "beltway_plain": "Sanchore(NH 15) to Abu Road via Raniwara Kalan, Mandar",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 427,
+          "tollplaza_name": "Bor Charnan",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "238.8",
+          "token_hits": [
+            "sanchore"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 715,
+          "tollplaza_name": "Chhoti Villor",
+          "data_source": "nhai",
+          "nh_no": "168A",
+          "location_snippet": "Km. 8.400",
+          "token_hits": [
+            "sanchore"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 426,
+          "tollplaza_name": "Hathitala",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "175.68",
+          "token_hits": [
+            "sanchore"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 152,
+          "tollplaza_name": "Lambia Kalan",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "12",
+      "length_km": "324.2",
+      "beltway_plain": "Sanganer to Kankroli via Phagi, Diggi, Malpura, Sawariya, Kekri, Shahpura, Mandal, Bhilwara.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 2102,
+          "tollplaza_name": "Jaipur-Bhilwara State Highway Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Jaipur to Phagi section on Jaipur-Bhilwara State Highway",
+          "token_hits": [
+            "phagi",
+            "bhilwara"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 995,
+          "tollplaza_name": "Dhulepura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "102.2",
+          "token_hits": [
+            "bhilwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 601,
+          "tollplaza_name": "Khachrol (Hoda)",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "929.629",
+          "token_hits": [
+            "bhilwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 379,
+          "tollplaza_name": "Rupakheda",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "Km 18.000",
+          "token_hits": [
+            "bhilwara"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "13",
+      "length_km": "329.6",
+      "beltway_plain": "Alwar to Rajgarh via Kushalgarh, Talvarksh, Narayanpur, Thanagazi, Ghata Bhandrol, Shahpura, Kanwat, Neem ka Thana, Khetri, Singhana, Chrawa, Pilani.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 783,
+          "tollplaza_name": "Bahala",
+          "data_source": "nhai",
+          "nh_no": "248 A",
+          "location_snippet": "Bahala",
+          "token_hits": [
+            "alwar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 105,
+          "tollplaza_name": "Narayanpura",
+          "data_source": "nhai",
+          "nh_no": "76",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "narayanpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "rajgarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "14",
+      "length_km": "165.1",
+      "beltway_plain": "Bharatpur to Narnaul (State Border) via Deeg, Nagar, Meo ka Baroda, Baggar ka Tiraha, Alwar, Jindoli, Tatarpur, Sodawas, Barrod, Behror, Narnaul",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 148,
+          "tollplaza_name": "Amoli",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 98.500",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1025,
+          "tollplaza_name": "Baggad",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "BAGGAR (Ch. 136 to 137)",
+          "token_hits": [
+            "baggar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 783,
+          "tollplaza_name": "Bahala",
+          "data_source": "nhai",
+          "nh_no": "248 A",
+          "location_snippet": "Bahala",
+          "token_hits": [
+            "alwar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 92,
+          "tollplaza_name": "Korai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 30.090",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 82,
+          "tollplaza_name": "Ludhawai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 64.570",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "15",
+      "length_km": "77",
+      "beltway_plain": "Mangalwar to Neemach up to State border via Dungala, Bari Sadri, Chhoti Sadri.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 715,
+          "tollplaza_name": "Chhoti Villor",
+          "data_source": "nhai",
+          "nh_no": "168A",
+          "location_snippet": "Km. 8.400",
+          "token_hits": [
+            "chhoti"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 104,
+          "tollplaza_name": "Khandi Obari",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "16",
+      "length_km": "276",
+      "beltway_plain": "Chawa to Amritia (NH 8) via Sindhari, Jalore, Takhatgarh, Sanderao, Sadri, Desuri.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 598,
+          "tollplaza_name": "Narsana",
+          "data_source": "nhai",
+          "nh_no": "325",
+          "location_snippet": "Km 80.000",
+          "token_hits": [
+            "sanderao"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "19",
+      "length_km": "368",
+      "beltway_plain": "Phalodi (NH 15) to Needar via Ahu, Chadi, Pachudi, Nagaur, Tarneu, Khatu Kalan, Khatu khurd, Toshina, Kuchaman City, Bhuni, Maroth, Deoli Minda, Renwal Crossing, Kaladera.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 550,
+          "tollplaza_name": "Badighati",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 150,
+          "tollplaza_name": "Barkheda (Chandlai)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 30.500",
+          "token_hits": [
+            "deoli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 549,
+          "tollplaza_name": "Butati (Kuchera)",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 945,
+          "tollplaza_name": "Dangiyawas",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 428,
+          "tollplaza_name": "Harimma",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 258.555",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 781,
+          "tollplaza_name": "Kheerwa",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 141.830",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 340,
+          "tollplaza_name": "Kishorpura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "deoli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 152,
+          "tollplaza_name": "Lambia Kalan",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 445,
+          "tollplaza_name": "Lathi",
+          "data_source": "nhai",
+          "nh_no": "15\r\n(New 11)",
+          "location_snippet": "PHALODI JAISALMER SEC NH15 TO TWO FOUR LANE WITH PAVED SHULDER",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 946,
+          "tollplaza_name": "Manaklavo",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 682,
+          "tollplaza_name": "Netra",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km. 267.800",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 429,
+          "tollplaza_name": "Nimbi Jodha",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 199.985",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 449,
+          "tollplaza_name": "Nokhra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Varanasi-Gorakhpur",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 858,
+          "tollplaza_name": "Ochadi",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "chadi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 677,
+          "tollplaza_name": "Rajorakhurd",
+          "data_source": "nhai",
+          "nh_no": "123",
+          "location_snippet": "Rajora Khurd",
+          "token_hits": [
+            "khurd"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 444,
+          "tollplaza_name": "Ramdevra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "km 209.500",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 151,
+          "tollplaza_name": "Sonwa (Sonva)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 105.000",
+          "token_hits": [
+            "deoli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 681,
+          "tollplaza_name": "Tankla",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 203.966",
+          "token_hits": [
+            "nagaur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "19A",
+      "length_km": "121",
+      "beltway_plain": "Jhalawar to Agar(State Border)`via Pipliya, Suliya, Bhawani Mandi, Dug",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 732,
+          "tollplaza_name": "Beermandi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 27.700",
+          "token_hits": [
+            "jhalawar",
+            "mandi"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 986,
+          "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Sirmandi (jodhpur)",
+          "token_hits": [
+            "agar",
+            "mandi"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 1220,
+          "tollplaza_name": "3M Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "911",
+          "location_snippet": "Km 9+550 (Jhinjholi Village-Haryana)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 381,
+          "tollplaza_name": "6ML (Sixml) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "229.1",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1115,
+          "tollplaza_name": "Asada Ki Beri",
+          "data_source": "nhai",
+          "nh_no": "25E",
+          "location_snippet": "Km 9+550 (Jhinjholi Village-Haryana)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 988,
+          "tollplaza_name": "Bungri  TP10 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Bungri",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1145,
+          "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Chohilanwali",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1099,
+          "tollplaza_name": "Dadal TP 20 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754 A",
+          "location_snippet": "",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 984,
+          "tollplaza_name": "Deogarh TP15 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Deogarh",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1146,
+          "tollplaza_name": "Deora TP 21 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 944,
+          "tollplaza_name": "Deshnok TP8  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Deshnok",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1197,
+          "tollplaza_name": "Hindore Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 322,
+          "tollplaza_name": "Indranagar",
+          "data_source": "nhai",
+          "nh_no": "162",
+          "location_snippet": "Km 93.750",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1180,
+          "tollplaza_name": "Jajoosan TP 22 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 389,
+          "tollplaza_name": "Jasnathnagar",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "33.189",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 987,
+          "tollplaza_name": "Jathon Ki Dhani ( Hanuman Sagar ) TP 12 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Jathon Ki Dhani ( Hanuman Sagar ) Fhalodi (Raj)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 985,
+          "tollplaza_name": "Khudiyala TP 14 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Khudiyala",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1051,
+          "tollplaza_name": "Laxamannagar TP 11  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Laxmannagar (jodhpur)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 941,
+          "tollplaza_name": "Malkisar  TP5 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Malkisar",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 983,
+          "tollplaza_name": "Meghawas  TP 16 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Meghawas",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 331,
+          "tollplaza_name": "Methoon",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "jhalawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1179,
+          "tollplaza_name": "Mokhupura TP23 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 980,
+          "tollplaza_name": "Moothli  TP18  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Moothli",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 943,
+          "tollplaza_name": "Norangdesar  TP7 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Norangdesar",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 989,
+          "tollplaza_name": "Panchu  TP9 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Panchu (Bikaner)",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 982,
+          "tollplaza_name": "Patau  TP17 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Patau",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 981,
+          "tollplaza_name": "Sangana  TP19 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Sangana",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1144,
+          "tollplaza_name": "Sangariya TP1 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Hatiwale",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1133,
+          "tollplaza_name": "Thakri (Raisinghnagar) Toll plaza",
+          "data_source": "nhai",
+          "nh_no": "911",
+          "location_snippet": "42NP",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 942,
+          "tollplaza_name": "Uchharangdesar  TP6 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Uchharangdesar",
+          "token_hits": [
+            "agar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "19B",
+      "length_km": "14.7",
+      "beltway_plain": "Mangrol (SH-1) to Rajpura via Bamori Kalan",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 152,
+          "tollplaza_name": "Lambia Kalan",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "20",
+      "length_km": "172.1",
+      "beltway_plain": "Sikar to Nokha via Salasar, Sujangarh, Talchhapar.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 305,
+          "tollplaza_name": "Akhepura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 324.638",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 383,
+          "tollplaza_name": "Dhadhar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "69",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1016,
+          "tollplaza_name": "Gogela fee Plaza",
+          "data_source": "nhai",
+          "nh_no": "89 (New 62)",
+          "location_snippet": "176.355 KM",
+          "token_hits": [
+            "nokha"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 428,
+          "tollplaza_name": "Harimma",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 258.555",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 382,
+          "tollplaza_name": "Lasedi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "8.7",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 429,
+          "tollplaza_name": "Nimbi Jodha",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 199.985",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 939,
+          "tollplaza_name": "Parwa",
+          "data_source": "nhai",
+          "nh_no": "89 (New 62)",
+          "location_snippet": "NEAR BY DESHNOKH",
+          "token_hits": [
+            "nokha"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 384,
+          "tollplaza_name": "Shobhasar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "144.5",
+          "token_hits": [
+            "salasar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "20A",
+      "length_km": "58",
+      "beltway_plain": "Bidasar to Ganeri via Jaswantgarh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 100,
+          "tollplaza_name": "Gogunda (Jaswantgarh)",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "jaswantgarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "20B",
+      "length_km": "143",
+      "beltway_plain": "Bikaner to Ladnun via Napasar, Jasrasar",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1196,
+          "tollplaza_name": "Badhera(Bhadera ) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1145,
+          "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Chohilanwali",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 944,
+          "tollplaza_name": "Deshnok TP8  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Deshnok",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1195,
+          "tollplaza_name": "Khara",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 781,
+          "tollplaza_name": "Kheerwa",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 141.830",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 941,
+          "tollplaza_name": "Malkisar  TP5 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Malkisar",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 859,
+          "tollplaza_name": "Nimbaheda",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "TP 221 SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 449,
+          "tollplaza_name": "Nokhra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Varanasi-Gorakhpur",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 943,
+          "tollplaza_name": "Norangdesar  TP7 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Norangdesar",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 858,
+          "tollplaza_name": "Ochadi",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 989,
+          "tollplaza_name": "Panchu  TP9 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Panchu (Bikaner)",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 939,
+          "tollplaza_name": "Parwa",
+          "data_source": "nhai",
+          "nh_no": "89 (New 62)",
+          "location_snippet": "NEAR BY DESHNOKH",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1144,
+          "tollplaza_name": "Sangariya TP1 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Hatiwale",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 942,
+          "tollplaza_name": "Uchharangdesar  TP6 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Uchharangdesar",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "bikaner"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "21",
+      "length_km": "96.4",
+      "beltway_plain": "Dantiweara to Merta City via Pipar City, Borunda.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 377,
+          "tollplaza_name": "Banthadi",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "merta",
+            "merta city"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 769,
+          "tollplaza_name": "Tamdoli",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "merta",
+            "merta city"
+          ],
+          "hit_count": 2
+        }
+      ]
+    },
+    {
+      "sh_route": "21A",
+      "length_km": "60",
+      "beltway_plain": "Parbatsar to NH 89 Junction via Piplad, Bagaut, Harsore, Bherunda, Dodiyana.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "22",
+      "length_km": "194.7",
+      "beltway_plain": "Mandrayal to Pahadi up to State Border via Karauli, Hindaun, Mahuwa, Kathoomar Kherli, Nagar.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 373,
+          "tollplaza_name": "Chila Chond",
+          "data_source": "nhai",
+          "nh_no": "11B",
+          "location_snippet": "142.35",
+          "token_hits": [
+            "karauli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 372,
+          "tollplaza_name": "Konder",
+          "data_source": "nhai",
+          "nh_no": "11B",
+          "location_snippet": "91.8",
+          "token_hits": [
+            "karauli"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "23",
+      "length_km": "63.2",
+      "beltway_plain": "Bharatpur(NH 11-Uncha Nagala)to Dhaulpur (NH 11B)via Roopwas, Sepau.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 148,
+          "tollplaza_name": "Amoli",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 98.500",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 92,
+          "tollplaza_name": "Korai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 30.090",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 82,
+          "tollplaza_name": "Ludhawai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 64.570",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 677,
+          "tollplaza_name": "Rajorakhurd",
+          "data_source": "nhai",
+          "nh_no": "123",
+          "location_snippet": "Rajora Khurd",
+          "token_hits": [
+            "roopwas"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "24",
+      "length_km": "122",
+      "beltway_plain": "Bhadoti Mod (SH-1) to Bassi via Junction of NH 11B Lalsot, Tunga",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 9,
+          "tollplaza_name": "Bassi",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 237.629",
+          "token_hits": [
+            "bassi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 720,
+          "tollplaza_name": "Rabawata",
+          "data_source": "nhai",
+          "nh_no": "11A",
+          "location_snippet": "at km 78.500 (at km. 77.872 existing chainage)",
+          "token_hits": [
+            "lalsot"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 721,
+          "tollplaza_name": "Titoli",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "at km 15.500 (at km. 15.570 existing chainage)",
+          "token_hits": [
+            "lalsot"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "25",
+      "length_km": "225",
+      "beltway_plain": "Daruhera to Gangapur City via Bhiwadi, Tapookara, Tijara, Kishangarh Bas, Alwar, Rajgarh, Bandikui, Sikandara, Nadoti",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 783,
+          "tollplaza_name": "Bahala",
+          "data_source": "nhai",
+          "nh_no": "248 A",
+          "location_snippet": "Bahala",
+          "token_hits": [
+            "alwar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 756,
+          "tollplaza_name": "Khedi",
+          "data_source": "nhai",
+          "nh_no": " 79 , 79A",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 95,
+          "tollplaza_name": "Kishangarh (Badgaon)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 360.700",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1160,
+          "tollplaza_name": "Pipalwas Plaza",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 149,
+          "tollplaza_name": "Thikariya (Jaipur)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 286.700",
+          "token_hits": [
+            "kishangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "rajgarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "25A",
+      "length_km": "62.5",
+      "beltway_plain": "Tehala to GaRhi Sawai Ram Via Rajgarh (SH-35)",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "sawai"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "sawai"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "rajgarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "26",
+      "length_km": "99",
+      "beltway_plain": "Nasirabad to Deoli (SH-12) via Kekri",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 150,
+          "tollplaza_name": "Barkheda (Chandlai)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 30.500",
+          "token_hits": [
+            "deoli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 340,
+          "tollplaza_name": "Kishorpura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "deoli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 151,
+          "tollplaza_name": "Sonwa (Sonva)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 105.000",
+          "token_hits": [
+            "deoli"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "27",
+      "length_km": "72",
+      "beltway_plain": "Sirohi (NH 14) to Deesa up to District Border via Mandar",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 550,
+          "tollplaza_name": "Badighati",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 267,
+          "tollplaza_name": "Bagaliya",
+          "data_source": "nhai",
+          "nh_no": "80",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 377,
+          "tollplaza_name": "Banthadi",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 549,
+          "tollplaza_name": "Butati (Kuchera)",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 715,
+          "tollplaza_name": "Chhoti Villor",
+          "data_source": "nhai",
+          "nh_no": "168A",
+          "location_snippet": "Km. 8.400",
+          "token_hits": [
+            "deesa"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 938,
+          "tollplaza_name": "Jaswantpura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 756,
+          "tollplaza_name": "Khedi",
+          "data_source": "nhai",
+          "nh_no": " 79 , 79A",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1260,
+          "tollplaza_name": "Lanela Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 68 at Lanela @ Km 102+151 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 355,
+          "tollplaza_name": "Lilamba",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 493,
+          "tollplaza_name": "Mandana (Kota)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 273.654 near MandanaVillage KotaDistrict",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1205,
+          "tollplaza_name": "Para Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1262,
+          "tollplaza_name": "Parewar Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "968",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1261,
+          "tollplaza_name": "Ramgarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 769,
+          "tollplaza_name": "Tamdoli",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "district"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "28",
+      "length_km": "259",
+      "beltway_plain": "Phalodi (NH 15) to Ramji ki Gol via Dechu, Shergarh, Pachpadra, Balotra, Sindri, Guda Malani.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 716,
+          "tollplaza_name": "Balana",
+          "data_source": "nhai",
+          "nh_no": "325",
+          "location_snippet": "Km. 149.200",
+          "token_hits": [
+            "balotra"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 378,
+          "tollplaza_name": "Doli",
+          "data_source": "nhai",
+          "nh_no": "112",
+          "location_snippet": "Km 174.875",
+          "token_hits": [
+            "pachpadra"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 781,
+          "tollplaza_name": "Kheerwa",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 141.830",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 445,
+          "tollplaza_name": "Lathi",
+          "data_source": "nhai",
+          "nh_no": "15\r\n(New 11)",
+          "location_snippet": "PHALODI JAISALMER SEC NH15 TO TWO FOUR LANE WITH PAVED SHULDER",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 449,
+          "tollplaza_name": "Nokhra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Varanasi-Gorakhpur",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 444,
+          "tollplaza_name": "Ramdevra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "km 209.500",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "28B",
+      "length_km": "24",
+      "beltway_plain": "Pachpadra (NH 112) to Bagundi",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 378,
+          "tollplaza_name": "Doli",
+          "data_source": "nhai",
+          "nh_no": "112",
+          "location_snippet": "Km 174.875",
+          "token_hits": [
+            "pachpadra"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 361,
+          "tollplaza_name": "Nimbaniya Ki Dhani (Bayatu)",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km 300.300",
+          "token_hits": [
+            "bagundi"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "29",
+      "length_km": "139",
+      "beltway_plain": "Uniara(NH 116) to Bijoliya (NH 76) via Bundi, Indergarh, Lakheri up to NH 76",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 521,
+          "tollplaza_name": "Kadisahena",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "uniara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 522,
+          "tollplaza_name": "Lal Ka Khera",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "uniara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 523,
+          "tollplaza_name": "Pallai",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "Km 69.267 Km 282.936",
+          "token_hits": [
+            "uniara"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "29A",
+      "length_km": "20.5",
+      "beltway_plain": "Sariska Palace to Tehla (Km.20.5) to via Pandupole",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "29B",
+      "length_km": "44.00",
+      "beltway_plain": "Bundi to Nainwa",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "30",
+      "length_km": "34",
+      "beltway_plain": "Sawai Madhopur(NH 116) to Palighat up to State Border.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "sawai",
+            "madhopur"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "sawai",
+            "madhopur"
+          ],
+          "hit_count": 2
+        }
+      ]
+    },
+    {
+      "sh_route": "31",
+      "length_km": "107",
+      "beltway_plain": "Jalore(SH-16) to Raniwara Kalan(SH- 11) via Ramseen Bhinmal",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 152,
+          "tollplaza_name": "Lambia Kalan",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "32",
+      "length_km": "219",
+      "beltway_plain": "Sadri (SH-16-62) to Banswara via Ranakpur, Gogunda, Udaipur, Salumbar Aspur, Sabala, Lohariya, Ganoda.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 100,
+          "tollplaza_name": "Gogunda (Jaswantgarh)",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "gogunda",
+            "udaipur"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 1213,
+          "tollplaza_name": "Dakan Kotra",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 104,
+          "tollplaza_name": "Khandi Obari",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 106,
+          "tollplaza_name": "Malera",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 341,
+          "tollplaza_name": "Mandawada (Gomati)",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 105,
+          "tollplaza_name": "Narayanpura",
+          "data_source": "nhai",
+          "nh_no": "76",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 342,
+          "tollplaza_name": "Negadiya",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "33",
+      "length_km": "116",
+      "beltway_plain": "Rawatbhata (SH-9A) to Laban via Kota, Keshoraipatan, Kapren.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 10,
+          "tollplaza_name": "Aroli",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 294.469",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 550,
+          "tollplaza_name": "Badighati",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 267,
+          "tollplaza_name": "Bagaliya",
+          "data_source": "nhai",
+          "nh_no": "80",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 377,
+          "tollplaza_name": "Banthadi",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 9,
+          "tollplaza_name": "Bassi",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 237.629",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 549,
+          "tollplaza_name": "Butati (Kuchera)",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 11,
+          "tollplaza_name": "Dhaneshwar",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 340.979",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 12,
+          "tollplaza_name": "Fatehpur",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 461.290",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 938,
+          "tollplaza_name": "Jaswantpura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 756,
+          "tollplaza_name": "Khedi",
+          "data_source": "nhai",
+          "nh_no": " 79 , 79A",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 340,
+          "tollplaza_name": "Kishorpura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 417,
+          "tollplaza_name": "Kota Bypass (Sakatpura )",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1050,
+          "tollplaza_name": "Laban ( Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "laban"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 355,
+          "tollplaza_name": "Lilamba",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 493,
+          "tollplaza_name": "Mandana (Kota)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 273.654 near MandanaVillage KotaDistrict",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 380,
+          "tollplaza_name": "Mujras",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "78",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1205,
+          "tollplaza_name": "Para Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 13,
+          "tollplaza_name": "Simliya",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 769,
+          "tollplaza_name": "Tamdoli",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "34",
+      "length_km": "112.8",
+      "beltway_plain": "Tonk to Keshoraipatan via Nagar, Nainwa, Khatkad.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "tonk"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 546,
+          "tollplaza_name": "Hingonia",
+          "data_source": "nhai",
+          "nh_no": "148",
+          "location_snippet": "Km 30.77",
+          "token_hits": [
+            "tonk"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 547,
+          "tollplaza_name": "Sitarampura",
+          "data_source": "nhai",
+          "nh_no": "148",
+          "location_snippet": "km 30.520",
+          "token_hits": [
+            "tonk"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "35",
+      "length_km": "66.1",
+      "beltway_plain": "Mahuwa to Govindgarh (SH-45) via Mandawar Gadhi Sawai Ram, Laxmangarh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "sawai"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "sawai"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "laxmangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 650,
+          "tollplaza_name": "Mandawara ( Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "mandawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "laxmangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "laxmangarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "36",
+      "length_km": "242.1",
+      "beltway_plain": "Churu (NH 52) to Ganganagar via Taranagar, Sahawa, Nohar, Thaladaka, Munda, Hanumangarh, Lalgarh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1220,
+          "tollplaza_name": "3M Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "911",
+          "location_snippet": "Km 9+550 (Jhinjholi Village-Haryana)",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 381,
+          "tollplaza_name": "6ML (Sixml) Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "229.1",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1197,
+          "tollplaza_name": "Hindore Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "",
+          "token_hits": [
+            "ganganagar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 177,
+          "tollplaza_name": "Manoharpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 211.000",
+          "token_hits": [
+            "nohar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 719,
+          "tollplaza_name": "Nekawala",
+          "data_source": "nhai",
+          "nh_no": "11A  (New 148)",
+          "location_snippet": "CH 11.750",
+          "token_hits": [
+            "nohar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "37",
+      "length_km": "",
+      "beltway_plain": "Chomu (NH 52) to Churu via Ajeetgarh Shrimadhopur, Khendela, Udaipurwati",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "37A",
+      "length_km": "229.9",
+      "beltway_plain": "Dudu to Manohar Thana via Malpura, Todaraisingh, Tonk, Nagar, Nainwa, Khatgarh, Kapren, Barod, Siswali, Baran.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 12,
+          "tollplaza_name": "Fatehpur",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 461.290",
+          "token_hits": [
+            "baran"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 599,
+          "tollplaza_name": "Gumanpura",
+          "data_source": "nhai",
+          "nh_no": "116",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "tonk"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 546,
+          "tollplaza_name": "Hingonia",
+          "data_source": "nhai",
+          "nh_no": "148",
+          "location_snippet": "Km 30.77",
+          "token_hits": [
+            "tonk"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 177,
+          "tollplaza_name": "Manoharpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 211.000",
+          "token_hits": [
+            "manohar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 719,
+          "tollplaza_name": "Nekawala",
+          "data_source": "nhai",
+          "nh_no": "11A  (New 148)",
+          "location_snippet": "CH 11.750",
+          "token_hits": [
+            "manohar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 13,
+          "tollplaza_name": "Simliya",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "baran"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 547,
+          "tollplaza_name": "Sitarampura",
+          "data_source": "nhai",
+          "nh_no": "148",
+          "location_snippet": "km 30.520",
+          "token_hits": [
+            "tonk"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "37B",
+      "length_km": "141.5",
+      "beltway_plain": "Kotputli (NH 8) to Losal (SH-7) via Patan, Neem ka Thana, Chala, Udaipurwati, Sikar, Dhod.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 305,
+          "tollplaza_name": "Akhepura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 324.638",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1203,
+          "tollplaza_name": "Daulatpura Toll Plaza (JAI)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "kotputli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 177,
+          "tollplaza_name": "Manoharpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 211.000",
+          "token_hits": [
+            "kotputli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 176,
+          "tollplaza_name": "Shahjahanpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 115.000",
+          "token_hits": [
+            "kotputli"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "sikar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "37C",
+      "length_km": "23.9",
+      "beltway_plain": "Udaipuriya Mod (NH 52) to Mundru shrimadhopur (SH-37) via Khejroli",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "38",
+      "length_km": "111.5",
+      "beltway_plain": "Sirohi (NH 14) to Balotra (NH 112) via Jawal, Kalandri, Ramseen, Jalore, Makalsar, Siwana.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 716,
+          "tollplaza_name": "Balana",
+          "data_source": "nhai",
+          "nh_no": "325",
+          "location_snippet": "Km. 149.200",
+          "token_hits": [
+            "balotra"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "39",
+      "length_km": "318",
+      "beltway_plain": "Satur (NH 12) to Mundwa via Jahajpur, Shahpura, Vijaynagar, Beawar, Merta City, Lambia, Merta Road, Khajwana.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 377,
+          "tollplaza_name": "Banthadi",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "merta",
+            "merta city"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 769,
+          "tollplaza_name": "Tamdoli",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "merta",
+            "merta city"
+          ],
+          "hit_count": 2
+        },
+        {
+          "tollplaza_id": 1025,
+          "tollplaza_name": "Baggad",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "BAGGAR (Ch. 136 to 137)",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 323,
+          "tollplaza_name": "Birami",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 154.00",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 322,
+          "tollplaza_name": "Indranagar",
+          "data_source": "nhai",
+          "nh_no": "162",
+          "location_snippet": "Km 93.750",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 938,
+          "tollplaza_name": "Jaswantpura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 152,
+          "tollplaza_name": "Lambia Kalan",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "lambia"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 355,
+          "tollplaza_name": "Lilamba",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "lambia"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1160,
+          "tollplaza_name": "Pipalwas Plaza",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 321,
+          "tollplaza_name": "Raipur",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 27.50",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 324,
+          "tollplaza_name": "Uthamam",
+          "data_source": "nhai",
+          "nh_no": "14",
+          "location_snippet": "Km 202.315",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "40",
+      "length_km": "342",
+      "beltway_plain": "Gadara road to Nachana via Pokharan, Barmer, Chawa, Baytoo, Kanod, Phalsoond, Miniyana, Pokharan.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1115,
+          "tollplaza_name": "Asada Ki Beri",
+          "data_source": "nhai",
+          "nh_no": "25E",
+          "location_snippet": "Km 9+550 (Jhinjholi Village-Haryana)",
+          "token_hits": [
+            "barmer"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 427,
+          "tollplaza_name": "Bor Charnan",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "238.8",
+          "token_hits": [
+            "barmer"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 426,
+          "tollplaza_name": "Hathitala",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "175.68",
+          "token_hits": [
+            "barmer"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 494,
+          "tollplaza_name": "Kair Fakir Ki Dhani",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "44.16",
+          "token_hits": [
+            "barmer"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 361,
+          "tollplaza_name": "Nimbaniya Ki Dhani (Bayatu)",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km 300.300",
+          "token_hits": [
+            "barmer"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 597,
+          "tollplaza_name": "Nimbasar",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "Km 104.893",
+          "token_hits": [
+            "barmer"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "41",
+      "length_km": "111.2",
+      "beltway_plain": "Fatehpur to Rajgarh via Jhunjhunun, Alsisar, Malsisar.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 383,
+          "tollplaza_name": "Dhadhar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "69",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 12,
+          "tollplaza_name": "Fatehpur",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 461.290",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 382,
+          "tollplaza_name": "Lasedi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "8.7",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 384,
+          "tollplaza_name": "Shobhasar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "144.5",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "rajgarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "42",
+      "length_km": "37",
+      "beltway_plain": "Bari (NH 11B) to Kheragarh up to Stat Border via Saipau, Basai Nawab.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 10,
+          "tollplaza_name": "Aroli",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 294.469",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1209,
+          "tollplaza_name": "Badkapara (Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 732,
+          "tollplaza_name": "Beermandi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 27.700",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 913,
+          "tollplaza_name": "Bhandaraj (Entry Exit )Toll",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "At Ch. 182.000",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1145,
+          "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Chohilanwali",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1099,
+          "tollplaza_name": "Dadal TP 20 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754 A",
+          "location_snippet": "",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 945,
+          "tollplaza_name": "Dangiyawas",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1203,
+          "tollplaza_name": "Daulatpura Toll Plaza (JAI)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1146,
+          "tollplaza_name": "Deora TP 21 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 944,
+          "tollplaza_name": "Deshnok TP8  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Deshnok",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 914,
+          "tollplaza_name": "Dungarpur (Entry Exit ) Toll",
+          "data_source": "nhai",
+          "nh_no": "NE- 4",
+          "location_snippet": "At Ch. 210.972",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2102,
+          "tollplaza_name": "Jaipur-Bhilwara State Highway Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Jaipur to Phagi section on Jaipur-Bhilwara State Highway",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 938,
+          "tollplaza_name": "Jaswantpura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 889,
+          "tollplaza_name": "Karel",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "Karel",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 104,
+          "tollplaza_name": "Khandi Obari",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1260,
+          "tollplaza_name": "Lanela Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 68 at Lanela @ Km 102+151 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 941,
+          "tollplaza_name": "Malkisar  TP5 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Malkisar",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 946,
+          "tollplaza_name": "Manaklavo",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1179,
+          "tollplaza_name": "Mokhupura TP23 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 380,
+          "tollplaza_name": "Mujras",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "78",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 943,
+          "tollplaza_name": "Norangdesar  TP7 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Norangdesar",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1163,
+          "tollplaza_name": "Padla Hadliya Plaza",
+          "data_source": "nhai",
+          "nh_no": "927A",
+          "location_snippet": "at Km/Ch.182.00",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1262,
+          "tollplaza_name": "Parewar Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "968",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1261,
+          "tollplaza_name": "Ramgarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1144,
+          "tollplaza_name": "Sangariya TP1 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Hatiwale",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2101,
+          "tollplaza_name": "Sitarampura Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Km 30.520 on Jaipur Ring Road",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 942,
+          "tollplaza_name": "Uchharangdesar  TP6 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Uchharangdesar",
+          "token_hits": [
+            "stat"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "43",
+      "length_km": "89",
+      "beltway_plain": "Bari (NH 11B to Sonkh up to State Border via Baseri, Bandh Baretha, Kheria Mod, Ucchan, Bharatpur",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 148,
+          "tollplaza_name": "Amoli",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 98.500",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 104,
+          "tollplaza_name": "Khandi Obari",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 92,
+          "tollplaza_name": "Korai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 30.090",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 82,
+          "tollplaza_name": "Ludhawai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 64.570",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "bari"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "44",
+      "length_km": "129.2",
+      "beltway_plain": "Natani ka Bera to Kaman Koshi Road via Mala Khera, Laxmangarh, Kathoomar, Nadbai, Deeg.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1145,
+          "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Chohilanwali",
+          "token_hits": [
+            "mala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 603,
+          "tollplaza_name": "Gangajali",
+          "data_source": "nhai",
+          "nh_no": "911  911-A",
+          "location_snippet": "19.52",
+          "token_hits": [
+            "mala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 862,
+          "tollplaza_name": "Lakhasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "laxmangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 522,
+          "tollplaza_name": "Lal Ka Khera",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "khera"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 860,
+          "tollplaza_name": "Rashidpura",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "laxmangarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1144,
+          "tollplaza_name": "Sangariya TP1 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Hatiwale",
+          "token_hits": [
+            "mala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 861,
+          "tollplaza_name": "Tidiayasar",
+          "data_source": "nhai",
+          "nh_no": "11",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315",
+          "token_hits": [
+            "laxmangarh"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "45",
+      "length_km": "135",
+      "beltway_plain": "Ramgarh (SH-13) to Fatehpur Sikri (up to State Border) via Govindgarh, Sikari, Nagar, Nadbai, Weir, Bayana, Rudawal, Bharatpur Alwar",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 148,
+          "tollplaza_name": "Amoli",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 98.500",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 783,
+          "tollplaza_name": "Bahala",
+          "data_source": "nhai",
+          "nh_no": "248 A",
+          "location_snippet": "Bahala",
+          "token_hits": [
+            "alwar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 383,
+          "tollplaza_name": "Dhadhar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "69",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 12,
+          "tollplaza_name": "Fatehpur",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 461.290",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 92,
+          "tollplaza_name": "Korai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 30.090",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 382,
+          "tollplaza_name": "Lasedi",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "8.7",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 82,
+          "tollplaza_name": "Ludhawai",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 64.570",
+          "token_hits": [
+            "bharatpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1261,
+          "tollplaza_name": "Ramgarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "ramgarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 384,
+          "tollplaza_name": "Shobhasar",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "144.5",
+          "token_hits": [
+            "fatehpur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "48",
+      "length_km": "27.6",
+      "beltway_plain": "Chhani to Rani",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 391,
+          "tollplaza_name": "Morani (Pokaran)",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "165.401",
+          "token_hits": [
+            "rani"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "49",
+      "length_km": "115.8",
+      "beltway_plain": "Mavli to Charbhujaji (SH-16) via Nathdwara, Kelwara",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "50",
+      "length_km": "93",
+      "beltway_plain": "Udaipur to Som (SH-10) via Jhadol",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1213,
+          "tollplaza_name": "Dakan Kotra",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 100,
+          "tollplaza_name": "Gogunda (Jaswantgarh)",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 889,
+          "tollplaza_name": "Karel",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "Karel",
+          "token_hits": [
+            "jhadol"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 104,
+          "tollplaza_name": "Khandi Obari",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 106,
+          "tollplaza_name": "Malera",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 341,
+          "tollplaza_name": "Mandawada (Gomati)",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 105,
+          "tollplaza_name": "Narayanpura",
+          "data_source": "nhai",
+          "nh_no": "76",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 342,
+          "tollplaza_name": "Negadiya",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "udaipur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "51",
+      "length_km": "156.3",
+      "beltway_plain": "Kota to Dharnawada up to State Border via Ladpura, Sangod, Chhabra.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 10,
+          "tollplaza_name": "Aroli",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 294.469",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 550,
+          "tollplaza_name": "Badighati",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 267,
+          "tollplaza_name": "Bagaliya",
+          "data_source": "nhai",
+          "nh_no": "80",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 377,
+          "tollplaza_name": "Banthadi",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 9,
+          "tollplaza_name": "Bassi",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 237.629",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 549,
+          "tollplaza_name": "Butati (Kuchera)",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 11,
+          "tollplaza_name": "Dhaneshwar",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 340.979",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 12,
+          "tollplaza_name": "Fatehpur",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "Km 461.290",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 938,
+          "tollplaza_name": "Jaswantpura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 601,
+          "tollplaza_name": "Khachrol (Hoda)",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "929.629",
+          "token_hits": [
+            "ladpura"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 756,
+          "tollplaza_name": "Khedi",
+          "data_source": "nhai",
+          "nh_no": " 79 , 79A",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 340,
+          "tollplaza_name": "Kishorpura",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 417,
+          "tollplaza_name": "Kota Bypass (Sakatpura )",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 355,
+          "tollplaza_name": "Lilamba",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 493,
+          "tollplaza_name": "Mandana (Kota)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km. 273.654 near MandanaVillage KotaDistrict",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 380,
+          "tollplaza_name": "Mujras",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "78",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1205,
+          "tollplaza_name": "Para Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 13,
+          "tollplaza_name": "Simliya",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 769,
+          "tollplaza_name": "Tamdoli",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kota"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "52",
+      "length_km": "131.5",
+      "beltway_plain": "Ajaraka (SB) to Tala via Mundawar, Sodawas, Harsora, Narayanpur, Thanagazi.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1145,
+          "tollplaza_name": "Chohilanwali TP3 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Chohilanwali",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 944,
+          "tollplaza_name": "Deshnok TP8  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Deshnok",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 426,
+          "tollplaza_name": "Hathitala",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "175.68",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 941,
+          "tollplaza_name": "Malkisar  TP5 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Malkisar",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 105,
+          "tollplaza_name": "Narayanpura",
+          "data_source": "nhai",
+          "nh_no": "76",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "narayanpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 943,
+          "tollplaza_name": "Norangdesar  TP7 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Norangdesar",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1144,
+          "tollplaza_name": "Sangariya TP1 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Hatiwale",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 942,
+          "tollplaza_name": "Uchharangdesar  TP6 (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Uchharangdesar",
+          "token_hits": [
+            "tala"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "53",
+      "length_km": "126",
+      "beltway_plain": "Bhindar to Rikhabdeo via Bambora, Salumbar, Kalyanpur.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "54",
+      "length_km": "104",
+      "beltway_plain": "Aspur to Saruthana via Punjpur, Punali, Dobra, Simalwara, Peeth.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "55",
+      "length_km": "89.6",
+      "beltway_plain": "Gudha (SH-52) to Jaipur (NH 8) via Kishori, Sidh ka Tibara, Jhiri, Andhi, Ramgarh.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1224,
+          "tollplaza_name": "Bagrana  (Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 150,
+          "tollplaza_name": "Barkheda (Chandlai)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 30.500",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1185,
+          "tollplaza_name": "Bedoli (Close Loop Toll )",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1203,
+          "tollplaza_name": "Daulatpura Toll Plaza (JAI)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1183,
+          "tollplaza_name": "Geela Ki Nangal (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2102,
+          "tollplaza_name": "Jaipur-Bhilwara State Highway Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Jaipur to Phagi section on Jaipur-Bhilwara State Highway",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 940,
+          "tollplaza_name": "Jaitpur TP4 (Jaipur) (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754K (New 754A)",
+          "location_snippet": "Jaitpur",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1186,
+          "tollplaza_name": "Khurikhud (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 95,
+          "tollplaza_name": "Kishangarh (Badgaon)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 360.700",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 177,
+          "tollplaza_name": "Manoharpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 211.000",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 147,
+          "tollplaza_name": "Rajadhok",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 204.700",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1261,
+          "tollplaza_name": "Ramgarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "68",
+          "location_snippet": "NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State",
+          "token_hits": [
+            "ramgarh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 176,
+          "tollplaza_name": "Shahjahanpur",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 115.000",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1184,
+          "tollplaza_name": "Shyamsinghpura Virtual (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 865,
+          "tollplaza_name": "Sidhpura",
+          "data_source": "nhai",
+          "nh_no": "113",
+          "location_snippet": "TP 10",
+          "token_hits": [
+            "sidh"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 146,
+          "tollplaza_name": "Sikandra",
+          "data_source": "nhai",
+          "nh_no": "11 (New 21)",
+          "location_snippet": "Km 156.600",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2101,
+          "tollplaza_name": "Sitarampura Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Km 30.520 on Jaipur Ring Road",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 151,
+          "tollplaza_name": "Sonwa (Sonva)",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 105.000",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1182,
+          "tollplaza_name": "Sundarpura (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "NE-4C",
+          "location_snippet": "Plaza located at Renigunta-Niadupeta stretch (Km15+600)",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 97,
+          "tollplaza_name": "Tatiyawas",
+          "data_source": "nhai",
+          "nh_no": "52",
+          "location_snippet": "Km 257.00",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 149,
+          "tollplaza_name": "Thikariya (Jaipur)",
+          "data_source": "nhai",
+          "nh_no": "48",
+          "location_snippet": "Km 286.700",
+          "token_hits": [
+            "jaipur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "56",
+      "length_km": "83",
+      "beltway_plain": "Mandri (SH-12) to Lassani Tal up to NH 8 via Amet, Devgarh.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "57",
+      "length_km": "26",
+      "beltway_plain": "Mokhampura (NH 8) to Sambhar via Phulera",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "58",
+      "length_km": "181",
+      "beltway_plain": "Jodhpur to Bheem up to NH 58 via Vinaika, Mandor, Jodhpur, Sardar samand, Jadan, Sojat Road, Kantalia, Jhinjharadi, Bhabhan, Badakheda, Bheem(Rajsamand).",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 717,
+          "tollplaza_name": "Binawas",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 81.090",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 945,
+          "tollplaza_name": "Dangiyawas",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 378,
+          "tollplaza_name": "Doli",
+          "data_source": "nhai",
+          "nh_no": "112",
+          "location_snippet": "Km 174.875",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1198,
+          "tollplaza_name": "Gajangarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "65 (New 62)",
+          "location_snippet": "Pali",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 389,
+          "tollplaza_name": "Jasnathnagar",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "33.189",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1051,
+          "tollplaza_name": "Laxamannagar TP 11  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Laxmannagar (jodhpur)",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 946,
+          "tollplaza_name": "Manaklavo",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 391,
+          "tollplaza_name": "Morani (Pokaran)",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "165.401",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 390,
+          "tollplaza_name": "Motisar (Khanori)",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "98.809",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 682,
+          "tollplaza_name": "Netra",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km. 267.800",
+          "token_hits": [
+            "mandor"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 856,
+          "tollplaza_name": "Nimbali",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Jodhpur",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1205,
+          "tollplaza_name": "Para Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "bheem"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 379,
+          "tollplaza_name": "Rupakheda",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "Km 18.000",
+          "token_hits": [
+            "samand"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 986,
+          "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Sirmandi (jodhpur)",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 681,
+          "tollplaza_name": "Tankla",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 203.966",
+          "token_hits": [
+            "mandor"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "59",
+      "length_km": "159.9",
+      "beltway_plain": "Beawar to Neemla Jodha via Pisangan, Govindgarh, Ladpura, Tehla, Bherunda, Harsore, Degana, Khatu, Bhantri.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 1025,
+          "tollplaza_name": "Baggad",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "BAGGAR (Ch. 136 to 137)",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 377,
+          "tollplaza_name": "Banthadi",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "jodha"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 323,
+          "tollplaza_name": "Birami",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 154.00",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 309,
+          "tollplaza_name": "Gegal",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 322,
+          "tollplaza_name": "Indranagar",
+          "data_source": "nhai",
+          "nh_no": "162",
+          "location_snippet": "Km 93.750",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 938,
+          "tollplaza_name": "Jaswantpura",
+          "data_source": "nhai",
+          "nh_no": "158",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 601,
+          "tollplaza_name": "Khachrol (Hoda)",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "929.629",
+          "token_hits": [
+            "ladpura"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 429,
+          "tollplaza_name": "Nimbi Jodha",
+          "data_source": "nhai",
+          "nh_no": "58",
+          "location_snippet": "Km. 199.985",
+          "token_hits": [
+            "jodha"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 310,
+          "tollplaza_name": "Pipalaz",
+          "data_source": "nhai",
+          "nh_no": "8",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1160,
+          "tollplaza_name": "Pipalwas Plaza",
+          "data_source": "nhai",
+          "nh_no": "58E",
+          "location_snippet": "",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 321,
+          "tollplaza_name": "Raipur",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 27.50",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 769,
+          "tollplaza_name": "Tamdoli",
+          "data_source": "nhai",
+          "nh_no": "458",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "jodha"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 324,
+          "tollplaza_name": "Uthamam",
+          "data_source": "nhai",
+          "nh_no": "14",
+          "location_snippet": "Km 202.315",
+          "token_hits": [
+            "beawar"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "60",
+      "length_km": "181",
+      "beltway_plain": "Thanwala to Ganeri (SH-20) via Bherunda, Neemari, Kothariya, Degana, Sanjhun, Tarneu, Jayal, Didwana.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "61",
+      "length_km": "349",
+      "beltway_plain": "Phalodi (NH 15) to Mandal via Osian, Mathania, Jodhpur, Khejrali, Bhatenda, Saradasamand, Jadan, Marwar Junction, Auwa, Jojawar, Kamalighat, Devgarh, Rajaji ka kareda.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 717,
+          "tollplaza_name": "Binawas",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 81.090",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 945,
+          "tollplaza_name": "Dangiyawas",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 378,
+          "tollplaza_name": "Doli",
+          "data_source": "nhai",
+          "nh_no": "112",
+          "location_snippet": "Km 174.875",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1198,
+          "tollplaza_name": "Gajangarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "65 (New 62)",
+          "location_snippet": "Pali",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 389,
+          "tollplaza_name": "Jasnathnagar",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "33.189",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 781,
+          "tollplaza_name": "Kheerwa",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 141.830",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 445,
+          "tollplaza_name": "Lathi",
+          "data_source": "nhai",
+          "nh_no": "15\r\n(New 11)",
+          "location_snippet": "PHALODI JAISALMER SEC NH15 TO TWO FOUR LANE WITH PAVED SHULDER",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1051,
+          "tollplaza_name": "Laxamannagar TP 11  (Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Laxmannagar (jodhpur)",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 946,
+          "tollplaza_name": "Manaklavo",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 391,
+          "tollplaza_name": "Morani (Pokaran)",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "165.401",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 390,
+          "tollplaza_name": "Motisar (Khanori)",
+          "data_source": "nhai",
+          "nh_no": "114",
+          "location_snippet": "98.809",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 856,
+          "tollplaza_name": "Nimbali",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Jodhpur",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 449,
+          "tollplaza_name": "Nokhra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Varanasi-Gorakhpur",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 444,
+          "tollplaza_name": "Ramdevra",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "km 209.500",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 448,
+          "tollplaza_name": "Salasar",
+          "data_source": "nhai",
+          "nh_no": "15(New 11)",
+          "location_snippet": "Km 23.950",
+          "token_hits": [
+            "phalodi"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 986,
+          "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)",
+          "data_source": "nhai",
+          "nh_no": "754A",
+          "location_snippet": "Sirmandi (jodhpur)",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 863,
+          "tollplaza_name": "Udairamsar",
+          "data_source": "nhai",
+          "nh_no": "11 (New 89)",
+          "location_snippet": "SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasth",
+          "token_hits": [
+            "jodhpur"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "62",
+      "length_km": "187",
+      "beltway_plain": "Bilara to Pindwara via Sojat, Sireeyari, Jojawar, Bagol, Desuri, Sadri, Sewari.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 717,
+          "tollplaza_name": "Binawas",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 81.090",
+          "token_hits": [
+            "bilara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 323,
+          "tollplaza_name": "Birami",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 154.00",
+          "token_hits": [
+            "pindwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "bilara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 100,
+          "tollplaza_name": "Gogunda (Jaswantgarh)",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "pindwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 322,
+          "tollplaza_name": "Indranagar",
+          "data_source": "nhai",
+          "nh_no": "162",
+          "location_snippet": "Km 93.750",
+          "token_hits": [
+            "pindwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 106,
+          "tollplaza_name": "Malera",
+          "data_source": "nhai",
+          "nh_no": "27",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "pindwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 321,
+          "tollplaza_name": "Raipur",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 27.50",
+          "token_hits": [
+            "pindwara"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 324,
+          "tollplaza_name": "Uthamam",
+          "data_source": "nhai",
+          "nh_no": "14",
+          "location_snippet": "Km 202.315",
+          "token_hits": [
+            "pindwara"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "63",
+      "length_km": "129",
+      "beltway_plain": "Banar to Kuchera via Bhopalgarh Asop.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 549,
+          "tollplaza_name": "Butati (Kuchera)",
+          "data_source": "nhai",
+          "nh_no": "89",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "kuchera"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "64",
+      "length_km": "82",
+      "beltway_plain": "Rohat (NH 65) to Ahore (SH-16) via Vasi, Bhadrajun.",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "65",
+      "length_km": "154.5",
+      "beltway_plain": "Sheo (NH 15) to Shergarh via Bhiyad, Barnawa Jagger, Patodi, Phalsoond.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 178,
+          "tollplaza_name": "Daulatpura Fee Plaza (KOTA)",
+          "data_source": "nhai",
+          "nh_no": "552",
+          "location_snippet": "Km 241.000",
+          "token_hits": [
+            "sheo"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "66",
+      "length_km": "90",
+      "beltway_plain": "Siwana to Dhandhaniya (NH 114) via Samdari, Kalyanpur, Mandli Rodhawa Kalan.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 718,
+          "tollplaza_name": "Biratiya Kalan",
+          "data_source": "nhai",
+          "nh_no": "25",
+          "location_snippet": "Km. 8.442",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 152,
+          "tollplaza_name": "Lambia Kalan",
+          "data_source": "nhai",
+          "nh_no": "79",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "kalan"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "67",
+      "length_km": "87",
+      "beltway_plain": "Sardar Samand (SH-61) to Desuri (SH-62) via Pali, Ramsiya, Somesar,",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 323,
+          "tollplaza_name": "Birami",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 154.00",
+          "token_hits": [
+            "pali"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1198,
+          "tollplaza_name": "Gajangarh Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "65 (New 62)",
+          "location_snippet": "Pali",
+          "token_hits": [
+            "pali"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 322,
+          "tollplaza_name": "Indranagar",
+          "data_source": "nhai",
+          "nh_no": "162",
+          "location_snippet": "Km 93.750",
+          "token_hits": [
+            "pali"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 321,
+          "tollplaza_name": "Raipur",
+          "data_source": "nhai",
+          "nh_no": "62",
+          "location_snippet": "Km 27.50",
+          "token_hits": [
+            "pali"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 379,
+          "tollplaza_name": "Rupakheda",
+          "data_source": "nhai",
+          "nh_no": "758",
+          "location_snippet": "Km 18.000",
+          "token_hits": [
+            "samand"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 722,
+          "tollplaza_name": "Thirpali Bari",
+          "data_source": "nhai",
+          "nh_no": "709(E)",
+          "location_snippet": "Km 33.850",
+          "token_hits": [
+            "pali"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 324,
+          "tollplaza_name": "Uthamam",
+          "data_source": "nhai",
+          "nh_no": "14",
+          "location_snippet": "Km 202.315",
+          "token_hits": [
+            "pali"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "68",
+      "length_km": "131",
+      "beltway_plain": "Dangiyawas (NH 112) to Balotra via Kakelao, Khejarli, Guda Kakani, Luni, Dhundhara, Rampura, Samdari.",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 716,
+          "tollplaza_name": "Balana",
+          "data_source": "nhai",
+          "nh_no": "325",
+          "location_snippet": "Km. 149.200",
+          "token_hits": [
+            "balotra"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 945,
+          "tollplaza_name": "Dangiyawas",
+          "data_source": "nhai",
+          "nh_no": "125A",
+          "location_snippet": "At Km. 2.550",
+          "token_hits": [
+            "dangiyawas"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 547,
+          "tollplaza_name": "Sitarampura",
+          "data_source": "nhai",
+          "nh_no": "148",
+          "location_snippet": "km 30.520",
+          "token_hits": [
+            "rampura"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 2101,
+          "tollplaza_name": "Sitarampura Toll Plaza",
+          "data_source": "state",
+          "nh_no": null,
+          "location_snippet": "Km 30.520 on Jaipur Ring Road",
+          "token_hits": [
+            "rampura"
+          ],
+          "hit_count": 1
+        }
+      ]
+    },
+    {
+      "sh_route": "69",
+      "length_km": "35",
+      "beltway_plain": "Churu Bhaleri",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "117",
+      "length_km": "102",
+      "beltway_plain": "Diggi to Jastana",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "122",
+      "length_km": "158",
+      "beltway_plain": "Baroni ([[National Highway 52 (India) to Kurgaon ([[National Highway 23 (India)",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "123",
+      "length_km": "102",
+      "beltway_plain": "Bhahrowanda to Jagner, Utter Pradash",
+      "toll_plazas_heuristic": []
+    },
+    {
+      "sh_route": "138",
+      "length_km": "",
+      "beltway_plain": "[[#SH0029 to [[National Highway 148D (India)",
+      "toll_plazas_heuristic": [
+        {
+          "tollplaza_id": 521,
+          "tollplaza_name": "Kadisahena",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "148d"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 522,
+          "tollplaza_name": "Lal Ka Khera",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "184.02",
+          "token_hits": [
+            "148d"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 523,
+          "tollplaza_name": "Pallai",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "Km 69.267 Km 282.936",
+          "token_hits": [
+            "148d"
+          ],
+          "hit_count": 1
+        },
+        {
+          "tollplaza_id": 1205,
+          "tollplaza_name": "Para Toll Plaza",
+          "data_source": "nhai",
+          "nh_no": "148D",
+          "location_snippet": "(Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351",
+          "token_hits": [
+            "148d"
+          ],
+          "hit_count": 1
+        }
+      ]
+    }
+  ]
+}

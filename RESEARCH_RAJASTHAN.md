@@ -4,6 +4,21 @@
 **Researcher:** India Toll Plazas Project Maintainer  
 **Status:** Initial Research Complete  
 
+## Wikipedia state highway list vs toll plazas
+
+The English Wikipedia article [List of state highways in Rajasthan](https://en.wikipedia.org/wiki/List_of_state_highways_in_Rajasthan) lists corridor text for each RJ SH but **does not enumerate toll plazas**.
+
+For maintainer triage, this repo generates:
+
+- **[docs/RAJASTHAN_SH_TOLL_MAP.md](docs/RAJASTHAN_SH_TOLL_MAP.md)** — for each Wikipedia `Routelist` row, NHAI + state plazas in Rajasthan whose names/locations share place tokens with the corridor text (heuristic; verify before trusting).
+- **`data/sources/rajasthan_sh_toll_map.json`** — machine-readable version with the same methodology.
+
+Regenerate after refreshing `data/latest.json`:
+
+```bash
+node scripts/buildRajasthanShTollMap.js
+```
+
 ## Overview
 
 This document tracks the research, data collection, and curation of Rajasthan state highway toll plaza data. Rajasthan operates multiple toll plazas on both national highways (managed by NHAI) and state highways (managed by RSRDC - Rajasthan State Road Development and Construction Corporation Limited).
