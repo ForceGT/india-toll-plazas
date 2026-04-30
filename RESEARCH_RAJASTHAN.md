@@ -21,6 +21,12 @@ node scripts/buildRajasthanShTollMap.js
 
 **Web search digest (per SH route number):** [docs/RAJASTHAN_SH_WEB_SEARCH_DIGEST.md](docs/RAJASTHAN_SH_WEB_SEARCH_DIGEST.md) — curated notes from batch web/tender search; rebuild with `node scripts/buildRajasthanWebSearchDigest.js`.
 
+## Coordinates (state-highway rows)
+
+- **Sitarampura (2101):** [OpenStreetMap](https://www.openstreetmap.org/) — Nominatim search `Sitarampura toll Jaipur` → building way centroid (~26.74745, 75.76866).
+- **Jaipur–Phagi / SH toll rates row (2102):** Nominatim `Phagi` town node (~26.5770, 75.5587); booth may lie along the highway east/west of centroid — verify visually.
+- **Shahpura, Kekri, Malpura (2103–2105):** [Wikipedia — State Highway 12 (Rajasthan)](https://en.wikipedia.org/wiki/State_Highway_12_(Rajasthan)) lists toll stations at these towns; coordinates are **OSM town centroids** (approximate). Replace with exact toll-gantry pins when field-mapped or sourced from operator GIS.
+
 ## Overview
 
 This document tracks the research, data collection, and curation of Rajasthan state highway toll plaza data. Rajasthan operates multiple toll plazas on both national highways (managed by NHAI) and state highways (managed by RSRDC - Rajasthan State Road Development and Construction Corporation Limited).

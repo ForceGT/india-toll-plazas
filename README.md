@@ -16,7 +16,7 @@ This repository maintains a clean, curated dataset of toll plazas with:
 
 **Data Sources:**
 - **NHAI (National Highways)**: ~1191 toll plazas with comprehensive data
-- **State Highways**: 2 toll plazas (Rajasthan) with curated data
+- **State Highways**: 5 toll plazas (Rajasthan) with curated data
 
 ## Quick Start
 
@@ -162,9 +162,10 @@ When using data, always check `data_source` and `data_confidence` to understand 
 
 ### Currently Covered States
 
-**Rajasthan** (2 toll plazas)
-- Sitarampura Toll Plaza (Ring Road)
-- Jaipur-Bhilwara State Highway Toll Plaza
+**Rajasthan** (5 toll plazas — coords from OpenStreetMap / Nominatim where noted in `location`)
+- Sitarampura Toll Plaza (ring road; OSM booth polygon centroid)
+- Jaipur–Phagi segment toll (TOI rates; anchor near Phagi town per OSM)
+- Shahpura, Kekri, Malpura — RJ SH 12 toll anchors (Wikipedia-listed stations; **town centroids**, refine booth pin later)
 
 **Research (Wikipedia SH list → plazas in this dataset):** [docs/RAJASTHAN_SH_TOLL_MAP.md](docs/RAJASTHAN_SH_TOLL_MAP.md) — heuristic place-name overlap for each [RJ state highway](https://en.wikipedia.org/wiki/List_of_state_highways_in_Rajasthan) row; re-run with `node scripts/buildRajasthanShTollMap.js` after updates.
 
