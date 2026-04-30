@@ -313,6 +313,7 @@ The NHAI API blocks requests from cloud infrastructure (GitHub Actions runners) 
 ## Data Sources & Attribution
 
 - **NHAI Data**: National Highways Authority of India ([rajmargyatra.nhai.gov.in](https://rajmargyatra.nhai.gov.in))
+- **NETC Plaza Master (optional reference)**: National Electronic Toll Collection programme ([netc.org.in](https://netc.org.in/)) — PDF and text extract under [`data/sources/netc/`](data/sources/netc/) for plaza codes / geo cross-check; see that folder’s README to refresh the extract with **pipx** + `pdf2txt.py`.
 - **License**: Government Open Data License
 
 ## Future Roadmap
