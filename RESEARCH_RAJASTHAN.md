@@ -19,6 +19,8 @@ Regenerate after refreshing `data/latest.json`:
 node scripts/buildRajasthanShTollMap.js
 ```
 
+**Web search digest (per SH route number):** [docs/RAJASTHAN_SH_WEB_SEARCH_DIGEST.md](docs/RAJASTHAN_SH_WEB_SEARCH_DIGEST.md) — curated notes from batch web/tender search; rebuild with `node scripts/buildRajasthanWebSearchDigest.js`.
+
 ## Overview
 
 This document tracks the research, data collection, and curation of Rajasthan state highway toll plaza data. Rajasthan operates multiple toll plazas on both national highways (managed by NHAI) and state highways (managed by RSRDC - Rajasthan State Road Development and Construction Corporation Limited).

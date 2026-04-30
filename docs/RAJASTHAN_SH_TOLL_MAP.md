@@ -12,6 +12,8 @@ Generated: 2026-04-30T09:01:47.544Z
 
 **Note:** The Wikipedia [article overview](https://en.wikipedia.org/wiki/List_of_state_highways_in_Rajasthan) states ~170 state highways; the on-page `Routelist` templates in the live wikitext currently expand to **92** SH rows. Discrepancies are a Wikipedia content issue, not this repo.
 
+**Web search (open web + tender indexes):** Per–RJ SH notes and citations are in **[RAJASTHAN_SH_WEB_SEARCH_DIGEST.md](./RAJASTHAN_SH_WEB_SEARCH_DIGEST.md)** (batch search pass; most routes have **no** public page that pairs **SH number + full rate table**). Regenerate that digest after editing overrides in `scripts/buildRajasthanWebSearchDigest.js`: `node scripts/buildRajasthanWebSearchDigest.js`.
+
 ---
 
 ## RJ SH 1 (6 km)
