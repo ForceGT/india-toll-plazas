@@ -186,9 +186,9 @@ Data is updated **monthly** (1st of each month, 00:00 UTC) via GitHub Actions.
 
 All monthly snapshots are available in the `data/` directory:
 - `data/latest.json` - Current snapshot
-- `data/{YYYY-MM-DD}/tollplazas.json` - Versioned snapshots by date
-- `data/{YYYY-MM-DD}/sources/nhai.json` - NHAI data for that month
-- `data/{YYYY-MM-DD}/sources/state_highways.json` - State data for that month
+- `data/{MM-YYYY}/tollplazas.json` - Versioned monthly snapshots
+- `data/{MM-YYYY}/sources/nhai.json` - NHAI data for that month
+- `data/{MM-YYYY}/sources/state_highways.json` - State data for that month
 
 ### GitHub Releases
 
@@ -220,7 +220,7 @@ data/
 ├── sources/
 │   ├── nhai.json                     # Latest NHAI toll plazas
 │   └── state_highways.json           # State highway toll plazas
-└── {YYYY-MM-DD}/
+└── {MM-YYYY}/
     ├── tollplazas.json               # Combined dataset snapshot
     └── sources/
         ├── nhai.json                 # NHAI snapshot for that date

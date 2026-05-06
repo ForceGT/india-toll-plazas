@@ -17,7 +17,9 @@ jobs:
 
       - name: Get current date
         id: date
-        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "month_year=$(date +'%m-%Y')" >> $GITHUB_OUTPUT
 
       - name: Get latest data info
         id: data-info
@@ -50,7 +52,7 @@ jobs:
 
             **Download:**
             - [Latest JSON](https://raw.githubusercontent.com/${{ github.repository }}/main/data/latest.json)
-            - [Versioned Data](https://github.com/${{ github.repository }}/tree/main/data/${{ steps.date.outputs.date }})
+            - [Versioned Data](https://github.com/${{ github.repository }}/tree/main/data/${{ steps.date.outputs.month_year }})
 
             **Update Date:** ${{ steps.date.outputs.date }}
           draft: false

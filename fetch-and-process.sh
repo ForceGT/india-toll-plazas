@@ -12,8 +12,8 @@ echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}India Toll Plazas - Data Fetch & Process${NC}"
 echo -e "${GREEN}========================================${NC}"
 
-# Get current date
-CURRENT_DATE=$(date +%Y-%m-%d)
+# Get current month-year snapshot key (MM-YYYY)
+CURRENT_DATE=$(date +%m-%Y)
 DATA_DIR="./data"
 VERSIONED_DIR="$DATA_DIR/$CURRENT_DATE"
 SOURCES_DIR="$VERSIONED_DIR/sources"
