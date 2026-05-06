@@ -5,8 +5,13 @@ yarn.lock
 
 # Temporary files
 *.tmp
+*.temp*
 *.log
 logs/
+.temp*
+
+# Checkpoint files (TollGuru fetching)
+*checkpoint*.json
 
 # Environment variables
 .env
@@ -29,3 +34,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Build artifacts
+dist/
+build/

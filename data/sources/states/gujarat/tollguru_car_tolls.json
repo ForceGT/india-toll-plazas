@@ -1,0 +1,2933 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Gujarat STATE plazas",
+    "output_file": "data/sources/states/gujarat/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-04T07:02:42.228Z",
+    "extractor": "scripts/fetchStateTollGuruCarRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Gujarat",
+    "vehicle_type": "2AxlesAuto",
+    "optimized_routing": true,
+    "routing_note": "primary bearing first, then fallbacks until toll found",
+    "total_plazas": 33,
+    "successful_extractions": 0,
+    "hit_rate": 0,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 122034,
+    "average_processing_time_ms": 3698
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "536002",
+      "plaza_name": "HSTL TP01-Khadki",
+      "coordinates": [
+        "22.647996",
+        "73.519776"
+      ],
+      "concessionaire_name": "L&T HSTL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.64349939197041,
+          "lng": 73.519776
+        },
+        "to": {
+          "lat": 22.65249260802959,
+          "lng": 73.519776
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Khadki",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:00:40.816Z",
+      "processing_time_ms": 622,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.64349939197041,
+              "lng": 73.519776
+            },
+            "to": {
+              "lat": 22.65249260802959,
+              "lng": 73.519776
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Khadki",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536003",
+      "plaza_name": "HSTLTP02-GamanBariyanamuvada",
+      "coordinates": [
+        "23.012769",
+        "73.618040"
+      ],
+      "concessionaire_name": "L&T HSTL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.008272391970408,
+          "lng": 73.61804
+        },
+        "to": {
+          "lat": 23.017265608029593,
+          "lng": 73.61804
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Gaman Bariyanamuvada",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:00:43.349Z",
+      "processing_time_ms": 531,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.008272391970408,
+              "lng": 73.61804
+            },
+            "to": {
+              "lat": 23.017265608029593,
+              "lng": 73.61804
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Gaman Bariyanamuvada",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536004",
+      "plaza_name": "HSTL TP03-Galiya Danti",
+      "coordinates": [
+        "23.363961",
+        "73.515235"
+      ],
+      "concessionaire_name": "L&T HSTL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.359464391970405,
+          "lng": 73.51523499999999
+        },
+        "to": {
+          "lat": 23.368457608029594,
+          "lng": 73.51523499999999
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Galiya Danti",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:00:45.912Z",
+      "processing_time_ms": 562,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.359464391970405,
+              "lng": 73.51523499999999
+            },
+            "to": {
+              "lat": 23.368457608029594,
+              "lng": 73.51523499999999
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Galiya Danti",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536005",
+      "plaza_name": "HSTL TP04-Gajan",
+      "coordinates": [
+        "23.505110",
+        "73.303376"
+      ],
+      "concessionaire_name": "L&T HSTL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.500613391970404,
+          "lng": 73.303376
+        },
+        "to": {
+          "lat": 23.509606608029593,
+          "lng": 73.303376
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.5,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Gajan",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:00:48.313Z",
+      "processing_time_ms": 399,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.500613391970404,
+              "lng": 73.303376
+            },
+            "to": {
+              "lat": 23.509606608029593,
+              "lng": 73.303376
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.5,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Gajan",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536006",
+      "plaza_name": "Bamanbore Toll Plaza",
+      "coordinates": [
+        "22.4097",
+        "71.0155"
+      ],
+      "concessionaire_name": "PWD Rajkot",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.40520339197041,
+          "lng": 71.0155
+        },
+        "to": {
+          "lat": 22.4141966080296,
+          "lng": 71.0155
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.3,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T07:00:55.146Z",
+      "processing_time_ms": 4831,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.40520339197041,
+              "lng": 71.0155
+            },
+            "to": {
+              "lat": 22.4141966080296,
+              "lng": 71.0155
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.412879545646756,
+              "lng": 71.01206060746009
+            },
+            "to": {
+              "lat": 22.406520381591562,
+              "lng": 71.01893923512914
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.409699927238318,
+              "lng": 71.01063607573833
+            },
+            "to": {
+              "lat": 22.409699927238318,
+              "lng": 71.02036392426166
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.406520381591562,
+              "lng": 71.01206076487087
+            },
+            "to": {
+              "lat": 22.412879545646756,
+              "lng": 71.01893939253992
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536007",
+      "plaza_name": "Bagodara Toll Plaza",
+      "coordinates": [
+        "22.6307",
+        "72.1793"
+      ],
+      "concessionaire_name": "PWD Rajkot",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.626203391970403,
+          "lng": 72.1793
+        },
+        "to": {
+          "lat": 22.635196608029595,
+          "lng": 72.1793
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 3.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Bagodara",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:00:57.583Z",
+      "processing_time_ms": 435,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.626203391970403,
+              "lng": 72.1793
+            },
+            "to": {
+              "lat": 22.635196608029595,
+              "lng": 72.1793
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 3.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Bagodara",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536008",
+      "plaza_name": "AMTL-TP-01Vasna-Iyava",
+      "coordinates": [
+        "23.0073",
+        "72.3477"
+      ],
+      "concessionaire_name": "L&TAhmedabad-MaliyaTollway",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.00280339197041,
+          "lng": 72.3477
+        },
+        "to": {
+          "lat": 23.0117966080296,
+          "lng": 72.3477
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Vasna-Iyava",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:00.177Z",
+      "processing_time_ms": 595,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.00280339197041,
+              "lng": 72.3477
+            },
+            "to": {
+              "lat": 23.0117966080296,
+              "lng": 72.3477
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Vasna-Iyava",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536009",
+      "plaza_name": "AMTL-TP02-Malvan",
+      "coordinates": [
+        "23.0709",
+        "71.7850"
+      ],
+      "concessionaire_name": "L&TAhmedabad-MaliyaTollway",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.066403391970407,
+          "lng": 71.78500000000001
+        },
+        "to": {
+          "lat": 23.075396608029596,
+          "lng": 71.78500000000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 0.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Malyan",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:02.886Z",
+      "processing_time_ms": 707,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.066403391970407,
+              "lng": 71.78500000000001
+            },
+            "to": {
+              "lat": 23.075396608029596,
+              "lng": 71.78500000000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 0.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Malyan",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536010",
+      "plaza_name": "AMTL-TP03-Soldi",
+      "coordinates": [
+        "23.0009",
+        "71.3728"
+      ],
+      "concessionaire_name": "L&TAhmedabad-MaliyaTollway",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.996403391970404,
+          "lng": 71.37279999999998
+        },
+        "to": {
+          "lat": 23.005396608029596,
+          "lng": 71.37279999999998
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.4,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Soldi",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:05.317Z",
+      "processing_time_ms": 430,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.996403391970404,
+              "lng": 71.37279999999998
+            },
+            "to": {
+              "lat": 23.005396608029596,
+              "lng": 71.37279999999998
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.4,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Soldi",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536011",
+      "plaza_name": "AMTL-TP04-Aniyari",
+      "coordinates": [
+        "23.0725",
+        "70.8583"
+      ],
+      "concessionaire_name": "L&TAhmedabad-MaliyaTollway",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.06800339197041,
+          "lng": 70.8583
+        },
+        "to": {
+          "lat": 23.076996608029596,
+          "lng": 70.8583
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.4,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:12.199Z",
+      "processing_time_ms": 4881,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.06800339197041,
+              "lng": 70.8583
+            },
+            "to": {
+              "lat": 23.076996608029596,
+              "lng": 70.8583
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.075679544446803,
+              "lng": 70.8548438873121
+            },
+            "to": {
+              "lat": 23.069320380391712,
+              "lng": 70.86175594929507
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.072499924838507,
+              "lng": 70.8534124341085
+            },
+            "to": {
+              "lat": 23.072499924838507,
+              "lng": 70.86318756589148
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.069320380391712,
+              "lng": 70.85484405070493
+            },
+            "to": {
+              "lat": 23.075679544446803,
+              "lng": 70.86175611268791
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536012",
+      "plaza_name": "Vanpari-Paddhari Toll Plaza",
+      "coordinates": [
+        "22.446001",
+        "70.583505"
+      ],
+      "concessionaire_name": "L&T",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.441504391970405,
+          "lng": 70.583505
+        },
+        "to": {
+          "lat": 22.450497608029597,
+          "lng": 70.583505
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Vanpari-Paddhari",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:14.630Z",
+      "processing_time_ms": 431,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.441504391970405,
+              "lng": 70.583505
+            },
+            "to": {
+              "lat": 22.450497608029597,
+              "lng": 70.583505
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Vanpari-Paddhari",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536013",
+      "plaza_name": "Soyal Toll Plaza",
+      "coordinates": [
+        "22.550100",
+        "70.349171"
+      ],
+      "concessionaire_name": "L&T",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.545603391970413,
+          "lng": 70.34917100000001
+        },
+        "to": {
+          "lat": 22.5545966080296,
+          "lng": 70.34917100000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Soyal",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:17.061Z",
+      "processing_time_ms": 431,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.545603391970413,
+              "lng": 70.34917100000001
+            },
+            "to": {
+              "lat": 22.5545966080296,
+              "lng": 70.34917100000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Soyal",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536014",
+      "plaza_name": "JamnagarBypass-Vadinar",
+      "coordinates": [
+        "22.427134",
+        "69.913982"
+      ],
+      "concessionaire_name": "L&T",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.42713392717549,
+          "lng": 69.90911746513213
+        },
+        "to": {
+          "lat": 22.42713392717549,
+          "lng": 69.9188465348679
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.4,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Bed",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:22.370Z",
+      "processing_time_ms": 3307,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.422637391970405,
+              "lng": 69.913982
+            },
+            "to": {
+              "lat": 22.431630608029593,
+              "lng": 69.913982
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.43031354561534,
+              "lng": 69.91054217561843
+            },
+            "to": {
+              "lat": 22.423954381560147,
+              "lng": 69.9174216668151
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.42713392717549,
+              "lng": 69.90911746513213
+            },
+            "to": {
+              "lat": 22.42713392717549,
+              "lng": 69.9188465348679
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.4,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Bed",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    },
+    {
+      "netc_plaza_code": "536015",
+      "plaza_name": "Bochasan Toll Plaza",
+      "coordinates": [
+        "22.413346",
+        "72.851892"
+      ],
+      "concessionaire_name": "RKCInfrabuilt",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.41334592722518,
+          "lng": 72.84702794809122
+        },
+        "to": {
+          "lat": 22.41334592722518,
+          "lng": 72.85675605190879
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Bochasan",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:27.710Z",
+      "processing_time_ms": 3338,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.408849391970406,
+              "lng": 72.851892
+            },
+            "to": {
+              "lat": 22.417842608029595,
+              "lng": 72.851892
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.41652554564019,
+              "lng": 72.84845251718366
+            },
+            "to": {
+              "lat": 22.410166381584993,
+              "lng": 72.85533132537302
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.41334592722518,
+              "lng": 72.84702794809122
+            },
+            "to": {
+              "lat": 22.41334592722518,
+              "lng": 72.85675605190879
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Bochasan",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    },
+    {
+      "netc_plaza_code": "536017",
+      "plaza_name": "Vataman Toll Plaza",
+      "coordinates": [
+        "22.504330",
+        "72.426520"
+      ],
+      "concessionaire_name": "MAXLINK",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.507509545476143,
+          "lng": 72.42307825833215
+        },
+        "to": {
+          "lat": 22.501150381420963,
+          "lng": 72.42996158341087
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.1,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Vataman",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:31.587Z",
+      "processing_time_ms": 1877,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.49983339197041,
+              "lng": 72.42652
+            },
+            "to": {
+              "lat": 22.508826608029594,
+              "lng": 72.42652
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.507509545476143,
+              "lng": 72.42307825833215
+            },
+            "to": {
+              "lat": 22.501150381420963,
+              "lng": 72.42996158341087
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.1,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Vataman",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536018",
+      "plaza_name": "Vadodra Toll Plaza",
+      "coordinates": [
+        "22.353256",
+        "73.236924"
+      ],
+      "concessionaire_name": "GujaratRoad andInfra Co Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.353255927441612,
+          "lng": 73.23206204848782
+        },
+        "to": {
+          "lat": 22.353255927441612,
+          "lng": 73.24178595151218
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 5.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Vadodra",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:37.246Z",
+      "processing_time_ms": 3657,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.348759391970408,
+              "lng": 73.236924
+            },
+            "to": {
+              "lat": 22.35775260802959,
+              "lng": 73.236924
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 4.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.356435545748408,
+              "lng": 73.23348600265636
+            },
+            "to": {
+              "lat": 22.350076381693203,
+              "lng": 73.24036184043632
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.353255927441612,
+              "lng": 73.23206204848782
+            },
+            "to": {
+              "lat": 22.353255927441612,
+              "lng": 73.24178595151218
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 5.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Vadodra",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    },
+    {
+      "netc_plaza_code": "536019",
+      "plaza_name": "Halol Toll Plaza",
+      "coordinates": [
+        "22.489873",
+        "73.465586"
+      ],
+      "concessionaire_name": "GujaratRoad andInfra Co Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.493052545502223,
+          "lng": 73.46214461803301
+        },
+        "to": {
+          "lat": 22.48669338144704,
+          "lng": 73.46902722383946
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 4.8,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Halol",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:41.330Z",
+      "processing_time_ms": 2083,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.485376391970405,
+              "lng": 73.465586
+            },
+            "to": {
+              "lat": 22.494369608029594,
+              "lng": 73.465586
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 4.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.493052545502223,
+              "lng": 73.46214461803301
+            },
+            "to": {
+              "lat": 22.48669338144704,
+              "lng": 73.46902722383946
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 4.8,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Halol",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536020",
+      "plaza_name": "Adalaj Toll Plaza",
+      "coordinates": [
+        "23.186490",
+        "72.560200"
+      ],
+      "concessionaire_name": "GujaratRoad andInfra Co Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.1819933919704,
+          "lng": 72.5602
+        },
+        "to": {
+          "lat": 23.19098660802959,
+          "lng": 72.5602
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Adalaj",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:43.790Z",
+      "processing_time_ms": 458,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.1819933919704,
+              "lng": 72.5602
+            },
+            "to": {
+              "lat": 23.19098660802959,
+              "lng": 72.5602
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Adalaj",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536021",
+      "plaza_name": "Mehsana Toll Plaza",
+      "coordinates": [
+        "23.527490",
+        "72.388130"
+      ],
+      "concessionaire_name": "GujaratRoad andInfra Co Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.530669543616213,
+          "lng": 72.38466204540471
+        },
+        "to": {
+          "lat": 23.524310379561204,
+          "lng": 72.39159778701935
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Mehsana",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:47.815Z",
+      "processing_time_ms": 2023,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.522993391970406,
+              "lng": 72.38813
+            },
+            "to": {
+              "lat": 23.531986608029595,
+              "lng": 72.38813
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.530669543616213,
+              "lng": 72.38466204540471
+            },
+            "to": {
+              "lat": 23.524310379561204,
+              "lng": 72.39159778701935
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Mehsana",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536022",
+      "plaza_name": "Alva Toll Plaza",
+      "coordinates": [
+        "23.273037",
+        "73.204453"
+      ],
+      "concessionaire_name": "AshirwadSmartInfralink",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.269857380026362,
+          "lng": 73.20099187009548
+        },
+        "to": {
+          "lat": 23.276216544081414,
+          "lng": 73.20791429513322
+        }
+      },
+      "route_bearing": 45,
+      "route_description": "Northeast-Southwest",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Alva",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:54.548Z",
+      "processing_time_ms": 4732,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.268540391970404,
+              "lng": 73.204453
+            },
+            "to": {
+              "lat": 23.277533608029593,
+              "lng": 73.204453
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.276216544081414,
+              "lng": 73.20099170486678
+            },
+            "to": {
+              "lat": 23.269857380026362,
+              "lng": 73.20791412990452
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.27303692410778,
+              "lng": 73.1995581063223
+            },
+            "to": {
+              "lat": 23.27303692410778,
+              "lng": 73.2093478936777
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.269857380026362,
+              "lng": 73.20099187009548
+            },
+            "to": {
+              "lat": 23.276216544081414,
+              "lng": 73.20791429513322
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Alva",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 1
+    },
+    {
+      "netc_plaza_code": "536023",
+      "plaza_name": "Bakrol Toll Plaza",
+      "coordinates": [
+        "22.935230",
+        "72.519760"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.938409544696274,
+          "lng": 72.51630740146477
+        },
+        "to": {
+          "lat": 22.932050380641165,
+          "lng": 72.52321243639206
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.8,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Bakrol",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:01:58.527Z",
+      "processing_time_ms": 1979,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.930733391970403,
+              "lng": 72.51976
+            },
+            "to": {
+              "lat": 22.93972660802959,
+              "lng": 72.51976
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.938409544696274,
+              "lng": 72.51630740146477
+            },
+            "to": {
+              "lat": 22.932050380641165,
+              "lng": 72.52321243639206
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.8,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Bakrol",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536024",
+      "plaza_name": "Kansari Toll Plaza",
+      "coordinates": [
+        "24.314930",
+        "72.146200"
+      ],
+      "concessionaire_name": "Ranjit TollRoad Pvt Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 24.310433391970406,
+          "lng": 72.1462
+        },
+        "to": {
+          "lat": 24.31942660802959,
+          "lng": 72.1462
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.8,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Kansari",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:01.023Z",
+      "processing_time_ms": 494,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 24.310433391970406,
+              "lng": 72.1462
+            },
+            "to": {
+              "lat": 24.31942660802959,
+              "lng": 72.1462
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.8,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Kansari",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536025",
+      "plaza_name": "Kuchhvada Toll Plaza",
+      "coordinates": [
+        "24.458300",
+        "72.269800"
+      ],
+      "concessionaire_name": "Ranjit TollRoad Pvt Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 24.45380339197041,
+          "lng": 72.2698
+        },
+        "to": {
+          "lat": 24.4627966080296,
+          "lng": 72.2698
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Kunchawada",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:03.437Z",
+      "processing_time_ms": 414,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 24.45380339197041,
+              "lng": 72.2698
+            },
+            "to": {
+              "lat": 24.4627966080296,
+              "lng": 72.2698
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Kunchawada",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536026",
+      "plaza_name": "Sanathal Toll Plaza",
+      "coordinates": [
+        "22.974110",
+        "72.473050"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.96961339197041,
+          "lng": 72.47304999999999
+        },
+        "to": {
+          "lat": 22.978606608029597,
+          "lng": 72.47304999999999
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Sanathal",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:05.924Z",
+      "processing_time_ms": 487,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.96961339197041,
+              "lng": 72.47304999999999
+            },
+            "to": {
+              "lat": 22.978606608029597,
+              "lng": 72.47304999999999
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Sanathal",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536027",
+      "plaza_name": "Vaishnodevi Toll Plaza",
+      "coordinates": [
+        "23.128240",
+        "72.517730"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.12823992463562,
+          "lng": 72.51284040553516
+        },
+        "to": {
+          "lat": 23.12823992463562,
+          "lng": 72.52261959446484
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 3.8,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Ognaj",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:11.566Z",
+      "processing_time_ms": 3641,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.123743391970407,
+              "lng": 72.51773
+            },
+            "to": {
+              "lat": 23.132736608029596,
+              "lng": 72.51773
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.13141954434535,
+              "lng": 72.51427245263956
+            },
+            "to": {
+              "lat": 23.12506038029027,
+              "lng": 72.52118738345854
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.12823992463562,
+              "lng": 72.51284040553516
+            },
+            "to": {
+              "lat": 23.12823992463562,
+              "lng": 72.52261959446484
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 3.8,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Ognaj",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    },
+    {
+      "netc_plaza_code": "536032",
+      "plaza_name": "Ramol Toll Plaza",
+      "coordinates": [
+        "22.984070",
+        "72.663800"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 22.979573391970405,
+          "lng": 72.6638
+        },
+        "to": {
+          "lat": 22.988566608029593,
+          "lng": 72.6638
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Ramol",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:14.045Z",
+      "processing_time_ms": 477,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.979573391970405,
+              "lng": 72.6638
+            },
+            "to": {
+              "lat": 22.988566608029593,
+              "lng": 72.6638
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Ramol",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536033",
+      "plaza_name": "Ranasan Toll Plaza",
+      "coordinates": [
+        "23.096350",
+        "72.686190"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.091853391970417,
+          "lng": 72.68619
+        },
+        "to": {
+          "lat": 23.1008466080296,
+          "lng": 72.68619
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Chiloda",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:16.507Z",
+      "processing_time_ms": 461,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.091853391970417,
+              "lng": 72.68619
+            },
+            "to": {
+              "lat": 23.1008466080296,
+              "lng": 72.68619
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Chiloda",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536034",
+      "plaza_name": "Bhat Toll Plaza",
+      "coordinates": [
+        "23.115640",
+        "72.642100"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.115639924681492,
+          "lng": 72.63721086464527
+        },
+        "to": {
+          "lat": 23.115639924681492,
+          "lng": 72.64698913535476
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 2.9,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Sughad",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:22.044Z",
+      "processing_time_ms": 3537,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.111143391970405,
+              "lng": 72.64210000000001
+            },
+            "to": {
+              "lat": 23.12013660802959,
+              "lng": 72.64210000000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 4.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.118819544368286,
+              "lng": 72.63864277733703
+            },
+            "to": {
+              "lat": 23.112460380313205,
+              "lng": 72.64555705887625
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 5.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.115639924681492,
+              "lng": 72.63721086464527
+            },
+            "to": {
+              "lat": 23.115639924681492,
+              "lng": 72.64698913535476
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 2.9,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Sughad",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    },
+    {
+      "netc_plaza_code": "536035",
+      "plaza_name": "Tragad Toll Plaza",
+      "coordinates": [
+        "23.128540",
+        "72.592570"
+      ],
+      "concessionaire_name": "AhmedabadRing RoadInfra Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.12404339197041,
+          "lng": 72.59257
+        },
+        "to": {
+          "lat": 23.13303660802959,
+          "lng": 72.59257
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.8,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:29.018Z",
+      "processing_time_ms": 4973,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.12404339197041,
+              "lng": 72.59257
+            },
+            "to": {
+              "lat": 23.13303660802959,
+              "lng": 72.59257
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.131719544344804,
+              "lng": 72.5891124449059
+            },
+            "to": {
+              "lat": 23.125360380289727,
+              "lng": 72.59602739118948
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.128539924634524,
+              "lng": 72.58768039460003
+            },
+            "to": {
+              "lat": 23.128539924634524,
+              "lng": 72.59745960539998
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.125360380289727,
+              "lng": 72.58911260881052
+            },
+            "to": {
+              "lat": 23.131719544344804,
+              "lng": 72.59602755509411
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536131",
+      "plaza_name": "Angiya Toll Plaza",
+      "coordinates": [
+        "23.32546",
+        "69.31038"
+      ],
+      "concessionaire_name": "Maxlink",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.320963391970405,
+          "lng": 69.31038000000001
+        },
+        "to": {
+          "lat": 23.329956608029594,
+          "lng": 69.31038000000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Angiya",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:31.450Z",
+      "processing_time_ms": 431,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.320963391970405,
+              "lng": 69.31038000000001
+            },
+            "to": {
+              "lat": 23.329956608029594,
+              "lng": 69.31038000000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Angiya",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536132",
+      "plaza_name": "Deshalpar Toll Plaza",
+      "coordinates": [
+        "23.19571",
+        "69.47114"
+      ],
+      "concessionaire_name": "Maxlink",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.19888954422243,
+          "lng": 69.46768071007638
+        },
+        "to": {
+          "lat": 23.192530380167366,
+          "lng": 69.4745991254043
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Desalpar",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:35.639Z",
+      "processing_time_ms": 2187,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.1912133919704,
+              "lng": 69.47114
+            },
+            "to": {
+              "lat": 23.20020660802959,
+              "lng": 69.47114
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.19888954422243,
+              "lng": 69.46768071007638
+            },
+            "to": {
+              "lat": 23.192530380167366,
+              "lng": 69.4745991254043
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Desalpar",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536171",
+      "plaza_name": "Kasherol Toll Plaza",
+      "coordinates": [
+        "21.715258",
+        "72.781061"
+      ],
+      "concessionaire_name": "M/SInderdeep",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 21.718437546891792,
+          "lng": 72.77763846427766
+        },
+        "to": {
+          "lat": 21.71207838283648,
+          "lng": 72.7844833844432
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Dahej",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:39.779Z",
+      "processing_time_ms": 2138,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.710761391970408,
+              "lng": 72.781061
+            },
+            "to": {
+              "lat": 21.719754608029596,
+              "lng": 72.781061
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.718437546891792,
+              "lng": 72.77763846427766
+            },
+            "to": {
+              "lat": 21.71207838283648,
+              "lng": 72.7844833844432
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Dahej",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536518",
+      "plaza_name": "HimmatnagarBypass",
+      "coordinates": [
+        "23.592933",
+        "72.944440"
+      ],
+      "concessionaire_name": "GSRDC",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 23.588436391970408,
+          "lng": 72.94444
+        },
+        "to": {
+          "lat": 23.597429608029596,
+          "lng": 72.94444
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Himmatnagar",
+          "cost": 0,
+          "currency": "INR",
+          "tagCost": 0,
+          "cashCost": 0,
+          "tollType": "barrier"
+        }
+      ],
+      "success": false,
+      "extracted_at": "2026-05-04T07:02:42.228Z",
+      "processing_time_ms": 447,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 23.588436391970408,
+              "lng": 72.94444
+            },
+            "to": {
+              "lat": 23.597429608029596,
+              "lng": 72.94444
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 1,
+          "distance_km": 1.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Himmatnagar",
+              "cost": 0,
+              "currency": "INR",
+              "tagCost": 0,
+              "cashCost": 0,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    }
+  ]
+}

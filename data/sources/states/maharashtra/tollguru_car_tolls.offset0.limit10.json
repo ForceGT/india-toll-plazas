@@ -1,0 +1,1039 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Maharashtra STATE plazas",
+    "output_file": "data/sources/states/maharashtra/tollguru_car_tolls.offset0.limit10.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-04T09:43:32.320Z",
+    "extractor": "scripts/fetchHaryanaTollGuruRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Maharashtra",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 10,
+    "total_plazas_in_state_with_coords": 96,
+    "batch_offset": 0,
+    "batch_limit": 10,
+    "successful_extractions": 0,
+    "hit_rate": 0,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 69093,
+    "average_processing_time_ms": 6909
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "536140",
+      "plaza_name": "Achhad BorderCheckpost",
+      "coordinates": [
+        "20.07538",
+        "72.913338"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 20.0708833919704,
+          "lng": 72.91333800000001
+        },
+        "to": {
+          "lat": 20.07987660802959,
+          "lng": 72.91333800000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:42:28.445Z",
+      "processing_time_ms": 5218,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 20.0708833919704,
+              "lng": 72.91333800000001
+            },
+            "to": {
+              "lat": 20.07987660802959,
+              "lng": 72.91333800000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 20.078559549785304,
+              "lng": 72.90995266685435
+            },
+            "to": {
+              "lat": 20.07220038572975,
+              "lng": 72.91672319583289
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 20.075379935515056,
+              "lng": 72.90855051305459
+            },
+            "to": {
+              "lat": 20.075379935515056,
+              "lng": 72.91812548694541
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 20.07220038572975,
+              "lng": 72.9099528041671
+            },
+            "to": {
+              "lat": 20.078559549785304,
+              "lng": 72.91672333314565
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536141",
+      "plaza_name": "HadakhedBorderCheckpost",
+      "coordinates": [
+        "21.2538",
+        "74.5846"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 21.249303391970404,
+          "lng": 74.58460000000001
+        },
+        "to": {
+          "lat": 21.258296608029593,
+          "lng": 74.58460000000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.6,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:42:35.087Z",
+      "processing_time_ms": 4641,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.249303391970404,
+              "lng": 74.58460000000001
+            },
+            "to": {
+              "lat": 21.258296608029593,
+              "lng": 74.58460000000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.25697954771246,
+              "lng": 74.58118829846146
+            },
+            "to": {
+              "lat": 21.25062038365708,
+              "lng": 74.58801155426033
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.253799931369542,
+              "lng": 74.5797752295628
+            },
+            "to": {
+              "lat": 21.253799931369542,
+              "lng": 74.5894247704372
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.25062038365708,
+              "lng": 74.58118844573967
+            },
+            "to": {
+              "lat": 21.25697954771246,
+              "lng": 74.58801170153855
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536142",
+      "plaza_name": "NavapurBorderCheckpost",
+      "coordinates": [
+        "21.16132",
+        "73.741458"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 21.15682339197041,
+          "lng": 73.741458
+        },
+        "to": {
+          "lat": 21.165816608029594,
+          "lng": 73.741458
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.5,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:42:41.924Z",
+      "processing_time_ms": 4836,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.15682339197041,
+              "lng": 73.741458
+            },
+            "to": {
+              "lat": 21.165816608029594,
+              "lng": 73.741458
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.16449954787631,
+              "lng": 73.73804843491213
+            },
+            "to": {
+              "lat": 21.158140383820914,
+              "lng": 73.74486741860461
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.16131993169723,
+              "lng": 73.73663625039813
+            },
+            "to": {
+              "lat": 21.16131993169723,
+              "lng": 73.74627974960185
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.158140383820914,
+              "lng": 73.73804858139538
+            },
+            "to": {
+              "lat": 21.16449954787631,
+              "lng": 73.74486756508787
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536143",
+      "plaza_name": "Kagal CheckPost",
+      "coordinates": [
+        "16.334688",
+        "74.19526"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.330191391970406,
+          "lng": 74.19526000000002
+        },
+        "to": {
+          "lat": 16.339184608029594,
+          "lng": 74.19526000000002
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0.8,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:42:48.637Z",
+      "processing_time_ms": 4712,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.330191391970406,
+              "lng": 74.19526000000002
+            },
+            "to": {
+              "lat": 16.339184608029594,
+              "lng": 74.19526000000002
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.337867556171478,
+              "lng": 74.19194662241252
+            },
+            "to": {
+              "lat": 16.331508392115452,
+              "lng": 74.198573269811
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.33468794828693,
+              "lng": 74.19057425269447
+            },
+            "to": {
+              "lat": 16.33468794828693,
+              "lng": 74.19994574730555
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.331508392115452,
+              "lng": 74.19194673018903
+            },
+            "to": {
+              "lat": 16.337867556171478,
+              "lng": 74.19857337758751
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536144",
+      "plaza_name": "Deori BorderCheckpost",
+      "coordinates": [
+        "21.43425",
+        "80.263055"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 21.429753391970408,
+          "lng": 80.263055
+        },
+        "to": {
+          "lat": 21.43874660802959,
+          "lng": 80.263055
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.7,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:42:55.387Z",
+      "processing_time_ms": 4748,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.429753391970408,
+              "lng": 80.263055
+            },
+            "to": {
+              "lat": 21.43874660802959,
+              "lng": 80.263055
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.437429547392163,
+              "lng": 80.25963909638084
+            },
+            "to": {
+              "lat": 21.43107038333681,
+              "lng": 80.26647075478323
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.434249930728967,
+              "lng": 80.25822428802492
+            },
+            "to": {
+              "lat": 21.434249930728967,
+              "lng": 80.26788571197505
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 5.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.43107038333681,
+              "lng": 80.25963924521675
+            },
+            "to": {
+              "lat": 21.437429547392163,
+              "lng": 80.26647090361915
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 5.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536145",
+      "plaza_name": "Omerga BorderCheckpost",
+      "coordinates": [
+        "17.495067",
+        "76.462114"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.4905703919704,
+          "lng": 76.462114
+        },
+        "to": {
+          "lat": 17.49956360802959,
+          "lng": 76.462114
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 3.7,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:43:02.077Z",
+      "processing_time_ms": 4689,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.4905703919704,
+              "lng": 76.462114
+            },
+            "to": {
+              "lat": 17.49956360802959,
+              "lng": 76.462114
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.498246554219325,
+              "lng": 76.45878014780475
+            },
+            "to": {
+              "lat": 17.491887390163438,
+              "lng": 76.46544773556585
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.495066944382767,
+              "lng": 76.45739930348672
+            },
+            "to": {
+              "lat": 17.495066944382767,
+              "lng": 76.46682869651328
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.491887390163438,
+              "lng": 76.45878026443415
+            },
+            "to": {
+              "lat": 17.498246554219325,
+              "lng": 76.46544785219527
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536146",
+      "plaza_name": "MandrupBorderCheckpost",
+      "coordinates": [
+        "17.265351",
+        "75.51263"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.26085439197041,
+          "lng": 75.51263
+        },
+        "to": {
+          "lat": 17.269847608029593,
+          "lng": 75.51263
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.6,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:43:09.118Z",
+      "processing_time_ms": 5040,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.26085439197041,
+              "lng": 75.51263
+            },
+            "to": {
+              "lat": 17.269847608029593,
+              "lng": 75.51263
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.268530554607718,
+              "lng": 75.5093003297111
+            },
+            "to": {
+              "lat": 17.262171390551796,
+              "lng": 75.51595955543257
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.265350945159515,
+              "lng": 75.5079212163416
+            },
+            "to": {
+              "lat": 17.265350945159515,
+              "lng": 75.5173387836584
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.262171390551796,
+              "lng": 75.50930044456744
+            },
+            "to": {
+              "lat": 17.268530554607718,
+              "lng": 75.51595967028891
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536147",
+      "plaza_name": "PimpalkuttiBorderCheckpost",
+      "coordinates": [
+        "19.504530",
+        "78.342330"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 19.500033391970405,
+          "lng": 78.34233
+        },
+        "to": {
+          "lat": 19.509026608029593,
+          "lng": 78.34233
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.6,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:43:15.884Z",
+      "processing_time_ms": 4764,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.500033391970405,
+              "lng": 78.34233
+            },
+            "to": {
+              "lat": 19.509026608029593,
+              "lng": 78.34233
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.507709550778163,
+              "lng": 78.33895678377829
+            },
+            "to": {
+              "lat": 19.501350386722525,
+              "lng": 78.34570308361339
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.504529937500685,
+              "lng": 78.33755964564604
+            },
+            "to": {
+              "lat": 19.504529937500685,
+              "lng": 78.34710035435397
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.501350386722525,
+              "lng": 78.33895691638662
+            },
+            "to": {
+              "lat": 19.507709550778163,
+              "lng": 78.34570321622172
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536148",
+      "plaza_name": "Ramtek BorderCheckpost",
+      "coordinates": [
+        "21.255385",
+        "79.171631"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 21.25088839197041,
+          "lng": 79.171631
+        },
+        "to": {
+          "lat": 21.259881608029602,
+          "lng": 79.171631
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.2,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:43:28.455Z",
+      "processing_time_ms": 10570,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.25088839197041,
+              "lng": 79.171631
+            },
+            "to": {
+              "lat": 21.259881608029602,
+              "lng": 79.171631
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "error": "HTTP 429: Too Many Requests"
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "error": "HTTP 429: Too Many Requests"
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536150",
+      "plaza_name": "MarawadeCheck Post",
+      "coordinates": [
+        "17.241330",
+        "75.342526"
+      ],
+      "concessionaire_name": "MBCPNL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.23683339197041,
+          "lng": 75.342526
+        },
+        "to": {
+          "lat": 17.245826608029596,
+          "lng": 75.342526
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-04T09:43:32.320Z",
+      "processing_time_ms": 1864,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    }
+  ]
+}

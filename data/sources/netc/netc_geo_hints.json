@@ -1,0 +1,6442 @@
+{
+  "generated_at": "2026-04-30T13:43:54.869Z",
+  "status": "skipped_no_api_key",
+  "note": "Hints are not vetted rates. Replace tollguru_hint/raw_response after calling your TollGuru contract. See docs/NETC_RATES_RESEARCH.md.",
+  "plazas": [
+    {
+      "netc_plaza_code": "312036",
+      "plaza_name": "Kundali",
+      "state_name": "Haryana",
+      "latitude": "28.911104",
+      "longitude": "77.025054",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312037",
+      "plaza_name": "Kharkhoda",
+      "state_name": "Haryana",
+      "latitude": "28.858488",
+      "longitude": "76.946385",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312038",
+      "plaza_name": "Asoda",
+      "state_name": "Haryana",
+      "latitude": "28.725089",
+      "longitude": "76.846528",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312039",
+      "plaza_name": "Badli",
+      "state_name": "Haryana",
+      "latitude": "28.575254",
+      "longitude": "76.820849",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312040",
+      "plaza_name": "Farukhnagar",
+      "state_name": "Haryana",
+      "latitude": "28.455781",
+      "longitude": "76.856801",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312041",
+      "plaza_name": "PATODI",
+      "state_name": "Haryana",
+      "latitude": "28.391538",
+      "longitude": "76.86769",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312042",
+      "plaza_name": "MANESHAR-7A",
+      "state_name": "Haryana",
+      "latitude": "28.326367",
+      "longitude": "76.890515",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312043",
+      "plaza_name": "MANESHAR-7B",
+      "state_name": "Haryana",
+      "latitude": "28.310995",
+      "longitude": "76.895142",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312044",
+      "plaza_name": "TAURU",
+      "state_name": "Haryana",
+      "latitude": "28.219695",
+      "longitude": "76.997181",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312045",
+      "plaza_name": "NUH",
+      "state_name": "Haryana",
+      "latitude": "28.179226",
+      "longitude": "77.074981",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312046",
+      "plaza_name": "PALWAL",
+      "state_name": "Haryana",
+      "latitude": "28.102706",
+      "longitude": "77.305272",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "312074",
+      "plaza_name": "Khalilpur SH Toll Plaza",
+      "state_name": "Haryana",
+      "latitude": "28.157553",
+      "longitude": "77.152888",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320013",
+      "plaza_name": "ALEP MainPlaza 21",
+      "state_name": "UttarPradesh",
+      "latitude": "27.053626",
+      "longitude": "78.277169",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320014",
+      "plaza_name": "ALEP RampPlaza 27",
+      "state_name": "UttarPradesh",
+      "latitude": "27.038767",
+      "longitude": "78.335211",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320015",
+      "plaza_name": "ALEP RampPlaza 54",
+      "state_name": "UttarPradesh",
+      "latitude": "26.998814",
+      "longitude": "78.58165",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320016",
+      "plaza_name": "ALEP RampPlaza 77",
+      "state_name": "UttarPradesh",
+      "latitude": "26.966501",
+      "longitude": "78.812958",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320017",
+      "plaza_name": "ALEP RampPlaza 92",
+      "state_name": "UttarPradesh",
+      "latitude": "27.015798",
+      "longitude": "78.946526",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320018",
+      "plaza_name": "ALEP RampPlaza 108",
+      "state_name": "UttarPradesh",
+      "latitude": "26.949591",
+      "longitude": "79.076293",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320019",
+      "plaza_name": "ALEP RampPlaza 116",
+      "state_name": "UttarPradesh",
+      "latitude": "26.913797",
+      "longitude": "79.158391",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320020",
+      "plaza_name": "ALEP RampPlaza 154",
+      "state_name": "UttarPradesh",
+      "latitude": "26.913619",
+      "longitude": "79.160199",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320021",
+      "plaza_name": "ALEP RampPlaza 171",
+      "state_name": "UttarPradesh",
+      "latitude": "27.070904",
+      "longitude": "79.653549",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320022",
+      "plaza_name": "ALEP RampPlaza 193",
+      "state_name": "UttarPradesh",
+      "latitude": "26.98693",
+      "longitude": "79.814441",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320023",
+      "plaza_name": "ALEP RampPlaza220",
+      "state_name": "UttarPradesh",
+      "latitude": "26.912105",
+      "longitude": "80.027101",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320024",
+      "plaza_name": "ALEP RampPlaza 238",
+      "state_name": "UttarPradesh",
+      "latitude": "26.926112",
+      "longitude": "80.200743",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "320025",
+      "plaza_name": "ALEP MainPlaza 290",
+      "state_name": "UttarPradesh",
+      "latitude": "26.845635",
+      "longitude": "80.710711",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "345084",
+      "plaza_name": "Dhamnod Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.216325",
+      "longitude": "75.513255",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "345085",
+      "plaza_name": "Ratanpur PataPlaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.246727",
+      "longitude": "76.001647",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "345086",
+      "plaza_name": "Bhopal Vidisha Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.371140",
+      "longitude": "77.502870",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "345087",
+      "plaza_name": "Chanatoriya(Sagar) Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.887470",
+      "longitude": "78.870000",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "345088",
+      "plaza_name": "Bansa (Damoh)Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.805957",
+      "longitude": "79.370837",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "345089",
+      "plaza_name": "Ghatabillod Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.644110",
+      "longitude": "75.568497",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "360042",
+      "plaza_name": "Mathur Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "13.176269",
+      "longitude": "80.244793",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "392022",
+      "plaza_name": "Adityapur TollBridge",
+      "state_name": "Jharkhand",
+      "latitude": "22.799843",
+      "longitude": "86.144471",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "517000",
+      "plaza_name": "AloogroundManali",
+      "state_name": "HimachalPradesh",
+      "latitude": "32.199801",
+      "longitude": "77.188008",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "517001",
+      "plaza_name": "SumaropaLocation",
+      "state_name": "HimachalPradesh",
+      "latitude": "32.006100",
+      "longitude": "77.277700",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "517002",
+      "plaza_name": "Jagatsukh",
+      "state_name": "HimachalPradesh",
+      "latitude": "32.196130",
+      "longitude": "77.203707",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "517003",
+      "plaza_name": "Atal Tunnel Toll",
+      "state_name": "HimachalPradesh",
+      "latitude": "32.44013",
+      "longitude": "77.16510",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520001",
+      "plaza_name": "ALEP RampPlaza 269",
+      "state_name": "UttarPradesh",
+      "latitude": "26.904720",
+      "longitude": "80.48483",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520002",
+      "plaza_name": "ALEP RampPlaza 284",
+      "state_name": "UttarPradesh",
+      "latitude": "26.850602",
+      "longitude": "80.668697",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520003",
+      "plaza_name": "ALEP RampPlaza 204",
+      "state_name": "UttarPradesh",
+      "latitude": "26.929426",
+      "longitude": "79.88097",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520004",
+      "plaza_name": "ALEP RampPlaza 101",
+      "state_name": "UttarPradesh",
+      "latitude": "27.003301",
+      "longitude": "78.976907",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520005",
+      "plaza_name": "Jewar Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "28.114650",
+      "longitude": "77.575418",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520006",
+      "plaza_name": "Agra Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "27.303578",
+      "longitude": "78.003327",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520007",
+      "plaza_name": "Mathura Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "27.660315",
+      "longitude": "77.733317",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520008",
+      "plaza_name": "Rehan Kalan Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "27.1888",
+      "longitude": "78.00405",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520009",
+      "plaza_name": "Bajna Ramp Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "27.883269",
+      "longitude": "77.666004",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520010",
+      "plaza_name": "Mahurakalan",
+      "state_name": "UttarPradesh",
+      "latitude": "26.719930",
+      "longitude": "81.130183",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520011",
+      "plaza_name": "Gharkuiya",
+      "state_name": "UttarPradesh",
+      "latitude": "26.613176",
+      "longitude": "81.395713",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520012",
+      "plaza_name": "Unchgaon",
+      "state_name": "UttarPradesh",
+      "latitude": "26.572702",
+      "longitude": "81.558692",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520013",
+      "plaza_name": "Haliyapur",
+      "state_name": "UttarPradesh",
+      "latitude": "26.512581",
+      "longitude": "81.766916",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520014",
+      "plaza_name": "Kurebhar",
+      "state_name": "UttarPradesh",
+      "latitude": "26.389542",
+      "longitude": "82.126251",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520015",
+      "plaza_name": "Semri",
+      "state_name": "UttarPradesh",
+      "latitude": "26.356825",
+      "longitude": "82.260675",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520016",
+      "plaza_name": "Dostpur",
+      "state_name": "UttarPradesh",
+      "latitude": "26.282603",
+      "longitude": "82.474925",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520017",
+      "plaza_name": "Bhelara",
+      "state_name": "UttarPradesh",
+      "latitude": "26.226938",
+      "longitude": "82.670703",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520018",
+      "plaza_name": "Fulvariya",
+      "state_name": "UttarPradesh",
+      "latitude": "26.159909",
+      "longitude": "82.862836",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520019",
+      "plaza_name": "Sehda",
+      "state_name": "UttarPradesh",
+      "latitude": "26.114701",
+      "longitude": "83.134473",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520020",
+      "plaza_name": "Sathiyon",
+      "state_name": "UttarPradesh",
+      "latitude": "26.043438",
+      "longitude": "83.277038",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520021",
+      "plaza_name": "Raipur-Baghpur",
+      "state_name": "UttarPradesh",
+      "latitude": "25.834083",
+      "longitude": "83.564128",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520022",
+      "plaza_name": "Belsari",
+      "state_name": "UttarPradesh",
+      "latitude": "25.637696",
+      "longitude": "83.839836",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520023",
+      "plaza_name": "RTP36 Yamuna Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "28.141426",
+      "longitude": "77.574548",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520024",
+      "plaza_name": "Rohana Khurd Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "29.594939",
+      "longitude": "77.687261",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520025",
+      "plaza_name": "Kolki Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "29.938956",
+      "longitude": "77.654644",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520026",
+      "plaza_name": "Fatehpur Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "25.165278",
+      "longitude": "83.035833",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520027",
+      "plaza_name": "Ahraurha TFCB-1A",
+      "state_name": "UttarPradesh",
+      "latitude": "24.995278",
+      "longitude": "83.019444",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520028",
+      "plaza_name": "Lodhi Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "24.628056",
+      "longitude": "83.055833",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520029",
+      "plaza_name": "Maloghat Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "24.332500",
+      "longitude": "83.067222",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "520030",
+      "plaza_name": "ALEP RampPlaza 133",
+      "state_name": "UttarPradesh",
+      "latitude": "26.909319",
+      "longitude": "79.331535",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536002",
+      "plaza_name": "HSTL TP01-Khadki",
+      "state_name": "Gujarat",
+      "latitude": "22.647996",
+      "longitude": "73.519776",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536003",
+      "plaza_name": "HSTLTP02-GamanBariyanamuvada",
+      "state_name": "Gujarat",
+      "latitude": "23.012769",
+      "longitude": "73.618040",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536004",
+      "plaza_name": "HSTL TP03-Galiya Danti",
+      "state_name": "Gujarat",
+      "latitude": "23.363961",
+      "longitude": "73.515235",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536005",
+      "plaza_name": "HSTL TP04-Gajan",
+      "state_name": "Gujarat",
+      "latitude": "23.505110",
+      "longitude": "73.303376",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536006",
+      "plaza_name": "Bamanbore Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.4097",
+      "longitude": "71.0155",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536007",
+      "plaza_name": "Bagodara Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.6307",
+      "longitude": "72.1793",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536008",
+      "plaza_name": "AMTL-TP-01Vasna-Iyava",
+      "state_name": "Gujarat",
+      "latitude": "23.0073",
+      "longitude": "72.3477",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536009",
+      "plaza_name": "AMTL-TP02-Malvan",
+      "state_name": "Gujarat",
+      "latitude": "23.0709",
+      "longitude": "71.7850",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536010",
+      "plaza_name": "AMTL-TP03-Soldi",
+      "state_name": "Gujarat",
+      "latitude": "23.0009",
+      "longitude": "71.3728",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536011",
+      "plaza_name": "AMTL-TP04-Aniyari",
+      "state_name": "Gujarat",
+      "latitude": "23.0725",
+      "longitude": "70.8583",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536012",
+      "plaza_name": "Vanpari-Paddhari Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.446001",
+      "longitude": "70.583505",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536013",
+      "plaza_name": "Soyal Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.550100",
+      "longitude": "70.349171",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536014",
+      "plaza_name": "JamnagarBypass-Vadinar",
+      "state_name": "Gujarat",
+      "latitude": "22.427134",
+      "longitude": "69.913982",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536015",
+      "plaza_name": "Bochasan Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.413346",
+      "longitude": "72.851892",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536017",
+      "plaza_name": "Vataman Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.504330",
+      "longitude": "72.426520",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536018",
+      "plaza_name": "Vadodra Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.353256",
+      "longitude": "73.236924",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536019",
+      "plaza_name": "Halol Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.489873",
+      "longitude": "73.465586",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536020",
+      "plaza_name": "Adalaj Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.186490",
+      "longitude": "72.560200",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536021",
+      "plaza_name": "Mehsana Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.527490",
+      "longitude": "72.388130",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536022",
+      "plaza_name": "Alva Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.273037",
+      "longitude": "73.204453",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536023",
+      "plaza_name": "Bakrol Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.935230",
+      "longitude": "72.519760",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536024",
+      "plaza_name": "Kansari Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "24.314930",
+      "longitude": "72.146200",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536025",
+      "plaza_name": "Kuchhvada Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "24.458300",
+      "longitude": "72.269800",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536026",
+      "plaza_name": "Sanathal Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.974110",
+      "longitude": "72.473050",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536027",
+      "plaza_name": "Vaishnodevi Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.128240",
+      "longitude": "72.517730",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536032",
+      "plaza_name": "Ramol Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "22.984070",
+      "longitude": "72.663800",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536033",
+      "plaza_name": "Ranasan Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.096350",
+      "longitude": "72.686190",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536034",
+      "plaza_name": "Bhat Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.115640",
+      "longitude": "72.642100",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536035",
+      "plaza_name": "Tragad Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.128540",
+      "longitude": "72.592570",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536044",
+      "plaza_name": "Sarasamba",
+      "state_name": "Karnataka",
+      "latitude": "17.580934",
+      "longitude": "76.421837",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536045",
+      "plaza_name": "Pattana",
+      "state_name": "Karnataka",
+      "latitude": "17.397016",
+      "longitude": "76.706187",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536046",
+      "plaza_name": "Sannur",
+      "state_name": "Karnataka",
+      "latitude": "17.288310",
+      "longitude": "77.001579",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536047",
+      "plaza_name": "Jawahar Nagar",
+      "state_name": "Karnataka",
+      "latitude": "17.128767",
+      "longitude": "77.349378",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536053",
+      "plaza_name": "Sirsod Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "25.490262",
+      "longitude": "77.494286",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536054",
+      "plaza_name": "Karahal Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "25.503944",
+      "longitude": "77.073194",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536055",
+      "plaza_name": "NeoPolis",
+      "state_name": "Telangana",
+      "latitude": "17.410763",
+      "longitude": "78.315336",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536056",
+      "plaza_name": "Mallampet",
+      "state_name": "Telangana",
+      "latitude": "17.5609388888889",
+      "longitude": "78.3682",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536062",
+      "plaza_name": "Moka Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.194774",
+      "longitude": "76.999231",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536064",
+      "plaza_name": "RATWAI",
+      "state_name": "MadhyaPradesh",
+      "latitude": "26.242449",
+      "longitude": "78.313129",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536065",
+      "plaza_name": "CHITTORA",
+      "state_name": "MadhyaPradesh",
+      "latitude": "26.331776",
+      "longitude": "78.489637",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536092",
+      "plaza_name": "RTP11",
+      "state_name": "UttarPradesh",
+      "latitude": "28.358774",
+      "longitude": "77.540415",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536107",
+      "plaza_name": "Kallapura Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.0805",
+      "longitude": "75.5345",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536108",
+      "plaza_name": "Kutrahalli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.2849",
+      "longitude": "75.3058",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536125",
+      "plaza_name": "HEDIYALA Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.547139",
+      "longitude": "75.547111",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536126",
+      "plaza_name": "HAMSABHAVI Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.561583",
+      "longitude": "75.346972",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536127",
+      "plaza_name": "DANNUR Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "16.154250",
+      "longitude": "76.085778",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536128",
+      "plaza_name": "DEVARAHULABAGAL Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "16.417556",
+      "longitude": "76.250806",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536129",
+      "plaza_name": "Kaladera Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.236583",
+      "longitude": "76.007136",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536130",
+      "plaza_name": "Dholiya Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.667844",
+      "longitude": "75.208264",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536131",
+      "plaza_name": "Angiya Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.32546",
+      "longitude": "69.31038",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536132",
+      "plaza_name": "Deshalpar Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "23.19571",
+      "longitude": "69.47114",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536133",
+      "plaza_name": "NagarjunasagarEMC Checkpost",
+      "state_name": "AndhraPradesh",
+      "latitude": "16.567540",
+      "longitude": "79.33326",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536134",
+      "plaza_name": "EthipothalaEMC Checkpost",
+      "state_name": "AndhraPradesh",
+      "latitude": "16.541244",
+      "longitude": "79.380177",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536135",
+      "plaza_name": "Narajamalatanda EMC Checkpost",
+      "state_name": "AndhraPradesh",
+      "latitude": "16.164356",
+      "longitude": "79.299771",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536136",
+      "plaza_name": "SirigiripaduEMC Checkpost",
+      "state_name": "AndhraPradesh",
+      "latitude": "16.307753",
+      "longitude": "79.329601",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536140",
+      "plaza_name": "Achhad BorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "20.07538",
+      "longitude": "72.913338",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536141",
+      "plaza_name": "HadakhedBorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "21.2538",
+      "longitude": "74.5846",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536142",
+      "plaza_name": "NavapurBorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "21.16132",
+      "longitude": "73.741458",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536143",
+      "plaza_name": "Kagal CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "16.334688",
+      "longitude": "74.19526",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536144",
+      "plaza_name": "Deori BorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "21.43425",
+      "longitude": "80.263055",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536145",
+      "plaza_name": "Omerga BorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "17.495067",
+      "longitude": "76.462114",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536146",
+      "plaza_name": "MandrupBorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "17.265351",
+      "longitude": "75.51263",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536147",
+      "plaza_name": "PimpalkuttiBorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "19.504530",
+      "longitude": "78.342330",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536148",
+      "plaza_name": "Ramtek BorderCheckpost",
+      "state_name": "Maharashtra",
+      "latitude": "21.255385",
+      "longitude": "79.171631",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536150",
+      "plaza_name": "MarawadeCheck Post",
+      "state_name": "Maharashtra",
+      "latitude": "17.241330",
+      "longitude": "75.342526",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536151",
+      "plaza_name": "Saoner CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "21.29053",
+      "longitude": "78.4611",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536152",
+      "plaza_name": "Purnad CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "21.63665",
+      "longitude": "76.52762",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536153",
+      "plaza_name": "Borgaon CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "20.272237",
+      "longitude": "73.451320",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536154",
+      "plaza_name": "Rajura CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "19.36553",
+      "longitude": "79.195747",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536155",
+      "plaza_name": "Biloli CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "18.434802",
+      "longitude": "77.454546",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536156",
+      "plaza_name": "Kharpi CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "21.37415",
+      "longitude": "77.63121",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536157",
+      "plaza_name": "AkkalkuvaCheck Post",
+      "state_name": "Maharashtra",
+      "latitude": "21.32525",
+      "longitude": "73.535235",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536158",
+      "plaza_name": "Shinoli CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "15.524991",
+      "longitude": "74.21141",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536159",
+      "plaza_name": "Warud CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "21.3256",
+      "longitude": "78.1628",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536160",
+      "plaza_name": "Kelwad CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "21.2817",
+      "longitude": "78.5221",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536161",
+      "plaza_name": "Chorwad CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "21.1621",
+      "longitude": "76.624",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536162",
+      "plaza_name": "Degloor CheckPost",
+      "state_name": "Maharashtra",
+      "latitude": "18.3222",
+      "longitude": "77.3523",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536165",
+      "plaza_name": "MaddurCheckpost",
+      "state_name": "Karnataka",
+      "latitude": "11.76904",
+      "longitude": "76.54773",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536166",
+      "plaza_name": "G S BettaCheckpost",
+      "state_name": "Karnataka",
+      "latitude": "11.720622",
+      "longitude": "76.580423",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536167",
+      "plaza_name": "Kekkanahallacheckpost",
+      "state_name": "Karnataka",
+      "latitude": "11.618946",
+      "longitude": "76.590337",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536168",
+      "plaza_name": "Palli",
+      "state_name": "Rajasthan",
+      "latitude": "26.930613",
+      "longitude": "72.670506",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536169",
+      "plaza_name": "Rampura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.349492",
+      "longitude": "73.921910",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536170",
+      "plaza_name": "Dabli Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.822510",
+      "longitude": "73.875166",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536171",
+      "plaza_name": "Kasherol Toll Plaza",
+      "state_name": "Gujarat",
+      "latitude": "21.715258",
+      "longitude": "72.781061",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536172",
+      "plaza_name": "Kadwala Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.7580",
+      "longitude": "75.8295",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536173",
+      "plaza_name": "Tal PhantaPlaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.7314",
+      "longitude": "75.4116",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536175",
+      "plaza_name": "Dehra Shahpur Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.6695",
+      "longitude": "76.5847",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536176",
+      "plaza_name": "Nainasar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.4747",
+      "longitude": "74.6391",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536177",
+      "plaza_name": "Jakhrana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.9730",
+      "longitude": "76.2011",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536178",
+      "plaza_name": "Aadsar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.2464",
+      "longitude": "74.1770",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536180",
+      "plaza_name": "RTP12",
+      "state_name": "UttarPradesh",
+      "latitude": "28.346516",
+      "longitude": "77.543489",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536181",
+      "plaza_name": "RTP15",
+      "state_name": "UttarPradesh",
+      "latitude": "28.319421",
+      "longitude": "77.552713",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536182",
+      "plaza_name": "RTP16",
+      "state_name": "UttarPradesh",
+      "latitude": "28.321175",
+      "longitude": "77.551394",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536185",
+      "plaza_name": "Lordiya(Phalodi)",
+      "state_name": "Rajasthan",
+      "latitude": "27.058341",
+      "longitude": "72.414254",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536186",
+      "plaza_name": "Kiramsariya(Osian)",
+      "state_name": "Rajasthan",
+      "latitude": "27.0583",
+      "longitude": "72.4145",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536187",
+      "plaza_name": "Dabok",
+      "state_name": "Rajasthan",
+      "latitude": "24.64961",
+      "longitude": "73.871801",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536188",
+      "plaza_name": "Rampura (Jodhpur )",
+      "state_name": "Rajasthan",
+      "latitude": "26.4731",
+      "longitude": "73.0140",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536189",
+      "plaza_name": "Singhpura",
+      "state_name": "Rajasthan",
+      "latitude": "24.923471",
+      "longitude": "74.435884",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536190",
+      "plaza_name": "Gopalpura",
+      "state_name": "Rajasthan",
+      "latitude": "25.2738",
+      "longitude": "75.0933",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536191",
+      "plaza_name": "Kuradiya",
+      "state_name": "Rajasthan",
+      "latitude": "25.694816",
+      "longitude": "75.336228",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536195",
+      "plaza_name": "Kaladera Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.236583",
+      "longitude": "76.007136",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536204",
+      "plaza_name": "Sujalpur Akodia Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.389354",
+      "longitude": "76.627212",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536209",
+      "plaza_name": "Triveni Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.403075",
+      "longitude": "75.876376",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536210",
+      "plaza_name": "Dhawali Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.221361",
+      "longitude": "75.829917",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536211",
+      "plaza_name": "Mangalbad(Morwan) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.605834",
+      "longitude": "74.343513",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536212",
+      "plaza_name": "Nimbahrda(Dhinwa) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.610614",
+      "longitude": "74.647937",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536214",
+      "plaza_name": "Salumba(Isarwas)",
+      "state_name": "Rajasthan",
+      "latitude": "24.17204",
+      "longitude": "74.047535",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536215",
+      "plaza_name": "Kir ki Choki(Bargaon)",
+      "state_name": "Rajasthan",
+      "latitude": "24.579950",
+      "longitude": "74.197945",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536218",
+      "plaza_name": "Pipliy Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.43518",
+      "longitude": "75.904012",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536219",
+      "plaza_name": "Bhawanimandi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.326755",
+      "longitude": "75.832868",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536220",
+      "plaza_name": "Dug Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.957777",
+      "longitude": "75.860298",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536221",
+      "plaza_name": "Suket Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.570243",
+      "longitude": "75.9917",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536222",
+      "plaza_name": "Kawai Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.766053",
+      "longitude": "76.674377",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536223",
+      "plaza_name": "Sangod(Borada)",
+      "state_name": "Rajasthan",
+      "latitude": "24.922047",
+      "longitude": "76.341751",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536224",
+      "plaza_name": "Galana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.079677",
+      "longitude": "76.018948",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536225",
+      "plaza_name": "EKWASA Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.483221",
+      "longitude": "76.250277",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536226",
+      "plaza_name": "Bakani Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.244104",
+      "longitude": "76.251484",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536227",
+      "plaza_name": "Dakan kotra Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.488905",
+      "longitude": "73.743982",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536228",
+      "plaza_name": "Khairad Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.198053",
+      "longitude": "73.992991",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536229",
+      "plaza_name": "Debari(sakroda) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.564205",
+      "longitude": "73.867124",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536230",
+      "plaza_name": "Bambora(Gudli) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.402431",
+      "longitude": "74.011058",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536232",
+      "plaza_name": "Samdolar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.499775",
+      "longitude": "74.075707",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536233",
+      "plaza_name": "Gulganv Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.818786",
+      "longitude": "75.197771",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536234",
+      "plaza_name": "Sarwar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.092349",
+      "longitude": "74.991035",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536235",
+      "plaza_name": "AmarpuraRSRDC Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.344975",
+      "longitude": "74.126747",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536239",
+      "plaza_name": "Rojhana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.951962",
+      "longitude": "75.688271",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536240",
+      "plaza_name": "Chechat(Gumanpura)Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.741300",
+      "longitude": "75.937582",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536241",
+      "plaza_name": "Undwa Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.616053",
+      "longitude": "75.909212",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536242",
+      "plaza_name": "Pipariya Toll\\t ConcPlaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.769163",
+      "longitude": "78.355685",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536243",
+      "plaza_name": "Kareli Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.911193",
+      "longitude": "79.054614",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536247",
+      "plaza_name": "Barrod Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.8926",
+      "longitude": "76.3446",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536248",
+      "plaza_name": "Jadankhalsa",
+      "state_name": "Rajasthan",
+      "latitude": "25.854958",
+      "longitude": "73.479906",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536249",
+      "plaza_name": "Khejrali Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.158353",
+      "longitude": "73.166918",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536250",
+      "plaza_name": "Auwa Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.614401",
+      "longitude": "73.628414",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536251",
+      "plaza_name": "Kudi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.573902",
+      "longitude": "73.452095",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536252",
+      "plaza_name": "Gwaloo Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.902365",
+      "longitude": "73.768778",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536253",
+      "plaza_name": "Jajiwal Gehlota Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.400036",
+      "longitude": "73.166072",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536254",
+      "plaza_name": "Indrapura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.106978",
+      "longitude": "74.392049",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536255",
+      "plaza_name": "Kalawa Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.040195",
+      "longitude": "74.630674",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536256",
+      "plaza_name": "Fatehnagar(Sunwar) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.848181",
+      "longitude": "74.085506",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536257",
+      "plaza_name": "Dariba(Rajpura) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.971666",
+      "longitude": "74.113490",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536258",
+      "plaza_name": "Varaval Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.014239",
+      "longitude": "73.156923",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536259",
+      "plaza_name": "Amli Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.842156",
+      "longitude": "73.125969",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536260",
+      "plaza_name": "Jhirana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.289373",
+      "longitude": "75.630728",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536261",
+      "plaza_name": "Sohela Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.244656",
+      "longitude": "75.805087",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536262",
+      "plaza_name": "Meoda kalan Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.996468",
+      "longitude": "75.206238",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536263",
+      "plaza_name": "Daulat pura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.402898",
+      "longitude": "75.56853",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536264",
+      "plaza_name": "Ganesh pura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.468538",
+      "longitude": "75.743672",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536265",
+      "plaza_name": "Bassi Naaga Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.983617",
+      "longitude": "75.506058",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536266",
+      "plaza_name": "Govindi Nagur Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.036538",
+      "longitude": "75.120395",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536267",
+      "plaza_name": "Budsu Nagur Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.130504",
+      "longitude": "74.695302",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536268",
+      "plaza_name": "UnchairaNagaur Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.138588",
+      "longitude": "74.204939",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536269",
+      "plaza_name": "Mator Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.775741",
+      "longitude": "76.605992",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536270",
+      "plaza_name": "Sonai Manji Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.682557",
+      "longitude": "73.364228",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536271",
+      "plaza_name": "Jhilwara Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.232898",
+      "longitude": "73.668912",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536272",
+      "plaza_name": "Desuri Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.292955",
+      "longitude": "73.561852",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536273",
+      "plaza_name": "Gazipur mod Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.982670",
+      "longitude": "76.943099",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536274",
+      "plaza_name": "Danpur Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.513093",
+      "longitude": "74.691906",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536275",
+      "plaza_name": "Kundela Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.540435",
+      "longitude": "74.501297",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536276",
+      "plaza_name": "Mor Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.157714",
+      "longitude": "75.417082",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536277",
+      "plaza_name": "Sewa (Khareda)Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.532961",
+      "longitude": "76.848043",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536278",
+      "plaza_name": "Chhan (MassiRiver) Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.563638",
+      "longitude": "75.297374",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536281",
+      "plaza_name": "Udaliyawas Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.249350",
+      "longitude": "73.774220",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536282",
+      "plaza_name": "Mandala sojat Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.984355",
+      "longitude": "73.729429",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536283",
+      "plaza_name": "Khejarla Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.444059",
+      "longitude": "73.791591",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536284",
+      "plaza_name": "Joshiraram Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.443990",
+      "longitude": "73.791607",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536285",
+      "plaza_name": "Mata magri Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.511361",
+      "longitude": "73.804889",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536286",
+      "plaza_name": "Ram nagar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.598250",
+      "longitude": "73.764750",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536287",
+      "plaza_name": "Beerampura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.034606",
+      "longitude": "77.346731",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536288",
+      "plaza_name": "Suroth(Failikapura)Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.795194",
+      "longitude": "77.127111",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536289",
+      "plaza_name": "Sewa Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.532961",
+      "longitude": "76.848043",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536290",
+      "plaza_name": "Girdharpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.253055",
+      "longitude": "77.456291",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536291",
+      "plaza_name": "Panhori Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.443447",
+      "longitude": "77.229617",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536292",
+      "plaza_name": "Moraka Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.431387",
+      "longitude": "77.021263",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536293",
+      "plaza_name": "Randua Pooth Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.498543",
+      "longitude": "76.796263",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536294",
+      "plaza_name": "Dujod Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.547129",
+      "longitude": "75.130863",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536295",
+      "plaza_name": "Nagal Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.663358",
+      "longitude": "75.667452",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536296",
+      "plaza_name": "Chala Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.720024",
+      "longitude": "75.441108",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536297",
+      "plaza_name": "Saroond Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.721588",
+      "longitude": "76.121463",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536298",
+      "plaza_name": "Jiliya Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.254926",
+      "longitude": "74.854631",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536299",
+      "plaza_name": "Booteri Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.805414",
+      "longitude": "76.665488",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536300",
+      "plaza_name": "Phailipura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.654216",
+      "longitude": "77.000754",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536301",
+      "plaza_name": "Avleshwar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.028582",
+      "longitude": "74.841448",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536302",
+      "plaza_name": "Punjabipura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.678220",
+      "longitude": "77.583379",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536303",
+      "plaza_name": "Brahmbad Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.916602",
+      "longitude": "77.315772",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536304",
+      "plaza_name": "Bhonda Gaon Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.023243",
+      "longitude": "77.152344",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536305",
+      "plaza_name": "Aetrampura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.086250",
+      "longitude": "77.065959",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536306",
+      "plaza_name": "Alipur Mod Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.167894",
+      "longitude": "77.038309",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536318",
+      "plaza_name": "Devnagar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.435576",
+      "longitude": "74.159042",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536319",
+      "plaza_name": "Devrathi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.476363",
+      "longitude": "74.628261",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536320",
+      "plaza_name": "DhaniGovindpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.793049",
+      "longitude": "74.712908",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536321",
+      "plaza_name": "Mamana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.803808",
+      "longitude": "75.068777",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536322",
+      "plaza_name": "Mandoli Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.486303",
+      "longitude": "74.817188",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536323",
+      "plaza_name": "Sirana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.424674",
+      "longitude": "72.048429",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536324",
+      "plaza_name": "Tarnau Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.129654",
+      "longitude": "74.132191",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536326",
+      "plaza_name": "Deora Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.734042",
+      "longitude": "72.531220",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536327",
+      "plaza_name": "Nagana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.145763",
+      "longitude": "72.523969",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536330",
+      "plaza_name": "Jalore Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.27474",
+      "longitude": "72.61397",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536331",
+      "plaza_name": "Jaswantpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.82435",
+      "longitude": "72.45910",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536334",
+      "plaza_name": "Miyasani Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.191558",
+      "longitude": "73.228051",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536335",
+      "plaza_name": "RoopwasLundawas Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.971994",
+      "longitude": "73.614344",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536338",
+      "plaza_name": "Kushalpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.15406",
+      "longitude": "75.82069",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536339",
+      "plaza_name": "ROll",
+      "state_name": "Rajasthan",
+      "latitude": "27.171099",
+      "longitude": "73.90608",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536340",
+      "plaza_name": "Khathoti",
+      "state_name": "Rajasthan",
+      "latitude": "27.263643",
+      "longitude": "74.315108",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536341",
+      "plaza_name": "Bhuma",
+      "state_name": "Rajasthan",
+      "latitude": "27.794735",
+      "longitude": "74.920694",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536342",
+      "plaza_name": "Somalsar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.605443",
+      "longitude": "73.559615",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536343",
+      "plaza_name": "Bandhwari Toll Plaza",
+      "state_name": "Haryana",
+      "latitude": "28.412231",
+      "longitude": "77.166926",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536344",
+      "plaza_name": "Crusher Zone Toll Plaza",
+      "state_name": "Haryana",
+      "latitude": "28.405115",
+      "longitude": "77.229624",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536345",
+      "plaza_name": "Pakhal Toll Plaza",
+      "state_name": "Haryana",
+      "latitude": "28.359658",
+      "longitude": "77.215948",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536346",
+      "plaza_name": "Nunehra Toll Plaza",
+      "state_name": "Haryana",
+      "latitude": "28.24182",
+      "longitude": "77.118246",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536347",
+      "plaza_name": "Somasi",
+      "state_name": "Rajasthan",
+      "latitude": "28.406432",
+      "longitude": "74.890265",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536348",
+      "plaza_name": "Budhani",
+      "state_name": "Rajasthan",
+      "latitude": "28.440056",
+      "longitude": "73.810847",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536349",
+      "plaza_name": "Rajasar",
+      "state_name": "Rajasthan",
+      "latitude": "28.409706",
+      "longitude": "74.284539",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536350",
+      "plaza_name": "SKT Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.086331",
+      "longitude": "76.563406",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536351",
+      "plaza_name": "Bhujanganagar Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.076736",
+      "longitude": "76.559806",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536352",
+      "plaza_name": "Babaiya Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.101522",
+      "longitude": "76.571192",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536353",
+      "plaza_name": "ZP Road Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.108936",
+      "longitude": "76.570494",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536354",
+      "plaza_name": "HosapeteBypass Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.110119",
+      "longitude": "76.515472",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536355",
+      "plaza_name": "Dharmapur Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.064975",
+      "longitude": "76.528664",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536356",
+      "plaza_name": "Boya Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.150175",
+      "longitude": "73.276114",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536357",
+      "plaza_name": "Mandola Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.190383",
+      "longitude": "75.374908",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536358",
+      "plaza_name": "Kanwas",
+      "state_name": "Rajasthan",
+      "latitude": "24.85410",
+      "longitude": "76.13733",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536359",
+      "plaza_name": "Garh Taknet",
+      "state_name": "Rajasthan",
+      "latitude": "27.460365",
+      "longitude": "75.793327",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536360",
+      "plaza_name": "Aawan",
+      "state_name": "Rajasthan",
+      "latitude": "24.94761",
+      "longitude": "76.09814",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536361",
+      "plaza_name": "Bislai Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.59076",
+      "longitude": "76.45089",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536362",
+      "plaza_name": "Balaran Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.911179",
+      "longitude": "75.147256",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536363",
+      "plaza_name": "Arruwa Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.280136",
+      "longitude": "77.05917",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536364",
+      "plaza_name": "Punaykamilpurpatti",
+      "state_name": "Rajasthan",
+      "latitude": "27.570033",
+      "longitude": "77.08037",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536371",
+      "plaza_name": "Kajla Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.300605",
+      "longitude": "75.939351",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536375",
+      "plaza_name": "Sewad Bari",
+      "state_name": "Rajasthan",
+      "latitude": "27.610019",
+      "longitude": "74.932487",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536376",
+      "plaza_name": "Tanwara",
+      "state_name": "Rajasthan",
+      "latitude": "27.665791",
+      "longitude": "74.598658",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536384",
+      "plaza_name": "Konajhir Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.126453",
+      "longitude": "77.044888",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536387",
+      "plaza_name": "Bettal Thanda",
+      "state_name": "Telangana",
+      "latitude": "16.61742",
+      "longitude": "79.29566",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536388",
+      "plaza_name": "Nellikal",
+      "state_name": "Telangana",
+      "latitude": "16.67119",
+      "longitude": "79.28775",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536389",
+      "plaza_name": "FDO Complex",
+      "state_name": "Telangana",
+      "latitude": "16.67230",
+      "longitude": "79.27726",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536390",
+      "plaza_name": "Kharondi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.316343",
+      "longitude": "75.110536",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536394",
+      "plaza_name": "ADA ALEPJuction Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "27.155875",
+      "longitude": "78.112872",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536396",
+      "plaza_name": "Bordikalan Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.955078",
+      "longitude": "77.101480",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536401",
+      "plaza_name": "JAMGADI Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.126453",
+      "longitude": "77.044888",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536405",
+      "plaza_name": "Nanakpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.930334",
+      "longitude": "76.719477",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536414",
+      "plaza_name": "Dohna Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "28.454429",
+      "longitude": "79.437298",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536415",
+      "plaza_name": "MundiaMukarrampur",
+      "state_name": "UttarPradesh",
+      "latitude": "28.858652",
+      "longitude": "79.515355",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536416",
+      "plaza_name": "Taliyana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.350736",
+      "longitude": "72.159383",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536420",
+      "plaza_name": "Vateru Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.222160",
+      "longitude": "71.899543",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536421",
+      "plaza_name": "Chorau Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.301109",
+      "longitude": "72.301362",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536428",
+      "plaza_name": "Sanderao",
+      "state_name": "Rajasthan",
+      "latitude": "25.280848",
+      "longitude": "73.198619",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536429",
+      "plaza_name": "Mandwala",
+      "state_name": "Rajasthan",
+      "latitude": "25.431909",
+      "longitude": "72.504769",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536433",
+      "plaza_name": "Kusalpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.06725",
+      "longitude": "72.280853",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536437",
+      "plaza_name": "Chakenahalli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.9824",
+      "longitude": "76.8837",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536438",
+      "plaza_name": "Masnikani Toll Plaza",
+      "state_name": "Odisha",
+      "latitude": "22.0313",
+      "longitude": "84.0351",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536439",
+      "plaza_name": "Laing Toll Plaza",
+      "state_name": "Odisha",
+      "latitude": "22.2394",
+      "longitude": "84.6334",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536440",
+      "plaza_name": "Nuakhurigoan Toll Plaza",
+      "state_name": "Odisha",
+      "latitude": "21.5975",
+      "longitude": "84.0373",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536442",
+      "plaza_name": "Khara Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.139799",
+      "longitude": "73.372548",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536443",
+      "plaza_name": "Kawani Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.08927",
+      "longitude": "73.186215",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536444",
+      "plaza_name": "Kanasar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.119245",
+      "longitude": "73.273177",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536445",
+      "plaza_name": "Naal Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.048095",
+      "longitude": "73.159223",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536446",
+      "plaza_name": "Ghanmagara Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.255426",
+      "longitude": "73.609569",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536447",
+      "plaza_name": "Nadatora Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.602062",
+      "longitude": "73.531693",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536448",
+      "plaza_name": "Mangeria Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.855579",
+      "longitude": "73.43332",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536452",
+      "plaza_name": "Talawali Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.894648",
+      "longitude": "75.598802",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536453",
+      "plaza_name": "Sarnau Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.653467",
+      "longitude": "71.811131",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536456",
+      "plaza_name": "Tehendesar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.709744",
+      "longitude": "73.992147",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536474",
+      "plaza_name": "Chinnar 9/6checkpost",
+      "state_name": "TamilNadu",
+      "latitude": "10.449630",
+      "longitude": "77.240929",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536478",
+      "plaza_name": "Jalahalli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "16.3711",
+      "longitude": "76.7678",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536479",
+      "plaza_name": "Kakargal Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "16.3367",
+      "longitude": "77.0619",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536494",
+      "plaza_name": "Karanji Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.133349",
+      "longitude": "78.634696",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536495",
+      "plaza_name": "Wani Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.063559",
+      "longitude": "78.966929",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536496",
+      "plaza_name": "Dhanora Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.940731",
+      "longitude": "79.127567",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536501",
+      "plaza_name": "Sawangi Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.956877",
+      "longitude": "75.364597",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536502",
+      "plaza_name": "Lasur Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.929766",
+      "longitude": "74.98727",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536503",
+      "plaza_name": "Nakshtrawadi Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.768388",
+      "longitude": "75.2905",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536504",
+      "plaza_name": "Barshi Toll",
+      "state_name": "Maharashtra",
+      "latitude": "17.720952",
+      "longitude": "75.882562",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536505",
+      "plaza_name": "Hotagi Toll",
+      "state_name": "Maharashtra",
+      "latitude": "17.615154",
+      "longitude": "75.940464",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536506",
+      "plaza_name": "Akkalkot Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "17.652713",
+      "longitude": "75.98333",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536507",
+      "plaza_name": "Degaon Toll",
+      "state_name": "Maharashtra",
+      "latitude": "17.669528",
+      "longitude": "75.851661",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536508",
+      "plaza_name": "Katol ToII Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "21.256411",
+      "longitude": "78.610317",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536509",
+      "plaza_name": "Warora ToIIPlaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.230333",
+      "longitude": "79.013028",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536516",
+      "plaza_name": "Kallar ForestCheck post",
+      "state_name": "TamilNadu",
+      "latitude": "11.33843",
+      "longitude": "76.87422",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536518",
+      "plaza_name": "HimmatnagarBypass",
+      "state_name": "Gujarat",
+      "latitude": "23.592933",
+      "longitude": "72.944440",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536534",
+      "plaza_name": "Chalkoi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.540144",
+      "longitude": "74.97547",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536535",
+      "plaza_name": "Bhanin Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.790489",
+      "longitude": "75.030502",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536538",
+      "plaza_name": "Meghana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.015935",
+      "longitude": "74.819824",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536540",
+      "plaza_name": "Y JunctionKistempet",
+      "state_name": "Telangana",
+      "latitude": "18.843271",
+      "longitude": "79.725755",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536541",
+      "plaza_name": "ParpalleChintha",
+      "state_name": "Telangana",
+      "latitude": "18.84320",
+      "longitude": "79.72578",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536543",
+      "plaza_name": "Chaipura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.798493",
+      "longitude": "75.333937",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536545",
+      "plaza_name": "PunjanurCheckpost",
+      "state_name": "Karnataka",
+      "latitude": "11.773484",
+      "longitude": "77.107192",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536546",
+      "plaza_name": "KunjapanaiCheck post",
+      "state_name": "TamilNadu",
+      "latitude": "11.361297",
+      "longitude": "76.919266",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536553",
+      "plaza_name": "Mel Gudalur",
+      "state_name": "TamilNadu",
+      "latitude": "11.471521",
+      "longitude": "76.411501",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536554",
+      "plaza_name": "Masinagudi",
+      "state_name": "TamilNadu",
+      "latitude": "11.569811",
+      "longitude": "76.636037",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536555",
+      "plaza_name": "Dhamokhar Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.630568",
+      "longitude": "80.922171",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536556",
+      "plaza_name": "Bhadanpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.156723",
+      "longitude": "80.816546",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536557",
+      "plaza_name": "Sonwari Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.234734",
+      "longitude": "80.788879",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536558",
+      "plaza_name": "NijagalKempohalli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.2571",
+      "longitude": "77.2485",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536559",
+      "plaza_name": "Ladgaon",
+      "state_name": "Maharashtra",
+      "latitude": "19.308935",
+      "longitude": "72.977681",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536572",
+      "plaza_name": "Chakia Toll Plaza",
+      "state_name": "UttarPradesh",
+      "latitude": "26.202417",
+      "longitude": "82.949951",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536574",
+      "plaza_name": "Maharajpet Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.80611",
+      "longitude": "75.15253",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536576",
+      "plaza_name": "Shilapur Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.001727",
+      "longitude": "73.879947",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536577",
+      "plaza_name": "Andarsul Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.003979",
+      "longitude": "74.598128",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536578",
+      "plaza_name": "BHAGWANPURKM-04xa0",
+      "state_name": "UttarPradesh",
+      "latitude": "26.675732",
+      "longitude": "83.286819",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536579",
+      "plaza_name": "SARYA TIWARIKM-09",
+      "state_name": "UttarPradesh",
+      "latitude": "26.641548",
+      "longitude": "83.262288",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536580",
+      "plaza_name": "HARNAHI KM-12",
+      "state_name": "UttarPradesh",
+      "latitude": "26.618659",
+      "longitude": "83.243311",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536581",
+      "plaza_name": "SIKARIGANJ KM-28",
+      "state_name": "UttarPradesh",
+      "latitude": "26.494112",
+      "longitude": "83.203546",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536582",
+      "plaza_name": "BAHADURPURKM-36",
+      "state_name": "UttarPradesh",
+      "latitude": "26.26352",
+      "longitude": "83.090962",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536583",
+      "plaza_name": "TENDUI KALANKM-53",
+      "state_name": "UttarPradesh",
+      "latitude": "6.350253",
+      "longitude": "83.029528",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536584",
+      "plaza_name": "ATROULIA KM-62",
+      "state_name": "UttarPradesh",
+      "latitude": "26.316798",
+      "longitude": "82.963847",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536585",
+      "plaza_name": "KATKA KM-73",
+      "state_name": "UttarPradesh",
+      "latitude": "26.303943",
+      "longitude": "82.853649",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536586",
+      "plaza_name": "CHAUDAHPRAS KM-82",
+      "state_name": "UttarPradesh",
+      "latitude": "26.264110",
+      "longitude": "82.786094",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536588",
+      "plaza_name": "Jethana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.298637",
+      "longitude": "74.453690",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536589",
+      "plaza_name": "Saisara Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.581137",
+      "longitude": "74.243030",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536590",
+      "plaza_name": "Gegalpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.219500",
+      "longitude": "74.382370",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536591",
+      "plaza_name": "Ladpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.516906",
+      "longitude": "74.399223",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536592",
+      "plaza_name": "Kheruwala Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.8454",
+      "longitude": "74.2353",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536593",
+      "plaza_name": "Jalna Watur Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.745749",
+      "longitude": "76.085727",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536594",
+      "plaza_name": "KHARABKHANDCONC.Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.725110",
+      "longitude": "77.406547",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536595",
+      "plaza_name": "HADOLTI TOLLCONC.PLAZA",
+      "state_name": "Maharashtra",
+      "latitude": "18.653829",
+      "longitude": "77.061075",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536597",
+      "plaza_name": "Govind GhatToll Barrier",
+      "state_name": "HimachalPradesh",
+      "latitude": "30.4351",
+      "longitude": "77.6260",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536598",
+      "plaza_name": "Rodwal Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.012597",
+      "longitude": "76.336071",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536603",
+      "plaza_name": "Anjana Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.54387",
+      "longitude": "74.089953",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536604",
+      "plaza_name": "Dheerdhani",
+      "state_name": "Rajasthan",
+      "latitude": "27.017070",
+      "longitude": "74.784271",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536605",
+      "plaza_name": "Kinsariya",
+      "state_name": "Rajasthan",
+      "latitude": "26.925358",
+      "longitude": "74.711325",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536606",
+      "plaza_name": "Upreda",
+      "state_name": "Rajasthan",
+      "latitude": "25.583541",
+      "longitude": "74.741119",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536607",
+      "plaza_name": "Rampura",
+      "state_name": "Rajasthan",
+      "latitude": "25.848718",
+      "longitude": "74.707296",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536609",
+      "plaza_name": "9Ps Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.57259",
+      "longitude": "73.51361",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536610",
+      "plaza_name": "Shobhashar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.140791",
+      "longitude": "73.213731",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536616",
+      "plaza_name": "Mudutara Sili Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.019209",
+      "longitude": "72.458536",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536617",
+      "plaza_name": "Kotra Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.808541",
+      "longitude": "72.281935",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536621",
+      "plaza_name": "Gadhwala Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.972445",
+      "longitude": "73.467607",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536622",
+      "plaza_name": "Utmamdesar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.83005",
+      "longitude": "73.734925",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536623",
+      "plaza_name": "Benan Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.322639",
+      "longitude": "73.425500",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536624",
+      "plaza_name": "Bayad Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.53450",
+      "longitude": "73.86564",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536636",
+      "plaza_name": "Mau Toll PlazaConce.",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.100937",
+      "longitude": "81.358664",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536637",
+      "plaza_name": "Karki Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.797913",
+      "longitude": "81.382106",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536638",
+      "plaza_name": "Parwanoo",
+      "state_name": "HimachalPradesh",
+      "latitude": "30.840418",
+      "longitude": "76.944969",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536639",
+      "plaza_name": "Tipra Byepass",
+      "state_name": "HimachalPradesh",
+      "latitude": "30.836107",
+      "longitude": "76.968422",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536640",
+      "plaza_name": "Garamoura",
+      "state_name": "HimachalPradesh",
+      "latitude": "31.216666",
+      "longitude": "76.653402",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536643",
+      "plaza_name": "Baddi",
+      "state_name": "HimachalPradesh",
+      "latitude": "30.922329",
+      "longitude": "76.801148",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536646",
+      "plaza_name": "G Hosahalli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.2648",
+      "longitude": "76.9476",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536655",
+      "plaza_name": "ThapalpurCheck post",
+      "state_name": "Telangana Mancherial",
+      "latitude": "19.077595",
+      "longitude": "79.092687",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536656",
+      "plaza_name": "IndanpallyCheck post",
+      "state_name": "Telangana Mancherial",
+      "latitude": "19.151079",
+      "longitude": "78.923345",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536657",
+      "plaza_name": "PandavapurCheck post",
+      "state_name": "Telangana",
+      "latitude": "19.10126",
+      "longitude": "78.80837",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536658",
+      "plaza_name": "Utnoor Checkpost",
+      "state_name": "Telangana",
+      "latitude": "19.352745",
+      "longitude": "78.789342",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536661",
+      "plaza_name": "AnmodCheckpost",
+      "state_name": "Karnataka",
+      "latitude": "15.439133",
+      "longitude": "74.302876",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536662",
+      "plaza_name": "Adoosya Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.332506",
+      "longitude": "75.138257",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536663",
+      "plaza_name": "Jogi Nada Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.53371",
+      "longitude": "74.919344",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536669",
+      "plaza_name": "Kirar Toll PlazaCONC.",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.018648",
+      "longitude": "81.605910",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536670",
+      "plaza_name": "PodakiCheckpostCONC.Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.788614",
+      "longitude": "81.726064",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536672",
+      "plaza_name": "NARSANCHECKPOST",
+      "state_name": "Uttarakhand",
+      "latitude": "29.689538",
+      "longitude": "77.8492",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536676",
+      "plaza_name": "Shri Rampura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.246905",
+      "longitude": "75.050955",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536677",
+      "plaza_name": "KRSDownstreamBridge Toll",
+      "state_name": "Karnataka",
+      "latitude": "12.4261",
+      "longitude": "76.5761",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536679",
+      "plaza_name": "Tunuhatti Toll Plaza",
+      "state_name": "HimachalPradesh",
+      "latitude": "32.480878",
+      "longitude": "75.909629",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536680",
+      "plaza_name": "Nurpur Toll Plaza",
+      "state_name": "HimachalPradesh",
+      "latitude": "32.283381",
+      "longitude": "75.770398",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536699",
+      "plaza_name": "Keetap Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.14415",
+      "longitude": "74.775235",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536700",
+      "plaza_name": "Lasadiya Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.097906",
+      "longitude": "74.369223",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536729",
+      "plaza_name": "AsharodiCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "30.262620",
+      "longitude": "77.982195",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536730",
+      "plaza_name": "Surya PoliceChowkiCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.1973",
+      "longitude": "78.8942",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536731",
+      "plaza_name": "NadehiCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.282701",
+      "longitude": "78.770031",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536732",
+      "plaza_name": "KulhalCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "30.429061",
+      "longitude": "77.625711",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536733",
+      "plaza_name": "BhagwanpurCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "30.004968",
+      "longitude": "77.765179",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536734",
+      "plaza_name": "KaudiaCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.729897",
+      "longitude": "78.505699",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536735",
+      "plaza_name": "DharampurCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.314746",
+      "longitude": "78.784278",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536736",
+      "plaza_name": "RudrapurCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "28.961439",
+      "longitude": "79.387639",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536737",
+      "plaza_name": "Doraha BazpurCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.133278",
+      "longitude": "79.118736",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536738",
+      "plaza_name": "ImlikheraCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.932774",
+      "longitude": "77.892569",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536739",
+      "plaza_name": "ManjholaCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "28.834432",
+      "longitude": "79.898587",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536740",
+      "plaza_name": "ShyampurCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "29.859192",
+      "longitude": "78.185567",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536741",
+      "plaza_name": "SutaiyaCheckpost",
+      "state_name": "Uttarakhand",
+      "latitude": "28.869284",
+      "longitude": "79.516856",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536742",
+      "plaza_name": "Timli Checkpost",
+      "state_name": "Uttarakhand",
+      "latitude": "30.409222",
+      "longitude": "77.721635",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536773",
+      "plaza_name": "Dhanuri Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.218186",
+      "longitude": "75.345927",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "536774",
+      "plaza_name": "Lambor Badi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.552472",
+      "longitude": "75.36895",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540001",
+      "plaza_name": "Rajiv GandhiSea Link",
+      "state_name": "Maharashtra",
+      "latitude": "19.043188",
+      "longitude": "72.824801",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540002",
+      "plaza_name": "Shedung Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.947199",
+      "longitude": "73.178652",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540003",
+      "plaza_name": "Khalapur Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.801047",
+      "longitude": "73.285379",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540004",
+      "plaza_name": "Kusgaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.760371",
+      "longitude": "73.430045",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540005",
+      "plaza_name": "Talegaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.713938",
+      "longitude": "73.645848",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540010",
+      "plaza_name": "Vashi Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.063952",
+      "longitude": "72.980388",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540011",
+      "plaza_name": "Airoli",
+      "state_name": "Maharashtra",
+      "latitude": "19.153364",
+      "longitude": "72.965778",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540012",
+      "plaza_name": "Mulund(EEH)",
+      "state_name": "Maharashtra",
+      "latitude": "19.1534",
+      "longitude": "72.9657",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540013",
+      "plaza_name": "Mulund(LBS)",
+      "state_name": "Maharashtra",
+      "latitude": "19.1855",
+      "longitude": "72.9586",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540014",
+      "plaza_name": "Dahisar",
+      "state_name": "Maharashtra",
+      "latitude": "19.2587",
+      "longitude": "72.8718",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540015",
+      "plaza_name": "ARAMBHA Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.553225",
+      "longitude": "78.971649",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540016",
+      "plaza_name": "Mhasane Phata",
+      "state_name": "Maharashtra",
+      "latitude": "18.933138",
+      "longitude": "74.492916",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540017",
+      "plaza_name": "Katol Road Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "21.184360",
+      "longitude": "79.031908",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540018",
+      "plaza_name": "Hingana Road Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "21.092948",
+      "longitude": "78.976418",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540019",
+      "plaza_name": "Umred Road Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "21.103449",
+      "longitude": "79.145308",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540020",
+      "plaza_name": "Ring Road Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "21.157908",
+      "longitude": "79.010278",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540021",
+      "plaza_name": "Wadi Road Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "21.148977",
+      "longitude": "79.002805",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540022",
+      "plaza_name": "MMKIPL Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.979886",
+      "longitude": "74.490845",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540023",
+      "plaza_name": "Nanduri",
+      "state_name": "Maharashtra",
+      "latitude": "20.200237",
+      "longitude": "79.029373",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540024",
+      "plaza_name": "Visapur",
+      "state_name": "Maharashtra",
+      "latitude": "19.890278",
+      "longitude": "79.339722",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540025",
+      "plaza_name": "Khadka Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.555563",
+      "longitude": "74.982173",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540026",
+      "plaza_name": "Yelgaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.478210",
+      "longitude": "76.209380",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540027",
+      "plaza_name": "Datala Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.825540",
+      "longitude": "76.202140",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540028",
+      "plaza_name": "Kopra Kharghar Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.037473",
+      "longitude": "73.078256",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540030",
+      "plaza_name": "Ladgaon",
+      "state_name": "Maharashtra",
+      "latitude": "19.866755",
+      "longitude": "75.503167",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540031",
+      "plaza_name": "Nagewadi",
+      "state_name": "Maharashtra",
+      "latitude": "19.864019",
+      "longitude": "75.837501",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540033",
+      "plaza_name": "Waifal Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.978788",
+      "longitude": "78.932204",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540034",
+      "plaza_name": "SeldohWadgaonBakshi Toll",
+      "state_name": "Maharashtra",
+      "latitude": "20.839359",
+      "longitude": "78.859699",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540035",
+      "plaza_name": "Yelkali Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.802832",
+      "longitude": "78.597029",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540036",
+      "plaza_name": "Virul Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.791275",
+      "longitude": "78.351523",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540037",
+      "plaza_name": "Dhamangaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.737368",
+      "longitude": "78.140779",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540038",
+      "plaza_name": "GavnerTalegaon ShivniToll",
+      "state_name": "Maharashtra",
+      "latitude": "20.621760",
+      "longitude": "77.862567",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540039",
+      "plaza_name": "Karanja Lad Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.515650",
+      "longitude": "77.459831",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540040",
+      "plaza_name": "SheluBazar/Wanoza Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.391363",
+      "longitude": "77.222332",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540041",
+      "plaza_name": "Malegaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.283102",
+      "longitude": "76.972215",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540042",
+      "plaza_name": "Mehkar Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.283102",
+      "longitude": "76.972215",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540043",
+      "plaza_name": "Dusarbid Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "20.034216",
+      "longitude": "76.317990",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540044",
+      "plaza_name": "Sidkhedraja Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.970446",
+      "longitude": "76.099052",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540045",
+      "plaza_name": "Nidhhona Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.884275",
+      "longitude": "75.845577",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540046",
+      "plaza_name": "ShendraMIDCÂxa0TollPlaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.906443",
+      "longitude": "75.489580",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540047",
+      "plaza_name": "Sawangi Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.967322",
+      "longitude": "75.378833",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540048",
+      "plaza_name": "Maliwada Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.940412",
+      "longitude": "75.164195",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540049",
+      "plaza_name": "HadasPimpalgaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.931252",
+      "longitude": "74.950029",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540050",
+      "plaza_name": "GhaigaonJambargaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.893828",
+      "longitude": "74.784524",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540051",
+      "plaza_name": "Kokmathan Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.840290",
+      "longitude": "74.473085",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540052",
+      "plaza_name": "Gonde Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.790328",
+      "longitude": "74.068809",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540053",
+      "plaza_name": "Bharvir Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.752854",
+      "longitude": "73.775314",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540054",
+      "plaza_name": "PimpriSadruddin Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.676166",
+      "longitude": "73.566280",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540055",
+      "plaza_name": "KhutgarSapgaon Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.432251",
+      "longitude": "73.359175",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540056",
+      "plaza_name": "Nimbvali Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.209400",
+      "longitude": "73.093948",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540057",
+      "plaza_name": "Bhiwandi Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.281255",
+      "longitude": "73.048291",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540059",
+      "plaza_name": "Limbe Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "19.779805",
+      "longitude": "75.194678",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540506",
+      "plaza_name": "ANTARVELIYA Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.865400",
+      "longitude": "74.551900",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540507",
+      "plaza_name": "KALMORA Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.225745",
+      "longitude": "75.034617",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540508",
+      "plaza_name": "Rau Pithampur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.628823",
+      "longitude": "75.786310",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540509",
+      "plaza_name": "Golkheri Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.394807",
+      "longitude": "77.399706",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540510",
+      "plaza_name": "ChouraKheri Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.049466",
+      "longitude": "77.649413",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540511",
+      "plaza_name": "Selwa Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.075667",
+      "longitude": "79.617528",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540512",
+      "plaza_name": "Lawada Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "21.859778",
+      "longitude": "80.106833",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540513",
+      "plaza_name": "Dangdiya Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.424746",
+      "longitude": "75.072311",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "540514",
+      "plaza_name": "Ringod Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.601715",
+      "longitude": "74.928755",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545004",
+      "plaza_name": "Fanda Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.224502",
+      "longitude": "77.190778",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545005",
+      "plaza_name": "Amlaha Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.102142",
+      "longitude": "76.875811",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545006",
+      "plaza_name": "Bhourasa Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.975170",
+      "longitude": "76.218420",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545007",
+      "plaza_name": "Kherkheda",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.01664",
+      "longitude": "75.393569",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545008",
+      "plaza_name": "Bilantri Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.020435",
+      "longitude": "75.290547",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545009",
+      "plaza_name": "Sardarpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.742188",
+      "longitude": "74.986108",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545010",
+      "plaza_name": "Sanawad Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.166554",
+      "longitude": "76.113996",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545011",
+      "plaza_name": "Hatta Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.123109",
+      "longitude": "79.55156",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545012",
+      "plaza_name": "Devkhedi Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.516005",
+      "longitude": "77.769897",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545013",
+      "plaza_name": "Singhpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.712917",
+      "longitude": "80.585349",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545014",
+      "plaza_name": "Silwani",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.309393",
+      "longitude": "78.45677",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545015",
+      "plaza_name": "Talchiri",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.751029",
+      "longitude": "78.756334",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545016",
+      "plaza_name": "Tikitoria",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.613398",
+      "longitude": "79.087741",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545017",
+      "plaza_name": "Gadaghat",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.301857",
+      "longitude": "79.673409",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545018",
+      "plaza_name": "Ghoradongri Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.125288",
+      "longitude": "78.025027",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545019",
+      "plaza_name": "Eklehra Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.192429",
+      "longitude": "78.689015",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545020",
+      "plaza_name": "Bela",
+      "state_name": "MadhyaPradesh",
+      "latitude": "25.076435",
+      "longitude": "79.327525",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545021",
+      "plaza_name": "Mawai Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.791454",
+      "longitude": "78.924038",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545022",
+      "plaza_name": "MHOW Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.607405",
+      "longitude": "75.794223",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545023",
+      "plaza_name": "Manankheda",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.796269",
+      "longitude": "75.102250",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545024",
+      "plaza_name": "Piplyamandi",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.168848",
+      "longitude": "75.013273",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545025",
+      "plaza_name": "Nayagaon",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.572623",
+      "longitude": "74.761591",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545026",
+      "plaza_name": "Chokala Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.9310",
+      "longitude": "75.2507",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545027",
+      "plaza_name": "Chikliya Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.2305",
+      "longitude": "75.1270",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545028",
+      "plaza_name": "Gangiwara Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.121749",
+      "longitude": "78.828202",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545029",
+      "plaza_name": "Susari Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.160372",
+      "longitude": "74.774565",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545030",
+      "plaza_name": "Nanpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.270080",
+      "longitude": "74.512520",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545031",
+      "plaza_name": "Kuabadla Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.363429",
+      "longitude": "78.621315",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545032",
+      "plaza_name": "Billaua Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "26.055268",
+      "longitude": "78.252663",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545033",
+      "plaza_name": "Badgaon Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "21.298056",
+      "longitude": "76.321111",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545034",
+      "plaza_name": "Jaswadi Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "21.787500",
+      "longitude": "76.444167",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545035",
+      "plaza_name": "Sarlapada Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.492569",
+      "longitude": "74.800278",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545036",
+      "plaza_name": "Delanpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.417531",
+      "longitude": "74.996667",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545037",
+      "plaza_name": "Manawarkukshi Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.210352",
+      "longitude": "75.025833",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545038",
+      "plaza_name": "Rewa RingRoad Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.537250",
+      "longitude": "81.349444",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545039",
+      "plaza_name": "Baroli Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.816212",
+      "longitude": "75.848384",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545040",
+      "plaza_name": "Ninora Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.081553",
+      "longitude": "75.815681",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545041",
+      "plaza_name": "Dewas By pass Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.929",
+      "longitude": "76.0463",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545042",
+      "plaza_name": "Pagara-GunaCantt",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.650828",
+      "longitude": "77.422362",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545043",
+      "plaza_name": "Futera Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.669794",
+      "longitude": "77.748436",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545044",
+      "plaza_name": "Malyakhedi",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.047369",
+      "longitude": "75.035803",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545045",
+      "plaza_name": "Pandola",
+      "state_name": "MadhyaPradesh",
+      "latitude": "25.56625",
+      "longitude": "76.6529",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545046",
+      "plaza_name": "Khiriya Naka Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.642486",
+      "longitude": "78.764694",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545047",
+      "plaza_name": "Taloon Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.032864",
+      "longitude": "74.962111",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545048",
+      "plaza_name": "Julwaniya Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "21.856536",
+      "longitude": "75.221664",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545049",
+      "plaza_name": "Bijanhai Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.131733",
+      "longitude": "78.506008",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545050",
+      "plaza_name": "Boras Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.03015",
+      "longitude": "78.514381",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545051",
+      "plaza_name": "Chakrawda Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.254728",
+      "longitude": "75.717974",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545052",
+      "plaza_name": "Bhuteda Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.596886",
+      "longitude": "75.164054",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545054",
+      "plaza_name": "Rangaon",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.180805",
+      "longitude": "75.187500",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545055",
+      "plaza_name": "Kanad",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.677277",
+      "longitude": "76.133611",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545068",
+      "plaza_name": "MBLNEWARGAON",
+      "state_name": "MadhyaPradesh",
+      "latitude": "21.826114",
+      "longitude": "80.041645",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545069",
+      "plaza_name": "Ichoul Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.349306",
+      "longitude": "80.778889",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545070",
+      "plaza_name": "Ubra Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.941333",
+      "longitude": "80.813055",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545076",
+      "plaza_name": "Gadariya Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.146502",
+      "longitude": "82.491474",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545077",
+      "plaza_name": "Palsud Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "21.813416",
+      "longitude": "74.974632",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545078",
+      "plaza_name": "Ujjain SihasthBypass",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.173326",
+      "longitude": "75.734782",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545079",
+      "plaza_name": "Datia-Bhander Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "25.716217",
+      "longitude": "78.701949",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545080",
+      "plaza_name": "TCILLAKHNADONTOLL",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.65033",
+      "longitude": "79.93069",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545081",
+      "plaza_name": "TCIL BINA TOLLRoad LTD.",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.154869",
+      "longitude": "78.065187",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545084",
+      "plaza_name": "Bhimpura Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "26.657489",
+      "longitude": "78.869295",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545085",
+      "plaza_name": "GVR BEHARI Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.742577",
+      "longitude": "82.109536",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545086",
+      "plaza_name": "PannaAmanganj Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.65939",
+      "longitude": "80.15294",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545090",
+      "plaza_name": "Madhav SihoraSilodi Corridor",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.448250",
+      "longitude": "80.143389",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545095",
+      "plaza_name": "Mubarakpur Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.310689",
+      "longitude": "77.319815",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545096",
+      "plaza_name": "11 miles Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.141503",
+      "longitude": "77.485499",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545098",
+      "plaza_name": "Harduwani(Damoh)Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.849222",
+      "longitude": "79.609670",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545099",
+      "plaza_name": "Majhagawan(Katni)Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.884352",
+      "longitude": "80.338989",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545100",
+      "plaza_name": "Bajrangarh Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.575655",
+      "longitude": "77.286901",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545101",
+      "plaza_name": "Kalyanpura Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "24.127005",
+      "longitude": "77.650435",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545102",
+      "plaza_name": "Durjanpura Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.475387",
+      "longitude": "75.571802",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "545103",
+      "plaza_name": "Mandleswar Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "22.280472",
+      "longitude": "75.695583",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "546027",
+      "plaza_name": "Kaytha",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.229287",
+      "longitude": "76.040933",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "546029",
+      "plaza_name": "Chachakhedi",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.582090",
+      "longitude": "76.189842",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "546030",
+      "plaza_name": "Sanjaynagar",
+      "state_name": "MadhyaPradesh",
+      "latitude": "25.095935",
+      "longitude": "79.942031",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "546032",
+      "plaza_name": "Gavhan Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.951875",
+      "longitude": "73.018836",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "546033",
+      "plaza_name": "Airport - SewriSection",
+      "state_name": "Maharashtra",
+      "latitude": "18.970378",
+      "longitude": "73.008119",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "546040",
+      "plaza_name": "Timri Toll Plaza",
+      "state_name": "MadhyaPradesh",
+      "latitude": "23.221602",
+      "longitude": "79.835417",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550001",
+      "plaza_name": "Kokapet",
+      "state_name": "Telangana",
+      "latitude": "17.242673",
+      "longitude": "78.194936",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550002",
+      "plaza_name": "Edulanagulapally",
+      "state_name": "Telangana",
+      "latitude": "17.462213",
+      "longitude": "78.249439",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550003",
+      "plaza_name": "Patancheru",
+      "state_name": "Telangana",
+      "latitude": "17.321673",
+      "longitude": "78.140518",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550004",
+      "plaza_name": "Sultanpur",
+      "state_name": "Telangana",
+      "latitude": "17.333045",
+      "longitude": "78.184737",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550005",
+      "plaza_name": "Dundigal",
+      "state_name": "Telangana",
+      "latitude": "17.353843",
+      "longitude": "78.242823",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550006",
+      "plaza_name": "Medchal",
+      "state_name": "Telangana",
+      "latitude": "17.355345",
+      "longitude": "78.292706",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550007",
+      "plaza_name": "Shamirpet",
+      "state_name": "Telangana",
+      "latitude": "17.343361",
+      "longitude": "78.341763",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550008",
+      "plaza_name": "Keesara",
+      "state_name": "Telangana",
+      "latitude": "17.310012",
+      "longitude": "78.385202",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550009",
+      "plaza_name": "Ghatkesar",
+      "state_name": "Telangana",
+      "latitude": "17.263039",
+      "longitude": "78.400211",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550010",
+      "plaza_name": "Taramatipet",
+      "state_name": "Telangana",
+      "latitude": "17.222251",
+      "longitude": "78.405290",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550011",
+      "plaza_name": "PeddaAmberpet",
+      "state_name": "Telangana",
+      "latitude": "17.319992",
+      "longitude": "78.655881",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550012",
+      "plaza_name": "Bongulur",
+      "state_name": "Telangana",
+      "latitude": "17.141561",
+      "longitude": "78.350437",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550013",
+      "plaza_name": "Ravi Ryal",
+      "state_name": "Telangana",
+      "latitude": "17.124448",
+      "longitude": "78.313874",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550014",
+      "plaza_name": "Tukkuguda",
+      "state_name": "Telangana",
+      "latitude": "17.121063",
+      "longitude": "78.283524",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550015",
+      "plaza_name": "Peddagolconda",
+      "state_name": "Telangana",
+      "latitude": "17.121417",
+      "longitude": "78.235572",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550016",
+      "plaza_name": "Shamshabad",
+      "state_name": "Telangana",
+      "latitude": "17.151163",
+      "longitude": "78.224438",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550017",
+      "plaza_name": "Rajendra Nagar",
+      "state_name": "Telangana",
+      "latitude": "17.192464",
+      "longitude": "78.223080",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550018",
+      "plaza_name": "TSPA",
+      "state_name": "Telangana",
+      "latitude": "17.210101",
+      "longitude": "78.214002",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550019",
+      "plaza_name": "Nanakramguda",
+      "state_name": "Telangana",
+      "latitude": "17.242648",
+      "longitude": "78.211582",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550020",
+      "plaza_name": "Duddeda Toll Plaza",
+      "state_name": "Telangana",
+      "latitude": "18.00020",
+      "longitude": "78.8876",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550021",
+      "plaza_name": "Renikunta Toll Plaza",
+      "state_name": "Telangana",
+      "latitude": "18.2943",
+      "longitude": "79.1171",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550022",
+      "plaza_name": "Basanthnagar Toll Plaza",
+      "state_name": "Telangana",
+      "latitude": "18.7042",
+      "longitude": "79.417",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "550023",
+      "plaza_name": "Madugulapally Toll Plaza",
+      "state_name": "Telangana",
+      "latitude": "16.9794",
+      "longitude": "79.4537",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "552001",
+      "plaza_name": "Thummalacheruvu Toll Plaza",
+      "state_name": "AndhraPradesh",
+      "latitude": "16.538341",
+      "longitude": "79.798918",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "552002",
+      "plaza_name": "Elchuru Toll Plaza",
+      "state_name": "AndhraPradesh",
+      "latitude": "16.107077",
+      "longitude": "79.928762",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "552003",
+      "plaza_name": "TTD Saptagiri Toll Plaza",
+      "state_name": "AndhraPradesh",
+      "latitude": "13.647300",
+      "longitude": "79.402100",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "552004",
+      "plaza_name": "Kovvuru",
+      "state_name": "AndhraPradesh",
+      "latitude": "17.027290",
+      "longitude": "81.719536",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "552005",
+      "plaza_name": "GanpathiForestCheckPost",
+      "state_name": "AndhraPradesh",
+      "latitude": "15.929953",
+      "longitude": "79.097636",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556001",
+      "plaza_name": "Kadathanamale Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.212351",
+      "longitude": "77.553513",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556002",
+      "plaza_name": "Gunjur Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.429360",
+      "longitude": "77.512491",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556003",
+      "plaza_name": "BYADARAHALLI Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.521607",
+      "longitude": "76.041609",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556004",
+      "plaza_name": "NILAVAGILU Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.665778",
+      "longitude": "76.087954",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556005",
+      "plaza_name": "COORGAL Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.442169",
+      "longitude": "76.101601",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556006",
+      "plaza_name": "GUDEMARANAHALLI Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.022707",
+      "longitude": "77.153308",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556007",
+      "plaza_name": "Chandrabhavi Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.344609",
+      "longitude": "77.142203",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556008",
+      "plaza_name": "BUDDAREDDYHALLI Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.121006",
+      "longitude": "77.153804",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556009",
+      "plaza_name": "DODDAMAVATHURU Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.533502",
+      "longitude": "77.024003",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556010",
+      "plaza_name": "OBALAPURA Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.261002",
+      "longitude": "77.093901",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556011",
+      "plaza_name": "Sherewada Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.260165",
+      "longitude": "75.177026",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556012",
+      "plaza_name": "Chattar Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.910173",
+      "longitude": "76.446321",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556013",
+      "plaza_name": "Tippanal Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.542704",
+      "longitude": "76.447683",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556014",
+      "plaza_name": "Papanashi",
+      "state_name": "Karnataka",
+      "latitude": "15.358248",
+      "longitude": "75.686375",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556015",
+      "plaza_name": "Hiremannapur Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.772977",
+      "longitude": "76.298560",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556016",
+      "plaza_name": "Hemagudda Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.431844",
+      "longitude": "76.405685",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556017",
+      "plaza_name": "Marali",
+      "state_name": "Karnataka",
+      "latitude": "15.466939",
+      "longitude": "76.574242",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556018",
+      "plaza_name": "Kurki Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.351626",
+      "longitude": "75.979384",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556019",
+      "plaza_name": "Javoor Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "13.794751",
+      "longitude": "75.982067",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556020",
+      "plaza_name": "Kamthana Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "17.845891",
+      "longitude": "77.448414",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556021",
+      "plaza_name": "Ainoli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "17.503027",
+      "longitude": "77.431011",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556022",
+      "plaza_name": "Chinchani plaza",
+      "state_name": "Karnataka",
+      "latitude": "16.418376",
+      "longitude": "74.540661",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556023",
+      "plaza_name": "Kabbur plaza",
+      "state_name": "Karnataka",
+      "latitude": "16.359437",
+      "longitude": "74.701976",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556024",
+      "plaza_name": "Link Road (L1)Toll",
+      "state_name": "Karnataka",
+      "latitude": "12.936583",
+      "longitude": "77.531500",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556025",
+      "plaza_name": "Hosur Road(P1) Toll",
+      "state_name": "Karnataka",
+      "latitude": "12.858667",
+      "longitude": "77.655833",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556026",
+      "plaza_name": "Tumkur Road(P7) Toll",
+      "state_name": "Karnataka",
+      "latitude": "13.042389",
+      "longitude": "77.475278",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556027",
+      "plaza_name": "BannerghattaRoad (P2) Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.850056",
+      "longitude": "77.588333",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556028",
+      "plaza_name": "KanakapuraRoad (P3) Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.857833",
+      "longitude": "77.527583",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556029",
+      "plaza_name": "Clever Leaf (P4)Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.884139",
+      "longitude": "77.501694",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556030",
+      "plaza_name": "Mysore Road(P5) Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.903583",
+      "longitude": "77.470028",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556031",
+      "plaza_name": "Magadi Road(P6) Plaza",
+      "state_name": "Karnataka",
+      "latitude": "12.989944",
+      "longitude": "77.472444",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556032",
+      "plaza_name": "Harpanahalli Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "14.806217",
+      "longitude": "75.975065",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556033",
+      "plaza_name": "Mundaragi Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.138206",
+      "longitude": "75.889905",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556034",
+      "plaza_name": "Sanikoppa Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.800694",
+      "longitude": "74.804861",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556035",
+      "plaza_name": "Karikatti Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.738306",
+      "longitude": "75.063639",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556041",
+      "plaza_name": "Beechagondanahalli",
+      "state_name": "Karnataka",
+      "latitude": "13.263241",
+      "longitude": "77.944733",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556042",
+      "plaza_name": "Aminbhavi Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.528545",
+      "longitude": "75.049936",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556043",
+      "plaza_name": "Narsingi",
+      "state_name": "Telangana",
+      "latitude": "17.388444",
+      "longitude": "78.351798",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556045",
+      "plaza_name": "Yashwantpur Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.051567",
+      "longitude": "76.508268",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556046",
+      "plaza_name": "Baneti Toll Plaza",
+      "state_name": "Karnataka",
+      "latitude": "15.152074",
+      "longitude": "76.608379",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556050",
+      "plaza_name": "KAHALA Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.961836",
+      "longitude": "77.454182",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556051",
+      "plaza_name": "KHANAPUR Toll Plaza",
+      "state_name": "Maharashtra",
+      "latitude": "18.619915",
+      "longitude": "77.583351",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556052",
+      "plaza_name": "Chitrakoot/Bharatkup Km 04",
+      "state_name": "UttarPradesh",
+      "latitude": "25.2513",
+      "longitude": "80.7444",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556053",
+      "plaza_name": "Bisanda Km 24",
+      "state_name": "UttarPradesh",
+      "latitude": "25.4138",
+      "longitude": "80.5719",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556054",
+      "plaza_name": "Baberu Km 43",
+      "state_name": "UttarPradesh",
+      "latitude": "25.4913",
+      "longitude": "80.4700",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556055",
+      "plaza_name": "Banda Km 50",
+      "state_name": "UttarPradesh",
+      "latitude": "25.5275",
+      "longitude": "80.4036",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556056",
+      "plaza_name": "Mavai Km 54",
+      "state_name": "UttarPradesh",
+      "latitude": "25.5438",
+      "longitude": "80.3705",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556057",
+      "plaza_name": "Khanna Km 86",
+      "state_name": "UttarPradesh",
+      "latitude": "25.5766",
+      "longitude": "80.0633",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556058",
+      "plaza_name": "Hamirpur Km125",
+      "state_name": "UttarPradesh",
+      "latitude": "25.6337",
+      "longitude": "79.6940",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556059",
+      "plaza_name": "Dakore Km 164",
+      "state_name": "UttarPradesh",
+      "latitude": "25.8653",
+      "longitude": "79.4241",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556060",
+      "plaza_name": "Orai Km 174",
+      "state_name": "UttarPradesh",
+      "latitude": "25.9261",
+      "longitude": "79.3622",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556061",
+      "plaza_name": "Chiriya Km 201",
+      "state_name": "UttarPradesh",
+      "latitude": "26.1611",
+      "longitude": "79.2797",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556062",
+      "plaza_name": "Karampur Km243",
+      "state_name": "UttarPradesh",
+      "latitude": "26.5005",
+      "longitude": "79.4349",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556063",
+      "plaza_name": "Kakrahi Km 280",
+      "state_name": "UttarPradesh",
+      "latitude": "26.7938",
+      "longitude": "79.3264",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "556064",
+      "plaza_name": "Takha Km 287",
+      "state_name": "UttarPradesh",
+      "latitude": "26.8479",
+      "longitude": "79.3174",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560001",
+      "plaza_name": "Perungudi Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.9564",
+      "longitude": "80.2412",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560002",
+      "plaza_name": "Central Server Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.9564",
+      "longitude": "80.2412",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560003",
+      "plaza_name": "Thoraipakkam Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.9564",
+      "longitude": "80.2412",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560004",
+      "plaza_name": "Medavakkam Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.9179",
+      "longitude": "80.2118",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560005",
+      "plaza_name": "ECRlink Road Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.9013",
+      "longitude": "80.2183",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560006",
+      "plaza_name": "Egatur Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.8902",
+      "longitude": "80.1983",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560007",
+      "plaza_name": "Uthandi",
+      "state_name": "TamilNadu",
+      "latitude": "12.861603",
+      "longitude": "80.171891",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560008",
+      "plaza_name": "Central Serverplaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.861603",
+      "longitude": "80.171891",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560009",
+      "plaza_name": "Anumandhai",
+      "state_name": "TamilNadu",
+      "latitude": "12.123922",
+      "longitude": "79.910764",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560010",
+      "plaza_name": "Mahabalipuram Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.615365",
+      "longitude": "80.099810",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560011",
+      "plaza_name": "Vandiyur Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "9.939015",
+      "longitude": "78.176407",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560012",
+      "plaza_name": "Chinthamani Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "9.876757",
+      "longitude": "78.134993",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560013",
+      "plaza_name": "Valayangulam Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "9.826610",
+      "longitude": "78.082300",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560014",
+      "plaza_name": "Kolappancheri",
+      "state_name": "TamilNadu",
+      "latitude": "13.070524",
+      "longitude": "80.071587",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560015",
+      "plaza_name": "Varadharajapuram Toll Plaza",
+      "state_name": "TamilNadu",
+      "latitude": "12.930092",
+      "longitude": "80.079947",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560016",
+      "plaza_name": "Palavedu",
+      "state_name": "TamilNadu",
+      "latitude": "13.140047",
+      "longitude": "80.053036",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560017",
+      "plaza_name": "Chinnamullaivoyal",
+      "state_name": "TamilNadu",
+      "latitude": "13.253075",
+      "longitude": "80.238721",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "560022",
+      "plaza_name": "VidhyasagarSetu Toll Plaza",
+      "state_name": "WestBengal",
+      "latitude": "22.563293",
+      "longitude": "88.331751",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570010",
+      "plaza_name": "Kasari Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.023008",
+      "longitude": "74.811117",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570011",
+      "plaza_name": "Chapri Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.349756",
+      "longitude": "74.671431",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570012",
+      "plaza_name": "Padiyara Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.916553",
+      "longitude": "74.554469",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570013",
+      "plaza_name": "Malasar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.262625",
+      "longitude": "74.565161",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570014",
+      "plaza_name": "Pallu Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.951956",
+      "longitude": "74.225031",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570015",
+      "plaza_name": "Kolha Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.519569",
+      "longitude": "74.335958",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570016",
+      "plaza_name": "Kolu Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.904603",
+      "longitude": "72.312525",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570017",
+      "plaza_name": "Kelankot Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.108914",
+      "longitude": "72.376761",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570018",
+      "plaza_name": "Bhooka Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.640861",
+      "longitude": "72.000211",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570019",
+      "plaza_name": "Naya Nagar Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.248178",
+      "longitude": "71.733328",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570020",
+      "plaza_name": "Bagdi KM 14Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.431950",
+      "longitude": "76.373506",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570021",
+      "plaza_name": "Bhadoti Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.224711",
+      "longitude": "76.370728",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570022",
+      "plaza_name": "Indragarh Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.743931",
+      "longitude": "76.168992",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570023",
+      "plaza_name": "Patan GudlaPlaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.285600",
+      "longitude": "75.897097",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570024",
+      "plaza_name": "Khanpur Toll",
+      "state_name": "Rajasthan",
+      "latitude": "24.657272",
+      "longitude": "76.315022",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570025",
+      "plaza_name": "Sikandra Toll",
+      "state_name": "Rajasthan",
+      "latitude": "26.978589",
+      "longitude": "76.573914",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570026",
+      "plaza_name": "Mahuwa Toll",
+      "state_name": "Rajasthan",
+      "latitude": "27.457686",
+      "longitude": "76.607661",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570027",
+      "plaza_name": "Jetpur Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.886175",
+      "longitude": "74.019717",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570028",
+      "plaza_name": "Sangaria Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.720628",
+      "longitude": "74.438664",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570029",
+      "plaza_name": "Papri Toll",
+      "state_name": "Rajasthan",
+      "latitude": "27.714361",
+      "longitude": "76.742856",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570030",
+      "plaza_name": "Tijara Toll",
+      "state_name": "Rajasthan",
+      "latitude": "27.922797",
+      "longitude": "76.838581",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570031",
+      "plaza_name": "Bhiwadi Toll",
+      "state_name": "Rajasthan",
+      "latitude": "28.174303",
+      "longitude": "76.824531",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570032",
+      "plaza_name": "KK Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.105358",
+      "longitude": "76.708050",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570033",
+      "plaza_name": "Ralayati KM 9Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.562992",
+      "longitude": "76.114578",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570034",
+      "plaza_name": "Rajpura KM 24Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "23.957803",
+      "longitude": "75.860369",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570035",
+      "plaza_name": "Ujjain-Jhalawar(Binda)",
+      "state_name": "Rajasthan",
+      "latitude": "24.418694",
+      "longitude": "76.188203",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570036",
+      "plaza_name": "Toparia Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.277272",
+      "longitude": "74.631967",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570037",
+      "plaza_name": "Gogamedi Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.134011",
+      "longitude": "75.058531",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570038",
+      "plaza_name": "Amarpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "29.085436",
+      "longitude": "75.320028",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570039",
+      "plaza_name": "MB(Gundwa)",
+      "state_name": "Rajasthan",
+      "latitude": "27.248519",
+      "longitude": "77.469328",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570040",
+      "plaza_name": "GB(Newadiya)",
+      "state_name": "Rajasthan",
+      "latitude": "26.378622",
+      "longitude": "76.546867",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570048",
+      "plaza_name": "Ragunathpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.29256",
+      "longitude": "75.70622",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570049",
+      "plaza_name": "Dadiya Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "27.71179",
+      "longitude": "75.21063",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570050",
+      "plaza_name": "Shahpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.59767",
+      "longitude": "74.87327",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570051",
+      "plaza_name": "Malpura Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.30658",
+      "longitude": "75.41294",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570052",
+      "plaza_name": "Renwal Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "26.67705",
+      "longitude": "75.66506",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570053",
+      "plaza_name": "Dighal Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "28.06734",
+      "longitude": "75.34098",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570054",
+      "plaza_name": "Kekri Toll Plaza",
+      "state_name": "Rajasthan",
+      "latitude": "25.93807",
+      "longitude": "75.14053",
+      "tollguru_hint": null,
+      "raw_response": null
+    },
+    {
+      "netc_plaza_code": "570056",
+      "plaza_name": "Mount AbuGreen TaxPlaza",
+      "state_name": "Rajasthan",
+      "latitude": "24.580674",
+      "longitude": "72.725067",
+      "tollguru_hint": null,
+      "raw_response": null
+    }
+  ]
+}

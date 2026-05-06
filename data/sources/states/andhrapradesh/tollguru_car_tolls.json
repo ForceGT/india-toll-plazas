@@ -1,0 +1,913 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for AndhraPradesh STATE plazas",
+    "output_file": "data/sources/states/andhrapradesh/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-01T16:01:55.882Z",
+    "extractor": "scripts/fetchStateTollGuruCarRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "AndhraPradesh",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 9,
+    "successful_extractions": 4,
+    "hit_rate": 0.444,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 50958,
+    "average_processing_time_ms": 5662
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "536133",
+      "plaza_name": "NagarjunasagarEMC Checkpost",
+      "coordinates": [
+        "16.567540",
+        "79.33326"
+      ],
+      "concessionaire_name": "Project TigerMarkapur",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.563043391970407,
+          "lng": 79.33326
+        },
+        "to": {
+          "lat": 16.572036608029595,
+          "lng": 79.33326
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0.8,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T16:01:11.993Z",
+      "processing_time_ms": 7070,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.563043391970407,
+              "lng": 79.33326
+            },
+            "to": {
+              "lat": 16.572036608029595,
+              "lng": 79.33326
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.570719555781654,
+              "lng": 79.32994264298452
+            },
+            "to": {
+              "lat": 16.56436039172566,
+              "lng": 79.33657724748275
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.567539947507314,
+              "lng": 79.32856862617533
+            },
+            "to": {
+              "lat": 16.567539947507314,
+              "lng": 79.33795137382465
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.56436039172566,
+              "lng": 79.32994275251723
+            },
+            "to": {
+              "lat": 16.570719555781654,
+              "lng": 79.33657735701546
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536134",
+      "plaza_name": "EthipothalaEMC Checkpost",
+      "coordinates": [
+        "16.541244",
+        "79.380177"
+      ],
+      "concessionaire_name": "Project TigerMarkapur",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.536747391970405,
+          "lng": 79.38017699999999
+        },
+        "to": {
+          "lat": 16.54574060802959,
+          "lng": 79.38017699999999
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T16:01:18.927Z",
+      "processing_time_ms": 4933,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.536747391970405,
+              "lng": 79.38017699999999
+            },
+            "to": {
+              "lat": 16.54574060802959,
+              "lng": 79.38017699999999
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.544423555825723,
+              "lng": 79.37686009560531
+            },
+            "to": {
+              "lat": 16.538064391769723,
+              "lng": 79.3834937950608
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.541243947595447,
+              "lng": 79.37548626613719
+            },
+            "to": {
+              "lat": 16.541243947595447,
+              "lng": 79.3848677338628
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.538064391769723,
+              "lng": 79.37686020493919
+            },
+            "to": {
+              "lat": 16.544423555825723,
+              "lng": 79.38349390439468
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536135",
+      "plaza_name": "Narajamalatanda EMC Checkpost",
+      "coordinates": [
+        "16.164356",
+        "79.299771"
+      ],
+      "concessionaire_name": "Project TigerMarkapur",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.159859391970407,
+          "lng": 79.299771
+        },
+        "to": {
+          "lat": 16.168852608029596,
+          "lng": 79.299771
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0.3,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T16:01:25.735Z",
+      "processing_time_ms": 4808,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.159859391970407,
+              "lng": 79.299771
+            },
+            "to": {
+              "lat": 16.168852608029596,
+              "lng": 79.299771
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.16753555645605,
+              "lng": 79.29646049274287
+            },
+            "to": {
+              "lat": 16.1611763924,
+              "lng": 79.30308140075905
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.16435594885605,
+              "lng": 79.29508931105056
+            },
+            "to": {
+              "lat": 16.16435594885605,
+              "lng": 79.30445268894944
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.1611763924,
+              "lng": 79.29646059924096
+            },
+            "to": {
+              "lat": 16.16753555645605,
+              "lng": 79.30308150725713
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536136",
+      "plaza_name": "SirigiripaduEMC Checkpost",
+      "coordinates": [
+        "16.307753",
+        "79.329601"
+      ],
+      "concessionaire_name": "Project TigerMarkapur",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.303256391970407,
+          "lng": 79.329601
+        },
+        "to": {
+          "lat": 16.3122496080296,
+          "lng": 79.329601
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T16:01:32.941Z",
+      "processing_time_ms": 5206,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.303256391970407,
+              "lng": 79.329601
+            },
+            "to": {
+              "lat": 16.3122496080296,
+              "lng": 79.329601
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.31093255621651,
+              "lng": 79.32628807858516
+            },
+            "to": {
+              "lat": 16.30457339216049,
+              "lng": 79.33291381384083
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.307752948376997,
+              "lng": 79.32491589767683
+            },
+            "to": {
+              "lat": 16.307752948376997,
+              "lng": 79.33428610232319
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.30457339216049,
+              "lng": 79.32628818615918
+            },
+            "to": {
+              "lat": 16.31093255621651,
+              "lng": 79.33291392141484
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "552001",
+      "plaza_name": "Thummalacheruvu Toll Plaza",
+      "coordinates": [
+        "16.538341",
+        "79.798918"
+      ],
+      "concessionaire_name": "NAMExpressway",
+      "toll_amount_inr": 154,
+      "route_generated": {
+        "from": {
+          "lat": 16.533844391970405,
+          "lng": 79.79891799999999
+        },
+        "to": {
+          "lat": 16.542837608029593,
+          "lng": 79.79891799999999
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 1.9,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Thummalacheruvu Toll Plaza",
+          "cost": 77,
+          "currency": "INR",
+          "tagCost": 77,
+          "cashCost": 154,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Thummalacheruvu Toll Plaza",
+          "cost": 77,
+          "currency": "INR",
+          "tagCost": 77,
+          "cashCost": 154,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T16:01:35.536Z",
+      "processing_time_ms": 594,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.533844391970405,
+              "lng": 79.79891799999999
+            },
+            "to": {
+              "lat": 16.542837608029593,
+              "lng": 79.79891799999999
+            }
+          },
+          "toll_amount": 154,
+          "total_tolls_found": 2,
+          "distance_km": 1.9,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Thummalacheruvu Toll Plaza",
+              "cost": 77,
+              "currency": "INR",
+              "tagCost": 77,
+              "cashCost": 154,
+              "tollType": "barrier"
+            },
+            {
+              "name": "Thummalacheruvu Toll Plaza",
+              "cost": 77,
+              "currency": "INR",
+              "tagCost": 77,
+              "cashCost": 154,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "552002",
+      "plaza_name": "Elchuru Toll Plaza",
+      "coordinates": [
+        "16.107077",
+        "79.928762"
+      ],
+      "concessionaire_name": "NAMExpressway",
+      "toll_amount_inr": 76,
+      "route_generated": {
+        "from": {
+          "lat": 16.10258039197041,
+          "lng": 79.928762
+        },
+        "to": {
+          "lat": 16.111573608029595,
+          "lng": 79.928762
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Elchuru",
+          "cost": 76,
+          "currency": "INR",
+          "tagCost": 76,
+          "cashCost": 152,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T16:01:37.977Z",
+      "processing_time_ms": 441,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 16.10258039197041,
+              "lng": 79.928762
+            },
+            "to": {
+              "lat": 16.111573608029595,
+              "lng": 79.928762
+            }
+          },
+          "toll_amount": 76,
+          "total_tolls_found": 1,
+          "distance_km": 1,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Elchuru",
+              "cost": 76,
+              "currency": "INR",
+              "tagCost": 76,
+              "cashCost": 152,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "552003",
+      "plaza_name": "TTD Saptagiri Toll Plaza",
+      "coordinates": [
+        "13.647300",
+        "79.402100"
+      ],
+      "concessionaire_name": "Com visionIndiaExpressway",
+      "toll_amount_inr": 50,
+      "route_generated": {
+        "from": {
+          "lat": 13.650479560607367,
+          "lng": 79.39882799513911
+        },
+        "to": {
+          "lat": 13.64412039655108,
+          "lng": 79.40537191668838
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 29,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Saptgiri",
+          "cost": 50,
+          "currency": "INR",
+          "tagCost": 50,
+          "cashCost": 100,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T16:01:42.083Z",
+      "processing_time_ms": 2104,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 13.642803391970407,
+              "lng": 79.4021
+            },
+            "to": {
+              "lat": 13.651796608029596,
+              "lng": 79.4021
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 13.650479560607367,
+              "lng": 79.39882799513911
+            },
+            "to": {
+              "lat": 13.64412039655108,
+              "lng": 79.40537191668838
+            }
+          },
+          "toll_amount": 50,
+          "total_tolls_found": 1,
+          "distance_km": 29,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Saptgiri",
+              "cost": 50,
+              "currency": "INR",
+              "tagCost": 50,
+              "cashCost": 100,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "552004",
+      "plaza_name": "Kovvuru",
+      "coordinates": [
+        "17.027290",
+        "81.719536"
+      ],
+      "concessionaire_name": "RajamundryGodavariBridge Ltd",
+      "toll_amount_inr": 74,
+      "route_generated": {
+        "from": {
+          "lat": 17.026957,
+          "lng": 81.718398
+        },
+        "to": {
+          "lat": 17.027747,
+          "lng": 81.720544
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "Fixed endpoints (provided)",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 0.2,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Kovvuru",
+          "cost": 74,
+          "currency": "INR",
+          "tagCost": 74,
+          "cashCost": 148,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T18:09:09.542Z",
+      "processing_time_ms": 826,
+      "route_attempts": [
+        {
+          "route_description": "Fixed endpoints (provided)",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.026957,
+              "lng": 81.718398
+            },
+            "to": {
+              "lat": 17.027747,
+              "lng": 81.720544
+            }
+          },
+          "toll_amount": 74,
+          "total_tolls_found": 1,
+          "distance_km": 0.2,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Kovvuru",
+              "cost": 74,
+              "currency": "INR",
+              "tagCost": 74,
+              "cashCost": 148,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 0
+    },
+    {
+      "netc_plaza_code": "552005",
+      "plaza_name": "GanpathiForestCheckPost",
+      "coordinates": [
+        "15.929953",
+        "79.097636"
+      ],
+      "concessionaire_name": "ProjectTiger,Markapur",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 15.925456391970409,
+          "lng": 79.097636
+        },
+        "to": {
+          "lat": 15.934449608029594,
+          "lng": 79.097636
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0.8,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T16:01:55.881Z",
+      "processing_time_ms": 4712,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 15.925456391970409,
+              "lng": 79.097636
+            },
+            "to": {
+              "lat": 15.934449608029594,
+              "lng": 79.097636
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 15.933132556846852,
+              "lng": 79.0943293869095
+            },
+            "to": {
+              "lat": 15.926773392790789,
+              "lng": 79.10094250834327
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 15.92995294963764,
+              "lng": 79.09295981699574
+            },
+            "to": {
+              "lat": 15.92995294963764,
+              "lng": 79.10231218300424
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 15.926773392790789,
+              "lng": 79.09432949165674
+            },
+            "to": {
+              "lat": 15.933132556846852,
+              "lng": 79.10094261309048
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    }
+  ]
+}

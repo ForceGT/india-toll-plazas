@@ -1,0 +1,1990 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Telangana STATE plazas",
+    "output_file": "data/sources/states/telangana/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-05T11:45:08.437Z",
+    "extractor": "scripts/fetchStateTollGuruCarRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Telangana",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 35,
+    "total_plazas_in_state_with_coords": 35,
+    "batch_offset": 0,
+    "batch_limit": null,
+    "successful_extractions": 1,
+    "hit_rate": 0.029,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 254464,
+    "average_processing_time_ms": 7270
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "536055",
+      "plaza_name": "NeoPolis",
+      "coordinates": [
+        "17.410763",
+        "78.315336"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.406266391970405,
+          "lng": 78.315336
+        },
+        "to": {
+          "lat": 17.415259608029597,
+          "lng": 78.315336
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:41:03.980Z",
+      "processing_time_ms": 10007,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536056",
+      "plaza_name": "Mallampet",
+      "coordinates": [
+        "17.5609388888889",
+        "78.3682"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.556442280859304,
+          "lng": 78.3682
+        },
+        "to": {
+          "lat": 17.565435496918493,
+          "lng": 78.3682
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:41:15.985Z",
+      "processing_time_ms": 10002,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536387",
+      "plaza_name": "Bettal Thanda",
+      "coordinates": [
+        "16.61742",
+        "79.29566"
+      ],
+      "concessionaire_name": "TelanganaForestDepartment",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.61292339197041,
+          "lng": 79.29566
+        },
+        "to": {
+          "lat": 16.621916608029593,
+          "lng": 79.29566
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:41:27.989Z",
+      "processing_time_ms": 10002,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536388",
+      "plaza_name": "Nellikal",
+      "coordinates": [
+        "16.67119",
+        "79.28775"
+      ],
+      "concessionaire_name": "TelanganaForestDepartment",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.666693391970412,
+          "lng": 79.28775
+        },
+        "to": {
+          "lat": 16.675686608029597,
+          "lng": 79.28775
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:41:34.880Z",
+      "processing_time_ms": 4886,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536389",
+      "plaza_name": "FDO Complex",
+      "coordinates": [
+        "16.67230",
+        "79.27726"
+      ],
+      "concessionaire_name": "TelanganaForestDepartment",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.667803391970413,
+          "lng": 79.27726
+        },
+        "to": {
+          "lat": 16.67679660802959,
+          "lng": 79.27726
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:41:46.886Z",
+      "processing_time_ms": 10003,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536540",
+      "plaza_name": "Y JunctionKistempet",
+      "coordinates": [
+        "18.843271",
+        "79.725755"
+      ],
+      "concessionaire_name": "ChennurForestDivision",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 18.838774391970407,
+          "lng": 79.725755
+        },
+        "to": {
+          "lat": 18.847767608029596,
+          "lng": 79.725755
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:41:58.893Z",
+      "processing_time_ms": 10003,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536541",
+      "plaza_name": "ParpalleChintha",
+      "coordinates": [
+        "18.84320",
+        "79.72578"
+      ],
+      "concessionaire_name": "ChennurForestDivision",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 18.838703391970405,
+          "lng": 79.72578000000001
+        },
+        "to": {
+          "lat": 18.847696608029594,
+          "lng": 79.72578000000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:42:10.900Z",
+      "processing_time_ms": 10002,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536655",
+      "plaza_name": "ThapalpurCheck post",
+      "coordinates": [
+        "19.077595",
+        "79.092687"
+      ],
+      "concessionaire_name": "Kawal TigerReserve",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 19.073098391970408,
+          "lng": 79.09268700000001
+        },
+        "to": {
+          "lat": 19.082091608029593,
+          "lng": 79.09268700000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0.8,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:42:24.068Z",
+      "processing_time_ms": 11167,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.073098391970408,
+              "lng": 79.09268700000001
+            },
+            "to": {
+              "lat": 19.082091608029593,
+              "lng": 79.09268700000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.08077455151613,
+              "lng": 79.08932257176242
+            },
+            "to": {
+              "lat": 19.074415387460434,
+              "lng": 79.09605129909794
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.077594938976564,
+              "lng": 79.08792907127953
+            },
+            "to": {
+              "lat": 19.077594938976564,
+              "lng": 79.09744492872048
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.074415387460434,
+              "lng": 79.08932270090207
+            },
+            "to": {
+              "lat": 19.08077455151613,
+              "lng": 79.09605142823759
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536656",
+      "plaza_name": "IndanpallyCheck post",
+      "coordinates": [
+        "19.151079",
+        "78.923345"
+      ],
+      "concessionaire_name": "Kawal TigerReserve",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 19.146582391970405,
+          "lng": 78.923345
+        },
+        "to": {
+          "lat": 19.155575608029594,
+          "lng": 78.923345
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0.4,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:42:39.410Z",
+      "processing_time_ms": 13337,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.146582391970405,
+              "lng": 78.923345
+            },
+            "to": {
+              "lat": 19.155575608029594,
+              "lng": 78.923345
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.15425855138938,
+              "lng": 78.91997907574728
+            },
+            "to": {
+              "lat": 19.147899387333702,
+              "lng": 78.926710794519
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.15107893872308,
+              "lng": 78.91858495601473
+            },
+            "to": {
+              "lat": 19.15107893872308,
+              "lng": 78.92810504398527
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.147899387333702,
+              "lng": 78.919979205481
+            },
+            "to": {
+              "lat": 19.15425855138938,
+              "lng": 78.9267109242527
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536657",
+      "plaza_name": "PandavapurCheck post",
+      "coordinates": [
+        "19.10126",
+        "78.80837"
+      ],
+      "concessionaire_name": "Kawal TigerReserve",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 19.09676339197041,
+          "lng": 78.80837
+        },
+        "to": {
+          "lat": 19.105756608029594,
+          "lng": 78.80837
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 3.4,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:42:49.182Z",
+      "processing_time_ms": 7768,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.09676339197041,
+              "lng": 78.80837
+            },
+            "to": {
+              "lat": 19.105756608029594,
+              "lng": 78.80837
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.104439551475323,
+              "lng": 78.80500509073077
+            },
+            "to": {
+              "lat": 19.09808038741964,
+              "lng": 78.8117347799384
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.101259938894962,
+              "lng": 78.80361139113323
+            },
+            "to": {
+              "lat": 19.101259938894962,
+              "lng": 78.81312860886678
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.09808038741964,
+              "lng": 78.80500522006159
+            },
+            "to": {
+              "lat": 19.104439551475323,
+              "lng": 78.81173490926923
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536658",
+      "plaza_name": "Utnoor Checkpost",
+      "coordinates": [
+        "19.352745",
+        "78.789342"
+      ],
+      "concessionaire_name": "Kawal TigerReserve",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 19.348248391970408,
+          "lng": 78.789342
+        },
+        "to": {
+          "lat": 19.35724160802959,
+          "lng": 78.789342
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 3.9,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:42:56.623Z",
+      "processing_time_ms": 5439,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.348248391970408,
+              "lng": 78.789342
+            },
+            "to": {
+              "lat": 19.35724160802959,
+              "lng": 78.789342
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.355924551040964,
+              "lng": 78.7859719348014
+            },
+            "to": {
+              "lat": 19.34956538698531,
+              "lng": 78.79271193382826
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.352744938026277,
+              "lng": 78.78457610099021
+            },
+            "to": {
+              "lat": 19.352744938026277,
+              "lng": 78.7941078990098
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 19.34956538698531,
+              "lng": 78.78597206617174
+            },
+            "to": {
+              "lat": 19.355924551040964,
+              "lng": 78.79271206519863
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550001",
+      "plaza_name": "Kokapet",
+      "coordinates": [
+        "17.242673",
+        "78.194936"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.23817639197041,
+          "lng": 78.194936
+        },
+        "to": {
+          "lat": 17.247169608029594,
+          "lng": 78.194936
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 18.9,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:43:06.972Z",
+      "processing_time_ms": 8346,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.23817639197041,
+              "lng": 78.194936
+            },
+            "to": {
+              "lat": 17.247169608029594,
+              "lng": 78.194936
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 18.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.24585255464601,
+              "lng": 78.19160673908698
+            },
+            "to": {
+              "lat": 17.239493390590088,
+              "lng": 78.19826514623115
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 19.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.24267294523609,
+              "lng": 78.19022779516314
+            },
+            "to": {
+              "lat": 17.24267294523609,
+              "lng": 78.19964420483686
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.239493390590088,
+              "lng": 78.19160685376885
+            },
+            "to": {
+              "lat": 17.24585255464601,
+              "lng": 78.19826526091302
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 17.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550002",
+      "plaza_name": "Edulanagulapally",
+      "coordinates": [
+        "17.462213",
+        "78.249439"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 17.457716391970408,
+          "lng": 78.249439
+        },
+        "to": {
+          "lat": 17.466709608029593,
+          "lng": 78.249439
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 20.5,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Unknown",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "ticketSystem2"
+        },
+        {
+          "name": "Patancheru",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-05T11:43:10.028Z",
+      "processing_time_ms": 1052,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.457716391970408,
+              "lng": 78.249439
+            },
+            "to": {
+              "lat": 17.466709608029593,
+              "lng": 78.249439
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 2,
+          "distance_km": 20.5,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Unknown",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "ticketSystem2"
+            },
+            {
+              "name": "Patancheru",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "550003",
+      "plaza_name": "Patancheru",
+      "coordinates": [
+        "17.321673",
+        "78.140518"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.317176391970406,
+          "lng": 78.140518
+        },
+        "to": {
+          "lat": 17.326169608029595,
+          "lng": 78.140518
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.9,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:43:18.015Z",
+      "processing_time_ms": 5983,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.317176391970406,
+              "lng": 78.140518
+            },
+            "to": {
+              "lat": 17.326169608029595,
+              "lng": 78.140518
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.32485255451258,
+              "lng": 78.13718731031132
+            },
+            "to": {
+              "lat": 17.31849339045667,
+              "lng": 78.14384857439858
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.321672944969254,
+              "lng": 78.13580777499935
+            },
+            "to": {
+              "lat": 17.321672944969254,
+              "lng": 78.14522822500065
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 4.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.31849339045667,
+              "lng": 78.13718742560143
+            },
+            "to": {
+              "lat": 17.32485255451258,
+              "lng": 78.14384868968868
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550004",
+      "plaza_name": "Sultanpur",
+      "coordinates": [
+        "17.333045",
+        "78.184737"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.328548391970408,
+          "lng": 78.184737
+        },
+        "to": {
+          "lat": 17.337541608029593,
+          "lng": 78.184737
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.6,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:43:27.390Z",
+      "processing_time_ms": 7372,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.328548391970408,
+              "lng": 78.184737
+            },
+            "to": {
+              "lat": 17.337541608029593,
+              "lng": 78.184737
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.336224554493366,
+              "lng": 78.18140610401751
+            },
+            "to": {
+              "lat": 17.329865390437458,
+              "lng": 78.18806778060473
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.333044944930826,
+              "lng": 78.18002648331783
+            },
+            "to": {
+              "lat": 17.333044944930826,
+              "lng": 78.18944751668218
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.329865390437458,
+              "lng": 78.18140621939527
+            },
+            "to": {
+              "lat": 17.336224554493366,
+              "lng": 78.1880678959825
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550005",
+      "plaza_name": "Dundigal",
+      "coordinates": [
+        "17.353843",
+        "78.242823"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.34934639197041,
+          "lng": 78.242823
+        },
+        "to": {
+          "lat": 17.358339608029596,
+          "lng": 78.242823
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 7.9,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:43:49.975Z",
+      "processing_time_ms": 20583,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 17.34934639197041,
+              "lng": 78.242823
+            },
+            "to": {
+              "lat": 17.358339608029596,
+              "lng": 78.242823
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 7.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "error": "This operation was aborted"
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "error": "HTTP 429: Too Many Requests"
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550006",
+      "plaza_name": "Medchal",
+      "coordinates": [
+        "17.355345",
+        "78.292706"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.35084839197041,
+          "lng": 78.292706
+        },
+        "to": {
+          "lat": 17.35984160802959,
+          "lng": 78.292706
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:43:53.870Z",
+      "processing_time_ms": 1892,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550007",
+      "plaza_name": "Shamirpet",
+      "coordinates": [
+        "17.343361",
+        "78.341763"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.33886439197041,
+          "lng": 78.341763
+        },
+        "to": {
+          "lat": 17.347857608029596,
+          "lng": 78.341763
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:43:58.012Z",
+      "processing_time_ms": 2138,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550008",
+      "plaza_name": "Keesara",
+      "coordinates": [
+        "17.310012",
+        "78.385202"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.305515391970406,
+          "lng": 78.385202
+        },
+        "to": {
+          "lat": 17.314508608029595,
+          "lng": 78.385202
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:02.206Z",
+      "processing_time_ms": 2190,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550009",
+      "plaza_name": "Ghatkesar",
+      "coordinates": [
+        "17.263039",
+        "78.400211"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.25854239197041,
+          "lng": 78.400211
+        },
+        "to": {
+          "lat": 17.267535608029597,
+          "lng": 78.400211
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:06.286Z",
+      "processing_time_ms": 2077,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550010",
+      "plaza_name": "Taramatipet",
+      "coordinates": [
+        "17.222251",
+        "78.405290"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.217754391970406,
+          "lng": 78.40528999999998
+        },
+        "to": {
+          "lat": 17.226747608029594,
+          "lng": 78.40528999999998
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:10.086Z",
+      "processing_time_ms": 1798,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550011",
+      "plaza_name": "PeddaAmberpet",
+      "coordinates": [
+        "17.319992",
+        "78.655881"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.315495391970405,
+          "lng": 78.655881
+        },
+        "to": {
+          "lat": 17.324488608029593,
+          "lng": 78.655881
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:14.125Z",
+      "processing_time_ms": 2036,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550012",
+      "plaza_name": "Bongulur",
+      "coordinates": [
+        "17.141561",
+        "78.350437"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.1370643919704,
+          "lng": 78.350437
+        },
+        "to": {
+          "lat": 17.146057608029594,
+          "lng": 78.350437
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:18.445Z",
+      "processing_time_ms": 2308,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550013",
+      "plaza_name": "Ravi Ryal",
+      "coordinates": [
+        "17.124448",
+        "78.313874"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.11995139197041,
+          "lng": 78.31387399999998
+        },
+        "to": {
+          "lat": 17.128944608029595,
+          "lng": 78.31387399999998
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:22.403Z",
+      "processing_time_ms": 1953,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550014",
+      "plaza_name": "Tukkuguda",
+      "coordinates": [
+        "17.121063",
+        "78.283524"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.116566391970405,
+          "lng": 78.28352400000001
+        },
+        "to": {
+          "lat": 17.125559608029594,
+          "lng": 78.28352400000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:26.382Z",
+      "processing_time_ms": 1975,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550015",
+      "plaza_name": "Peddagolconda",
+      "coordinates": [
+        "17.121417",
+        "78.235572"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.116920391970403,
+          "lng": 78.235572
+        },
+        "to": {
+          "lat": 17.125913608029595,
+          "lng": 78.235572
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:30.527Z",
+      "processing_time_ms": 2141,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550016",
+      "plaza_name": "Shamshabad",
+      "coordinates": [
+        "17.151163",
+        "78.224438"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.146666391970406,
+          "lng": 78.22443800000002
+        },
+        "to": {
+          "lat": 17.155659608029595,
+          "lng": 78.22443800000002
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:34.851Z",
+      "processing_time_ms": 2320,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550017",
+      "plaza_name": "Rajendra Nagar",
+      "coordinates": [
+        "17.192464",
+        "78.223080"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.187967391970407,
+          "lng": 78.22308
+        },
+        "to": {
+          "lat": 17.196960608029595,
+          "lng": 78.22308
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:39.036Z",
+      "processing_time_ms": 2180,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550018",
+      "plaza_name": "TSPA",
+      "coordinates": [
+        "17.210101",
+        "78.214002"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.205604391970404,
+          "lng": 78.214002
+        },
+        "to": {
+          "lat": 17.214597608029596,
+          "lng": 78.214002
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:43.233Z",
+      "processing_time_ms": 2194,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550019",
+      "plaza_name": "Nanakramguda",
+      "coordinates": [
+        "17.242648",
+        "78.211582"
+      ],
+      "concessionaire_name": "IRB",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.238151391970405,
+          "lng": 78.211582
+        },
+        "to": {
+          "lat": 17.247144608029593,
+          "lng": 78.211582
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:47.541Z",
+      "processing_time_ms": 2304,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550020",
+      "plaza_name": "Duddeda Toll Plaza",
+      "coordinates": [
+        "18.00020",
+        "78.8876"
+      ],
+      "concessionaire_name": "HKRROADWAYS",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.9957033919704,
+          "lng": 78.8876
+        },
+        "to": {
+          "lat": 18.004696608029594,
+          "lng": 78.8876
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:51.811Z",
+      "processing_time_ms": 2267,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550021",
+      "plaza_name": "Renikunta Toll Plaza",
+      "coordinates": [
+        "18.2943",
+        "79.1171"
+      ],
+      "concessionaire_name": "HKRROADWAYS",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 18.28980339197041,
+          "lng": 79.1171
+        },
+        "to": {
+          "lat": 18.298796608029598,
+          "lng": 79.1171
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:55.853Z",
+      "processing_time_ms": 2041,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550022",
+      "plaza_name": "Basanthnagar Toll Plaza",
+      "coordinates": [
+        "18.7042",
+        "79.417"
+      ],
+      "concessionaire_name": "HKRROADWAYS",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 18.699703391970413,
+          "lng": 79.417
+        },
+        "to": {
+          "lat": 18.708696608029598,
+          "lng": 79.417
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:44:59.960Z",
+      "processing_time_ms": 2104,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "550023",
+      "plaza_name": "Madugulapally Toll Plaza",
+      "coordinates": [
+        "16.9794",
+        "79.4537"
+      ],
+      "concessionaire_name": "N.A.M.Expressway",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 16.974903391970404,
+          "lng": 79.4537
+        },
+        "to": {
+          "lat": 16.983896608029593,
+          "lng": 79.4537
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:45:04.283Z",
+      "processing_time_ms": 2321,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "556043",
+      "plaza_name": "Narsingi",
+      "coordinates": [
+        "17.388444",
+        "78.351798"
+      ],
+      "concessionaire_name": "HGCL",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 17.383947391970406,
+          "lng": 78.35179799999999
+        },
+        "to": {
+          "lat": 17.39294060802959,
+          "lng": 78.35179799999999
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-05T11:45:08.436Z",
+      "processing_time_ms": 2149,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "HTTP 429: Too Many Requests"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Jharkhand STATE plazas",
+    "output_file": "data/sources/states/jharkhand/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-01T15:49:20.039Z",
+    "extractor": "scripts/fetchHaryanaTollGuruRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Jharkhand",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 1,
+    "successful_extractions": 1,
+    "hit_rate": 1,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 3891,
+    "average_processing_time_ms": 3891
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "392022",
+      "plaza_name": "Adityapur TollBridge",
+      "coordinates": [
+        "22.799843",
+        "86.144471"
+      ],
+      "concessionaire_name": "AdityapurToll BridgeComp Ltd",
+      "toll_amount_inr": 20,
+      "route_generated": {
+        "from": {
+          "lat": 22.799842925828536,
+          "lng": 86.13959326642232
+        },
+        "to": {
+          "lat": 22.799842925828536,
+          "lng": 86.14934873357767
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 3.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Adityapur Bridge",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T15:49:20.038Z",
+      "processing_time_ms": 3891,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.7953463919704,
+              "lng": 86.144471
+            },
+            "to": {
+              "lat": 22.804339608029593,
+              "lng": 86.144471
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 7.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.803022544941832,
+              "lng": 86.14102184104622
+            },
+            "to": {
+              "lat": 22.796663380886702,
+              "lng": 86.14791999803751
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.799842925828536,
+              "lng": 86.13959326642232
+            },
+            "to": {
+              "lat": 22.799842925828536,
+              "lng": 86.14934873357767
+            }
+          },
+          "toll_amount": 20,
+          "total_tolls_found": 1,
+          "distance_km": 3.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Adityapur Bridge",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    }
+  ]
+}

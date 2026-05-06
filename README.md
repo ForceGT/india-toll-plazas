@@ -16,7 +16,7 @@ This repository maintains a clean, curated dataset of toll plazas with:
 
 **Data Sources:**
 - **NHAI (National Highways)**: ~1191 toll plazas with comprehensive data
-- **State Highways**: 5 toll plazas (Rajasthan) with curated data
+- **State Highways**: merged from `data/sources/states/*/state_highways.json` (NETC-backed slices + curated rows); run `npm run merge` after edits. Gujarat is rate-filled for cars where sourced; Maharashtra is scaffolded (rates mostly pending).
 
 ## Quick Start
 
@@ -167,7 +167,14 @@ When using data, always check `data_source` and `data_confidence` to understand 
 - Jaipur–Phagi segment toll (TOI rates; anchor near Phagi town per OSM)
 - Shahpura, Kekri, Malpura — RJ SH 12 toll anchors (Wikipedia-listed stations; **town centroids**, refine booth pin later)
 
-**Research (Wikipedia SH list → plazas in this dataset):** [docs/RAJASTHAN_SH_TOLL_MAP.md](docs/RAJASTHAN_SH_TOLL_MAP.md) — heuristic place-name overlap for each [RJ state highway](https://en.wikipedia.org/wiki/List_of_state_highways_in_Rajasthan) row; re-run with `node scripts/buildRajasthanShTollMap.js` after updates.
+**Research:** 
+
+**Gujarat (verification — state toll plazas):** Cross-check names, state-highway numbers, districts, and corridor text against the official GSRDC dashboards before trusting merges from NETC/TollGuru alone:
+
+- [Toll location](https://www.gsrdc.com/FrontDashboard/TollLocation) — Gujarat State Road Development Corporation (GSRDC) plaza listing  
+- [Toll notification](https://www.gsrdc.com/FrontDashboard/TollNotification) — published notices / tariff-related PDFs  
+
+Curated rows live under `data/sources/states/gujarat/state_highways.json`.
 
 *More states coming soon through community contributions. See [STATE_HIGHWAYS.md](./STATE_HIGHWAYS.md) for how to contribute.*
 

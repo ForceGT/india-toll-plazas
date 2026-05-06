@@ -1,0 +1,1679 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Uttarakhand STATE plazas",
+    "output_file": "data/sources/states/uttarakhand/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-01T18:42:34.364Z",
+    "extractor": "scripts/fetchStateTollGuruCarRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Uttarakhand",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 15,
+    "successful_extractions": 2,
+    "hit_rate": 0.133,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 105943,
+    "average_processing_time_ms": 7063
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "536672",
+      "plaza_name": "NARSANCHECKPOST",
+      "coordinates": [
+        "29.689538",
+        "77.8492"
+      ],
+      "concessionaire_name": "SARVODAYAINFOTECHPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.685041391970405,
+          "lng": 77.8492
+        },
+        "to": {
+          "lat": 29.69403460802959,
+          "lng": 77.8492
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:40:53.479Z",
+      "processing_time_ms": 5059,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.685041391970405,
+              "lng": 77.8492
+            },
+            "to": {
+              "lat": 29.69403460802959,
+              "lng": 77.8492
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.69271753172602,
+              "lng": 77.8455398155556
+            },
+            "to": {
+              "lat": 29.68635836767234,
+              "lng": 77.85285995283606
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.68953789939837,
+              "lng": 77.844023881302
+            },
+            "to": {
+              "lat": 29.68953789939837,
+              "lng": 77.854376118698
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.68635836767234,
+              "lng": 77.84554004716395
+            },
+            "to": {
+              "lat": 29.69271753172602,
+              "lng": 77.85286018444441
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536729",
+      "plaza_name": "AsharodiCheckpost",
+      "coordinates": [
+        "30.262620",
+        "77.982195"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 30.258123391970408,
+          "lng": 77.982195
+        },
+        "to": {
+          "lat": 30.267116608029585,
+          "lng": 77.982195
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.3,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:00.490Z",
+      "processing_time_ms": 5010,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.258123391970408,
+              "lng": 77.982195
+            },
+            "to": {
+              "lat": 30.267116608029585,
+              "lng": 77.982195
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.265799530549923,
+              "lng": 77.97851363527593
+            },
+            "to": {
+              "lat": 30.259440366496392,
+              "lng": 77.98587612632933
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.262619897046314,
+              "lng": 77.97698893266234
+            },
+            "to": {
+              "lat": 30.262619897046314,
+              "lng": 77.98740106733766
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.259440366496392,
+              "lng": 77.97851387367066
+            },
+            "to": {
+              "lat": 30.265799530549923,
+              "lng": 77.98587636472406
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536730",
+      "plaza_name": "Surya PoliceChowkiCheckpost",
+      "coordinates": [
+        "29.1973",
+        "78.8942"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.192803391970408,
+          "lng": 78.8942
+        },
+        "to": {
+          "lat": 29.201796608029596,
+          "lng": 78.8942
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 0,
+        "summary": "All route attempts failed"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:12.510Z",
+      "processing_time_ms": 10016,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536731",
+      "plaza_name": "NadehiCheckpost",
+      "coordinates": [
+        "29.282701",
+        "78.770031"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.278204391970416,
+          "lng": 78.770031
+        },
+        "to": {
+          "lat": 29.287197608029597,
+          "lng": 78.770031
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.3,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:19.265Z",
+      "processing_time_ms": 4752,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.278204391970416,
+              "lng": 78.770031
+            },
+            "to": {
+              "lat": 29.287197608029597,
+              "lng": 78.770031
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.285880532552838,
+              "lng": 78.76638548400716
+            },
+            "to": {
+              "lat": 29.279521368499054,
+              "lng": 78.77367628910409
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.282700901051886,
+              "lng": 78.7648756222876
+            },
+            "to": {
+              "lat": 29.282700901051886,
+              "lng": 78.7751863777124
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.279521368499054,
+              "lng": 78.76638571089592
+            },
+            "to": {
+              "lat": 29.285880532552838,
+              "lng": 78.77367651599286
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536732",
+      "plaza_name": "KulhalCheckpost",
+      "coordinates": [
+        "30.429061",
+        "77.625711"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 170,
+      "route_generated": {
+        "from": {
+          "lat": 30.4258813661523,
+          "lng": 77.62202360889864
+        },
+        "to": {
+          "lat": 30.432240530205785,
+          "lng": 77.6293986314982
+        }
+      },
+      "route_bearing": 45,
+      "route_description": "Northeast-Southwest",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.5,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Ponta Sahib",
+          "cost": 170,
+          "currency": "INR",
+          "tagCost": 170,
+          "cashCost": 170,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T18:41:26.221Z",
+      "processing_time_ms": 4954,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.42456439197041,
+              "lng": 77.625711
+            },
+            "to": {
+              "lat": 30.4335576080296,
+              "lng": 77.625711
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.432240530205785,
+              "lng": 77.62202336850179
+            },
+            "to": {
+              "lat": 30.4258813661523,
+              "lng": 77.62939839110135
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.42906089635808,
+              "lng": 77.62049607152119
+            },
+            "to": {
+              "lat": 30.42906089635808,
+              "lng": 77.6309259284788
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.4258813661523,
+              "lng": 77.62202360889864
+            },
+            "to": {
+              "lat": 30.432240530205785,
+              "lng": 77.6293986314982
+            }
+          },
+          "toll_amount": 170,
+          "total_tolls_found": 1,
+          "distance_km": 1.5,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Ponta Sahib",
+              "cost": 170,
+              "currency": "INR",
+              "tagCost": 170,
+              "cashCost": 170,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 1
+    },
+    {
+      "netc_plaza_code": "536733",
+      "plaza_name": "BhagwanpurCheckpost",
+      "coordinates": [
+        "30.004968",
+        "77.765179"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 30.000471391970404,
+          "lng": 77.765179
+        },
+        "to": {
+          "lat": 30.009464608029585,
+          "lng": 77.765179
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 3.1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:33.019Z",
+      "processing_time_ms": 4796,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.000471391970404,
+              "lng": 77.765179
+            },
+            "to": {
+              "lat": 30.009464608029585,
+              "lng": 77.765179
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.00814753108036,
+              "lng": 77.76150723343044
+            },
+            "to": {
+              "lat": 30.001788367026762,
+              "lng": 77.7688505312463
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.004967898107132,
+              "lng": 77.75998650433058
+            },
+            "to": {
+              "lat": 30.004967898107132,
+              "lng": 77.77037149566944
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 4.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.001788367026762,
+              "lng": 77.7615074687537
+            },
+            "to": {
+              "lat": 30.00814753108036,
+              "lng": 77.76885076656957
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536734",
+      "plaza_name": "KaudiaCheckpost",
+      "coordinates": [
+        "29.729897",
+        "78.505699"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.725400391970407,
+          "lng": 78.505699
+        },
+        "to": {
+          "lat": 29.734393608029595,
+          "lng": 78.505699
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.3,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:40.074Z",
+      "processing_time_ms": 5054,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.725400391970407,
+              "lng": 78.505699
+            },
+            "to": {
+              "lat": 29.734393608029595,
+              "lng": 78.505699
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.733076531643643,
+              "lng": 78.50203734389719
+            },
+            "to": {
+              "lat": 29.726717367589973,
+              "lng": 78.50936042402192
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.729896899233616,
+              "lng": 78.5005208003969
+            },
+            "to": {
+              "lat": 29.729896899233616,
+              "lng": 78.51087719960313
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.726717367589973,
+              "lng": 78.50203757597811
+            },
+            "to": {
+              "lat": 29.733076531643643,
+              "lng": 78.50936065610283
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536735",
+      "plaza_name": "DharampurCheckpost",
+      "coordinates": [
+        "29.314746",
+        "78.784278"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.31024939197041,
+          "lng": 78.78427800000001
+        },
+        "to": {
+          "lat": 29.319242608029597,
+          "lng": 78.78427800000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:46.781Z",
+      "processing_time_ms": 4706,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.31024939197041,
+              "lng": 78.78427800000001
+            },
+            "to": {
+              "lat": 29.319242608029597,
+              "lng": 78.78427800000001
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.31792553248795,
+              "lng": 78.78063133955924
+            },
+            "to": {
+              "lat": 29.311566368434175,
+              "lng": 78.78792443318315
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.314745900922123,
+              "lng": 78.77912100405467
+            },
+            "to": {
+              "lat": 29.314745900922123,
+              "lng": 78.78943499594533
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.311566368434175,
+              "lng": 78.78063156681687
+            },
+            "to": {
+              "lat": 29.31792553248795,
+              "lng": 78.78792466044078
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536736",
+      "plaza_name": "RudrapurCheckpost",
+      "coordinates": [
+        "28.961439",
+        "79.387639"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 28.956942391970404,
+          "lng": 79.387639
+        },
+        "to": {
+          "lat": 28.96593560802959,
+          "lng": 79.387639
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.1,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:41:53.993Z",
+      "processing_time_ms": 5210,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.956942391970404,
+              "lng": 79.387639
+            },
+            "to": {
+              "lat": 28.96593560802959,
+              "lng": 79.387639
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.964618533201083,
+              "lng": 79.3840048552229
+            },
+            "to": {
+              "lat": 28.95825936914722,
+              "lng": 79.39127292155936
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.961438902348302,
+              "lng": 79.38249970101909
+            },
+            "to": {
+              "lat": 28.961438902348302,
+              "lng": 79.3927782989809
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.95825936914722,
+              "lng": 79.38400507844061
+            },
+            "to": {
+              "lat": 28.964618533201083,
+              "lng": 79.39127314477709
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536737",
+      "plaza_name": "Doraha BazpurCheckpost",
+      "coordinates": [
+        "29.133278",
+        "79.118736"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.128781391970406,
+          "lng": 79.11873599999998
+        },
+        "to": {
+          "lat": 29.13777460802959,
+          "lng": 79.11873599999998
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.2,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:42:00.855Z",
+      "processing_time_ms": 4860,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.128781391970406,
+              "lng": 79.11873599999998
+            },
+            "to": {
+              "lat": 29.13777460802959,
+              "lng": 79.11873599999998
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.136457532854845,
+              "lng": 79.1150957959788
+            },
+            "to": {
+              "lat": 29.130098368801026,
+              "lng": 79.12237597884591
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.133277901655877,
+              "lng": 79.11358813333824
+            },
+            "to": {
+              "lat": 29.133277901655877,
+              "lng": 79.12388386666174
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.130098368801026,
+              "lng": 79.11509602115407
+            },
+            "to": {
+              "lat": 29.136457532854845,
+              "lng": 79.12237620402118
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536738",
+      "plaza_name": "ImlikheraCheckpost",
+      "coordinates": [
+        "29.932774",
+        "77.892569"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.928277391970408,
+          "lng": 77.892569
+        },
+        "to": {
+          "lat": 29.93727060802959,
+          "lng": 77.892569
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.3,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:42:07.834Z",
+      "processing_time_ms": 4976,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.928277391970408,
+              "lng": 77.892569
+            },
+            "to": {
+              "lat": 29.93727060802959,
+              "lng": 77.892569
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.3,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.935953531228506,
+              "lng": 77.88889990057042
+            },
+            "to": {
+              "lat": 29.929594367174886,
+              "lng": 77.89623786496092
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.932773898403397,
+              "lng": 77.88738027563176
+            },
+            "to": {
+              "lat": 29.932773898403397,
+              "lng": 77.89775772436823
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.929594367174886,
+              "lng": 77.88890013503907
+            },
+            "to": {
+              "lat": 29.935953531228506,
+              "lng": 77.89623809942958
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536739",
+      "plaza_name": "ManjholaCheckpost",
+      "coordinates": [
+        "28.834432",
+        "79.898587"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 28.829935391970405,
+          "lng": 79.898587
+        },
+        "to": {
+          "lat": 28.838928608029594,
+          "lng": 79.898587
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.2,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:42:14.488Z",
+      "processing_time_ms": 4652,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.829935391970405,
+              "lng": 79.898587
+            },
+            "to": {
+              "lat": 28.838928608029594,
+              "lng": 79.898587
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.837611533456247,
+              "lng": 79.89495729973574
+            },
+            "to": {
+              "lat": 28.831252369402357,
+              "lng": 79.90221647848458
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.834431902858608,
+              "lng": 79.89345398549251
+            },
+            "to": {
+              "lat": 28.834431902858608,
+              "lng": 79.90372001450748
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.831252369402357,
+              "lng": 79.89495752151544
+            },
+            "to": {
+              "lat": 28.837611533456247,
+              "lng": 79.90221670026426
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536740",
+      "plaza_name": "ShyampurCheckpost",
+      "coordinates": [
+        "29.859192",
+        "78.185567"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 29.854695391970402,
+          "lng": 78.185567
+        },
+        "to": {
+          "lat": 29.863688608029594,
+          "lng": 78.185567
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 2.4,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:42:21.254Z",
+      "processing_time_ms": 4765,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.854695391970402,
+              "lng": 78.185567
+            },
+            "to": {
+              "lat": 29.863688608029594,
+              "lng": 78.185567
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.862371531379264,
+              "lng": 78.18190060901898
+            },
+            "to": {
+              "lat": 29.856012367325626,
+              "lng": 78.18923315738076
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.859191898704893,
+              "lng": 78.18038210534237
+            },
+            "to": {
+              "lat": 29.859191898704893,
+              "lng": 78.19075189465765
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 29.856012367325626,
+              "lng": 78.18190084261927
+            },
+            "to": {
+              "lat": 29.862371531379264,
+              "lng": 78.18923339098103
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536741",
+      "plaza_name": "SutaiyaCheckpost",
+      "coordinates": [
+        "28.869284",
+        "79.516856"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 28.86478739197041,
+          "lng": 79.516856
+        },
+        "to": {
+          "lat": 28.8737806080296,
+          "lng": 79.516856
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.6,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T18:42:29.029Z",
+      "processing_time_ms": 5774,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.86478739197041,
+              "lng": 79.516856
+            },
+            "to": {
+              "lat": 28.8737806080296,
+              "lng": 79.516856
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.872463533386302,
+              "lng": 79.51322508297514
+            },
+            "to": {
+              "lat": 28.866104369332408,
+              "lng": 79.5204866948513
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.869283902718706,
+              "lng": 79.5117212650117
+            },
+            "to": {
+              "lat": 28.869283902718706,
+              "lng": 79.5219907349883
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.7,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.866104369332408,
+              "lng": 79.51322530514871
+            },
+            "to": {
+              "lat": 28.872463533386302,
+              "lng": 79.52048691702485
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536742",
+      "plaza_name": "Timli Checkpost",
+      "coordinates": [
+        "30.409222",
+        "77.721635"
+      ],
+      "concessionaire_name": "SarvodayaInfotechPVT LTD",
+      "toll_amount_inr": 130,
+      "route_generated": {
+        "from": {
+          "lat": 30.409221896440233,
+          "lng": 77.71642113162217
+        },
+        "to": {
+          "lat": 30.409221896440233,
+          "lng": 77.72684886837784
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "route_priority": "LOW",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 8.2,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Shahpur Kalyanpur",
+          "cost": 65,
+          "currency": "INR",
+          "tagCost": 65,
+          "cashCost": 130,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Shahpur Kalyanpur",
+          "cost": 65,
+          "currency": "INR",
+          "tagCost": 65,
+          "cashCost": 130,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T18:42:34.363Z",
+      "processing_time_ms": 3332,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.404725391970405,
+              "lng": 77.72163499999999
+            },
+            "to": {
+              "lat": 30.413718608029587,
+              "lng": 77.72163499999999
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.412401530246857,
+              "lng": 77.71794811822608
+            },
+            "to": {
+              "lat": 30.40604236619337,
+              "lng": 77.72532164161645
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 30.409221896440233,
+              "lng": 77.71642113162217
+            },
+            "to": {
+              "lat": 30.409221896440233,
+              "lng": 77.72684886837784
+            }
+          },
+          "toll_amount": 130,
+          "total_tolls_found": 2,
+          "distance_km": 8.2,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Shahpur Kalyanpur",
+              "cost": 65,
+              "currency": "INR",
+              "tagCost": 65,
+              "cashCost": 130,
+              "tollType": "barrier"
+            },
+            {
+              "name": "Shahpur Kalyanpur",
+              "cost": 65,
+              "currency": "INR",
+              "tagCost": 65,
+              "cashCost": 130,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 2
+    }
+  ]
+}

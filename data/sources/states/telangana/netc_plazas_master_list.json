@@ -1,0 +1,286 @@
+{
+  "count": 35,
+  "source": "data/sources/netc/netc_state_plazas.json",
+  "plazas": [
+    {
+      "netc_plaza_code": "536055",
+      "plaza_name": "NeoPolis",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.410763",
+      "longitude": "78.315336"
+    },
+    {
+      "netc_plaza_code": "536056",
+      "plaza_name": "Mallampet",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.5609388888889",
+      "longitude": "78.3682"
+    },
+    {
+      "netc_plaza_code": "536387",
+      "plaza_name": "Bettal Thanda",
+      "city": "Nagarjunasagar",
+      "concessionaire_name": "TelanganaForestDepartment",
+      "latitude": "16.61742",
+      "longitude": "79.29566"
+    },
+    {
+      "netc_plaza_code": "536388",
+      "plaza_name": "Nellikal",
+      "city": "Nagarjunasagar",
+      "concessionaire_name": "TelanganaForestDepartment",
+      "latitude": "16.67119",
+      "longitude": "79.28775"
+    },
+    {
+      "netc_plaza_code": "536389",
+      "plaza_name": "FDO Complex",
+      "city": "Nagarjunasagar",
+      "concessionaire_name": "TelanganaForestDepartment",
+      "latitude": "16.67230",
+      "longitude": "79.27726"
+    },
+    {
+      "netc_plaza_code": "536540",
+      "plaza_name": "Y JunctionKistempet",
+      "city": "Chennur",
+      "concessionaire_name": "ChennurForestDivision",
+      "latitude": "18.843271",
+      "longitude": "79.725755"
+    },
+    {
+      "netc_plaza_code": "536541",
+      "plaza_name": "ParpalleChintha",
+      "city": "Chennur",
+      "concessionaire_name": "ChennurForestDivision",
+      "latitude": "18.84320",
+      "longitude": "79.72578"
+    },
+    {
+      "netc_plaza_code": "536655",
+      "plaza_name": "ThapalpurCheck post",
+      "city": null,
+      "concessionaire_name": "Kawal TigerReserve",
+      "latitude": "19.077595",
+      "longitude": "79.092687"
+    },
+    {
+      "netc_plaza_code": "536656",
+      "plaza_name": "IndanpallyCheck post",
+      "city": null,
+      "concessionaire_name": "Kawal TigerReserve",
+      "latitude": "19.151079",
+      "longitude": "78.923345"
+    },
+    {
+      "netc_plaza_code": "536657",
+      "plaza_name": "PandavapurCheck post",
+      "city": "Nirmal",
+      "concessionaire_name": "Kawal TigerReserve",
+      "latitude": "19.10126",
+      "longitude": "78.80837"
+    },
+    {
+      "netc_plaza_code": "536658",
+      "plaza_name": "Utnoor Checkpost",
+      "city": "Adilabad",
+      "concessionaire_name": "Kawal TigerReserve",
+      "latitude": "19.352745",
+      "longitude": "78.789342"
+    },
+    {
+      "netc_plaza_code": "550001",
+      "plaza_name": "Kokapet",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.242673",
+      "longitude": "78.194936"
+    },
+    {
+      "netc_plaza_code": "550002",
+      "plaza_name": "Edulanagulapally",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.462213",
+      "longitude": "78.249439"
+    },
+    {
+      "netc_plaza_code": "550003",
+      "plaza_name": "Patancheru",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.321673",
+      "longitude": "78.140518"
+    },
+    {
+      "netc_plaza_code": "550004",
+      "plaza_name": "Sultanpur",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.333045",
+      "longitude": "78.184737"
+    },
+    {
+      "netc_plaza_code": "550005",
+      "plaza_name": "Dundigal",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.353843",
+      "longitude": "78.242823"
+    },
+    {
+      "netc_plaza_code": "550006",
+      "plaza_name": "Medchal",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.355345",
+      "longitude": "78.292706"
+    },
+    {
+      "netc_plaza_code": "550007",
+      "plaza_name": "Shamirpet",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.343361",
+      "longitude": "78.341763"
+    },
+    {
+      "netc_plaza_code": "550008",
+      "plaza_name": "Keesara",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.310012",
+      "longitude": "78.385202"
+    },
+    {
+      "netc_plaza_code": "550009",
+      "plaza_name": "Ghatkesar",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.263039",
+      "longitude": "78.400211"
+    },
+    {
+      "netc_plaza_code": "550010",
+      "plaza_name": "Taramatipet",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.222251",
+      "longitude": "78.405290"
+    },
+    {
+      "netc_plaza_code": "550011",
+      "plaza_name": "PeddaAmberpet",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.319992",
+      "longitude": "78.655881"
+    },
+    {
+      "netc_plaza_code": "550012",
+      "plaza_name": "Bongulur",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.141561",
+      "longitude": "78.350437"
+    },
+    {
+      "netc_plaza_code": "550013",
+      "plaza_name": "Ravi Ryal",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.124448",
+      "longitude": "78.313874"
+    },
+    {
+      "netc_plaza_code": "550014",
+      "plaza_name": "Tukkuguda",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.121063",
+      "longitude": "78.283524"
+    },
+    {
+      "netc_plaza_code": "550015",
+      "plaza_name": "Peddagolconda",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.121417",
+      "longitude": "78.235572"
+    },
+    {
+      "netc_plaza_code": "550016",
+      "plaza_name": "Shamshabad",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.151163",
+      "longitude": "78.224438"
+    },
+    {
+      "netc_plaza_code": "550017",
+      "plaza_name": "Rajendra Nagar",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.192464",
+      "longitude": "78.223080"
+    },
+    {
+      "netc_plaza_code": "550018",
+      "plaza_name": "TSPA",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.210101",
+      "longitude": "78.214002"
+    },
+    {
+      "netc_plaza_code": "550019",
+      "plaza_name": "Nanakramguda",
+      "city": "Hyderabad",
+      "concessionaire_name": "IRB",
+      "latitude": "17.242648",
+      "longitude": "78.211582"
+    },
+    {
+      "netc_plaza_code": "550020",
+      "plaza_name": "Duddeda Toll Plaza",
+      "city": "Medak",
+      "concessionaire_name": "HKRROADWAYS",
+      "latitude": "18.00020",
+      "longitude": "78.8876"
+    },
+    {
+      "netc_plaza_code": "550021",
+      "plaza_name": "Renikunta Toll Plaza",
+      "city": "Karimnagar",
+      "concessionaire_name": "HKRROADWAYS",
+      "latitude": "18.2943",
+      "longitude": "79.1171"
+    },
+    {
+      "netc_plaza_code": "550022",
+      "plaza_name": "Basanthnagar Toll Plaza",
+      "city": "Karimnagar",
+      "concessionaire_name": "HKRROADWAYS",
+      "latitude": "18.7042",
+      "longitude": "79.417"
+    },
+    {
+      "netc_plaza_code": "550023",
+      "plaza_name": "Madugulapally Toll Plaza",
+      "city": "Madugulapally",
+      "concessionaire_name": "N.A.M.Expressway",
+      "latitude": "16.9794",
+      "longitude": "79.4537"
+    },
+    {
+      "netc_plaza_code": "556043",
+      "plaza_name": "Narsingi",
+      "city": "Hyderabad",
+      "concessionaire_name": "HGCL",
+      "latitude": "17.388444",
+      "longitude": "78.351798"
+    }
+  ]
+}

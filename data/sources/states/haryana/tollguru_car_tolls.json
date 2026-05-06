@@ -1,0 +1,1506 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Haryana STATE plazas",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-01T11:27:45.056Z",
+    "extractor": "scripts/fetchHaryanaTollGuruRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Haryana",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 16,
+    "successful_extractions": 16,
+    "hit_rate": 1,
+    "rate_limit_delay_ms": 2000,
+    "extraction_completed_at": "2026-05-01T13:35:46.426Z",
+    "new_successes_this_run": 6,
+    "proxies_used": 0,
+    "extraction_method": "multi_bearing_completion"
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "312038",
+      "plaza_name": "Asoda",
+      "coordinates": [
+        "28.725089",
+        "76.846528"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 60,
+      "route_generated": {
+        "from": {
+          "lat": 28.720592391970403,
+          "lng": 76.846528
+        },
+        "to": {
+          "lat": 28.72958560802959,
+          "lng": 76.846528
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 38.2,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Badli",
+          "cost": 25,
+          "currency": "INR",
+          "tagCost": 25,
+          "cashCost": 50,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Unknown",
+          "cost": 35,
+          "currency": "INR",
+          "tagCost": 35,
+          "cashCost": 70,
+          "tollType": "ticketSystem2"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T11:25:51.851Z",
+      "processing_time_ms": 732,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.720592391970403,
+              "lng": 76.846528
+            },
+            "to": {
+              "lat": 28.72958560802959,
+              "lng": 76.846528
+            }
+          },
+          "toll_amount": 60,
+          "total_tolls_found": 2,
+          "distance_km": 38.2,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Badli",
+              "cost": 25,
+              "currency": "INR",
+              "tagCost": 25,
+              "cashCost": 50,
+              "tollType": "barrier"
+            },
+            {
+              "name": "Unknown",
+              "cost": 35,
+              "currency": "INR",
+              "tagCost": 35,
+              "cashCost": 70,
+              "tollType": "ticketSystem2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312039",
+      "plaza_name": "Badli",
+      "coordinates": [
+        "28.575254",
+        "76.820849"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 70,
+      "route_generated": {
+        "from": {
+          "lat": 28.570757391970407,
+          "lng": 76.82084900000001
+        },
+        "to": {
+          "lat": 28.57975060802959,
+          "lng": 76.82084900000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 39.9,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Unknown",
+          "cost": 35,
+          "currency": "INR",
+          "tagCost": 35,
+          "cashCost": 70,
+          "tollType": "ticketSystem2"
+        },
+        {
+          "name": "Asoda",
+          "cost": 35,
+          "currency": "INR",
+          "tagCost": 35,
+          "cashCost": 70,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T11:25:54.672Z",
+      "processing_time_ms": 819,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.570757391970407,
+              "lng": 76.82084900000001
+            },
+            "to": {
+              "lat": 28.57975060802959,
+              "lng": 76.82084900000001
+            }
+          },
+          "toll_amount": 70,
+          "total_tolls_found": 2,
+          "distance_km": 39.9,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Unknown",
+              "cost": 35,
+              "currency": "INR",
+              "tagCost": 35,
+              "cashCost": 70,
+              "tollType": "ticketSystem2"
+            },
+            {
+              "name": "Asoda",
+              "cost": 35,
+              "currency": "INR",
+              "tagCost": 35,
+              "cashCost": 70,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536343",
+      "plaza_name": "Bandhwari TollPlaza",
+      "coordinates": [
+        "28.412231",
+        "77.166926"
+      ],
+      "concessionaire_name": "GF Toll RoadPvt Ltd",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 28.415410534300037,
+          "lng": 77.16331086924046
+        },
+        "to": {
+          "lat": 28.40905137024604,
+          "lng": 77.1705409137071
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.1,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Bandhwari",
+          "cost": 40,
+          "currency": "INR",
+          "tagCost": 40,
+          "cashCost": 80,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T13:35:35.896Z",
+      "processing_time_ms": 2020,
+      "proxy_used": "direct",
+      "route_costs": {
+        "tag": 40,
+        "cash": 80,
+        "currency": "INR"
+      },
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.4077343919704,
+              "lng": 77.166926
+            },
+            "to": {
+              "lat": 28.416727608029593,
+              "lng": 77.166926
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 0.6,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.415410534300037,
+              "lng": 77.16331086924046
+            },
+            "to": {
+              "lat": 28.40905137024604,
+              "lng": 77.1705409137071
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 1,
+          "distance_km": 1.1,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Bandhwari",
+              "cost": 40,
+              "currency": "INR",
+              "tagCost": 40,
+              "cashCost": 80,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312074",
+      "plaza_name": "ConcessionKhalilpur SHToll Plaza",
+      "coordinates": [
+        "28.157553",
+        "77.152888"
+      ],
+      "concessionaire_name": "ConcessionPATH IndiaLtd",
+      "toll_amount_inr": 15,
+      "route_generated": {
+        "from": {
+          "lat": 28.15305639197041,
+          "lng": 77.152888
+        },
+        "to": {
+          "lat": 28.162049608029598,
+          "lng": 77.152888
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.7,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Khalilpur SH",
+          "cost": 15,
+          "currency": "INR",
+          "tagCost": 15,
+          "cashCost": 30,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T13:35:31.875Z",
+      "processing_time_ms": 561,
+      "proxy_used": "direct",
+      "route_costs": {
+        "tag": 15,
+        "cash": 30,
+        "currency": "INR"
+      },
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.15305639197041,
+              "lng": 77.152888
+            },
+            "to": {
+              "lat": 28.162049608029598,
+              "lng": 77.152888
+            }
+          },
+          "toll_amount": 15,
+          "total_tolls_found": 1,
+          "distance_km": 1.7,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Khalilpur SH",
+              "cost": 15,
+              "currency": "INR",
+              "tagCost": 15,
+              "cashCost": 30,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312042",
+      "plaza_name": "ConcessionMANESHAR-7A",
+      "coordinates": [
+        "28.326367",
+        "76.890515"
+      ],
+      "concessionaire_name": "ConcessionSkylarkworld",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 28.329546534470825,
+          "lng": 76.88690279401801
+        },
+        "to": {
+          "lat": 28.323187370416804,
+          "lng": 76.89412698988109
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 19.8,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Manesar",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Unknown",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "ticketSystem2"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T11:26:06.750Z",
+      "processing_time_ms": 5144,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.32187039197041,
+              "lng": 76.890515
+            },
+            "to": {
+              "lat": 28.3308636080296,
+              "lng": 76.890515
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.323187370416804,
+              "lng": 76.88690301011889
+            },
+            "to": {
+              "lat": 28.329546534470825,
+              "lng": 76.89412720598196
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.326366904887625,
+              "lng": 76.88540672212794
+            },
+            "to": {
+              "lat": 28.326366904887625,
+              "lng": 76.89562327787205
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.8,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.329546534470825,
+              "lng": 76.88690279401801
+            },
+            "to": {
+              "lat": 28.323187370416804,
+              "lng": 76.89412698988109
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 2,
+          "distance_km": 19.8,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Manesar",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "barrier"
+            },
+            {
+              "name": "Unknown",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "ticketSystem2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536344",
+      "plaza_name": "Crusher ZoneToll Plaza",
+      "coordinates": [
+        "28.405115",
+        "77.229624"
+      ],
+      "concessionaire_name": "GF Toll RoadPvt Ltd",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 28.400618391970404,
+          "lng": 77.22962399999999
+        },
+        "to": {
+          "lat": 28.409611608029593,
+          "lng": 77.22962399999999
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.9,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Crusher",
+          "cost": 40,
+          "currency": "INR",
+          "tagCost": 40,
+          "cashCost": 80,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T13:35:38.422Z",
+      "processing_time_ms": 525,
+      "proxy_used": "direct",
+      "route_costs": {
+        "tag": 40,
+        "cash": 80,
+        "currency": "INR"
+      },
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.400618391970404,
+              "lng": 77.22962399999999
+            },
+            "to": {
+              "lat": 28.409611608029593,
+              "lng": 77.22962399999999
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 1,
+          "distance_km": 1.9,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Crusher",
+              "cost": 40,
+              "currency": "INR",
+              "tagCost": 40,
+              "cashCost": 80,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312040",
+      "plaza_name": "Farukhnagar",
+      "coordinates": [
+        "28.455781",
+        "76.856801"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 28.45128439197041,
+          "lng": 76.85680100000002
+        },
+        "to": {
+          "lat": 28.4602776080296,
+          "lng": 76.85680100000002
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 3.2,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Farrukhnagar",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Farrukhnagar",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T11:25:57.111Z",
+      "processing_time_ms": 439,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.45128439197041,
+              "lng": 76.85680100000002
+            },
+            "to": {
+              "lat": 28.4602776080296,
+              "lng": 76.85680100000002
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 2,
+          "distance_km": 3.2,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Farrukhnagar",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "barrier"
+            },
+            {
+              "name": "Farrukhnagar",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312037",
+      "plaza_name": "Kharkhoda",
+      "coordinates": [
+        "28.858488",
+        "76.946385"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 10,
+      "route_generated": {
+        "from": {
+          "lat": 28.853991391970403,
+          "lng": 76.946385
+        },
+        "to": {
+          "lat": 28.862984608029596,
+          "lng": 76.946385
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 3.6,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Kharkhoda",
+          "cost": 10,
+          "currency": "INR",
+          "tagCost": 10,
+          "cashCost": 20,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T11:25:49.119Z",
+      "processing_time_ms": 438,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.853991391970403,
+              "lng": 76.946385
+            },
+            "to": {
+              "lat": 28.862984608029596,
+              "lng": 76.946385
+            }
+          },
+          "toll_amount": 10,
+          "total_tolls_found": 1,
+          "distance_km": 3.6,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Kharkhoda",
+              "cost": 10,
+              "currency": "INR",
+              "tagCost": 10,
+              "cashCost": 20,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312036",
+      "plaza_name": "Kundali",
+      "coordinates": [
+        "28.911104",
+        "77.025054"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 35,
+      "route_generated": {
+        "from": {
+          "lat": 28.900697,
+          "lng": 77.00266
+        },
+        "to": {
+          "lat": 28.916099,
+          "lng": 77.051682
+        }
+      },
+      "route_description": "Western Peripheral Expressway (manual from/to; TollGuru route ~17 km)",
+      "tollguru_plaza_match": {
+        "name": "Kundli",
+        "id": 921821800,
+        "lat": 28.9112741,
+        "lng": 77.0257629,
+        "road": "KMP Western Peripheral Expy"
+      },
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 17.1,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Kundli",
+          "cost": 35,
+          "currency": "INR",
+          "tagCost": 35,
+          "cashCost": 70,
+          "tollType": "barrier"
+        }
+      ],
+      "route_costs": {
+        "tag": 35,
+        "cash": 70,
+        "currency": "INR"
+      },
+      "success": true,
+      "extracted_at": "2026-05-01T13:55:25.105Z",
+      "provenance": {
+        "method": "manual_tollguru_api_sample",
+        "note": "NETC name Kundali vs TollGuru label Kundli. Automated short cardinal segments returned no toll; longer WPE-aligned segment crosses barrier.",
+        "automated_attempts_failed_at": "2026-05-01T13:35:02.536Z"
+      },
+      "prior_route_attempts_failed": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "summary": "No tolls on route"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312043",
+      "plaza_name": "MANESHAR-7B",
+      "coordinates": [
+        "28.310995",
+        "76.895142"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 95,
+      "route_generated": {
+        "from": {
+          "lat": 28.312126,
+          "lng": 76.895086
+        },
+        "to": {
+          "lat": 28.310048,
+          "lng": 76.895483
+        }
+      },
+      "route_description": "Request endpoints near Manesar; TollGuru practical route Western Peripheral Expy (~53 km) with vias",
+      "tollguru_plaza_match": {
+        "primary_name": "Manesar",
+        "id": 921820800,
+        "lat": 28.391517,
+        "lng": 76.868553,
+        "road": "KMP Western Peripheral Expy",
+        "note": "NETC MANESHAR-7B in Manesar; TollGuru labels Manesar / Taoru plazas on this OD."
+      },
+      "api_response_summary": {
+        "total_tolls_found": 3,
+        "route_distance_km": 52.6,
+        "summary": "3 toll(s) found",
+        "practical_route_name": "Western Peripheral Expressway"
+      },
+      "toll_details": [
+        {
+          "name": "Manesar",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier",
+          "id": 921820800
+        },
+        {
+          "name": "Manesar → Taoru",
+          "cost": 55,
+          "currency": "INR",
+          "tagCost": 55,
+          "cashCost": 110,
+          "tollType": "ticketSystem2",
+          "closed_loop": {
+            "start_id": 921820800,
+            "start_name": "Manesar",
+            "end_id": 921820400,
+            "end_name": "Taoru"
+          }
+        },
+        {
+          "name": "Taoru",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier",
+          "id": 921820400
+        }
+      ],
+      "route_costs": {
+        "tag": 95,
+        "cash": 190,
+        "currency": "INR"
+      },
+      "success": true,
+      "extracted_at": "2026-05-01T14:24:45.117Z",
+      "provenance": {
+        "method": "manual_tollguru_api_sample",
+        "note": "toll_amount_inr is route total FASTag for this long practical variant (₹20+₹55+₹20). Shorter request segment expanded to multi-via WPE path; alternate route exists with ₹55 only.",
+        "automated_attempts_failed_at": "2026-05-01T13:35:09.668Z"
+      },
+      "prior_route_attempts_failed": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "summary": "No tolls on route"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312045",
+      "plaza_name": "NUH",
+      "coordinates": [
+        "28.179226",
+        "77.074981"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 15,
+      "route_generated": {
+        "from": {
+          "lat": 28.17922590547162,
+          "lng": 77.06987976694296
+        },
+        "to": {
+          "lat": 28.17922590547162,
+          "lng": 77.08008223305703
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.1,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Sohna",
+          "cost": 15,
+          "currency": "INR",
+          "tagCost": 15,
+          "cashCost": 30,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T13:35:21.931Z",
+      "processing_time_ms": 3376,
+      "proxy_used": "direct",
+      "route_costs": {
+        "tag": 15,
+        "cash": 30,
+        "currency": "INR"
+      },
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.17472939197041,
+              "lng": 77.074981
+            },
+            "to": {
+              "lat": 28.183722608029598,
+              "lng": 77.074981
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.182405534762832,
+              "lng": 77.07137377626609
+            },
+            "to": {
+              "lat": 28.176046370708786,
+              "lng": 77.07858800925608
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 2.2,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.17922590547162,
+              "lng": 77.06987976694296
+            },
+            "to": {
+              "lat": 28.17922590547162,
+              "lng": 77.08008223305703
+            }
+          },
+          "toll_amount": 15,
+          "total_tolls_found": 1,
+          "distance_km": 1.1,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Sohna",
+              "cost": 15,
+              "currency": "INR",
+              "tagCost": 15,
+              "cashCost": 30,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536346",
+      "plaza_name": "Nunehra TollPlaza",
+      "coordinates": [
+        "28.24182",
+        "77.118246"
+      ],
+      "concessionaire_name": "GF Toll RoadPvt Ltd",
+      "toll_amount_inr": 240,
+      "route_generated": {
+        "from": {
+          "lat": 28.241819905223384,
+          "lng": 77.11314177655831
+        },
+        "to": {
+          "lat": 28.241819905223384,
+          "lng": 77.12335022344169
+        }
+      },
+      "route_bearing": 90,
+      "route_description": "East-West",
+      "api_response_summary": {
+        "total_tolls_found": 3,
+        "route_distance_km": 22.2,
+        "summary": "3 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Unknown",
+          "cost": 100,
+          "currency": "INR",
+          "tagCost": 100,
+          "cashCost": 200,
+          "tollType": "ticketSystem2"
+        },
+        {
+          "name": "Unknown",
+          "cost": 100,
+          "currency": "INR",
+          "tagCost": 100,
+          "cashCost": 200,
+          "tollType": "ticketSystem2"
+        },
+        {
+          "name": "Sancholi",
+          "cost": 40,
+          "currency": "INR",
+          "tagCost": 40,
+          "cashCost": 80,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T13:35:46.426Z",
+      "processing_time_ms": 3515,
+      "proxy_used": "direct",
+      "route_costs": {
+        "tag": 240,
+        "cash": 480,
+        "currency": "INR"
+      },
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.23732339197041,
+              "lng": 77.118246
+            },
+            "to": {
+              "lat": 28.246316608029602,
+              "lng": 77.118246
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.24499953463871,
+              "lng": 77.11463666140016
+            },
+            "to": {
+              "lat": 28.238640370584676,
+              "lng": 77.12185512343274
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.241819905223384,
+              "lng": 77.11314177655831
+            },
+            "to": {
+              "lat": 28.241819905223384,
+              "lng": 77.12335022344169
+            }
+          },
+          "toll_amount": 240,
+          "total_tolls_found": 3,
+          "distance_km": 22.2,
+          "summary": "3 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Unknown",
+              "cost": 100,
+              "currency": "INR",
+              "tagCost": 100,
+              "cashCost": 200,
+              "tollType": "ticketSystem2"
+            },
+            {
+              "name": "Unknown",
+              "cost": 100,
+              "currency": "INR",
+              "tagCost": 100,
+              "cashCost": 200,
+              "tollType": "ticketSystem2"
+            },
+            {
+              "name": "Sancholi",
+              "cost": 40,
+              "currency": "INR",
+              "tagCost": 40,
+              "cashCost": 80,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "536345",
+      "plaza_name": "Pakhal TollPlaza",
+      "coordinates": [
+        "28.359658",
+        "77.215948"
+      ],
+      "concessionaire_name": "GF Toll RoadPvt Ltd",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 28.35516139197041,
+          "lng": 77.21594800000001
+        },
+        "to": {
+          "lat": 28.3641546080296,
+          "lng": 77.21594800000001
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.7,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Pali",
+          "cost": 40,
+          "currency": "INR",
+          "tagCost": 40,
+          "cashCost": 80,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T13:35:40.910Z",
+      "processing_time_ms": 488,
+      "proxy_used": "direct",
+      "route_costs": {
+        "tag": 40,
+        "cash": 80,
+        "currency": "INR"
+      },
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.35516139197041,
+              "lng": 77.21594800000001
+            },
+            "to": {
+              "lat": 28.3641546080296,
+              "lng": 77.21594800000001
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 1,
+          "distance_km": 1.7,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Pali",
+              "cost": 40,
+              "currency": "INR",
+              "tagCost": 40,
+              "cashCost": 80,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312046",
+      "plaza_name": "PALWAL",
+      "coordinates": [
+        "28.102706",
+        "77.305272"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 60,
+      "route_generated": {
+        "from": {
+          "lat": 28.106277,
+          "lng": 77.296962
+        },
+        "to": {
+          "lat": 28.10345,
+          "lng": 77.390761
+        }
+      },
+      "route_description": "Eastern Peripheral Expressway (~9.5 km; manual from/to; 2 barriers on route)",
+      "tollguru_plaza_match": {
+        "primary_name": "Palwal",
+        "id": 921820000,
+        "lat": 28.101352,
+        "lng": 77.304712,
+        "road": "KMP Western Peripheral Expy"
+      },
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 9.5,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Palwal",
+          "cost": 40,
+          "currency": "INR",
+          "tagCost": 40,
+          "cashCost": 80,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Chhajju Nagar(EPE) (Entry Exit)",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        }
+      ],
+      "route_costs": {
+        "tag": 60,
+        "cash": 120,
+        "currency": "INR"
+      },
+      "success": true,
+      "extracted_at": "2026-05-01T14:17:50.526Z",
+      "provenance": {
+        "method": "manual_tollguru_api_sample",
+        "note": "Route total FASTag ₹60 = Palwal ₹40 + Chhajju Nagar (EPE) ₹20. Second gantry is on KGP Eastern Peripheral Expy; NETC PALWAL pin aligns with Palwal barrier.",
+        "automated_attempts_failed_at": "2026-05-01T13:35:29.312Z"
+      },
+      "prior_route_attempts_failed": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "summary": "No tolls on route"
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312041",
+      "plaza_name": "PATODI",
+      "coordinates": [
+        "28.391538",
+        "76.86769"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 40,
+      "route_generated": {
+        "from": {
+          "lat": 28.387041391970406,
+          "lng": 76.86769
+        },
+        "to": {
+          "lat": 28.396034608029595,
+          "lng": 76.86769
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 2,
+        "route_distance_km": 18.1,
+        "summary": "2 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Farrukhnagar",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        },
+        {
+          "name": "Unknown",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "ticketSystem2"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T11:25:59.605Z",
+      "processing_time_ms": 494,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_coordinates": {
+            "from": {
+              "lat": 28.387041391970406,
+              "lng": 76.86769
+            },
+            "to": {
+              "lat": 28.396034608029595,
+              "lng": 76.86769
+            }
+          },
+          "toll_amount": 40,
+          "total_tolls_found": 2,
+          "distance_km": 18.1,
+          "summary": "2 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Farrukhnagar",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "barrier"
+            },
+            {
+              "name": "Unknown",
+              "cost": 20,
+              "currency": "INR",
+              "tagCost": 20,
+              "cashCost": 40,
+              "tollType": "ticketSystem2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "netc_plaza_code": "312044",
+      "plaza_name": "TAURU",
+      "coordinates": [
+        "28.219695",
+        "76.997181"
+      ],
+      "concessionaire_name": "Skylarkworld",
+      "toll_amount_inr": 20,
+      "route_generated": {
+        "from": {
+          "lat": 28.220039,
+          "lng": 76.995997
+        },
+        "to": {
+          "lat": 28.21898,
+          "lng": 76.998915
+        }
+      },
+      "route_description": "Tauru Entry Toll Plaza segment (~0.9 km; manual from/to)",
+      "tollguru_plaza_match": {
+        "name": "Taoru",
+        "id": 921820400,
+        "lat": 28.2190223,
+        "lng": 76.9967501,
+        "road": "KMP Western Peripheral Expy",
+        "route_label": "Tauru Entry Toll Plaza"
+      },
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 0.9,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Taoru",
+          "cost": 20,
+          "currency": "INR",
+          "tagCost": 20,
+          "cashCost": 40,
+          "tollType": "barrier"
+        }
+      ],
+      "route_costs": {
+        "tag": 20,
+        "cash": 40,
+        "currency": "INR"
+      },
+      "success": true,
+      "extracted_at": "2026-05-01T14:15:13.848Z",
+      "provenance": {
+        "method": "manual_tollguru_api_sample",
+        "note": "NETC TAURU vs TollGuru spelling Taoru/Tauru Entry. Short automated cardinal segments missed entry plaza geometry.",
+        "automated_attempts_failed_at": "2026-05-01T13:35:16.553Z"
+      },
+      "prior_route_attempts_failed": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "summary": "No tolls on route"
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "summary": "No tolls on route"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for Odisha STATE plazas",
+    "output_file": "data/sources/states/odisha/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-01T15:49:32.599Z",
+    "extractor": "scripts/fetchHaryanaTollGuruRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "Odisha",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 3,
+    "successful_extractions": 2,
+    "hit_rate": 0.667,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 11444,
+    "average_processing_time_ms": 3815
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "536438",
+      "plaza_name": "Masnikani TollPlaza",
+      "coordinates": [
+        "22.0313",
+        "84.0351"
+      ],
+      "concessionaire_name": "Sambalpur-RourkelaTollway Ltd",
+      "toll_amount_inr": 100,
+      "route_generated": {
+        "from": {
+          "lat": 22.02680339197041,
+          "lng": 84.0351
+        },
+        "to": {
+          "lat": 22.0357966080296,
+          "lng": 84.0351
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 1.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Sundargarh",
+          "cost": 100,
+          "currency": "INR",
+          "tagCost": 100,
+          "cashCost": 200,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T15:49:21.813Z",
+      "processing_time_ms": 658,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.02680339197041,
+              "lng": 84.0351
+            },
+            "to": {
+              "lat": 22.0357966080296,
+              "lng": 84.0351
+            }
+          },
+          "toll_amount": 100,
+          "total_tolls_found": 1,
+          "distance_km": 1.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Sundargarh",
+              "cost": 100,
+              "currency": "INR",
+              "tagCost": 100,
+              "cashCost": 200,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536439",
+      "plaza_name": "Laing Toll Plaza",
+      "coordinates": [
+        "22.2394",
+        "84.6334"
+      ],
+      "concessionaire_name": "Sambalpur-RourkelaTollway Ltd",
+      "toll_amount_inr": 65,
+      "route_generated": {
+        "from": {
+          "lat": 22.242579545953213,
+          "lng": 84.62996480339656
+        },
+        "to": {
+          "lat": 22.236220381897983,
+          "lng": 84.63683504070893
+        }
+      },
+      "route_bearing": 135,
+      "route_description": "Southeast-Northwest",
+      "route_priority": "MEDIUM",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 4.3,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Kansbahal",
+          "cost": 65,
+          "currency": "INR",
+          "tagCost": 65,
+          "cashCost": 130,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T15:49:25.821Z",
+      "processing_time_ms": 2007,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.234903391970402,
+              "lng": 84.6334
+            },
+            "to": {
+              "lat": 22.24389660802959,
+              "lng": 84.6334
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.9,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.242579545953213,
+              "lng": 84.62996480339656
+            },
+            "to": {
+              "lat": 22.236220381897983,
+              "lng": 84.63683504070893
+            }
+          },
+          "toll_amount": 65,
+          "total_tolls_found": 1,
+          "distance_km": 4.3,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Kansbahal",
+              "cost": 65,
+              "currency": "INR",
+              "tagCost": 65,
+              "cashCost": 130,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    },
+    {
+      "netc_plaza_code": "536440",
+      "plaza_name": "NuakhurigoanToll Plaza",
+      "coordinates": [
+        "21.5975",
+        "84.0373"
+      ],
+      "concessionaire_name": "Sambalpur-RourkelaTollway Ltd",
+      "toll_amount_inr": 0,
+      "route_generated": {
+        "from": {
+          "lat": 21.59300339197041,
+          "lng": 84.0373
+        },
+        "to": {
+          "lat": 21.601996608029598,
+          "lng": 84.0373
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "api_response_summary": {
+        "total_tolls_found": 0,
+        "route_distance_km": 1.4,
+        "summary": "No tolls on route"
+      },
+      "toll_details": [],
+      "success": false,
+      "extracted_at": "2026-05-01T15:49:32.599Z",
+      "processing_time_ms": 4777,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.59300339197041,
+              "lng": 84.0373
+            },
+            "to": {
+              "lat": 21.601996608029598,
+              "lng": 84.0373
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 135,
+          "route_description": "Southeast-Northwest",
+          "route_priority": "MEDIUM",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.600679547101713,
+              "lng": 84.03388025664442
+            },
+            "to": {
+              "lat": 21.59432038304638,
+              "lng": 84.04071959310289
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 4.1,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 90,
+          "route_description": "East-West",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.59749993014809,
+              "lng": 84.03246385881948
+            },
+            "to": {
+              "lat": 21.59749993014809,
+              "lng": 84.04213614118053
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 3.5,
+          "summary": "No tolls on route",
+          "toll_details": []
+        },
+        {
+          "route_bearing": 45,
+          "route_description": "Northeast-Southwest",
+          "route_priority": "LOW",
+          "route_coordinates": {
+            "from": {
+              "lat": 21.59432038304638,
+              "lng": 84.0338804068971
+            },
+            "to": {
+              "lat": 21.600679547101713,
+              "lng": 84.04071974335557
+            }
+          },
+          "toll_amount": 0,
+          "total_tolls_found": 0,
+          "distance_km": 1.4,
+          "summary": "No tolls on route",
+          "toll_details": []
+        }
+      ]
+    }
+  ]
+}

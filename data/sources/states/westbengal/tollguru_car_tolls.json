@@ -1,0 +1,95 @@
+{
+  "source": {
+    "description": "TollGuru car toll extraction for WestBengal STATE plazas",
+    "output_file": "data/sources/states/westbengal/tollguru_car_tolls.json",
+    "input_file": "data/sources/netc/netc_state_plazas.json",
+    "extracted_at": "2026-05-01T15:49:21.027Z",
+    "extractor": "scripts/fetchHaryanaTollGuruRates.js",
+    "api": "TollGuru reverse-engineered API"
+  },
+  "extraction_metadata": {
+    "state": "WestBengal",
+    "vehicle_type": "2AxlesAuto",
+    "total_plazas": 1,
+    "successful_extractions": 1,
+    "hit_rate": 1,
+    "rate_limit_delay_ms": 2000,
+    "total_processing_time_ms": 880,
+    "average_processing_time_ms": 880
+  },
+  "plazas": [
+    {
+      "netc_plaza_code": "560022",
+      "plaza_name": "VidhyasagarSetu Toll Plaza",
+      "coordinates": [
+        "22.563293",
+        "88.331751"
+      ],
+      "concessionaire_name": "PRAKASHASPHALTINGS & TOLLHWY",
+      "toll_amount_inr": 10,
+      "route_generated": {
+        "from": {
+          "lat": 22.55879639197041,
+          "lng": 88.331751
+        },
+        "to": {
+          "lat": 22.567789608029596,
+          "lng": 88.331751
+        }
+      },
+      "route_bearing": 0,
+      "route_description": "North-South",
+      "route_priority": "HIGH",
+      "api_response_summary": {
+        "total_tolls_found": 1,
+        "route_distance_km": 8.7,
+        "summary": "1 toll(s) found"
+      },
+      "toll_details": [
+        {
+          "name": "Vidhyasagar Setu",
+          "cost": 10,
+          "currency": "INR",
+          "tagCost": 10,
+          "cashCost": 20,
+          "tollType": "barrier"
+        }
+      ],
+      "success": true,
+      "extracted_at": "2026-05-01T15:49:21.027Z",
+      "processing_time_ms": 880,
+      "route_attempts": [
+        {
+          "route_bearing": 0,
+          "route_description": "North-South",
+          "route_priority": "HIGH",
+          "route_coordinates": {
+            "from": {
+              "lat": 22.55879639197041,
+              "lng": 88.331751
+            },
+            "to": {
+              "lat": 22.567789608029596,
+              "lng": 88.331751
+            }
+          },
+          "toll_amount": 10,
+          "total_tolls_found": 1,
+          "distance_km": 8.7,
+          "summary": "1 toll(s) found",
+          "toll_details": [
+            {
+              "name": "Vidhyasagar Setu",
+              "cost": 10,
+              "currency": "INR",
+              "tagCost": 10,
+              "cashCost": 20,
+              "tollType": "barrier"
+            }
+          ]
+        }
+      ],
+      "api_calls_saved": 3
+    }
+  ]
+}

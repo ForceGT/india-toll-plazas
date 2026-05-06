@@ -2466,10 +2466,10 @@
     "tollplaza_name": "Arjunali",
     "tollplaza_code": "142001",
     "state_name": "MAHARASHTRA",
-    "latitude": "19.361481",
-    "longitude": "73.165874",
+    "latitude": "19.361789",
+    "longitude": "73.165337",
     "nh_no": "160",
-    "location": "Km 532.690",
+    "location": "Km 532.690; Mumbai–Nashik Expressway (TollGuru route label Mumbai Nashik Highway; barrier also tagged NH-3 in API). Padgha / Bhiwandi–Nashik corridor, Thane district, Maharashtra. TollGuru barrier point ~19.361789,73.165337 (spelling Arjunalli in API; official name Arjunali).",
     "chainage": "Vadape - Gonde",
     "tollable_length": null,
     "car_single": "140",
@@ -2502,7 +2502,7 @@
     "hcm_commercial": "195",
     "rate_effective_date": "2024-06-30T18:30:00.000Z",
     "rate_revision_date": "2025-06-29T18:30:00.000Z",
-    "concessions_info": null,
+    "concessions_info": "Car (2AxlesAuto) cross-check — TollGuru 2026-04-26 departure 13:10 IST (Apple Maps): barrier \"Arjunalli\" on NH-3; FASTag ₹140, cash ₹280 (one leg). Aligns with NHAI car_single FASTag field (₹140). Return/monthly in NHAI row as published; cash at booth may differ from tag. TollGuru batches: data/sources/states/maharashtra/tollguru_car_tolls.offset*.json.",
     "project_type": "BOT (Toll)",
     "project_lanes": "4",
     "toll_lanes": "10",
@@ -2517,7 +2517,7 @@
     "nearest_police_station": "Padgha",
     "police_station_contact": "2522268100",
     "nearest_hospitals": "1)Primary Health Centre, Padgha Padgha - Khaling Rd Arjunali, Maharashtra 2)Balaji Healthcare Plot No. 18,19,20, Vrindhavan Residential Complex, Vasind East, Sahapur Near Srushti Farm Resort Thane, Maharashtra Ph.:098200 50083",
-    "last_updated": "2026-04-26T11:19:06.240Z"
+    "last_updated": "2026-05-05T12:00:00.000Z"
   },
   {
     "data_source": "nhai",
