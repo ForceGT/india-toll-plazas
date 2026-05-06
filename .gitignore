@@ -38,3 +38,7 @@ Thumbs.db
 # Build artifacts
 dist/
 build/
+
+# Local Cursor/project metadata
+.cursor/
+.github/context-mode/
