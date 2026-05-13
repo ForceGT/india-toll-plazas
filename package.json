@@ -8,6 +8,7 @@
     "get-vehicle-types": "node scripts/getVehicleTypes.js",
     "get-states": "node scripts/getStates.js",
     "process-nhai": "node scripts/processNhai.js",
+    "collect-states": "node scripts/collectStateHighways.js",
     "process-state": "node scripts/processStateHighways.js",
     "merge": "node scripts/merge.js",
     "update": "./fetch-and-process.sh"

@@ -28,31 +28,35 @@ mkdir -p "$DATA_DIR/sources"
 chmod +x ./scripts/*.js
 
 # Step 1: Fetch NHAI toll plaza names and details
-echo -e "${YELLOW}Step 1/7: Fetching NHAI toll plaza names and details...${NC}"
+echo -e "${YELLOW}Step 1/8: Fetching NHAI toll plaza names and details...${NC}"
 node ./scripts/fetchNhaiData.js || { echo -e "${RED}Failed to fetch toll plaza data${NC}"; exit 1; }
 
 # Step 2: Fetch vehicle types (optional)
-echo -e "${YELLOW}Step 2/7: Fetching vehicle types...${NC}"
+echo -e "${YELLOW}Step 2/8: Fetching vehicle types...${NC}"
 node ./scripts/getVehicleTypes.js || { echo -e "${YELLOW}Warning: Vehicle types fetch failed (optional)${NC}"; }
 
 # Step 3: Fetch states (optional)
-echo -e "${YELLOW}Step 3/7: Fetching states...${NC}"
+echo -e "${YELLOW}Step 3/8: Fetching states...${NC}"
 node ./scripts/getStates.js || { echo -e "${YELLOW}Warning: States fetch failed (optional)${NC}"; }
 
 # Step 4: Process NHAI data
-echo -e "${YELLOW}Step 4/7: Processing NHAI data...${NC}"
+echo -e "${YELLOW}Step 4/8: Processing NHAI data...${NC}"
 node ./scripts/processNhai.js || { echo -e "${RED}Failed to process NHAI data${NC}"; exit 1; }
 
-# Step 5: Process state highways data
-echo -e "${YELLOW}Step 5/7: Processing state highways data...${NC}"
+# Step 5: Collect state highway data from individual files
+echo -e "${YELLOW}Step 5/8: Collecting state highway data...${NC}"
+node ./scripts/collectStateHighways.js || { echo -e "${RED}Failed to collect state highway data${NC}"; exit 1; }
+
+# Step 6: Process state highways data
+echo -e "${YELLOW}Step 6/8: Processing state highways data...${NC}"
 node ./scripts/processStateHighways.js || { echo -e "${RED}Failed to process state highways data${NC}"; exit 1; }
 
-# Step 6: Merge data sources
-echo -e "${YELLOW}Step 6/7: Merging data sources...${NC}"
+# Step 7: Merge data sources
+echo -e "${YELLOW}Step 7/8: Merging data sources...${NC}"
 node ./scripts/merge.js || { echo -e "${RED}Failed to merge data sources${NC}"; exit 1; }
 
 # Copy files to versioned directory
-echo -e "${YELLOW}Step 7/7: Organizing versioned data...${NC}"
+echo -e "${YELLOW}Step 8/8: Organizing versioned data...${NC}"
 cp "$DATA_DIR/sources/nhai.json" "$SOURCES_DIR/nhai.json" 2>/dev/null || true
 cp "$DATA_DIR/sources/state_highways.json" "$SOURCES_DIR/state_highways.json" 2>/dev/null || true
 cp "$DATA_DIR/latest.json" "$VERSIONED_DIR/tollplazas.json"
