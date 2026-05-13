@@ -215,7 +215,7 @@ By contributing, you agree that:
 
 ```bash
 # Test data fetch (requires NHAI API access)
-node scripts/fetchNhaiTollplazas.js
+node scripts/fetchNhaiData.js
 
 # Test NHAI processing
 node scripts/processNhai.js
