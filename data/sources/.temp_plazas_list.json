@@ -428,6 +428,10 @@
     "tollplaza_name": "Banpimpri Toll Plaza"
   },
   {
+    "tollplaza_id": 947,
+    "tollplaza_name": "Banshidhar"
+  },
+  {
     "tollplaza_id": 423,
     "tollplaza_name": "Banskopa"
   },
@@ -1036,6 +1040,10 @@
     "tollplaza_name": "Dabwali (Close Loop Toll  )"
   },
   {
+    "tollplaza_id": 1077,
+    "tollplaza_name": "Dadal"
+  },
+  {
     "tollplaza_id": 1099,
     "tollplaza_name": "Dadal TP 20 (Close Loop Toll)"
   },
@@ -1420,6 +1428,10 @@
     "tollplaza_name": "Gadpuri"
   },
   {
+    "tollplaza_id": 1009,
+    "tollplaza_name": "Gadra Toll Plaza"
+  },
+  {
     "tollplaza_id": 1198,
     "tollplaza_name": "Gajangarh Toll Plaza"
   },
@@ -1732,6 +1744,10 @@
     "tollplaza_name": "Hingonia"
   },
   {
+    "tollplaza_id": 1187,
+    "tollplaza_name": "Hingonia (Entry Exit Toll )"
+  },
+  {
     "tollplaza_id": 996,
     "tollplaza_name": "Hirapur Toll Plaza"
   },
@@ -1877,7 +1893,7 @@
   },
   {
     "tollplaza_id": 21,
-    "tollplaza_name": "Jamli Toll Pllaza  (Sendhwa )"
+    "tollplaza_name": "Jamli Toll Pllaza  (Sendhwa )*"
   },
   {
     "tollplaza_id": 1157,
@@ -2253,7 +2269,7 @@
   },
   {
     "tollplaza_id": 93,
-    "tollplaza_name": "Khalghat Toll Plaza"
+    "tollplaza_name": "Khalghat Toll Plaza*"
   },
   {
     "tollplaza_id": 905,
@@ -2773,7 +2789,7 @@
   },
   {
     "tollplaza_id": 69,
-    "tollplaza_name": "Makhel"
+    "tollplaza_name": "Makhel*"
   },
   {
     "tollplaza_id": 244,
@@ -4065,7 +4081,7 @@
   },
   {
     "tollplaza_id": 503,
-    "tollplaza_name": "Sehatganj Toll Plaza"
+    "tollplaza_name": "Sehatganj Toll Plaza*"
   },
   {
     "tollplaza_id": 1275,
@@ -4228,6 +4244,10 @@
     "tollplaza_name": "Singarenipalli"
   },
   {
+    "tollplaza_id": 561,
+    "tollplaza_name": "Sinhaniya"
+  },
+  {
     "tollplaza_id": 986,
     "tollplaza_name": "Sirmandi TP 13(Close Loop Toll)"
   },
@@ -4273,7 +4293,7 @@
   },
   {
     "tollplaza_id": 358,
-    "tollplaza_name": "Sonway Toll Plaza"
+    "tollplaza_name": "Sonway Toll Plaza*"
   },
   {
     "tollplaza_id": 831,
@@ -4694,6 +4714,10 @@
   {
     "tollplaza_id": 74,
     "tollplaza_name": "Velanchettiyur"
+  },
+  {
+    "tollplaza_id": 1094,
+    "tollplaza_name": "Vellar Toll Plaza"
   },
   {
     "tollplaza_id": 1065,
