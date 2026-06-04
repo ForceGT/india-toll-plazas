@@ -12,6 +12,17 @@ echo -e "${GREEN}========================================${NC}"
 echo -e "${GREEN}India Toll Plazas - Data Fetch & Process${NC}"
 echo -e "${GREEN}========================================${NC}"
 
+# ----------------------------------------------------------------------------
+# Closed-loop expressway per-plaza rates (Mumbai-Pune, Yamuna, Samruddhi, etc.)
+# are NOT discoverable via routing APIs: TollGuru/HERE only return a route TOTAL
+# for ticket/closed systems and mis-attribute the per-plaza split. Those rates
+# are published in operator notifications and are stable for years, so they are
+# hand-curated in data/sources/curated/expressway_rates.json (with source +
+# validity). Step 7 below (merge.js) applies those authoritative corrections for
+# free on every run. NHAI RajMargYatra remains the source of truth for the
+# open-barrier NH plazas that make up the bulk of the dataset.
+# ----------------------------------------------------------------------------
+
 # Get current month-year snapshot key (MM-YYYY)
 CURRENT_DATE=$(date +%m-%Y)
 DATA_DIR="./data"
@@ -51,7 +62,7 @@ node ./scripts/collectStateHighways.js || { echo -e "${RED}Failed to collect sta
 echo -e "${YELLOW}Step 6/8: Processing state highways data...${NC}"
 node ./scripts/processStateHighways.js || { echo -e "${RED}Failed to process state highways data${NC}"; exit 1; }
 
-# Step 7: Merge data sources
+# Step 7: Merge data sources (also applies the committed directional overlay, if present)
 echo -e "${YELLOW}Step 7/8: Merging data sources...${NC}"
 node ./scripts/merge.js || { echo -e "${RED}Failed to merge data sources${NC}"; exit 1; }
 

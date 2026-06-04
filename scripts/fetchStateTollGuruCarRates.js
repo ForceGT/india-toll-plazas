@@ -18,29 +18,13 @@
 const fs = require('fs');
 const path = require('path');
 
-// Configuration for TollGuru API
-const TOLLGURU_CONFIG = {
-  url: 'https://tollguru.com/api/trpc/calc.getRoutes?batch=1',
-  headers: {
-    'accept': '*/*',
-    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
-    'content-type': 'application/json',
-    'origin': 'https://tollguru.com',
-    'priority': 'u=1, i',
-    'referer': 'https://tollguru.com/toll-calculator-india',
-    'sec-ch-ua': '"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36',
-    'x-trpc-source': 'react'
-  },
-  vehicle: '2AxlesAuto',
-  rateLimitMs: 2000,
-  timeoutMs: 10000
-};
+// Shared TollGuru client (request shape, headers, response parsing, geo helpers).
+const {
+  TOLLGURU_CONFIG,
+  moveLatLng,
+  callTollGuruAPI,
+  extractCarToll
+} = require('./tollguruClient');
 
 function stateKey(s) {
   return String(s || '')
@@ -85,29 +69,6 @@ function defaultTollGuruOutPath(root, slug, args) {
     return path.join(dir, `tollguru_car_tolls.offset${args.offset}.limit${lim}.json`);
   }
   return path.join(dir, 'tollguru_car_tolls.json');
-}
-
-// Generate lat/lng coordinates offset from target point
-function moveLatLng(lat, lng, distanceKm, bearingDegrees) {
-  const R = 6371; // Earth's radius in km
-  const bearingRad = bearingDegrees * Math.PI / 180;
-  const latRad = lat * Math.PI / 180;
-  const lngRad = lng * Math.PI / 180;
-  
-  const newLatRad = Math.asin(
-    Math.sin(latRad) * Math.cos(distanceKm / R) +
-    Math.cos(latRad) * Math.sin(distanceKm / R) * Math.cos(bearingRad)
-  );
-  
-  const newLngRad = lngRad + Math.atan2(
-    Math.sin(bearingRad) * Math.sin(distanceKm / R) * Math.cos(latRad),
-    Math.cos(distanceKm / R) - Math.sin(latRad) * Math.sin(newLatRad)
-  );
-  
-  return {
-    lat: newLatRad * 180 / Math.PI,
-    lng: newLngRad * 180 / Math.PI
-  };
 }
 
 // Smart route generation based on learned success patterns
@@ -217,134 +178,6 @@ function generateRouteThrough(targetLat, targetLng, offsetKm = 0.5, bearing = nu
 // Sleep utility for rate limiting
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-// Call TollGuru API with generated route
-async function callTollGuruAPI(route, vehicleType = '2AxlesAuto') {
-  const payload = {
-    "0": {
-      "json": {
-        "from": route.from,
-        "to": route.to,
-        "waypoints": [],
-        "tags": [],
-        "returnFloats": true,
-        "departureTime": new Date().toISOString(),
-        "units": {"currency": "INR"},
-        "vehicle": {"type": vehicleType},
-        "directionsFlag": true,
-        "optimizeWaypoints": false,
-        "applyHazmatRestriction": false,
-        "serviceProvider": "gmaps"
-      }
-    }
-  };
-
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), TOLLGURU_CONFIG.timeoutMs);
-
-  try {
-    const response = await fetch(TOLLGURU_CONFIG.url, {
-      method: 'POST',
-      headers: TOLLGURU_CONFIG.headers,
-      body: JSON.stringify(payload),
-      signal: controller.signal
-    });
-
-    clearTimeout(timeoutId);
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    return data;
-
-  } catch (error) {
-    clearTimeout(timeoutId);
-    throw error;
-  }
-}
-
-// Extract toll amount from TollGuru API response
-function extractCarToll(apiResponse) {
-  try {
-    // Navigate the TollGuru response structure to find toll data
-    const result = apiResponse?.[0]?.result;
-    if (!result || !result.data || !result.data.json) {
-      return { amount: 0, summary: 'No result data' };
-    }
-
-    const jsonData = result.data.json;
-    const routes = jsonData.routes;
-    
-    if (!routes || routes.length === 0) {
-      return { amount: 0, summary: 'No routes found' };
-    }
-
-    // Look for toll information in the first route
-    const route = routes[0];
-    const tolls = route.tolls || [];
-    const hasTolls = route.summary?.hasTolls || false;
-    const distance = route.summary?.distance?.value || 0;
-    const distanceKm = Math.round(distance / 1000 * 10) / 10; // Convert meters to km, round to 1 decimal
-    
-    if (tolls.length === 0 || !hasTolls) {
-      return { 
-        amount: 0, 
-        summary: hasTolls ? 'Route has tolls but no details found' : 'No tolls on route',
-        distance: distanceKm,
-        hasTolls: hasTolls
-      };
-    }
-
-    // Extract route-level total costs (preferred method)
-    const routeCosts = route.costs || {};
-    const totalTagCost = routeCosts.tag || routeCosts.tagAndCash || 0;
-    const totalCashCost = routeCosts.cash || 0;
-    
-    // Use FasTag cost as primary, fall back to cash cost
-    let totalToll = totalTagCost || totalCashCost;
-    
-    // Extract individual toll details
-    const tollDetails = [];
-    
-    for (const toll of tolls) {
-      // Check different cost fields in order of preference
-      const tagCost = toll.tagCost || toll.tagPriCost || 0;
-      const cashCost = toll.cashCost || 0;
-      const cost = tagCost || cashCost || 0;
-      
-      tollDetails.push({
-        name: toll.name || 'Unknown',
-        cost: cost,
-        currency: toll.currency || 'INR',
-        tagCost: tagCost,
-        cashCost: cashCost,
-        tollType: toll.type || 'barrier'
-      });
-    }
-
-    return {
-      amount: totalToll,
-      summary: `${tolls.length} toll(s) found`,
-      distance: distanceKm,
-      hasTolls: hasTolls,
-      tollDetails: tollDetails,
-      routeCosts: {
-        tag: totalTagCost,
-        cash: totalCashCost,
-        currency: route.costs?.currency || 'INR'
-      }
-    };
-
-  } catch (error) {
-    return { 
-      amount: 0, 
-      summary: `Parse error: ${error.message}`,
-      error: error.message
-    };
-  }
 }
 
 // Main extraction function
