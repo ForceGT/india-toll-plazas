@@ -1,6 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * Apply a hand-curated authoritative rate correction to a plaza, in place.
+ * Used for closed-loop / ticket-system expressways where routing APIs report the wrong
+ * per-plaza split. Overrides only the rate fields listed under `rates`, and stamps provenance
+ * (rate_source, rate_valid_until) plus data_confidence = "verified".
+ */
+function applyCuratedRates(entry, cur) {
+  if (cur.rates) {
+    for (const [field, value] of Object.entries(cur.rates)) {
+      entry[field] = value;
+    }
+  }
+  entry.data_confidence = 'verified';
+  if (cur.source_url) entry.rate_source = cur.source_url;
+  if (cur.rate_effective_date) entry.rate_effective_date = cur.rate_effective_date;
+  if (cur.rate_valid_until) entry.rate_valid_until = cur.rate_valid_until;
+}
+
 async function mergeDataSources() {
   try {
     console.log('Merging data sources...');
@@ -26,6 +44,25 @@ async function mergeDataSources() {
 
     // Combine datasets
     const combined = [...nhaiPlazas, ...statePlazas];
+
+    // Apply hand-curated authoritative rate corrections (closed-loop expressway per-plaza
+    // splits that routing APIs get wrong). Applied before the directional overlay so any
+    // directional ratios compute off the corrected base.
+    const curatedFile = path.join(sourcesDir, 'curated', 'expressway_rates.json');
+    if (fs.existsSync(curatedFile)) {
+      const curated = JSON.parse(fs.readFileSync(curatedFile, 'utf8')).plazas || {};
+      let corrected = 0;
+      for (const entry of combined) {
+        const cur =
+          (entry.tollplaza_code != null && curated[`code:${entry.tollplaza_code}`]) ||
+          (entry.tollplaza_id != null && curated[`id:${entry.tollplaza_id}`]);
+        if (cur) {
+          applyCuratedRates(entry, cur);
+          corrected++;
+        }
+      }
+      console.log(`Applied curated rate corrections to ${corrected} plaza(s) (${Object.keys(curated).length} curated)`);
+    }
 
     // Sort by state, then by location (KM marker)
     combined.sort((a, b) => {
@@ -70,3 +107,5 @@ if (require.main === module) {
 }
 
 module.exports = mergeDataSources;
+module.exports.mergeDataSources = mergeDataSources;
+module.exports.applyCuratedRates = applyCuratedRates;

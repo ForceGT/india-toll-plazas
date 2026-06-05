@@ -11,6 +11,7 @@
     "collect-states": "node scripts/collectStateHighways.js",
     "process-state": "node scripts/processStateHighways.js",
     "merge": "node scripts/merge.js",
+    "generate-readmes": "node scripts/generateReadmes.js",
     "update": "./fetch-and-process.sh"
   },
   "keywords": [

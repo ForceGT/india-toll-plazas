@@ -1,0 +1,29 @@
+{
+  "description": "Hand-curated AUTHORITATIVE per-toll-plaza rates for closed-loop / ticket-system expressways, sourced from operator notifications. Routing APIs (TollGuru, Google, etc.) report only a route TOTAL for these systems and mis-attribute the per-plaza split, so these plazas are corrected here. merge.js applies these as overrides on top of the scaffolded/NHAI base rates. Each plaza records its source and validity window. Only fields explicitly listed under `rates` are overridden; everything else is left untouched. Add only rates you can cite.",
+  "plazas": {
+    "code:NETC540003": {
+      "tollplaza_name": "Khalapur",
+      "corridor": "Mumbai-Pune Expressway",
+      "operator": "MSRDC",
+      "source_url": "https://msrdc.in/Site/Upload/GR/11_Vol3_Part5.pdf",
+      "rate_effective_date": "2023-04-01",
+      "rate_valid_until": "2030-03-31",
+      "note": "Full-length car toll is Rs.320 one-way, split across two MSRDC plazas: Khalapur Rs.80 + Urse Rs.240. Rates frozen until Apr 2030 per MSRDC (no hike 2023-2030). Per-class (LCV/bus/truck/crane) per-plaza split not yet verified from the MSRDC notification - left untouched until cited.",
+      "rates": {
+        "car_single": "80"
+      }
+    },
+    "code:NETC540005": {
+      "tollplaza_name": "Urse (Talegaon)",
+      "corridor": "Mumbai-Pune Expressway",
+      "operator": "MSRDC",
+      "source_url": "https://msrdc.in/Site/Upload/GR/11_Vol3_Part5.pdf",
+      "rate_effective_date": "2023-04-01",
+      "rate_valid_until": "2030-03-31",
+      "note": "Urse plaza car toll Rs.240 (the larger share of the Rs.320 full-length car toll). Frozen until Apr 2030 per MSRDC.",
+      "rates": {
+        "car_single": "240"
+      }
+    }
+  }
+}
