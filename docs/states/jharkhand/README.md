@@ -2,7 +2,7 @@
 
 Browse **24 FASTag toll plazas** across 11 national highways in Jharkhand. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 23 complete, 1 partial · **Last updated:** 2026-05-13
+**Coverage:** 23 complete, 1 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -27,10 +27,10 @@ Browse **24 FASTag toll plazas** across 11 national highways in Jharkhand. Data 
 | Banshidhar | 75 | Dakan Kotra | [24.50044, 73.72079](https://www.google.com/maps?q=24.50044,73.72079) |  | complete |
 | (Murma) Hesmi Mandar | 75 | Hesmi | [23.472, 85.0597](https://www.google.com/maps?q=23.472,85.0597) | 120 | complete |
 | Navasari |  114A | Jamni, Dist Jind | [24.285173, 86.348624](https://www.google.com/maps?q=24.285173,86.348624) | 25 | complete |
+| Yogini Mata | 133 |  | [24.701008, 87.184469](https://www.google.com/maps?q=24.701008,87.184469) | 85 | complete |
 | Kothiya | 133 | 27+900 | [24.54, 86.95](https://www.google.com/maps?q=24.54,86.95) | 35 | complete |
 | Medininagar Toll Plaza | 139 |  | [23.983424, 84.135516](https://www.google.com/maps?q=23.983424,84.135516) | 70 | complete |
 | Kauwakhoh (Hariharnath)Toll Plaza | 139 | 32.75 | [24.5052777, 84.2472222](https://www.google.com/maps?q=24.5052777,84.2472222) | 45 | complete |
-| Yogini Mata |  |  | [24.701008, 87.184469](https://www.google.com/maps?q=24.701008,87.184469) | 85 | complete |
 | Adityapur TollBridge |  | NETC 392022; Adityapur TollBridge; Adityapur, Jharkhand; 22.799843,86.144471 | [22.799843, 86.144471](https://www.google.com/maps?q=22.799843,86.144471) | 20 | partial |
 
 ---

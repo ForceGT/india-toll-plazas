@@ -1,13 +1,14 @@
 # Toll plazas in Bihar — India
 
-Browse **42 FASTag toll plazas** across 21 national highways in Bihar. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **43 FASTag toll plazas** across 21 national highways in Bihar. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 42 complete · **Last updated:** 2026-05-13
+**Coverage:** 43 complete · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
+| Daffi | 2 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.24944488, 82.99940227](https://www.google.com/maps?q=25.24944488,82.99940227) | 85 | complete |
 | Sasaram | 2 | Km 907.100 | [24.957125, 83.954997](https://www.google.com/maps?q=24.957125,83.954997) | 150 | complete |
 | Mohania | 2 | Varanasi-Gorakhpur | [25.18834928, 83.56179035](https://www.google.com/maps?q=25.18834928,83.56179035) | 65 | complete |
 | Saukala | 2 | Vill-Bagsarai (200.100) | [24.599579, 84.70284](https://www.google.com/maps?q=24.599579,84.70284) | 70 | complete |

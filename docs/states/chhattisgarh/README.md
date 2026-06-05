@@ -2,7 +2,7 @@
 
 Browse **25 FASTag toll plazas** across 9 national highways in Chhattisgarh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 25 complete · **Last updated:** 2026-05-13
+**Coverage:** 25 complete · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,7 +17,7 @@ Browse **25 FASTag toll plazas** across 9 national highways in Chhattisgarh. Dat
 | Maroud Toll Plaza | 43 (New 30) | 45.5 | [20.887544, 81.689274](https://www.google.com/maps?q=20.887544,81.689274) | 135 | complete |
 | Lodam Toll Plaza | 43 | at Km.593.350 VillageLodam DistrictJashpur (CG) | [22.9544, 84.36016](https://www.google.com/maps?q=22.9544,84.36016) | 65 | complete |
 | Maharajpur Toll Plaza | 43 | Jamni, Dist Jind | [23.29528, 82.383803](https://www.google.com/maps?q=23.29528,82.383803) | 80 | complete |
-| Pachira | 43 | Pachira | [23.19509, 82.92553](https://www.google.com/maps?q=23.19509,82.92553) | 35 | complete |
+| Pachira | 43 | Pachira | [23.19516981, 82.92528471](https://www.google.com/maps?q=23.19516981,82.92528471) | 35 | complete |
 | Kesla Toll Plaza | 49 New   |  | [22.0177564, 82.8726927](https://www.google.com/maps?q=22.0177564,82.8726927) | 75 | complete |
 | Paraghat | 49 New   | 138.5 | [22.010617, 82.323591](https://www.google.com/maps?q=22.010617,82.323591) | 80 | complete |
 | Mudipar | 49 New   | at Km 110.300 | [27.2038, 77.5011](https://www.google.com/maps?q=27.2038,77.5011) | 50 | complete |

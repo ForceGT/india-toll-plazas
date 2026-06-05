@@ -1,8 +1,8 @@
 # Toll plazas in Rajasthan — India
 
-Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **172 FASTag toll plazas** across 56 national highways in Rajasthan. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 172 complete · **Last updated:** 2026-05-13
+**Coverage:** 172 complete · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -13,7 +13,7 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Pinan (Close Loop Toll) | NE- 4 | 129.017 | [27.250656, 76.765601](https://www.google.com/maps?q=27.250656,76.765601) | 0 | complete |
 | Gopalpura (Close Loop Toll ) | NE- 4 | 184.02 | [24.906415, 75.958988](https://www.google.com/maps?q=24.906415,75.958988) | 0 | complete |
 | Karadiya ( Close Loop Toll ) | NE- 4 | 184.02 | [25.16616, 76.086059](https://www.google.com/maps?q=25.16616,76.086059) | 0 | complete |
-| Laban ( Close Loop Toll ) | NE- 4 | 184.02 | [25.568786, 76.219848](https://www.google.com/maps?q=25.568786,76.219848) | 0 | complete |
+| Laban ( Close Loop Toll ) | NE- 4 | 184.02 | [25.578171, 76.220970](https://www.google.com/maps?q=25.578171,76.220970) | 0 | complete |
 | Balapura ( Close Loop Toll) | NE- 4 | 184.02 | [25.061568, 76.038416](https://www.google.com/maps?q=25.061568,76.038416) | 0 | complete |
 | Chechat (Entry Exit ) Toll Plaza   | NE- 4 | 184.02 | [24.759444, 75.908694](https://www.google.com/maps?q=24.759444,75.908694) | 0 | complete |
 | Mandawara ( Close Loop Toll ) | NE- 4 | 184.02 | [25.38196, 76.198655](https://www.google.com/maps?q=25.38196,76.198655) | 0 | complete |
@@ -23,23 +23,25 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Kusthala  (Close Loop Toll ) | NE-4 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [25.968464980634522 ,  76.25313572334733](https://www.google.com/maps?q=25.968464980634522 , 76.25313572334733) |  | complete |
 | Bonli (Close Loop Toll ) | NE- 4 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [26.333262172107283, 76.24529151966289](https://www.google.com/maps?q=26.333262172107283,76.24529151966289) |  | complete |
 | Bagrana  (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.87826754178881 ,  75.92726313807928](https://www.google.com/maps?q=26.87826754178881 , 75.92726313807928) |  | complete |
-| Geela Ki Nangal (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.906775321091622 ,  75.96444889](https://www.google.com/maps?q=26.906775321091622 , 75.96444889) |  | complete |
+| Geela Ki Nangal (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.907642, 75.966994](https://www.google.com/maps?q=26.907642,75.966994) |  | complete |
+| Hingonia (Entry Exit Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.8509 ,  75.9247](https://www.google.com/maps?q=26.8509 , 75.9247) |  | complete |
 | Khurikhud (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.964421080299246 ,  76.29031347489561](https://www.google.com/maps?q=26.964421080299246 , 76.29031347489561) |  | complete |
 | Bedoli (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.994724023164917 ,  76.4183597755617](https://www.google.com/maps?q=26.994724023164917 , 76.4183597755617) |  | complete |
-| Hingonia (Entry Exit Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.8509 ,  75.9247](https://www.google.com/maps?q=26.8509 , 75.9247) |  | complete |
 | Shyamsinghpura Virtual (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.980819207958092,  76.53316629450276](https://www.google.com/maps?q=26.980819207958092, 76.53316629450276) |  | complete |
-| Sundarpura (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.9647267515485 ,  76.15593942](https://www.google.com/maps?q=26.9647267515485 , 76.15593942) |  | complete |
-| Gegal | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.551347, 74.780202](https://www.google.com/maps?q=26.551347,74.780202) | 75 | complete |
+| Sundarpura (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.9651364, 76.1572891](https://www.google.com/maps?q=26.9651364,76.1572891) |  | complete |
+| Gegal | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.5513492, 74.7776251](https://www.google.com/maps?q=26.5513492,74.7776251) | 75 | complete |
 | Pipalaz | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.158466, 74.371725](https://www.google.com/maps?q=26.158466,74.371725) | 70 | complete |
 | Baggad | 8 | BAGGAR (Ch. 136 to 137) | [25.590626, 73.903039](https://www.google.com/maps?q=25.590626,73.903039) | 85 | complete |
 | Chila Chond | 11B | 142.35 | [26.613002, 77.515359](https://www.google.com/maps?q=26.613002,77.515359) | 55 | complete |
 | Konder | 11B | 91.8 | [26.537213, 77.086068](https://www.google.com/maps?q=26.537213,77.086068) | 50 | complete |
-| Titoli | 11 | at km 15.500 (at km. 15.570 existing chainage) | [26.7706, 76.339247](https://www.google.com/maps?q=26.7706,76.339247) | 85 | complete |
+| Titoli | 11A | at km 15.500 (at km. 15.570 existing chainage) | [26.7706, 76.339247](https://www.google.com/maps?q=26.7706,76.339247) | 85 | complete |
 | Rabawata | 11A | at km 78.500 (at km. 77.872 existing chainage) | [26.500317, 76.998323](https://www.google.com/maps?q=26.500317,76.998323) | 35 | complete |
-| Nekawala | 11A  (New 148) | CH 11.750 | [27.244988, 76.0641958](https://www.google.com/maps?q=27.244988,76.0641958) | 60 | complete |
+| Nekawala | 11A  (New 148) | CH 11.750 | [27.242283, 76.064202](https://www.google.com/maps?q=27.242283,76.064202) | 60 | complete |
 | Sikandra | 11 (New 21) | Km 156.600 | [26.944488, 76.557567](https://www.google.com/maps?q=26.944488,76.557567) | 80 | complete |
-| Rajadhok | 11 (New 21) | Km 204.700 | [26.859184, 76.105596](https://www.google.com/maps?q=26.859184,76.105596) | 80 | complete |
+| Rajadhok | 11 (New 21) | Km 204.700 | [26.8590345, 76.1041233](https://www.google.com/maps?q=26.8590345,76.1041233) | 80 | complete |
+| Tatiyawas | 11 | Km 257.00 | [27.089775, 75.7415](https://www.google.com/maps?q=27.089775,75.7415) | 80 | complete |
 | Korai | 11 (New 21) | Km 30.090 | [27.114895, 77.715981](https://www.google.com/maps?q=27.114895,77.715981) | 65 | complete |
+| Akhepura | 11 | Km 324.638 | [27.508183, 75.344369](https://www.google.com/maps?q=27.508183,75.344369) | 75 | complete |
 | Ludhawai | 11 (New 21) | Km 64.570 | [27.178509, 77.416845](https://www.google.com/maps?q=27.178509,77.416845) | 25 | complete |
 | Amoli | 11 (New 21) | Km 98.500 | [27.101301, 77.090874](https://www.google.com/maps?q=27.101301,77.090874) | 55 | complete |
 | Lakhasar | 11 | SIKAR BIKANER HIGHWAY LTD. Rashidpura Toll Plaza VPOKhuri Bari TehsilLaxmangarh Sikar( Rajasthan) Pin Code 332315 | [28.093586, 73.876543](https://www.google.com/maps?q=28.093586,73.876543) | 65 | complete |
@@ -48,18 +50,18 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Udairamsar | 11 (New 89) | SIKAR BIKANER HIGHWAY LTD. Udaisaram Toll PlazaNear Rishi Toyata showroom Jodhpur Bye PassBikaner Dist.Bikaner ( Rajasthan) Pin Code334001 | [28.023441, 73.413482](https://www.google.com/maps?q=28.023441,73.413482) | 25 | complete |
 | Uthamam | 14 | Km 202.315 | [25.033571, 72.94353](https://www.google.com/maps?q=25.033571,72.94353) | 150 | complete |
 | Kheerwa | 15(New 11) | Km 141.830 | [27.2833780, 72.323165](https://www.google.com/maps?q=27.2833780,72.323165) | 30 | complete |
-| Ramdevra | 15(New 11) | km 209.500 | [27.0175781, 72.0194626](https://www.google.com/maps?q=27.0175781,72.0194626) | 75 | complete |
-| Salasar | 15(New 11) | Km 23.950 | [28.00137, 73.06546](https://www.google.com/maps?q=28.00137,73.06546) | 80 | complete |
+| Ramdevra | 15(New 11) | km 209.500 | [27.025482, 71.945929](https://www.google.com/maps?q=27.025482,71.945929) | 75 | complete |
+| Salasar | 15(New 11) | Km 23.950 | [28.004151, 73.114542](https://www.google.com/maps?q=28.004151,73.114542) | 80 | complete |
 | Lathi | 15
 (New 11) | PHALODI JAISALMER SEC NH15 TO TWO FOUR LANE WITH PAVED SHULDER | [27.0298347, 71.446434](https://www.google.com/maps?q=27.0298347,71.446434) | 75 | complete |
-| Nokhra | 15(New 11) | Varanasi-Gorakhpur | [27.45006, 72.40303](https://www.google.com/maps?q=27.45006,72.40303) | 70 | complete |
-| Nimbaniya Ki Dhani (Bayatu) | 25 | Km 300.300 | [25.865638, 71.616734](https://www.google.com/maps?q=25.865638,71.616734) | 75 | complete |
+| Nokhra | 15(New 11) | Varanasi-Gorakhpur | [27.668231, 72.675073](https://www.google.com/maps?q=27.668231,72.675073) | 70 | complete |
+| Nimbaniya Ki Dhani (Bayatu) | 25 | Km 300.300 | [25.865921, 71.630145](https://www.google.com/maps?q=25.865921,71.630145) | 75 | complete |
 | Asada Ki Beri | 25E | Km 9+550 (Jhinjholi Village-Haryana) | [25.778374, 71.217013](https://www.google.com/maps?q=25.778374,71.217013) | 65 | complete |
 | Biratiya Kalan | 25 | Km. 8.442 | [26.121946, 74.062649](https://www.google.com/maps?q=26.121946,74.062649) | 85 | complete |
 | Binawas | 25 | Km. 81.090 | [26.27886, 73.394295](https://www.google.com/maps?q=26.27886,73.394295) | 100 | complete |
-| Gadra Toll Plaza | 25 E | Nalluru (64690) | [25.738216, 70.670567](https://www.google.com/maps?q=25.738216,70.670567) | 85 | complete |
+| Gadra Toll Plaza | 25 E | Nalluru (64690) | [25.740142, 70.645659](https://www.google.com/maps?q=25.740142,70.645659) | 85 | complete |
 | Gogunda (Jaswantgarh) | 27 | 184.02 | [24.766166, 73.523999](https://www.google.com/maps?q=24.766166,73.523999) | 90 | complete |
-| Kota Bypass (Sakatpura ) | 27 | 184.02 | [25.155846, 75.781932](https://www.google.com/maps?q=25.155846,75.781932) | 85 | complete |
+| Kota Bypass (Sakatpura ) | 27 | 184.02 | [25.156200, 75.776748](https://www.google.com/maps?q=25.156200,75.776748) | 85 | complete |
 | Malera | 27 | 184.02 | [24.712368, 73.093755](https://www.google.com/maps?q=24.712368,73.093755) | 125 | complete |
 | Simliya | 27 | 184.02 | [25.170089, 76.130552](https://www.google.com/maps?q=25.170089,76.130552) | 90 | complete |
 | Bassi | 27 | Km 237.629 | [25.033921, 74.817676](https://www.google.com/maps?q=25.033921,74.817676) | 100 | complete |
@@ -67,30 +69,28 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Dhaneshwar | 27 | Km 340.979 | [25.072621, 75.598467](https://www.google.com/maps?q=25.072621,75.598467) | 85 | complete |
 | Fatehpur | 27 | Km 461.290 | [25.122, 76.572806](https://www.google.com/maps?q=25.122,76.572806) | 120 | complete |
 | Undvariya | 27 | Km 670.750 | [24.633512, 72.907054](https://www.google.com/maps?q=24.633512,72.907054) | 50 | complete |
-| Khandi Obari | 48 | 184.02 | [23.993636, 73.627895](https://www.google.com/maps?q=23.993636,73.627895) | 190 | complete |
+| Khandi Obari | 48 | 184.02 | [23.9941418, 73.6271827](https://www.google.com/maps?q=23.9941418,73.6271827) | 190 | complete |
 | Dakan Kotra | 48 | 184.02 | [24.500543, 73.720874](https://www.google.com/maps?q=24.500543,73.720874) | 80 | complete |
 | Shahjahanpur | 48 | Km 115.000 | [27.99978, 76.430522](https://www.google.com/maps?q=27.99978,76.430522) | 195 | complete |
 | Manoharpur | 48 | Km 211.000 | [27.3056399, 75.9535128](https://www.google.com/maps?q=27.3056399,75.9535128) | 90 | complete |
 | Thikariya (Jaipur) | 48 | Km 286.700 | [26.843328, 75.615578](https://www.google.com/maps?q=26.843328,75.615578) | 95 | complete |
 | Kishangarh (Badgaon) | 48 | Km 360.700 | [26.595329, 74.939169](https://www.google.com/maps?q=26.595329,74.939169) | 55 | complete |
 | Daulatpura Toll Plaza (JAI) | 48 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [27.0868994 ,  75.8345568](https://www.google.com/maps?q=27.0868994 , 75.8345568) | 80 | complete |
-| Shobhasar | 52 | 144.5 | [27.76326, 74.723371](https://www.google.com/maps?q=27.76326,74.723371) | 60 | complete |
+| Shobhasar | 52 | 144.5 | [27.793038, 74.712959](https://www.google.com/maps?q=27.793038,74.712959) | 60 | complete |
 | Kishorpura | 52 | 184.02 | [25.620737011634873, 75.47337854232764](https://www.google.com/maps?q=25.620737011634873,75.47337854232764) | 170 | complete |
 | Methoon | 52 | 184.02 | [24.420042, 76.503896](https://www.google.com/maps?q=24.420042,76.503896) | 60 | complete |
-| Dhadhar | 52 | 69 | [28.329757, 75.05592](https://www.google.com/maps?q=28.329757,75.05592) | 85 | complete |
-| Lasedi | 52 | 8.7 | [28.712002, 75.481566](https://www.google.com/maps?q=28.712002,75.481566) | 95 | complete |
+| Dhadhar | 52 | 69 | [28.345808, 75.070354](https://www.google.com/maps?q=28.345808,75.070354) | 85 | complete |
+| Lasedi | 52 | 8.7 | [28.701582, 75.476192](https://www.google.com/maps?q=28.701582,75.476192) | 95 | complete |
 | Sonwa (Sonva) | 52 | Km 105.000 | [26.109852, 75.744832](https://www.google.com/maps?q=26.109852,75.744832) | 110 | complete |
-| Tatiyawas | 52 | Km 257.00 | [27.089775, 75.7415](https://www.google.com/maps?q=27.089775,75.7415) | 80 | complete |
 | Barkheda (Chandlai) | 52 | Km 30.500 | [26.68816, 75.904726](https://www.google.com/maps?q=26.68816,75.904726) | 130 | complete |
-| Akhepura | 52 | Km 324.638 | [27.50603, 75.348401](https://www.google.com/maps?q=27.50603,75.348401) | 75 | complete |
 | Beermandi | 52 | Km. 27.700 | [24.6426388, 76.0274722](https://www.google.com/maps?q=24.6426388,76.0274722) | 120 | complete |
 | Mandana (Kota) | 52 | Km. 273.654 near MandanaVillage KotaDistrict | [24.966405, 75.93462](https://www.google.com/maps?q=24.966405,75.93462) | 65 | complete |
 | Pipalwas Plaza | 58E |  | [24.467640 ,  73.593834](https://www.google.com/maps?q=24.467640 , 73.593834) | 40 | complete |
-| Negadiya | 58 | 184.02 | [25.704011, 74.061836](https://www.google.com/maps?q=25.704011,74.061836) | 165 | complete |
 | Mandawada (Gomati) | 58 | 184.02 | [25.20385, 73.814701](https://www.google.com/maps?q=25.20385,73.814701) | 55 | complete |
+| Negadiya | 58 | 184.02 | [24.799787, 73.760951](https://www.google.com/maps?q=24.799787,73.760951) | 165 | complete |
 | Karel | 58E | Karel | [24.212801, 73.352112](https://www.google.com/maps?q=24.212801,73.352112) | 45 | complete |
-| Nimbi Jodha | 58 | Km. 199.985 | [27.30534, 74.1915](https://www.google.com/maps?q=27.30534,74.1915) | 55 | complete |
-| Harimma | 58 | Km. 258.555 | [27.26549, 73.856074](https://www.google.com/maps?q=27.26549,73.856074) | 70 | complete |
+| Nimbi Jodha | 58 | Km. 199.985 | [27.514906, 74.320930](https://www.google.com/maps?q=27.514906,74.320930) | 55 | complete |
+| Harimma | 58 | Km. 258.555 | [27.261126, 73.849745](https://www.google.com/maps?q=27.261126,73.849745) | 70 | complete |
 | Khara | 62 |  | [28.2330309 ,  73.3902644](https://www.google.com/maps?q=28.2330309 , 73.3902644) | 60 | complete |
 | Hindore Toll Plaza | 62 |  | [29.101064 ,  73.853890](https://www.google.com/maps?q=29.101064 , 73.853890) | 45 | complete |
 | 6ML (Sixml) Toll Plaza | 62 | 229.1 | [29.810574, 73.875389](https://www.google.com/maps?q=29.810574,73.875389) | 80 | complete |
@@ -102,15 +102,15 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Badhera(Bhadera ) Toll Plaza | 62 | SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603 | [28.594353 ,  73.810058](https://www.google.com/maps?q=28.594353 , 73.810058) | 55 | complete |
 | Gajangarh Toll Plaza | 65 (New 62) | Pali | [25.824112 ,  73.233418](https://www.google.com/maps?q=25.824112 , 73.233418) | 60 | complete |
 | Hathitala | 68 | 175.68 | [25.562272, 71.407666](https://www.google.com/maps?q=25.562272,71.407666) | 65 | complete |
-| Bor Charnan | 68 | 238.8 | [25.105861, 71.549558](https://www.google.com/maps?q=25.105861,71.549558) | 55 | complete |
+| Bor Charnan | 68 | 238.8 | [25.102663, 71.557717](https://www.google.com/maps?q=25.102663,71.557717) | 55 | complete |
 | Kair Fakir Ki Dhani | 68 | 44.16 | [26.630978, 71.205575](https://www.google.com/maps?q=26.630978,71.205575) | 65 | complete |
-| Nimbasar | 68 | Km 104.893 | [26.15387, 71.27751](https://www.google.com/maps?q=26.15387,71.27751) | 70 | complete |
+| Nimbasar | 68 | Km 104.893 | [26.151196, 71.280432](https://www.google.com/maps?q=26.151196,71.280432) | 70 | complete |
 | Lanela Toll Plaza | 68 | NH 68 at Lanela @ Km 102+151 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State | [27.064272, 70.824783](https://www.google.com/maps?q=27.064272,70.824783) | 70 | complete |
 | Ramgarh Toll Plaza | 68 | NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State | [27.475561, 70.461750](https://www.google.com/maps?q=27.475561,70.461750) | 65 | complete |
-| Narayanpura | 76 | 184.02 | [24.613529, 74.233079](https://www.google.com/maps?q=24.613529,74.233079) | 150 | complete |
+| Narayanpura | 76 | 184.02 | [24.613469, 74.23173](https://www.google.com/maps?q=24.613469,74.23173) | 150 | complete |
 | Khedi |  79 , 79A | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.104125, 74.685331](https://www.google.com/maps?q=26.104125,74.685331) | 155 | complete |
-| Jojro Ka Kheda | 79 | 184.02 | [25.082922, 74.624379](https://www.google.com/maps?q=25.082922,74.624379) | 110 | complete |
-| Lambia Kalan | 79 | 184.02 | [25.5938407, 74.5948394](https://www.google.com/maps?q=25.5938407,74.5948394) | 105 | complete |
+| Jojro Ka Kheda | 79 | 184.02 | [25.082161, 74.624260](https://www.google.com/maps?q=25.082161,74.624260) | 110 | complete |
+| Lambia Kalan | 79 | 184.02 | [25.586114, 74.594882](https://www.google.com/maps?q=25.586114,74.594882) | 105 | complete |
 | Ochadi | 79 | SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603 | [24.824886, 74.628261](https://www.google.com/maps?q=24.824886,74.628261) | 50 | complete |
 | Nimbaheda | 79 | TP 221 SURATGARH BIKANER TOLL ROAD COMPANY PVT LTD Badhera Toll (B2) Lunkaransar Bikaner Rajasthan India 334603 | [24.61044, 74.648446](https://www.google.com/maps?q=24.61044,74.648446) | 30 | complete |
 | Bagaliya | 80 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [25.884014, 74.160275](https://www.google.com/maps?q=25.884014,74.160275) | 20 | complete |
@@ -121,34 +121,34 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Doli | 112 | Km 174.875 | [26.062927, 72.673202](https://www.google.com/maps?q=26.062927,72.673202) | 85 | complete |
 | Narsingharh | 113 | TP 10 | [24.552146, 74.666562](https://www.google.com/maps?q=24.552146,74.666562) | 25 | complete |
 | Sidhpura | 113 | TP 10 | [24.093713, 74.752337](https://www.google.com/maps?q=24.093713,74.752337) | 40 | complete |
-| Morani (Pokaran) | 114 | 165.401 | [26.889721, 71.981819](https://www.google.com/maps?q=26.889721,71.981819) | 15 | complete |
-| Jasnathnagar | 114 | 33.189 | [26.308858, 72.914295](https://www.google.com/maps?q=26.308858,72.914295) | 75 | complete |
-| Motisar (Khanori) | 114 | 98.809 | [26.570811, 72.327192](https://www.google.com/maps?q=26.570811,72.327192) | 75 | complete |
+| Morani (Pokaran) | 114 | 165.401 | [26.892336, 71.95332](https://www.google.com/maps?q=26.892336,71.95332) | 15 | complete |
+| Jasnathnagar | 114 | 33.189 | [26.316161, 72.755739](https://www.google.com/maps?q=26.316161,72.755739) | 75 | complete |
+| Motisar (Khanori) | 114 | 98.809 | [26.581252, 72.325670](https://www.google.com/maps?q=26.581252,72.325670) | 75 | complete |
 | Gumanpura | 116 | 184.02 | [25.992661, 75.9384815](https://www.google.com/maps?q=25.992661,75.9384815) | 65 | complete |
-| Rajorakhurd | 123 | Rajora Khurd | [26.85467, 77.7221](https://www.google.com/maps?q=26.85467,77.7221) | 80 | complete |
+| Rajorakhurd | 123 | Rajora Khurd | [26.854146, 77.722488](https://www.google.com/maps?q=26.854146,77.722488) | 80 | complete |
 | Dangiyawas | 125A | At Km. 2.550 | [26.266826, 73.231858](https://www.google.com/maps?q=26.266826,73.231858) | 55 | complete |
 | Manaklavo | 125A | At Km. 2.550 | [26.428188, 72.983382](https://www.google.com/maps?q=26.428188,72.983382) | 70 | complete |
 | Para Toll Plaza | 148D | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [25.798882, 74.351686](https://www.google.com/maps?q=25.798882,74.351686) | 75 | complete |
-| Kadisahena | 148D | 184.02 | [26.2238677, 75.0024731](https://www.google.com/maps?q=26.2238677,75.0024731) | 90 | complete |
-| Lal Ka Khera | 148D | 184.02 | [25.482404, 75.31341](https://www.google.com/maps?q=25.482404,75.31341) | 45 | complete |
+| Kadisahena | 148D | 184.02 | [25.634774, 75.002799](https://www.google.com/maps?q=25.634774,75.002799) | 90 | complete |
+| Lal Ka Khera | 148D | 184.02 | [25.488133, 75.313381](https://www.google.com/maps?q=25.488133,75.313381) | 45 | complete |
 | Sitarampura | 148 | km 30.520 | [26.7472222, 75.7686111](https://www.google.com/maps?q=26.7472222,75.7686111) | 65 | complete |
-| Hingonia | 148 | Km 30.77 | [26.8508333, 75.9247222](https://www.google.com/maps?q=26.8508333,75.9247222) | 60 | complete |
+| Hingonia | 148C | Km 30.77 | [26.8508333, 75.9247222](https://www.google.com/maps?q=26.8508333,75.9247222) | 60 | complete |
 | Pallai | 148D | Km 69.267 Km 282.936 | [25.884209, 75.958515](https://www.google.com/maps?q=25.884209,75.958515) | 70 | complete |
 | Jaswantpura | 158 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [25.956357, 74.303399](https://www.google.com/maps?q=25.956357,74.303399) | 40 | complete |
 | Dhulepura | 158 | 102.2 | [25.5316666, 74.5197222](https://www.google.com/maps?q=25.5316666,74.5197222) | 40 | complete |
-| Indranagar | 162 | Km 93.750 | [25.828286, 73.45492](https://www.google.com/maps?q=25.828286,73.45492) | 90 | complete |
+| Indranagar | 162 | Km 93.750 | [25.829687, 73.459843](https://www.google.com/maps?q=25.829687,73.459843) | 90 | complete |
 | Chhoti Villor | 168A | Km. 8.400 | [24.6739351, 71.8270341](https://www.google.com/maps?q=24.6739351,71.8270341) | 30 | complete |
 | Bahala | 248 A | Bahala | [27.527173, 76.71721](https://www.google.com/maps?q=27.527173,76.71721) | 40 | complete |
 | Narsana | 325 | Km 80.000 | [25.485729, 72.569789](https://www.google.com/maps?q=25.485729,72.569789) | 60 | complete |
 | Balana | 325 | Km. 149.200 | [25.293327, 73.085753](https://www.google.com/maps?q=25.293327,73.085753) | 35 | complete |
-| Banthadi | 458 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [27.275167, 74.351659](https://www.google.com/maps?q=27.275167,74.351659) | 60 | complete |
-| Lilamba | 458 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.084278, 74.001389](https://www.google.com/maps?q=26.084278,74.001389) | 55 | complete |
-| Tamdoli | 458 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.870978, 74.293475](https://www.google.com/maps?q=26.870978,74.293475) | 65 | complete |
+| Banthadi | 458 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [27.262294, 74.347021](https://www.google.com/maps?q=27.262294,74.347021) | 60 | complete |
+| Lilamba | 458 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.070632, 74.010309](https://www.google.com/maps?q=26.070632,74.010309) | 55 | complete |
+| Tamdoli | 458 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.870121, 74.293129](https://www.google.com/maps?q=26.870121,74.293129) | 65 | complete |
 | Daulatpura Fee Plaza (KOTA) | 552 | Km 241.000 | [25.883916, 76.530155](https://www.google.com/maps?q=25.883916,76.530155) | 30 | complete |
 | Thirpali Bari | 709(E) | Km 33.850 | [28.3995718, 75.5488929](https://www.google.com/maps?q=28.3995718,75.5488929) | 60 | complete |
 | Dadal TP 20 (Close Loop Toll) | 754 A |  | [25.219461, 72.037742](https://www.google.com/maps?q=25.219461,72.037742) |  | complete |
 | Deora TP 21 (Close Loop Toll) | 754A |  | [24.974712, 71.907990](https://www.google.com/maps?q=24.974712,71.907990) |  | complete |
-| Bungri  TP10 (Close Loop Toll) | 754A | Bungri | [26.283344, 73.021866](https://www.google.com/maps?q=26.283344,73.021866) |  | complete |
+| Bungri  TP10 (Close Loop Toll) | 754A | Bungri | [27.349756, 73.110045](https://www.google.com/maps?q=27.349756,73.110045) |  | complete |
 | Chohilanwali TP3 (Close Loop Toll) | 754K (New 754A) | Chohilanwali | [29.394491 ,  74.255444](https://www.google.com/maps?q=29.394491 , 74.255444) |  | complete |
 | Deogarh TP15 (Close Loop Toll) | 754A | Deogarh | [26.306620, 72.587332](https://www.google.com/maps?q=26.306620,72.587332) |  | complete |
 | Deshnok TP8  (Close Loop Toll) | 754K (New 754A) | Deshnok | [27.759508, 73.359928](https://www.google.com/maps?q=27.759508,73.359928) |  | complete |
@@ -161,7 +161,7 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Meghawas  TP 16 (Close Loop Toll) | 754A | Meghawas | [26.1667237, 72.481349](https://www.google.com/maps?q=26.1667237,72.481349) |  | complete |
 | Moothli  TP18  (Close Loop Toll) | 754A | Moothli | [25.7162782, 72.2766719](https://www.google.com/maps?q=25.7162782,72.2766719) |  | complete |
 | Norangdesar  TP7 (Close Loop Toll) | 754K (New 754A) | Norangdesar | [28.073983, 73.568025](https://www.google.com/maps?q=28.073983,73.568025) |  | complete |
-| Panchu  TP9 (Close Loop Toll) | 754A | Panchu (Bikaner) | [27.434222, 73.113655](https://www.google.com/maps?q=27.434222,73.113655) |  | complete |
+| Panchu  TP9 (Close Loop Toll) | 754A | Panchu (Bikaner) | [27.556763, 73.232599](https://www.google.com/maps?q=27.556763,73.232599) |  | complete |
 | Patau  TP17 (Close Loop Toll) | 754A | Patau | [25.9738708, 72.4115514](https://www.google.com/maps?q=25.9738708,72.4115514) |  | complete |
 | Jajoosan TP 22 (Close Loop Toll) | 754A | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [24.76309,  71.802486](https://www.google.com/maps?q=24.76309, 71.802486) |  | complete |
 | Mokhupura TP23 (Close Loop Toll) | 754A | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [24.71359 ,  71.768836 ](https://www.google.com/maps?q=24.71359 , 71.768836 ) |  | complete |
@@ -169,16 +169,16 @@ Browse **172 FASTag toll plazas** across 55 national highways in Rajasthan. Data
 | Sirmandi TP 13(Close Loop Toll) | 754A | Sirmandi (jodhpur) | [26.722444, 72.836611](https://www.google.com/maps?q=26.722444,72.836611) |  | complete |
 | Uchharangdesar  TP6 (Close Loop Toll) | 754K (New 754A) | Uchharangdesar | [28.450153, 73.798944](https://www.google.com/maps?q=28.450153,73.798944) |  | complete |
 | Mujras | 758 | 78 | [25.274995, 74.492879](https://www.google.com/maps?q=25.274995,74.492879) | 70 | complete |
-| Khachrol (Hoda) | 758 | 929.629 | [27.2046, 77.4977](https://www.google.com/maps?q=27.2046,77.4977) | 75 | complete |
+| Khachrol (Hoda) | 758 | 929.629 | [25.226492, 75.048871](https://www.google.com/maps?q=25.226492,75.048871) | 75 | complete |
 | Rupakheda | 758 | Km 18.000 | [25.110565, 73.988241](https://www.google.com/maps?q=25.110565,73.988241) | 80 | complete |
-| Sawara (Seora) Toll Plaza | 911 | 167.7 | [27.51125, 72.27998](https://www.google.com/maps?q=27.51125,72.27998) | 70 | complete |
-| Gangajali | 911  911-A | 19.52 | [28.47524, 72.61884](https://www.google.com/maps?q=28.47524,72.61884) | 60 | complete |
+| Sawara (Seora) Toll Plaza | 911 | 167.7 | [27.525702, 72.274557](https://www.google.com/maps?q=27.525702,72.274557) | 70 | complete |
+| Gangajali | 911 | 19.52 | [28.4755637, 72.618886](https://www.google.com/maps?q=28.4755637,72.618886) | 60 | complete |
 | Thakri (Raisinghnagar) Toll plaza | 911 | 42NP | [29.486832 ,  73.391000](https://www.google.com/maps?q=29.486832 , 73.391000) | 45 | complete |
 | 3M Toll Plaza | 911 | Km 9+550 (Jhinjholi Village-Haryana) | [29.900305 ,  73.675668](https://www.google.com/maps?q=29.900305 , 73.675668) | 115 | complete |
-| Patroda | 911 | Km. 163.500 | [29.0601598, 73.0975538](https://www.google.com/maps?q=29.0601598,73.0975538) | 120 | complete |
+| Patroda | 911 | Km. 163.500 | [29.058493, 73.095444](https://www.google.com/maps?q=29.058493,73.095444) | 120 | complete |
 | Barsalpur | 911  911-A | Km. 81.700 | [28.047877, 72.349573](https://www.google.com/maps?q=28.047877,72.349573) | 65 | complete |
-| Sinhaniya | NH 925 | Km 114.275 | [24.9513888, 71.1511111](https://www.google.com/maps?q=24.9513888,71.1511111) | 50 | complete |
-| Padla Hadliya Plaza | 927A | at Km/Ch.182.00 | [23.691416 ,  73.941127](https://www.google.com/maps?q=23.691416 , 73.941127) | 50 | complete |
+| Sinhaniya | NH 925 | Km 114.275 | [24.950129, 71.150779](https://www.google.com/maps?q=24.950129,71.150779) | 50 | complete |
+| Padla Hadliya Plaza | 927A | at Km/Ch.182.00 | [23.690826, 73.941889](https://www.google.com/maps?q=23.690826,73.941889) | 50 | complete |
 | Parewar Toll Plaza | 968 | NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State | [27.304704, 70.803130](https://www.google.com/maps?q=27.304704,70.803130) | 60 | complete |
 | Dadal |  |  | [25.220295, 72.03811](https://www.google.com/maps?q=25.220295,72.03811) |  | complete |
 

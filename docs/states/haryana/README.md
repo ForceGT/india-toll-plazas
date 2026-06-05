@@ -2,7 +2,7 @@
 
 Browse **87 FASTag toll plazas** across 25 national highways in Haryana. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 71 complete, 16 partial · **Last updated:** 2026-05-13
+**Coverage:** 71 complete, 16 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -26,24 +26,24 @@ Browse **87 FASTag toll plazas** across 25 national highways in Haryana. Data so
 | Bhavdeen | 9 | 241.920 Km | [29.29914, 75.81971](https://www.google.com/maps?q=29.29914,75.81971) | 80 | complete |
 | Rohad | 9 | Km 52.460 | [28.754563, 76.795216](https://www.google.com/maps?q=28.754563,76.795216) | 135 | complete |
 | Ramayana/Mayer | 10 (New 9) | Km 161.500 | [29.100833, 75.885093](https://www.google.com/maps?q=29.100833,75.885093) | 95 | complete |
-| Madina Korsan | 10 (New 9) | Km 99.835 | [28.927049, 76.442169](https://www.google.com/maps?q=28.927049,76.442169) | 75 | complete |
-| Bhagan | 44 | Km 53.600 | [29.060626, 77.064081](https://www.google.com/maps?q=29.060626,77.064081) | 120 | complete |
+| Madina Korsan | 10 (New 9) | Km 99.835 | [28.937631, 76.400393](https://www.google.com/maps?q=28.937631,76.400393) | 75 | complete |
+| Bhagan | 44 | Km 53.600 | [29.071967, 77.060523](https://www.google.com/maps?q=29.071967,77.060523) | 120 | complete |
 | Chaudhriwas |   52 152 | 135.9 | [28.99832, 75.604417](https://www.google.com/maps?q=28.99832,75.604417) | 75 | complete |
 | Narwana |   52 152 | 36.776 | [29.578554, 76.088477](https://www.google.com/maps?q=29.578554,76.088477) | 95 | complete |
-| Badopatti |   52 152 | 87 | [29.299141, 75.819719](https://www.google.com/maps?q=29.299141,75.819719) | 130 | complete |
+| Badopatti |   52 152 | 87 | [29.299265, 75.819918](https://www.google.com/maps?q=29.299265,75.819918) | 130 | complete |
 | Khatkar |   52 352 | km. 286.125 (Near Village Khatkar) | [29.394776, 76.252134](https://www.google.com/maps?q=29.394776,76.252134) | 125 | complete |
 | Abubshahar (Close Loop Toll  ) | 54 | 27+900 | [29.830945, 74.582024](https://www.google.com/maps?q=29.830945,74.582024) | 0 | complete |
 | Alikan (Close Loop Toll  ) | 54 | 27+900 | [29.920923, 74.726776](https://www.google.com/maps?q=29.920923,74.726776) | 0 | complete |
-| Jogewala (Close Loop Toll ) | 54 | 27+900 | [29.962358, 74.751365](https://www.google.com/maps?q=29.962358,74.751365) | 0 | complete |
-| Chautala (Close Loop Toll  ) | 54 | 27+900 | [29.769598, 74.526687](https://www.google.com/maps?q=29.769598,74.526687) | 0 | complete |
+| Jogewala (Close Loop Toll ) | 54 | 27+900 | [29.965057, 74.751886](https://www.google.com/maps?q=29.965057,74.751886) | 0 | complete |
+| Chautala (Close Loop Toll  ) | 54 | 27+900 | [29.787100, 74.517432](https://www.google.com/maps?q=29.787100,74.517432) | 0 | complete |
 | Dabwali (Close Loop Toll  ) | 54 | 27+900 | [29.940235, 74.750839](https://www.google.com/maps?q=29.940235,74.750839) | 0 | complete |
 | Shergarh (Close Loop Toll  ) | 54 | 27+900 | [29.906346, 74.652422](https://www.google.com/maps?q=29.906346,74.652422) | 0 | complete |
-| Saini Majara | 65 (New 152) | At Km 28.160 | [30.19749, 76.50534](https://www.google.com/maps?q=30.19749,76.50534) | 105 | complete |
+| Saini Majara | 65 (New 152) | At Km 28.160 | [30.196943, 76.705490](https://www.google.com/maps?q=30.196943,76.705490) | 105 | complete |
 | Thana | 65 (New 152) | At Km 68.680 design chainage (existing chainage at km. 64.000) | [29.91029, 76.50666](https://www.google.com/maps?q=29.91029,76.50666) | 90 | complete |
 | Dighal | 71 (New 352) |  Near Mampuzha Bridge,Pantheerankaavu at Km.250+300 | [28.776746, 76.621688](https://www.google.com/maps?q=28.776746,76.621688) | 60 | complete |
 | Gangaycha Jatt | 71 (New 352) | Km 430.000 | [28.275006, 76.613363](https://www.google.com/maps?q=28.275006,76.613363) | 100 | complete |
 | Banaundi  | 72 | MPD Gate No-9 Vasco Da Gama | [30.449309, 77.072417](https://www.google.com/maps?q=30.449309,77.072417) | 55 | complete |
-| Jalouli |  73 | 158.579 | [30.211173, 77.194286](https://www.google.com/maps?q=30.211173,77.194286) | 115 | complete |
+| Jalouli |  73 | 158.579 | [30.585731, 76.945274](https://www.google.com/maps?q=30.585731,76.945274) | 115 | complete |
 | Bhago Majra |  95 | 12.07 | [30.7609536, 76.6078459](https://www.google.com/maps?q=30.7609536,76.6078459) | 115 | complete |
 | Ghulal |  95 | 60 | [30.84737, 76.13282](https://www.google.com/maps?q=30.84737,76.13282) | 110 | complete |
 | Bawani Khera | 148B |  | [28.980313, 76.017813](https://www.google.com/maps?q=28.980313,76.017813) | 70 | complete |
@@ -71,7 +71,7 @@ Browse **87 FASTag toll plazas** across 25 national highways in Haryana. Data so
 | Jhinjholi Toll Plaza | 344P | Km 9+550 (Jhinjholi Village-Haryana) | [28.850034, 77.018906](https://www.google.com/maps?q=28.850034,77.018906) | 70 | complete |
 | Ludana | 352A | CH. 23.922 | [29.24132, 76.518153](https://www.google.com/maps?q=29.24132,76.518153) | 55 | complete |
 | Mohana Toll Plaza | 352A | Km 1+110 of NH-166S near  Sukekulan village in North Goa  District of Goa  | [29.04000000, 76.87444444](https://www.google.com/maps?q=29.04000000,76.87444444) | 75 | complete |
-| Bhartana | 352A | Km 9+550 (Jhinjholi Village-Haryana) | [29.162500, 76.284900](https://www.google.com/maps?q=29.162500,76.284900) | 65 | complete |
+| Bartana | 352A | Km 9+550 (Jhinjholi Village-Haryana) | [29.162500, 76.284900](https://www.google.com/maps?q=29.162500,76.284900) | 65 | complete |
 | Peont | 709A | 128.8 | [29.624188, 76.786401](https://www.google.com/maps?q=29.624188,76.786401) | 80 | complete |
 | Bass | 709A | 41.632 (Near village Bass) | [29.1266207, 76.2092175](https://www.google.com/maps?q=29.1266207,76.2092175) | 60 | complete |
 | Bamla | 709E | Bhiwani | [28.804775, 76.223163](https://www.google.com/maps?q=28.804775,76.223163) | 50 | complete |

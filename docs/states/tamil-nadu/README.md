@@ -2,14 +2,14 @@
 
 Browse **103 FASTag toll plazas** across 38 national highways in Tamil Nadu. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 80 complete, 23 partial · **Last updated:** 2026-05-13
+**Coverage:** 80 complete, 23 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Surapattu (Chennai Bypass II) | 4 | Km 28.600 | [13.136678, 80.181624](https://www.google.com/maps?q=13.136678,80.181624) | 75 | complete |
-| Nallur | 5 | Km 21.625 | [13.216958, 80.169353](https://www.google.com/maps?q=13.216958,80.169353) | 80 | complete |
+| Nallur | 5 | Km 21.625 | [13.216958, 80.169353](https://www.google.com/maps?q=13.216958,80.169353) | 85 | complete |
 | L and T Krishnagiri Thopur (Palayam) Toll Plaza | 7 (New 44) | Km 154.440 | [12.00643, 78.08042](https://www.google.com/maps?q=12.00643,78.08042) | 120 | complete |
 | Omalur (Kottagoundapatty) | 7 (New 44) | Km 191.800 | [11.72034, 78.07338](https://www.google.com/maps?q=11.72034,78.07338) | 95 | complete |
 | Seliyamedu Fee Plaza | 32 | Seliyamedu | [11.823296, 79.759146](https://www.google.com/maps?q=11.823296,79.759146) | 75 | complete |
@@ -27,10 +27,10 @@ Browse **103 FASTag toll plazas** across 38 national highways in Tamil Nadu. Dat
 | Kodai Road (Kozhinjipatti) | 44 |  | [10.194334, 77.909215](https://www.google.com/maps?q=10.194334,77.909215) | 75.00 | complete |
 | Salaipudhur | 44 | Km 125.350 | [8.975702, 77.774608](https://www.google.com/maps?q=8.975702,77.774608) | 130 | complete |
 | Kappalur | 44 | Km 18.652 | [9.844294, 78.011209](https://www.google.com/maps?q=9.844294,78.011209) | 105 | complete |
-| Nanguneri | 44 | Km 185.387 | [8.527035, 77.663289](https://www.google.com/maps?q=8.527035,77.663289) | 115 | complete |
+| Nanguneri | 44 | Km 185.387 | [8.527035, 77.663289](https://www.google.com/maps?q=8.527035,77.663289) | 120 | complete |
 | Rasampalayam | 44 | Km 259.500 | [11.193895, 78.103219](https://www.google.com/maps?q=11.193895,78.103219) | 55 | complete |
 | Velanchettiyur | 44 | Km 338.000 | [10.194266, 77.909368](https://www.google.com/maps?q=10.194266,77.909368) | 115 | complete |
-| Etturvattam | 44 | Km 74.930 | [9.385445, 77.914347](https://www.google.com/maps?q=9.385445,77.914347) | 110 | complete |
+| Etturvattam | 44 | Km 74.930 | [9.385445, 77.914347](https://www.google.com/maps?q=9.385445,77.914347) | 105 | complete |
 | Krishnagiri | 44 | Km 87.500 | [12.544583, 78.201132](https://www.google.com/maps?q=12.544583,78.201132) | 90 | complete |
 | Gangarampalayam | 45A (New 332) | Jamni, Dist Jind | [11.920771, 79.616346](https://www.google.com/maps?q=11.920771,79.616346) | 60 | complete |
 | Vikravandi(Villupuram)* | 45 | Km 150.400 | [12.024441, 79.538059](https://www.google.com/maps?q=12.024441,79.538059) | 105 | complete |

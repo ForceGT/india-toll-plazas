@@ -2,7 +2,7 @@
 
 Browse **32 FASTag toll plazas** across 13 national highways in Telangana. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 32 complete · **Last updated:** 2026-05-13
+**Coverage:** 32 complete · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 

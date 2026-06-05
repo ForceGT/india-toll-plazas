@@ -2,7 +2,7 @@
 
 Browse **15 FASTag toll plazas** across 8 national highways in Uttarakhand. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 13 complete, 2 partial · **Last updated:** 2026-05-13
+**Coverage:** 13 complete, 2 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -10,7 +10,7 @@ Browse **15 FASTag toll plazas** across 8 national highways in Uttarakhand. Data
 |---|---|---|---|---|---|
 | Lacchiwala | 7 | Lacchhiwala | [30.209841, 78.125409](https://www.google.com/maps?q=30.209841,78.125409) | 105 | complete |
 | Jagatpur Patti | 74 | Ch. 145.054 | [29.244179, 78.884934](https://www.google.com/maps?q=29.244179,78.884934) | 120 | complete |
-| Deoria* | 74 | Km 222.270 | [28.930785, 79.475734](https://www.google.com/maps?q=28.930785,79.475734) | 130 | complete |
+| Deoria | 74 | Km 222.270 | [28.930785, 79.475734](https://www.google.com/maps?q=28.930785,79.475734) | 130 | complete |
 | Puraini | 74 | Puraini Distt Bijnor UP | [29.407553, 78.446612](https://www.google.com/maps?q=29.407553,78.446612) | 90 | complete |
 | Koyla | 87 | Km 11.270 | [28.83044, 79.09648](https://www.google.com/maps?q=28.83044,79.09648) | 85 | complete |
 | Nagla Toll Plaza  | 87 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [29.0333184 , 79.493450](https://www.google.com/maps?q=29.0333184 ,79.493450) | 65 | complete |

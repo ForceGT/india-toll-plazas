@@ -1,8 +1,8 @@
 # Toll plazas in Maharashtra — India
 
-Browse **200 FASTag toll plazas** across 47 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **201 FASTag toll plazas** across 48 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 104 complete, 94 partial, 2 verified · **Last updated:** 2026-05-13
+**Coverage:** 105 complete, 94 partial, 2 verified · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -41,8 +41,8 @@ Browse **200 FASTag toll plazas** across 47 national highways in Maharashtra. Da
 | Mathani | 53 | Km 523.400 | [21.139545, 79.365105](https://www.google.com/maps?q=21.139545,79.365105) | 70 | complete |
 | Taroda Kasba | 53 | Taroda Kasba Toll Plaza | [20.6660558, 76.7181721](https://www.google.com/maps?q=20.6660558,76.7181721) | 130 | complete |
 | Hivargaon Pavsa | 60 | Km 138.749 | [19.516452, 74.201583](https://www.google.com/maps?q=19.516452,74.201583) | 115 | complete |
-| Laling (Dhule) | 60 | Km 268.632 | [20.833054, 74.754192](https://www.google.com/maps?q=20.833054,74.754192) | 170 | complete |
-| Chandwad | 60 | Km 356.700 | [20.325014, 74.210751](https://www.google.com/maps?q=20.325014,74.210751) | 170 | complete |
+| Laling (Dhule) | 60 | Km 268.632 | [20.833054, 74.754192](https://www.google.com/maps?q=20.833054,74.754192) | 165 | complete |
+| Chandwad | 60 | Km 356.700 | [20.325014, 74.210751](https://www.google.com/maps?q=20.325014,74.210751) | 165 | complete |
 | Chalakwadi | 60 | Km 91.106 | [19.170738, 74.074993](https://www.google.com/maps?q=19.170738,74.074993) | 135 | complete |
 | Dumberwadi | 61 | 125.7 | [19.24404, 74.013274](https://www.google.com/maps?q=19.24404,74.013274) | 60 | complete |
 | Dhoki | 61 | 178.1 | [19.15597, 74.41116](https://www.google.com/maps?q=19.15597,74.41116) | 45 | complete |
@@ -57,11 +57,12 @@ Browse **200 FASTag toll plazas** across 47 national highways in Maharashtra. Da
 | Nimgaon Khalu Fee Plaza | 160 |  | [18.49946408607375, 74.57615783588396](https://www.google.com/maps?q=18.49946408607375,74.57615783588396) | 95 | complete |
 | Dongrale Toll Plaza | 160H | Derhi toll plaza cholapur varanasi | [20.766214 ,   74.574654](https://www.google.com/maps?q=20.766214 ,  74.574654) | 40 | complete |
 | Baswant (Pimpalgaon) | 160 | Km 390.450 | [20.141701, 73.976492](https://www.google.com/maps?q=20.141701,73.976492) | 235 | complete |
-| Arjunali | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 140 | complete |
-| Ghoti | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 140 | complete |
+| Arjunali | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 135 | complete |
+| Ghoti | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 135 | complete |
 | Pimparwadi | 160 | Pimparwadi | [19.81034, 74.27611](https://www.google.com/maps?q=19.81034,74.27611) | 80 | complete |
 | Salva Jaroda | 161 | At Km. 155.117 (Salva Jaroda) | [19.5988477, 77.3920472](https://www.google.com/maps?q=19.5988477,77.3920472) | 80 | complete |
 | Medshi Sawarkhda | 161 | At km.41.374 | [20.363338, 76.932728](https://www.google.com/maps?q=20.363338,76.932728) | 105 | complete |
+| Sonari Toll Plaza | 161A | At Village Sonari, Tq. Himaytnagar, Dist. Nanded | [19.353279, 77.785449](https://www.google.com/maps?q=19.353279,77.785449) | 30 | complete |
 | Tuptakli Toll Plaza |  161A | Hatiwale | [20.079417 ,  77.762278](https://www.google.com/maps?q=20.079417 , 77.762278) | 35 | complete |
 | Dhumka Tondgaon | 161 | Tondgaon Tq. Dist. Washim | [20.01351, 77.13994](https://www.google.com/maps?q=20.01351,77.13994) | 125 | complete |
 | Anakdhal | 166 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [17.359944, 75.079618](https://www.google.com/maps?q=17.359944,75.079618) | 105 | complete |
@@ -107,11 +108,11 @@ Browse **200 FASTag toll plazas** across 47 national highways in Maharashtra. Da
 | Pandane Toll Plaza | 953 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [20.372390, 73.846437](https://www.google.com/maps?q=20.372390,73.846437) | 35 | complete |
 | Belsar Toll Plaza | 965 |  Near Mampuzha Bridge,Pantheerankaavu at Km.250+300 | [18.295722, 74.110998](https://www.google.com/maps?q=18.295722,74.110998) | 105 | complete |
 | Undewadi (Supe) Toll Palza | 965G | (Km 18.585) | [18.270936, 74.525713](https://www.google.com/maps?q=18.270936,74.525713) | 70 | complete |
-| Bawada Toll plaza | 965G | Km 102.550 | [17.940278, 75..005833](https://www.google.com/maps?q=17.940278,75..005833) | 75 | complete |
+| Bawada Toll plaza | 965G | Km 102.550 | [17.940278, 75.005833](https://www.google.com/maps?q=17.940278,75.005833) | 75 | complete |
 | Penur Toll Palza | 965 | Km 13.000 | [17.778334, 75.524251](https://www.google.com/maps?q=17.778334,75.524251) | 100 | complete |
 | Bhavaninagar | 965 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [17.94581 ,  74.65281](https://www.google.com/maps?q=17.94581 , 74.65281) | 80 | complete |
-| Darwha Toll Plaza |  |  | [20.351126, 77.701343](https://www.google.com/maps?q=20.351126,77.701343) | 50 | complete |
 | Kingaon |  |  | [18.722059, 76.758575](https://www.google.com/maps?q=18.722059,76.758575) | 55 | complete |
+| Darwha Toll Plaza |  |  | [20.351126, 77.701343](https://www.google.com/maps?q=20.351126,77.701343) | 50 | complete |
 | Achhad BorderCheckpost Toll Plaza |  | NETC 536140; Achhad BorderCheckpost; Palghar, Maharashtra; 20.07538,72.913338 | [20.07538, 72.913338](https://www.google.com/maps?q=20.07538,72.913338) | 0 | partial |
 | HadakhedBorderCheckpost Toll Plaza |  | NETC 536141; HadakhedBorderCheckpost; Dhule, Maharashtra; 21.2538,74.5846 | [21.2538, 74.5846](https://www.google.com/maps?q=21.2538,74.5846) | 0 | partial |
 | NavapurBorderCheckpost Toll Plaza |  | NETC 536142; NavapurBorderCheckpost; Nandurbar, Maharashtra; 21.16132,73.741458 | [21.16132, 73.741458](https://www.google.com/maps?q=21.16132,73.741458) | 0 | partial |

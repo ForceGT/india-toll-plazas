@@ -2,7 +2,7 @@
 
 Browse **32 FASTag toll plazas** across 21 national highways in West Bengal. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 31 complete, 1 partial · **Last updated:** 2026-05-13
+**Coverage:** 31 complete, 1 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -29,7 +29,7 @@ Browse **32 FASTag toll plazas** across 21 national highways in West Bengal. Dat
 | Tetla Toll Plaza  | 32 (New 18) | Km. 142+300 | [22.963702, 86.109463](https://www.google.com/maps?q=22.963702,86.109463) | 30 | complete |
 | Barai Toll Plaza | 34 (New 12) | Barai Toll Plaza, Raiganj, Uttar Dinajppur (Km. 411.850) | [25.6710495, 88.0793655](https://www.google.com/maps?q=25.6710495,88.0793655) | 110 | complete |
 | Chandermore (Kishorpur  ) Toll Plaza | 34 ( 12, New) | Chandermore (Km.260.850) | [24.563182, 88.019993](https://www.google.com/maps?q=24.563182,88.019993) | 75 | complete |
-| Sali Bamandanga | 34 (12, New) | KM 20+000 | [23.629195, 88.36003](https://www.google.com/maps?q=23.629195,88.36003) | 105 | complete |
+| Sali Bamandanga | 34  | KM 20+000 | [23.629195, 88.36003](https://www.google.com/maps?q=23.629195,88.36003) | 105 | complete |
 | Shibpur Toll Plaza | 34 ( 12, New) | Shibpur (Km.206.562) | [24.150449, 88.18629](https://www.google.com/maps?q=24.150449,88.18629) | 125 | complete |
 | Gazole (Bagsarai )Toll Plaza | 34 | Vill-Bagsarai | [25.194964, 88.182156](https://www.google.com/maps?q=25.194964,88.182156) | 65 | complete |
 | 18th Mile (Lakshmipur ) Toll Plaza | 34 | Vill-Lakshmipur | [24.822792, 87.96668](https://www.google.com/maps?q=24.822792,87.96668) | 140 | complete |

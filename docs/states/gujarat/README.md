@@ -1,8 +1,8 @@
 # Toll plazas in Gujarat — India
 
-Browse **97 FASTag toll plazas** across 26 national highways in Gujarat. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **97 FASTag toll plazas** across 25 national highways in Gujarat. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 64 complete, 33 partial · **Last updated:** 2026-05-13
+**Coverage:** 64 complete, 33 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -20,8 +20,10 @@ Browse **97 FASTag toll plazas** across 26 national highways in Gujarat. Data so
 | Sanpa (Close Loop Toll ) | NE- 4 | Chainage Km 900.439 | [22.004465, 73.014515](https://www.google.com/maps?q=22.004465,73.014515) | 0 | complete |
 | Dahegam Toll Plaza (Close Loop Toll ) | NE- 4 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [21.6934 ,  72.9247](https://www.google.com/maps?q=21.6934 , 72.9247) | 0 | complete |
 | Ena Toll Plaza  | NE-04  | Sameerapalem(V), Voletivaripalem (M), SPSR Nellore District | [21.108402, 73.031353](https://www.google.com/maps?q=21.108402,73.031353) | 95 | complete |
-| Gorsar |   8 D (New 151) | Jamni, Dist Jind | [21.318554, 69.909762](https://www.google.com/maps?q=21.318554,69.909762) | 135 | complete |
-| Kuchadi | 8 (New 51) | Jamni, Dist Jind | [21.6975366, 69.5328098](https://www.google.com/maps?q=21.6975366,69.5328098) | 135 | complete |
+| Nageshri | 8E | 152.05 | [20.916389, 71.321944](https://www.google.com/maps?q=20.916389,71.321944) | 95 | complete |
+| Kobadi | 8E | 18.15 | [21.61976, 72.1415933](https://www.google.com/maps?q=21.61976,72.1415933) | 90 | complete |
+| Gorsar | 8E | Jamni, Dist Jind | [21.318554, 69.909762](https://www.google.com/maps?q=21.318554,69.909762) | 135 | complete |
+| Kuchadi | 8E | Jamni, Dist Jind | [21.6975366, 69.5328098](https://www.google.com/maps?q=21.6975366,69.5328098) | 135 | complete |
 | Vanana | 8B (New 27) | Km 10.755 | [21.664929, 69.709536](https://www.google.com/maps?q=21.664929,69.709536) | 85 | complete |
 | Dari |   8 D( New 151) | Km 108.980 | [20.961287, 70.334349](https://www.google.com/maps?q=20.961287,70.334349) | 105 | complete |
 | Pithadia | 8B (New 27) | Km 120.700 | [21.805381, 70.66397](https://www.google.com/maps?q=21.805381,70.66397) | 35 | complete |
@@ -31,7 +33,7 @@ Browse **97 FASTag toll plazas** across 26 national highways in Gujarat. Data so
 | Surajbari | 8A | Km 286.655 | [23.233738, 70.689457](https://www.google.com/maps?q=23.233738,70.689457) | 100 | complete |
 | Samakhiyali | 8A (New 41 ) | Km 308.600 | [23.308555, 70.49059](https://www.google.com/maps?q=23.308555,70.49059) | 85 | complete |
 | Mokha | 8A | Km 44.500 | [22.934663, 69.801655](https://www.google.com/maps?q=22.934663,69.801655) | 130 | complete |
-| Okhamadhi | 8 (New 51) | Km 470.875 | [22.080199, 69.1338701](https://www.google.com/maps?q=22.080199,69.1338701) | 110 | complete |
+| Okhamadhi | 8E | Km 470.875 | [22.080199, 69.1338701](https://www.google.com/maps?q=22.080199,69.1338701) | 110 | complete |
 | Gadoi |   8D (New 151) | Km 51.250 | [21.425234, 70.295437](https://www.google.com/maps?q=21.425234,70.295437) | 130 | complete |
 | Makhel* | 27 | Km 394.200 | [23.490457, 70.942745](https://www.google.com/maps?q=23.490457,70.942745) | 95 | complete |
 | Bhiladi | 27 | Km 403.000 | [24.143855, 71.977168](https://www.google.com/maps?q=24.143855,71.977168) | 135 | complete |
@@ -39,8 +41,8 @@ Browse **97 FASTag toll plazas** across 26 national highways in Gujarat. Data so
 | Bhalgam | 27 | Km 502.100 | [23.912341, 71.783991](https://www.google.com/maps?q=23.912341,71.783991) | 100 | complete |
 | Khemana | 27 | Km 602.750 | [24.241335, 72.462709](https://www.google.com/maps?q=24.241335,72.462709) | 80 | complete |
 | Dhumiyani | 27 (New 8A) | Km 82.215 | [21.751451, 70.326793](https://www.google.com/maps?q=21.751451,70.326793) | 125 | complete |
-| Vavadikhurd | 47 | Jamudihi, Koida, Sundergarh (At 110.436Km) | [22.792571, 73.533274](https://www.google.com/maps?q=22.792571,73.533274) | 145 | complete |
 | Pithai | 47 | Jamudihi, Koida, Sundergarh (At 110.436Km) | [22.9128, 72.957428](https://www.google.com/maps?q=22.9128,72.957428) | 130 | complete |
+| Vavadikhurd | 47 | Jamudihi, Koida, Sundergarh (At 110.436Km) | [22.792571, 73.533274](https://www.google.com/maps?q=22.792571,73.533274) | 145 | complete |
 | Bhatwada | 47(Old 59) | Km 146.400 | [22.792886, 73.842871](https://www.google.com/maps?q=22.792886,73.842871) | 190 | complete |
 | Radhvanaj (Kheda ) Toll Plaza | 48 |  (Ch-92+000) | [22.715971, 72.740887](https://www.google.com/maps?q=22.715971,72.740887) | 115 | complete |
 | Vasad Toll Plaza | 48 |  (Ch-92+000) | [22.453254, 73.070539](https://www.google.com/maps?q=22.453254,73.070539) | 160 | complete |
@@ -50,8 +52,6 @@ Browse **97 FASTag toll plazas** across 26 national highways in Gujarat. Data so
 | Bhagwada | 48 | Km 356.200 | [20.43495, 72.917204](https://www.google.com/maps?q=20.43495,72.917204) | 125 | complete |
 | Kathpur | 48 | Km. 518.285 | [23.410181, 72.828618](https://www.google.com/maps?q=23.410181,72.828618) | 70 | complete |
 | Vantada | 48 | Km. 518.285 | [23.61615, 73.254472](https://www.google.com/maps?q=23.61615,73.254472) | 35 | complete |
-| Nageshri | 51 | 152.05 | [20.916389, 71.321944](https://www.google.com/maps?q=20.916389,71.321944) | 95 | complete |
-| Kobadi | 51 | 18.15 | [21.61976, 72.1415933](https://www.google.com/maps?q=21.61976,72.1415933) | 90 | complete |
 | Velva Toll Plaza | 51 | 212.325 | [20.805689, 70.813503](https://www.google.com/maps?q=20.805689,70.813503) | 80 | complete |
 | Rohisa | 51 | At 79.370 Km (Rohisa village) | [21.190534, 71.8638496](https://www.google.com/maps?q=21.190534,71.8638496) | 120 | complete |
 | Sundarpara Toll Plaza | 51 | Sundarpara Village | [20.901721, 70.515003](https://www.google.com/maps?q=20.901721,70.515003) | 75 | complete |

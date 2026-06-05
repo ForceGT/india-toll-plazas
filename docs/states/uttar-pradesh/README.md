@@ -1,14 +1,13 @@
 # Toll plazas in Uttar Pradesh — India
 
-Browse **134 FASTag toll plazas** across 52 national highways in Uttar Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **134 FASTag toll plazas** across 53 national highways in Uttar Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 134 complete · **Last updated:** 2026-05-13
+**Coverage:** 134 complete · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
-| Daffi | 2 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.24944488, 82.99940227](https://www.google.com/maps?q=25.24944488,82.99940227) | 85 | complete |
 | Raibha | 2 | Km 10.800 | [27.177493, 77.811532](https://www.google.com/maps?q=27.177493,77.811532) | 85 | complete |
 | Tundla | 2 (New 19) | Km 224.950 | [27.218247, 78.272821](https://www.google.com/maps?q=27.218247,78.272821) | 115 | complete |
 | Gurau (Semra Atikabad) | 2 (New 19) | Km 285.000 | [26.996524, 78.777334](https://www.google.com/maps?q=26.996524,78.777334) | 125 | complete |
@@ -36,6 +35,7 @@ Browse **134 FASTag toll plazas** across 52 national highways in Uttar Pradesh. 
 | Joya | 24 (New 9) | Km 121.975 | [28.836176, 78.420749](https://www.google.com/maps?q=28.836176,78.420749) | 75 | complete |
 | Niyamatpur Ekrotiya | 24 | Km 172.698 | [28.814182, 78.902248](https://www.google.com/maps?q=28.814182,78.902248) | 160 | complete |
 | Thiriya Khetal Fee Plaza | 24 | km 228.885 | [28.480289, 79.283886](https://www.google.com/maps?q=28.480289,79.283886) | 170 | complete |
+| Dakhina Sekhpur | 24B | Km 42.550 | [26.524482, 81.066094](https://www.google.com/maps?q=26.524482,81.066094) | 120 | complete |
 | Brijghat | 24 | Km 80.500 | [28.767149, 78.110043](https://www.google.com/maps?q=28.767149,78.110043) | 125 | complete |
 | Chhajarsi | 24 (New 9) | Km. 39.730 of NH09 near Chhajarsi Village | [28.70178, 77.621477](https://www.google.com/maps?q=28.70178,77.621477) | 175 | complete |
 | Nainsar | 24 | Km. 75.915 | [26.9209, 83.297](https://www.google.com/maps?q=26.9209,83.297) | 20 | complete |
