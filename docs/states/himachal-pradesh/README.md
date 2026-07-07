@@ -6,6 +6,20 @@ Browse **15 FASTag toll plazas** across 4 national highways in Himachal Pradesh.
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 4 | 26.7% |
+| partial | 11 | 73.3% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Baloh Fee Plaza | 21(New 205 &amp; 154)  | Baloh Bilaspur | [31.4207637, 76.7979863](https://www.google.com/maps?q=31.4207637,76.7979863) | 110 | complete |

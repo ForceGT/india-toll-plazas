@@ -55,6 +55,10 @@ function formatDate(isoString) {
   return isoString.slice(0, 10);
 }
 
+// Order reflects roughly increasing trust; keep in sync with any new
+// data_confidence values that show up in data/latest.json.
+const CONFIDENCE_LEVELS = ['verified', 'complete', 'high', 'partial', 'estimated'];
+
 function buildStateReadme(stateInfo) {
   const { display, highways, confidence, maxUpdated } = stateInfo;
   const plazas = stateInfo.plazas;
@@ -63,6 +67,11 @@ function buildStateReadme(stateInfo) {
   if (confidence.complete) confParts.push(`${confidence.complete} complete`);
   if (confidence.partial)  confParts.push(`${confidence.partial} partial`);
   if (confidence.verified) confParts.push(`${confidence.verified} verified`);
+
+  const confidenceBreakdown = CONFIDENCE_LEVELS
+    .filter(level => confidence[level])
+    .map(level => `| ${level} | ${confidence[level]} | ${((confidence[level] / plazas.length) * 100).toFixed(1)}% |`)
+    .join('\n');
 
   const hwLabel = highways === 0
     ? 'state highways'
@@ -91,6 +100,19 @@ Browse **${plazas.length} FASTag toll plazas** across ${hwLabel} in ${display}. 
 **Coverage:** ${confParts.join(', ')} · **Last updated:** ${formatDate(maxUpdated) || 'unknown'}
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
+
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza \`rate_source\`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+${confidenceBreakdown}
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -137,7 +159,7 @@ function generateReadmes() {
         slug:       canon.slug,
         plazas:     [],
         nhNos:      new Set(),
-        confidence: { complete: 0, partial: 0, verified: 0 },
+        confidence: {},
         maxUpdated: null,
       });
     }
@@ -145,7 +167,7 @@ function generateReadmes() {
     s.plazas.push(plaza);
     if (plaza.nh_no) s.nhNos.add(plaza.nh_no);
     const conf = plaza.data_confidence;
-    if (conf === 'complete' || conf === 'partial' || conf === 'verified') s.confidence[conf]++;
+    if (conf) s.confidence[conf] = (s.confidence[conf] || 0) + 1;
     if (plaza.last_updated && (!s.maxUpdated || plaza.last_updated > s.maxUpdated)) {
       s.maxUpdated = plaza.last_updated;
     }

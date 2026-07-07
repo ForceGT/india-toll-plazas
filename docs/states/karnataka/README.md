@@ -6,6 +6,19 @@ Browse **68 FASTag toll plazas** across 26 national highways in Karnataka. Data 
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 68 | 100.0% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Bankapur Toll Plaza |  4 ( New 48) | Km 352.550 | [14.91044602, 75.27940293](https://www.google.com/maps?q=14.91044602,75.27940293) | 105 | complete |
@@ -14,8 +27,8 @@ Browse **68 FASTag toll plazas** across 26 national highways in Karnataka. Data 
 | Kognoli Toll Plaza | 4 (New 48) | Km 591.240 | [16.5422, 74.31825](https://www.google.com/maps?q=16.5422,74.31825) | 60 | complete |
 | Ganebail Toll Plaza | 4A  ( New 748) | Km. 19.200 Ganebail | [15.69158618, 74.50351799](https://www.google.com/maps?q=15.69158618,74.50351799) | 40 | complete |
 | Agrahara (Close Loop Toll ) | NE-07 |  | [13.03709267, 78.00282333](https://www.google.com/maps?q=13.03709267,78.00282333) |  | complete |
-| Hedaginabele (Close Loop Toll) | NE-07 |  | [13.04436742, 77.91746536](https://www.google.com/maps?q=13.04436742,77.91746536) | 0 | complete |
 | Krishnarajapura (Close Loop Toll ) | NE-07 |  | [13.003798, 78.255933](https://www.google.com/maps?q=13.003798,78.255933) |  | complete |
+| Hedaginabele (Close Loop Toll) | NE-07 |  | [13.04436742, 77.91746536](https://www.google.com/maps?q=13.04436742,77.91746536) | 0 | complete |
 | Sundrapalya (Close Loop Toll) | NE-07 | Acess Controlled Toll plaza based on Tollable length | [13.011788, 78.404335](https://www.google.com/maps?q=13.011788,78.404335) |  | complete |
 | Elevated Section/ Electronic City | 7 (New 44) | Km 18.000 | [12.84563013, 77.66730878](https://www.google.com/maps?q=12.84563013,77.66730878) | 60 | complete |
 | Attibele (Betl) | 7 (New 44) | Km 32.700 | [12.776883, 77.777119](https://www.google.com/maps?q=12.776883,77.777119) | 35 | complete |
@@ -68,8 +81,8 @@ Browse **68 FASTag toll plazas** across 26 national highways in Karnataka. Data 
 | Sheshagirihalli Toll Plaza | 275 | Near Kengeri Kaniminke Toll Plaza Km 23.900 26.800 | [12.840393417724071, 77.41831598915633](https://www.google.com/maps?q=12.840393417724071,77.41831598915633) | 180 | complete |
 | Kaniminike Toll Plaza | 275 | Sameerapalem(V), Voletivaripalem (M), SPSR Nellore District | [12.8596555, 77.4311167](https://www.google.com/maps?q=12.8596555,77.4311167) | 180 | complete |
 | Rampura (NH-548 B) | 548B | PALUVAYI (Km 17+800) | [16.823268, 75.473624](https://www.google.com/maps?q=16.823268,75.473624) | 85 | complete |
-| Hulikunte | 648 | KM 20+000 | [13.27084, 77.34821](https://www.google.com/maps?q=13.27084,77.34821) | 110 | complete |
 | Nalluru Devanahalli Toll Plaza | 648 | KM 20+000 | [13.20745569, 77.76247749](https://www.google.com/maps?q=13.20745569,77.76247749) | 85 | complete |
+| Hulikunte | 648 | KM 20+000 | [13.27084, 77.34821](https://www.google.com/maps?q=13.27084,77.34821) | 110 | complete |
 | Kannegala Toll Plaza | 766 | At km 144.130 | [11.78008, 76.61368](https://www.google.com/maps?q=11.78008,76.61368) | 35 | complete |
 | K N Huindy | 766 | km 200.400 | [12.21316507, 76.66257327](https://www.google.com/maps?q=12.21316507,76.66257327) | 60 | complete |
 | Yeddore | 766 | km 236.550 | [12.2437, 76.88332](https://www.google.com/maps?q=12.2437,76.88332) | 45 | complete |

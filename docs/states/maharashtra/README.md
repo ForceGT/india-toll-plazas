@@ -1,10 +1,26 @@
 # Toll plazas in Maharashtra — India
 
-Browse **201 FASTag toll plazas** across 48 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **203 FASTag toll plazas** across 48 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
 **Coverage:** 105 complete, 94 partial, 2 verified · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
+
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| verified | 2 | 1.0% |
+| complete | 105 | 51.7% |
+| high | 2 | 1.0% |
+| partial | 94 | 46.3% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -111,8 +127,8 @@ Browse **201 FASTag toll plazas** across 48 national highways in Maharashtra. Da
 | Bawada Toll plaza | 965G | Km 102.550 | [17.940278, 75.005833](https://www.google.com/maps?q=17.940278,75.005833) | 75 | complete |
 | Penur Toll Palza | 965 | Km 13.000 | [17.778334, 75.524251](https://www.google.com/maps?q=17.778334,75.524251) | 100 | complete |
 | Bhavaninagar | 965 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [17.94581 ,  74.65281](https://www.google.com/maps?q=17.94581 , 74.65281) | 80 | complete |
-| Kingaon |  |  | [18.722059, 76.758575](https://www.google.com/maps?q=18.722059,76.758575) | 55 | complete |
 | Darwha Toll Plaza |  |  | [20.351126, 77.701343](https://www.google.com/maps?q=20.351126,77.701343) | 50 | complete |
+| Kingaon |  |  | [18.722059, 76.758575](https://www.google.com/maps?q=18.722059,76.758575) | 55 | complete |
 | Achhad BorderCheckpost Toll Plaza |  | NETC 536140; Achhad BorderCheckpost; Palghar, Maharashtra; 20.07538,72.913338 | [20.07538, 72.913338](https://www.google.com/maps?q=20.07538,72.913338) | 0 | partial |
 | HadakhedBorderCheckpost Toll Plaza |  | NETC 536141; HadakhedBorderCheckpost; Dhule, Maharashtra; 21.2538,74.5846 | [21.2538, 74.5846](https://www.google.com/maps?q=21.2538,74.5846) | 0 | partial |
 | NavapurBorderCheckpost Toll Plaza |  | NETC 536142; NavapurBorderCheckpost; Nandurbar, Maharashtra; 21.16132,73.741458 | [21.16132, 73.741458](https://www.google.com/maps?q=21.16132,73.741458) | 0 | partial |
@@ -144,6 +160,7 @@ Browse **201 FASTag toll plazas** across 48 national highways in Maharashtra. Da
 | Barshi Toll Plaza |  | NETC 536504; Barshi Toll Plaza; Barshi–Solapur Rd (TollGuru); Solapur area, Maharashtra; barrier ~17.721127,75.882698 | [17.721127, 75.882698](https://www.google.com/maps?q=17.721127,75.882698) | 35 | partial |
 | Hotagi Road Toll Plaza |  | NETC 536505; Hotagi Road Toll Plaza; Hotgi Rd (TollGuru barrier "Hotgi"); Solapur area, Maharashtra; barrier ~17.615387,75.940789 | [17.6153866, 75.9407885](https://www.google.com/maps?q=17.6153866,75.9407885) | 50 | partial |
 | Akkalkot Road Toll Plaza |  | NETC 536506; Akkalkot Road Toll Plaza; Solapur Akkalkot Rd (TollGuru barrier "Akkalkot Toll plaza"); Solapur area, Maharashtra; barrier ~17.653098,75.983511 | [17.6530977, 75.9835111](https://www.google.com/maps?q=17.6530977,75.9835111) | 0 | partial |
+| Degaon Toll Toll Plaza |  | NETC 536507; Degaon Toll; Solapur, Maharashtra; 17.669528,75.851661 | [17.669528, 75.851661](https://www.google.com/maps?q=17.669528,75.851661) |  | partial |
 | Katol Toll Plaza |  | NETC 536508; Katol Toll Plaza; Kondhali Katol Rd, NH 353J (TollGuru); Katol area, Nagpur district, Maharashtra; barrier ~21.256601,78.610564 | [21.2566013, 78.6105643](https://www.google.com/maps?q=21.2566013,78.6105643) | 105 | partial |
 | Warora Toll Plaza |  | NETC 536509; Warora Toll Plaza; Warora–Wani Bypass (TollGuru: NAGPUR BYPASS CHECK TOLL PLAZA); Warora, Chandrapur district, Maharashtra; barrier ~20.230182,79.012766 | [20.230182, 79.012766](https://www.google.com/maps?q=20.230182,79.012766) | 165 | partial |
 | Malodi Toll Plaza |  | NETC 536559; Malodi Toll Plaza; Chinchoti Anjur Phata Rd (TollGuru barrier "Malodi", route Chinchoti Anjur Phata Road, SH 4); Bhiwandi / Thane district, Maharashtra; barrier ~19.310144,72.976326 — NETC source label "Ladgaon" was incorrect for this site | [19.310144, 72.976326](https://www.google.com/maps?q=19.310144,72.976326) | 0 | partial |
@@ -159,7 +176,7 @@ Browse **201 FASTag toll plazas** across 48 national highways in Maharashtra. Da
 | Talegaon Toll Plaza |  | NETC 540005; Talegaon Toll Plaza; Mumbai-Pune Expressway (TollGuru barrier "Talegaon", road Mumbai-Pune Expy; route Mumbai Pune Expressway); Talegaon / Pune district area, Maharashtra; barrier ~18.717330,73.626280 | [18.7173296, 73.62628](https://www.google.com/maps?q=18.7173296,73.62628) | 240 | verified |
 | Vashi Toll Plaza |  | NETC 540010; Vashi Toll Plaza; Sion Panvel Expressway (TollGuru barrier "Vashi", road Old Vashi Bridge / Mumbai Hwy); Vashi, Navi Mumbai, Maharashtra; barrier ~19.064647,72.980106 | [19.064647, 72.980106](https://www.google.com/maps?q=19.064647,72.980106) | 0 | partial |
 | Airoli Toll Plaza |  | NETC 540011; Airoli Toll Plaza; Mulund Airoli Road (TollGuru barrier "Airoli", road Mulund-Airoli Rd); Airoli / Mulund area, Mumbai Metropolitan Region, Maharashtra; barrier ~19.152866,72.965768 | [19.152866, 72.965768](https://www.google.com/maps?q=19.152866,72.965768) | 0 | partial |
-| Mulund(EEH) Toll Plaza |  | NETC 540012; Mulund(EEH) Toll Plaza; Eastern Express Highway, Mulund East, Mumbai MMR; TollGuru barrier label "Mulund" on Eastern Express Hwy (~19.16915,72.96655); MEP (MSRDC five Mumbai entry nakas). Distinct from NETC540011 (Airoli / Mulund–Airoli Rd barrier "Airoli"). Legacy NETC extract coords were ~19.1534,72.9657 (~1.7 km S — superseded by booth-aligned point). | [19.169147, 72.966554](https://www.google.com/maps?q=19.169147,72.966554) | 0 | partial |
+| Mulund(EEH) Toll Plaza |  | NETC 540012; Mulund(EEH) Toll Plaza; Eastern Express Highway, Mulund East, Mumbai MMR; TollGuru barrier label "Mulund" on Eastern Express Hwy (~19.16915,72.96655); MEP (MSRDC five Mumbai entry nakas). Distinct from NETC540011 (Airoli / Mulund–Airoli Rd barrier "Airoli"). Legacy NETC extract coords were ~19.1534,72.9657 (~1.7 km S — superseded by booth-aligned point). | [19.169147, 72.966554](https://www.google.com/maps?q=19.169147,72.966554) | 0 | high |
 | Mulund(LBS) Toll Plaza |  | NETC 540013; Mulund(LBS) Toll Plaza; Lal Bahadur Shastri Marg (TollGuru barrier "Mulund", road LBS Rd); Mulund, Mumbai, Maharashtra; barrier ~19.185197,72.954922 | [19.185197, 72.954922](https://www.google.com/maps?q=19.185197,72.954922) | 0 | partial |
 | Dahisar Toll Plaza |  | NETC 540014; Dahisar Toll Plaza (also referred locally as Dahisar toll naka); Western Expressway / Western Express Hwy (TollGuru barrier "Dahisar"); Dahisar, Mumbai, Maharashtra; barrier ~19.256919,72.871520 | [19.256919, 72.87152](https://www.google.com/maps?q=19.256919,72.87152) | 0 | partial |
 | Arambha Toll Plaza |  | NETC 540015; Arambha Toll Plaza; Mancherial Chandrapur Nagpur Road (TollGuru barrier "Arambha", NH-264); Arambha, Maharashtra; barrier ~20.553077,78.971082 | [20.553077, 78.971082](https://www.google.com/maps?q=20.553077,78.971082) | 0 | partial |
@@ -202,13 +219,14 @@ Browse **201 FASTag toll plazas** across 48 national highways in Maharashtra. Da
 | Igatpuri Toll Plaza |  | NETC 540054; Igatpuri (NETC extract "PimpriSadruddin Toll Plaza"); Samruddhi Mahamarg / Mumbai–Nagpur Expressway; TollGuru barrier "Igatpuri"; Nashik district / Igatpuri area, Maharashtra; barrier ~19.676630,73.576664 | [19.6766303, 73.5766636](https://www.google.com/maps?q=19.6766303,73.5766636) | 50 | partial |
 | Khutghar Toll Plaza |  | NETC 540055; Khutghar / Khutgar Sapgaon (NETC extract "KhutgarSapgaon Toll Plaza"); Samruddhi Mahamarg; TollGuru barrier "Khutghar"; Nashik district, Maharashtra; barrier ~19.432155,73.360675 | [19.4321548, 73.3606753](https://www.google.com/maps?q=19.4321548,73.3606753) | 65 | partial |
 | Bhiwandi Toll Plaza (Samruddhi) |  | NETC 540056; Bhiwandi sector toll on Samruddhi Mahamarg / Mumbai–Nagpur Expressway (maps/Google commonly "Bhiwandi toll plaza"); TollGuru barrier label "Amane"; NETC extract "Nimbvali". Thane district, Maharashtra; barrier ~19.327567,73.201293 | [19.3275668, 73.2012933](https://www.google.com/maps?q=19.3275668,73.2012933) | 65 | partial |
+| Bhiwandi Toll Plaza |  | NETC 540057; Bhiwandi (NETC coords — ~17 km SW of Samruddhi gantry NETC540056 at 19.327567,73.201293); Thane, Maharashtra; may be different facility or stale geocode vs Samruddhi "Bhiwandi" toll — verify | [19.281255, 73.048291](https://www.google.com/maps?q=19.281255,73.048291) |  | partial |
 | Limbe Toll Plaza |  | NETC 540059; Limbe Toll Plaza; Ahmednagar–Aurangabad Rd (TollGuru barrier "Limbe", route label Limbe Jalgaon Toll Plaza); Aurangabad district area, Maharashtra; barrier ~19.780405,75.194232 | [19.780405, 75.194232](https://www.google.com/maps?q=19.780405,75.194232) | 0 | partial |
 | Chirle Interchange (Gavhan) Toll Plaza |  | NETC 546032; Chirle Interchange (NETC extract Gavhan Plaza); Mumbai Trans Harbour Link / Atal Setu corridor — TollGuru barrier "Chirle interchange", road Trans Harbour Link (route Mumbai Trans Harbour Link Road); Navi Mumbai, Maharashtra; barrier ~18.952303,73.019432 | [18.9523026, 73.0194319](https://www.google.com/maps?q=18.9523026,73.0194319) | 50 | partial |
 | Airport - SewriSection Toll Plaza |  | NETC 546033; Airport–Sewri section (NETC naming) — likely duplicate NETC row for MTHL **main** toll at Gavhan / Chirle-side barrier as NETC546032 (MMRDA: main plaza at Gavhan for Sewri↔Chirle through traffic; Sewri and Chirle are bridge ends, not identical locations). Barrier coords aligned with NETC546032 TollGuru point ~18.952303,73.019432; verify vs Shivajinagar ramp plaza if applicable | [18.9523026, 73.0194319](https://www.google.com/maps?q=18.9523026,73.0194319) | 50 | partial |
 | Shivaji Interchange Toll Plaza |  | NETC 546034 (provisional — gap in public NETC extract between 546033 and 546040); MTHL / Atal Setu **ramp** barrier "Shivaji interchange" (MMRDA Shivajinagar ramp family; Ulwe / Navi Mumbai side); TollGuru id 924605201; Trans Harbour Link; barrier ~18.967478,73.006191 — verify official NETC plaza code when published | [18.9674778, 73.0061914](https://www.google.com/maps?q=18.9674778,73.0061914) | 200 | partial |
 | Shivre Interchange Toll Plaza |  | NETC 546035 (provisional — gap in public NETC extract between 546033 and 546040); MTHL / Atal Setu **ramp** barrier "Shivre interchange" toward Sewri / BPT side (TollGuru id 924605000); Trans Harbour Link; barrier ~18.998992,72.859726 — verify official NETC plaza code when published | [18.9989915, 72.8597262](https://www.google.com/maps?q=18.9989915,72.8597262) | 200 | partial |
 | Kalyan Kahala Toll Plaza |  | NETC 556050; Kalyan Kahala Toll Plaza (NETC extract KAHALA Toll Plaza); Kahala Toll Plaza route (TollGuru barrier "Kalyan", road Kahala Kh); Kahala area (lon ~77.45°E), Maharashtra; barrier ~18.962080,77.454421 | [18.96208, 77.454421](https://www.google.com/maps?q=18.96208,77.454421) | 0 | partial |
-| Khanapur Toll Plaza |  | NETC 556051; Khanapur Toll Plaza; Vannali area, Maharashtra; NETC coords ~18.619915,77.583351 | [18.619915, 77.583351](https://www.google.com/maps?q=18.619915,77.583351) | 75 | partial |
+| Khanapur Toll Plaza |  | NETC 556051; Khanapur Toll Plaza; Vannali area, Maharashtra; NETC coords ~18.619915,77.583351 | [18.619915, 77.583351](https://www.google.com/maps?q=18.619915,77.583351) | 75 | high |
 
 ---
 

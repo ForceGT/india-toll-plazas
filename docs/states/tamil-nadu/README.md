@@ -6,6 +6,20 @@ Browse **103 FASTag toll plazas** across 38 national highways in Tamil Nadu. Dat
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 80 | 77.7% |
+| partial | 23 | 22.3% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Surapattu (Chennai Bypass II) | 4 | Km 28.600 | [13.136678, 80.181624](https://www.google.com/maps?q=13.136678,80.181624) | 75 | complete |

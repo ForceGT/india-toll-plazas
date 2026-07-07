@@ -32,7 +32,7 @@ The dataset is free and open. Grab it with a single HTTP request — no signup, 
 ## Coverage at a glance
 
 <!-- STATE_STATS:START -->
-**1,392 toll plazas** across **26 states/UTs** — dataset last updated 2026-06-05
+**1,667 toll plazas** across **26 states/UTs** — dataset last updated 2026-06-05
 <!-- STATE_STATS:END -->
 
 Browse individual state pages below, or jump straight to [docs/states/](docs/states/) for the full listing.
@@ -40,7 +40,7 @@ Browse individual state pages below, or jump straight to [docs/states/](docs/sta
 <!-- STATE_TABLE:START -->
 | State | Plazas | Highways | Confidence (c/p/v) | Updated | Browse |
 |---|---|---|---|---|---|
-| [Andhra Pradesh](docs/states/andhra-pradesh/README.md) | 95 | 36 | 91c / 4p | 2026-06-05 | [Browse](docs/states/andhra-pradesh/README.md) |
+| [Andhra Pradesh](docs/states/andhra-pradesh/README.md) | 100 | 36 | 91c / 9p | 2026-06-05 | [Browse](docs/states/andhra-pradesh/README.md) |
 | [Assam](docs/states/assam/README.md) | 12 | 8 | 12c | 2026-06-05 | [Browse](docs/states/assam/README.md) |
 | [Bihar](docs/states/bihar/README.md) | 43 | 21 | 43c | 2026-06-05 | [Browse](docs/states/bihar/README.md) |
 | [Chhattisgarh](docs/states/chhattisgarh/README.md) | 25 | 9 | 25c | 2026-06-05 | [Browse](docs/states/chhattisgarh/README.md) |
@@ -54,17 +54,17 @@ Browse individual state pages below, or jump straight to [docs/states/](docs/sta
 | [Karnataka](docs/states/karnataka/README.md) | 68 | 26 | 68c | 2026-06-05 | [Browse](docs/states/karnataka/README.md) |
 | [Kerala](docs/states/kerala/README.md) | 11 | 5 | 11c | 2026-06-05 | [Browse](docs/states/kerala/README.md) |
 | [Madhya Pradesh](docs/states/madhya-pradesh/README.md) | 109 | 53 | 109c | 2026-06-05 | [Browse](docs/states/madhya-pradesh/README.md) |
-| [Maharashtra](docs/states/maharashtra/README.md) | 201 | 48 | 105c / 94p / 2v | 2026-06-05 | [Browse](docs/states/maharashtra/README.md) |
+| [Maharashtra](docs/states/maharashtra/README.md) | 203 | 48 | 105c / 94p / 2v | 2026-06-05 | [Browse](docs/states/maharashtra/README.md) |
 | [Meghalaya](docs/states/meghalaya/README.md) | 4 | 1 | 4c | 2026-06-05 | [Browse](docs/states/meghalaya/README.md) |
 | [Odisha](docs/states/odisha/README.md) | 37 | 17 | 34c / 3p | 2026-06-05 | [Browse](docs/states/odisha/README.md) |
 | [Punjab](docs/states/punjab/README.md) | 44 | 23 | 44c | 2026-06-05 | [Browse](docs/states/punjab/README.md) |
 | [Punjab & Haryana (mixed)](docs/states/punjab-haryana/README.md) | 1 | 1 | 1c | 2026-06-05 | [Browse](docs/states/punjab-haryana/README.md) |
-| [Rajasthan](docs/states/rajasthan/README.md) | 172 | 56 | 172c | 2026-06-05 | [Browse](docs/states/rajasthan/README.md) |
+| [Rajasthan](docs/states/rajasthan/README.md) | 392 | 56 | 172c / 216p / 4v | 2026-06-05 | [Browse](docs/states/rajasthan/README.md) |
 | [Tamil Nadu](docs/states/tamil-nadu/README.md) | 103 | 38 | 80c / 23p | 2026-06-05 | [Browse](docs/states/tamil-nadu/README.md) |
-| [Telangana](docs/states/telangana/README.md) | 32 | 13 | 32c | 2026-06-05 | [Browse](docs/states/telangana/README.md) |
+| [Telangana](docs/states/telangana/README.md) | 67 | 13 | 32c / 35p | 2026-06-05 | [Browse](docs/states/telangana/README.md) |
 | [Unspecified](docs/states/unspecified/README.md) | 1 | 1 | 1c | 2026-06-05 | [Browse](docs/states/unspecified/README.md) |
 | [Uttar Pradesh](docs/states/uttar-pradesh/README.md) | 134 | 53 | 134c | 2026-06-05 | [Browse](docs/states/uttar-pradesh/README.md) |
-| [Uttarakhand](docs/states/uttarakhand/README.md) | 15 | 8 | 13c / 2p | 2026-06-05 | [Browse](docs/states/uttarakhand/README.md) |
+| [Uttarakhand](docs/states/uttarakhand/README.md) | 28 | 8 | 13c / 15p | 2026-06-05 | [Browse](docs/states/uttarakhand/README.md) |
 | [West Bengal](docs/states/west-bengal/README.md) | 32 | 21 | 31c / 1p | 2026-06-05 | [Browse](docs/states/west-bengal/README.md) |
 <!-- STATE_TABLE:END -->
 

@@ -6,6 +6,19 @@ Browse **11 FASTag toll plazas** across 5 national highways in Kerala. Data sour
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 11 | 100.0% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Olavanna Fee Plaza | 66 |  Near Mampuzha Bridge,Pantheerankaavu at Km.250+300 | [11.238336, 75.840869](https://www.google.com/maps?q=11.238336,75.840869) | 130 | complete |

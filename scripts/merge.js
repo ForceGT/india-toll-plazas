@@ -4,8 +4,9 @@ const path = require('path');
 /**
  * Apply a hand-curated authoritative rate correction to a plaza, in place.
  * Used for closed-loop / ticket-system expressways where routing APIs report the wrong
- * per-plaza split. Overrides only the rate fields listed under `rates`, and stamps provenance
- * (rate_source, rate_valid_until) plus data_confidence = "verified".
+ * per-plaza split, and for state-highway operator rate notifications (Rajasthan et al).
+ * Overrides only the rate fields listed under `rates`, and stamps provenance
+ * (rate_source, rate_source_url, rate_valid_until) plus data_confidence = "verified".
  */
 function applyCuratedRates(entry, cur) {
   if (cur.rates) {
@@ -14,9 +15,64 @@ function applyCuratedRates(entry, cur) {
     }
   }
   entry.data_confidence = 'verified';
-  if (cur.source_url) entry.rate_source = cur.source_url;
+  // expressway_rates.json historically uses `source_url`; state_rates files use `rate_source`.
+  // Accept either, mapped onto the same output field.
+  const source = cur.rate_source || cur.source_url;
+  if (source) entry.rate_source = source;
+  if (cur.rate_source_url) entry.rate_source_url = cur.rate_source_url;
   if (cur.rate_effective_date) entry.rate_effective_date = cur.rate_effective_date;
   if (cur.rate_valid_until) entry.rate_valid_until = cur.rate_valid_until;
+}
+
+/**
+ * Load and combine every curated-override source: the single expressway_rates.json file
+ * (closed-loop expressways) plus every JSON file under curated/state_rates/ (per-state,
+ * per-operator rate notifications). All files share the same keying scheme
+ * (`code:<tollplaza_code>` / `id:<tollplaza_id>`) and shape ({ plazas: { ... } }).
+ *
+ * Precedence when the same plaza key appears in more than one curated file (shouldn't
+ * normally happen): the expressway file wins, since it exists specifically to correct
+ * closed-loop splits that would otherwise be wrong; a conflict is logged so it can be
+ * cleaned up. Within state_rates, first-loaded (alphabetical by filename) wins.
+ */
+function loadCuratedOverrides(sourcesDir) {
+  const curatedDir = path.join(sourcesDir, 'curated');
+  const merged = {};
+  let fileCount = 0;
+
+  const expresswayFile = path.join(curatedDir, 'expressway_rates.json');
+  if (fs.existsSync(expresswayFile)) {
+    const plazas = JSON.parse(fs.readFileSync(expresswayFile, 'utf8')).plazas || {};
+    Object.assign(merged, plazas);
+    fileCount++;
+  }
+
+  const stateRatesDir = path.join(curatedDir, 'state_rates');
+  if (fs.existsSync(stateRatesDir)) {
+    const files = fs.readdirSync(stateRatesDir)
+      .filter(f => f.endsWith('.json'))
+      .sort();
+    for (const f of files) {
+      const filePath = path.join(stateRatesDir, f);
+      let plazas;
+      try {
+        plazas = JSON.parse(fs.readFileSync(filePath, 'utf8')).plazas || {};
+      } catch (err) {
+        console.warn(`Skipping malformed curated file ${f}: ${err.message}`);
+        continue;
+      }
+      for (const [key, value] of Object.entries(plazas)) {
+        if (Object.prototype.hasOwnProperty.call(merged, key)) {
+          console.warn(`Curated override conflict for ${key} in ${f} — keeping earlier-loaded value`);
+          continue;
+        }
+        merged[key] = value;
+      }
+      fileCount++;
+    }
+  }
+
+  return { plazas: merged, fileCount };
 }
 
 async function mergeDataSources() {
@@ -45,12 +101,12 @@ async function mergeDataSources() {
     // Combine datasets
     const combined = [...nhaiPlazas, ...statePlazas];
 
-    // Apply hand-curated authoritative rate corrections (closed-loop expressway per-plaza
-    // splits that routing APIs get wrong). Applied before the directional overlay so any
-    // directional ratios compute off the corrected base.
-    const curatedFile = path.join(sourcesDir, 'curated', 'expressway_rates.json');
-    if (fs.existsSync(curatedFile)) {
-      const curated = JSON.parse(fs.readFileSync(curatedFile, 'utf8')).plazas || {};
+    // Apply hand-curated authoritative rate corrections: closed-loop expressway per-plaza
+    // splits that routing APIs get wrong (expressway_rates.json), plus per-state, per-operator
+    // rate notifications (curated/state_rates/*.json). Applied before the directional overlay
+    // so any directional ratios compute off the corrected base.
+    const { plazas: curated, fileCount } = loadCuratedOverrides(sourcesDir);
+    if (fileCount > 0) {
       let corrected = 0;
       for (const entry of combined) {
         const cur =
@@ -61,7 +117,7 @@ async function mergeDataSources() {
           corrected++;
         }
       }
-      console.log(`Applied curated rate corrections to ${corrected} plaza(s) (${Object.keys(curated).length} curated)`);
+      console.log(`Applied curated rate corrections to ${corrected} plaza(s) (${Object.keys(curated).length} curated across ${fileCount} file(s))`);
     }
 
     // Sort by state, then by location (KM marker)

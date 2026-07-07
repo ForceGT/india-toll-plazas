@@ -488,6 +488,10 @@
     "tollplaza_name": "Barsoni"
   },
   {
+    "tollplaza_id": 1091,
+    "tollplaza_name": "Bartana"
+  },
+  {
     "tollplaza_id": 1274,
     "tollplaza_name": "Barwaikheda Toll Plaza"
   },
@@ -630,10 +634,6 @@
   {
     "tollplaza_id": 520,
     "tollplaza_name": "Bharatkund"
-  },
-  {
-    "tollplaza_id": 1091,
-    "tollplaza_name": "Bhartana"
   },
   {
     "tollplaza_id": 252,
@@ -1185,7 +1185,7 @@
   },
   {
     "tollplaza_id": 414,
-    "tollplaza_name": "Deoria*"
+    "tollplaza_name": "Deoria"
   },
   {
     "tollplaza_id": 1139,
@@ -2188,6 +2188,10 @@
     "tollplaza_name": "Karodi"
   },
   {
+    "tollplaza_id": 1030,
+    "tollplaza_name": "Karrapur Fee Plaza"
+  },
+  {
     "tollplaza_id": 213,
     "tollplaza_name": "Kasepalli"
   },
@@ -2696,10 +2700,6 @@
     "tollplaza_name": "Lodam Toll Plaza"
   },
   {
-    "tollplaza_id": 694,
-    "tollplaza_name": "Lohari Toll Plaza"
-  },
-  {
     "tollplaza_id": 453,
     "tollplaza_name": "Lomshinong"
   },
@@ -2722,6 +2722,10 @@
   {
     "tollplaza_id": 317,
     "tollplaza_name": "Luharali"
+  },
+  {
+    "tollplaza_id": 694,
+    "tollplaza_name": "Luhari Toll Plaza"
   },
   {
     "tollplaza_id": 375,
@@ -4270,6 +4274,10 @@
   {
     "tollplaza_id": 194,
     "tollplaza_name": "Sonapetya"
+  },
+  {
+    "tollplaza_id": 408,
+    "tollplaza_name": "Sonari Toll Plaza"
   },
   {
     "tollplaza_id": 248,

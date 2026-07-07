@@ -6,6 +6,20 @@ Browse **37 FASTag toll plazas** across 17 national highways in Odisha. Data sou
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 34 | 91.9% |
+| partial | 3 | 8.1% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Badeibadkudar Toll Plaza | 6 (New 49) | 27+900 | [21.5058155, 85.0582372](https://www.google.com/maps?q=21.5058155,85.0582372) | 145 | complete |
@@ -13,9 +27,9 @@ Browse **37 FASTag toll plazas** across 17 national highways in Odisha. Data sou
 | Khereitangiri | 6 (New 49) | 27+900 | [21.7056475, 85.6972661](https://www.google.com/maps?q=21.7056475,85.6972661) | 105 | complete |
 | Baragarh (Barhaguda) | 6 | Km 41.00 | [21.353251, 83.684222](https://www.google.com/maps?q=21.353251,83.684222) | 165 | complete |
 | Bhagada Narayanpur | 16 | 102.5 | [20.944516, 86.327633](https://www.google.com/maps?q=20.944516,86.327633) | 155 | complete |
-| Sergarh | 16 | 27+900 | [21.429986, 86.836853](https://www.google.com/maps?q=21.429986,86.836853) | 100 | complete |
 | Gudipada ( Gangapada) | 16 | 27+900 | [20.207918, 85.679331](https://www.google.com/maps?q=20.207918,85.679331) | 120 | complete |
 | Gurapalli | 16 | 27+900 | [19.638667, 85.140365](https://www.google.com/maps?q=19.638667,85.140365) | 105 | complete |
+| Sergarh | 16 | 27+900 | [21.429986, 86.836853](https://www.google.com/maps?q=21.429986,86.836853) | 100 | complete |
 | Bandalo (Manguli )Toll Plaza | 16 | Km 34.624 | [20.565664, 86.011180](https://www.google.com/maps?q=20.565664,86.011180) | 150 | complete |
 | Padmanavapur | 18 | 27+900 | [21.62325, 86.925376](https://www.google.com/maps?q=21.62325,86.925376) | 75 | complete |
 | Sukhuapada Toll Plaza | 18 | 27+900 | [22.07456, 86.643509](https://www.google.com/maps?q=22.07456,86.643509) | 65 | complete |

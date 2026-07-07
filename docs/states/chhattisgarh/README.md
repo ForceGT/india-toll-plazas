@@ -6,6 +6,19 @@ Browse **25 FASTag toll plazas** across 9 national highways in Chhattisgarh. Dat
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 25 | 100.0% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Shirpur | 3 (New 52) | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [21.319718, 74.889291](https://www.google.com/maps?q=21.319718,74.889291) | 140 | complete |

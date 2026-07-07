@@ -51,31 +51,24 @@ async function collectStateHighways() {
           const statePlazas = JSON.parse(content);
           
           if (Array.isArray(statePlazas) && statePlazas.length > 0) {
-            // Filter out scaffolded entries (no actual toll rates)
-            const validPlazas = statePlazas.filter(plaza => {
-              // Plaza is valid if at least one primary toll rate is not null
-              // Check car, LCV, bus rates (most common vehicle types)
-              return plaza.car_single !== null || 
-                     plaza.lcv_single !== null || 
-                     plaza.bus_single !== null ||
-                     (typeof plaza.car_single === 'number' && plaza.car_single >= 0) ||
-                     (typeof plaza.lcv_single === 'number' && plaza.lcv_single >= 0) ||
-                     (typeof plaza.bus_single === 'number' && plaza.bus_single >= 0);
-            });
-
-            if (validPlazas.length > 0) {
-              // Add state metadata if missing
-              const processedPlazas = validPlazas.map(plaza => ({
+            // Keep every plaza, including all-null scaffolded entries: the plaza's existence
+            // and location are useful on their own (data_confidence: 'partial' already labels
+            // it as rate-less), and curated overlays (merge.js) can only ever attach to a plaza
+            // that's actually present in this file. Dropping scaffolded rows here silently
+            // blocked curated Rajasthan/Telangana data from ever taking effect downstream.
+            if (statePlazas.length > 0) {
+              const rated = statePlazas.filter(p => p.car_single !== null && p.car_single !== undefined).length;
+              const processedPlazas = statePlazas.map(plaza => ({
                 ...plaza,
                 data_source: plaza.data_source || 'state',
                 data_confidence: plaza.data_confidence || 'partial'
               }));
-              
+
               allStatePlazas.push(...processedPlazas);
-              console.log(`  ${stateName}: ${validPlazas.length} plazas (${statePlazas.length - validPlazas.length} scaffolded entries filtered)`);
+              console.log(`  ${stateName}: ${statePlazas.length} plazas (${rated} rated, ${statePlazas.length - rated} scaffolded/rate-less)`);
               stateCount++;
             } else {
-              console.log(`  ${stateName}: ${statePlazas.length} plazas (all scaffolded, skipped)`);
+              console.log(`  ${stateName}: empty state_highways.json`);
             }
           } else {
             console.log(`  ${stateName}: empty or invalid JSON`);

@@ -6,6 +6,20 @@ Browse **87 FASTag toll plazas** across 25 national highways in Haryana. Data so
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 71 | 81.6% |
+| partial | 16 | 18.4% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Panipat Elevated | 1 (New 44) | 27+900 | [29.433664, 76.97014](https://www.google.com/maps?q=29.433664,76.97014) | 40 | complete |
@@ -34,9 +48,9 @@ Browse **87 FASTag toll plazas** across 25 national highways in Haryana. Data so
 | Khatkar |   52 352 | km. 286.125 (Near Village Khatkar) | [29.394776, 76.252134](https://www.google.com/maps?q=29.394776,76.252134) | 125 | complete |
 | Abubshahar (Close Loop Toll  ) | 54 | 27+900 | [29.830945, 74.582024](https://www.google.com/maps?q=29.830945,74.582024) | 0 | complete |
 | Alikan (Close Loop Toll  ) | 54 | 27+900 | [29.920923, 74.726776](https://www.google.com/maps?q=29.920923,74.726776) | 0 | complete |
-| Jogewala (Close Loop Toll ) | 54 | 27+900 | [29.965057, 74.751886](https://www.google.com/maps?q=29.965057,74.751886) | 0 | complete |
 | Chautala (Close Loop Toll  ) | 54 | 27+900 | [29.787100, 74.517432](https://www.google.com/maps?q=29.787100,74.517432) | 0 | complete |
 | Dabwali (Close Loop Toll  ) | 54 | 27+900 | [29.940235, 74.750839](https://www.google.com/maps?q=29.940235,74.750839) | 0 | complete |
+| Jogewala (Close Loop Toll ) | 54 | 27+900 | [29.965057, 74.751886](https://www.google.com/maps?q=29.965057,74.751886) | 0 | complete |
 | Shergarh (Close Loop Toll  ) | 54 | 27+900 | [29.906346, 74.652422](https://www.google.com/maps?q=29.906346,74.652422) | 0 | complete |
 | Saini Majara | 65 (New 152) | At Km 28.160 | [30.196943, 76.705490](https://www.google.com/maps?q=30.196943,76.705490) | 105 | complete |
 | Thana | 65 (New 152) | At Km 68.680 design chainage (existing chainage at km. 64.000) | [29.91029, 76.50666](https://www.google.com/maps?q=29.91029,76.50666) | 90 | complete |

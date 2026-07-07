@@ -6,6 +6,20 @@ Browse **97 FASTag toll plazas** across 25 national highways in Gujarat. Data so
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 64 | 66.0% |
+| partial | 33 | 34.0% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Ahmedabad (Ring Road)  (Entry Exit Toll) | NE 1 | 3.800 | [22.973846, 72.473028](https://www.google.com/maps?q=22.973846,72.473028) | 0 | complete |

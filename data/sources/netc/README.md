@@ -1,6 +1,6 @@
 # NETC Plaza Master (reference)
 
-PDF copy of the **Plaza Master** list from the National Electronic Toll Collection (NETC) programme ([netc.org.in](https://netc.org.in/)). Filenames like `Plaza_Master_Feb_26_*.pdf` reflect the download date on the site.
+PDF copy of the **Plaza Master** list from the National Electronic Toll Collection (NETC) programme ([netc.org.in](https://netc.org.in/)). Filenames like `Plaza_Master_May_26_*.pdf` reflect the download date on the site.
 
 ## Why this is here
 
@@ -18,7 +18,7 @@ pipx install pdfminer.six
 Then:
 
 ```bash
-pdf2txt.py "data/sources/netc/Plaza_Master_Feb_26_2ddf69d321.pdf" \
+pdf2txt.py "data/sources/netc/Plaza_Master_May_26_61a90c6f4e.pdf" \
   -o "data/sources/netc/plaza_master_extracted.txt"
 ```
 
@@ -28,5 +28,5 @@ pdf2txt.py "data/sources/netc/Plaza_Master_Feb_26_2ddf69d321.pdf" \
 
 | File | Description |
 |------|-------------|
-| `Plaza_Master_Feb_26_2ddf69d321.pdf` | Original PDF from NETC. |
+| `Plaza_Master_May_26_61a90c6f4e.pdf` | Original PDF from NETC. |
 | `plaza_master_extracted.txt` | Text extract (for search / rough lookup). Regenerate after replacing the PDF. |

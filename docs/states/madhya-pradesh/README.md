@@ -6,6 +6,19 @@ Browse **109 FASTag toll plazas** across 53 national highways in Madhya Pradesh.
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 109 | 100.0% |
+
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | IDTL Toll Plaza-B | 3 (New-52 | 0.55 | [22.82805, 75.93473](https://www.google.com/maps?q=22.82805,75.93473) | 25 | complete |
@@ -49,8 +62,8 @@ Browse **109 FASTag toll plazas** across 53 national highways in Madhya Pradesh.
 | Pandutala Toll Plaza | 30 | Bajheri Village  | [22.3906876, 80.8075934](https://www.google.com/maps?q=22.3906876,80.8075934) | 95 | complete |
 | Boharipar/Bahoripar (Khursi)  Fee Plaza | 30 &amp; 34 | Km 481.385 | [23.046977, 79.907464](https://www.google.com/maps?q=23.046977,79.907464) | 170 | complete |
 | Mohtara Toll Plaza | 30 | VillageMohtara TehsilSihora Distt. Jabalpur | [23.4335191, 80.0872809](https://www.google.com/maps?q=23.4335191,80.0872809) | 130 | complete |
-| Mungwari Toll Plaza | 34 | At Km. 180.260 | [24.644141, 79.336369](https://www.google.com/maps?q=24.644141,79.336369) | 20 | complete |
 | Ujara Toll Plaza | 34 | At Km. 180.260 | [25.085635, 79.708403](https://www.google.com/maps?q=25.085635,79.708403) | 20 | complete |
+| Mungwari Toll Plaza | 34 | At Km. 180.260 | [24.644141, 79.336369](https://www.google.com/maps?q=24.644141,79.336369) | 20 | complete |
 | Mauhari Toll Plaza | 39 | at 147.705 Km | [24.577226, 80.690857](https://www.google.com/maps?q=24.577226,80.690857) | 50 | complete |
 | Devgaon Plaza | 39 | Devgaon | [24.782403, 79.817065](https://www.google.com/maps?q=24.782403,79.817065) | 80 | complete |
 | Bela (Baheliya) Toll Plaza | 39 | Jamni, Dist Jind | [24.493493, 81.1428418](https://www.google.com/maps?q=24.493493,81.1428418) | 100 | complete |
@@ -74,8 +87,8 @@ Browse **109 FASTag toll plazas** across 53 national highways in Madhya Pradesh.
 | Rojwas Toll Plaza | 52 | 291.55 | [23.330918, 76.175973](https://www.google.com/maps?q=23.330918,76.175973) | 150 | complete |
 | Baharagaon Toll Plaza | 53 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [22.314936, 77.249764](https://www.google.com/maps?q=22.314936,77.249764) | 120 | complete |
 | Sendurwafa | 53 | Km 449.260 | [21.088119, 80.032855](https://www.google.com/maps?q=21.088119,80.032855) | 100 | complete |
-| IVRCL ramp plaza (Dattigaon ,Authority's Part) | 59 | (Km 18.585) | [22.741726 ,  74.836322](https://www.google.com/maps?q=22.741726 , 74.836322) | 35 | complete |
 | Dattigaon Toll Plaza |  59 (New 47) | (Km 18.585) | [22.741519, 74.836537](https://www.google.com/maps?q=22.741519,74.836537) | 155 | complete |
+| IVRCL ramp plaza (Dattigaon ,Authority's Part) | 59 | (Km 18.585) | [22.741726 ,  74.836322](https://www.google.com/maps?q=22.741726 , 74.836322) | 35 | complete |
 | Methwada (Ghatabillod) Toll Plaza | 59 (New 47) | Km 34.45 | [22.6731595, 75.545744](https://www.google.com/maps?q=22.6731595,75.545744) | 170 | complete |
 | Bagwada Fee Plaza | 69 (New 46) | At Km. 31.700 | [22.7816023, 77.7316125](https://www.google.com/maps?q=22.7816023,77.7316125) | 160 | complete |
 | Sonvarsha Toll Plaza | 75E (New 39) | 58.8 | [24.395686, 81.803255](https://www.google.com/maps?q=24.395686,81.803255) | 65 | complete |
@@ -111,10 +124,10 @@ Browse **109 FASTag toll plazas** across 53 national highways in Madhya Pradesh.
 | Antraliya (Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [24.071088, 75.706313](https://www.google.com/maps?q=24.071088,75.706313) | 0 | complete |
 | Barkheda Barod (Close Loop Toll) | 752d | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.770673, 75.739239](https://www.google.com/maps?q=23.770673,75.739239) | 0 | complete |
 | Khedakhajuria (Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.464347, 75.783622](https://www.google.com/maps?q=23.464347,75.783622) | 0 | complete |
-| Mundla Sondhiya (Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.713675, 75.740882](https://www.google.com/maps?q=23.713675,75.740882) | 0 | complete |
-| Nayakheda ( Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.948953, 75.721646](https://www.google.com/maps?q=23.948953,75.721646) | 0 | complete |
 | Semli Kakad (Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [24.095112, 75.697969](https://www.google.com/maps?q=24.095112,75.697969) | 0 | complete |
 | Tulheda (Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.346919, 75.798950](https://www.google.com/maps?q=23.346919,75.798950) | 0 | complete |
+| Mundla Sondhiya (Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.713675, 75.740882](https://www.google.com/maps?q=23.713675,75.740882) | 0 | complete |
+| Nayakheda ( Close Loop Toll) | 752D | Fee Plaza at Semalikankad Village/ District Mandsaur | [23.948953, 75.721646](https://www.google.com/maps?q=23.948953,75.721646) | 0 | complete |
 | Karrapur Fee Plaza | 934 | 16+900 (NH-934) | [23.946906, 78.881652](https://www.google.com/maps?q=23.946906,78.881652) | 70 | complete |
 | Kishanpura toll plaza | 934 | Jamni, Dist Jind | [23.9317731, 78.5485793](https://www.google.com/maps?q=23.9317731,78.5485793) | 75 | complete |
 

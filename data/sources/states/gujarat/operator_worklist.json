@@ -1,0 +1,369 @@
+{
+  "source": {
+    "description": "Operator/concessionaire worklist for gujarat state-highway plazas",
+    "state": "gujarat",
+    "state_slug": "gujarat",
+    "scaffold_file": "data/sources/states/gujarat/state_highways.json",
+    "netc_file": "data/sources/netc/netc_state_plazas.json",
+    "generated_at": "2026-07-06T17:36:29.291Z",
+    "generator": "scripts/analyzeOperators.js"
+  },
+  "total_plazas": 33,
+  "total_operators": 13,
+  "operators": [
+    {
+      "rank": 1,
+      "operator_name": "AhmedabadRing RoadInfra Ltd",
+      "plaza_count": 6,
+      "coverage_pct": 18.2,
+      "cumulative_coverage_pct": 18.2,
+      "plaza_codes": [
+        "NETC536026",
+        "NETC536027",
+        "NETC536032",
+        "NETC536033",
+        "NETC536034",
+        "NETC536035"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536026",
+          "tollplaza_id": 3091,
+          "tollplaza_name": "Sanathal Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536027",
+          "tollplaza_id": 3092,
+          "tollplaza_name": "Vaishnodevi Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536032",
+          "tollplaza_id": 3093,
+          "tollplaza_name": "Ramol Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536033",
+          "tollplaza_id": 3094,
+          "tollplaza_name": "Ranasan Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536034",
+          "tollplaza_id": 3095,
+          "tollplaza_name": "Bhat Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536035",
+          "tollplaza_id": 3096,
+          "tollplaza_name": "Tragad Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 2,
+      "operator_name": "GujaratRoad andInfra Co Ltd",
+      "plaza_count": 4,
+      "coverage_pct": 12.1,
+      "cumulative_coverage_pct": 30.3,
+      "plaza_codes": [
+        "NETC536018",
+        "NETC536019",
+        "NETC536020",
+        "NETC536021"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536018",
+          "tollplaza_id": 3083,
+          "tollplaza_name": "Vadodra Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536019",
+          "tollplaza_id": 3084,
+          "tollplaza_name": "Halol Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536020",
+          "tollplaza_id": 3085,
+          "tollplaza_name": "Adalaj Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536021",
+          "tollplaza_id": 3086,
+          "tollplaza_name": "Mehsana Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 3,
+      "operator_name": "L&T HSTL",
+      "plaza_count": 4,
+      "coverage_pct": 12.1,
+      "cumulative_coverage_pct": 42.4,
+      "plaza_codes": [
+        "NETC536002",
+        "NETC536003",
+        "NETC536004",
+        "NETC536005"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536002",
+          "tollplaza_id": 3068,
+          "tollplaza_name": "HSTL TP01-Khadki"
+        },
+        {
+          "tollplaza_code": "NETC536003",
+          "tollplaza_id": 3069,
+          "tollplaza_name": "HSTLTP02-GamanBariyanamuvada"
+        },
+        {
+          "tollplaza_code": "NETC536004",
+          "tollplaza_id": 3070,
+          "tollplaza_name": "HSTL TP03-Galiya Danti"
+        },
+        {
+          "tollplaza_code": "NETC536005",
+          "tollplaza_id": 3071,
+          "tollplaza_name": "HSTL TP04-Gajan"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 4,
+      "operator_name": "L&TAhmedabad-MaliyaTollway",
+      "plaza_count": 4,
+      "coverage_pct": 12.1,
+      "cumulative_coverage_pct": 54.5,
+      "plaza_codes": [
+        "NETC536008",
+        "NETC536009",
+        "NETC536010",
+        "NETC536011"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536008",
+          "tollplaza_id": 3074,
+          "tollplaza_name": "AMTL-TP-01Vasna-Iyava"
+        },
+        {
+          "tollplaza_code": "NETC536009",
+          "tollplaza_id": 3075,
+          "tollplaza_name": "AMTL-TP02-Malvan"
+        },
+        {
+          "tollplaza_code": "NETC536010",
+          "tollplaza_id": 3076,
+          "tollplaza_name": "AMTL-TP03-Soldi"
+        },
+        {
+          "tollplaza_code": "NETC536011",
+          "tollplaza_id": 3077,
+          "tollplaza_name": "AMTL-TP04-Aniyari"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 5,
+      "operator_name": "L&T",
+      "plaza_count": 3,
+      "coverage_pct": 9.1,
+      "cumulative_coverage_pct": 63.6,
+      "plaza_codes": [
+        "NETC536012",
+        "NETC536013",
+        "NETC536014"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536012",
+          "tollplaza_id": 3078,
+          "tollplaza_name": "Vanpari-Paddhari Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536013",
+          "tollplaza_id": 3079,
+          "tollplaza_name": "Soyal Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536014",
+          "tollplaza_id": 3080,
+          "tollplaza_name": "JamnagarBypass-Vadinar"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 6,
+      "operator_name": "MAXLINK",
+      "plaza_count": 3,
+      "coverage_pct": 9.1,
+      "cumulative_coverage_pct": 72.7,
+      "plaza_codes": [
+        "NETC536017",
+        "NETC536131",
+        "NETC536132"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536017",
+          "tollplaza_id": 3082,
+          "tollplaza_name": "Vataman Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536131",
+          "tollplaza_id": 3117,
+          "tollplaza_name": "Angiya Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536132",
+          "tollplaza_id": 3118,
+          "tollplaza_name": "Deshalpar Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 7,
+      "operator_name": "PWD Rajkot",
+      "plaza_count": 2,
+      "coverage_pct": 6.1,
+      "cumulative_coverage_pct": 78.8,
+      "plaza_codes": [
+        "NETC536006",
+        "NETC536007"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536006",
+          "tollplaza_id": 3072,
+          "tollplaza_name": "Bamanbore Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536007",
+          "tollplaza_id": 3073,
+          "tollplaza_name": "Bagodara Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 8,
+      "operator_name": "Ranjit TollRoad Pvt Ltd",
+      "plaza_count": 2,
+      "coverage_pct": 6.1,
+      "cumulative_coverage_pct": 84.8,
+      "plaza_codes": [
+        "NETC536024",
+        "NETC536025"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536024",
+          "tollplaza_id": 3089,
+          "tollplaza_name": "Kansari Toll Plaza"
+        },
+        {
+          "tollplaza_code": "NETC536025",
+          "tollplaza_id": 3090,
+          "tollplaza_name": "Kuchhvada Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 9,
+      "operator_name": "AhmedabadRing RoadInfra",
+      "plaza_count": 1,
+      "coverage_pct": 3,
+      "cumulative_coverage_pct": 87.9,
+      "plaza_codes": [
+        "NETC536023"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536023",
+          "tollplaza_id": 3088,
+          "tollplaza_name": "Bakrol Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 10,
+      "operator_name": "AshirwadSmartInfralink",
+      "plaza_count": 1,
+      "coverage_pct": 3,
+      "cumulative_coverage_pct": 90.9,
+      "plaza_codes": [
+        "NETC536022"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536022",
+          "tollplaza_id": 3087,
+          "tollplaza_name": "Alva Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 11,
+      "operator_name": "GSRDC",
+      "plaza_count": 1,
+      "coverage_pct": 3,
+      "cumulative_coverage_pct": 93.9,
+      "plaza_codes": [
+        "NETC536518"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536518",
+          "tollplaza_id": 3346,
+          "tollplaza_name": "HimmatnagarBypass"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 12,
+      "operator_name": "M/SInderdeep",
+      "plaza_count": 1,
+      "coverage_pct": 3,
+      "cumulative_coverage_pct": 97,
+      "plaza_codes": [
+        "NETC536171"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536171",
+          "tollplaza_id": 3151,
+          "tollplaza_name": "Kasherol Toll Plaza (Dahej Toll Plaza)"
+        }
+      ],
+      "curation_status": "not_started"
+    },
+    {
+      "rank": 13,
+      "operator_name": "RKCInfrabuilt",
+      "plaza_count": 1,
+      "coverage_pct": 3,
+      "cumulative_coverage_pct": 100,
+      "plaza_codes": [
+        "NETC536015"
+      ],
+      "plazas": [
+        {
+          "tollplaza_code": "NETC536015",
+          "tollplaza_id": 3081,
+          "tollplaza_name": "Bochasan Toll Plaza"
+        }
+      ],
+      "curation_status": "not_started"
+    }
+  ]
+}

@@ -1,10 +1,24 @@
 # Toll plazas in Andhra Pradesh — India
 
-Browse **95 FASTag toll plazas** across 36 national highways in Andhra Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **100 FASTag toll plazas** across 36 national highways in Andhra Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 91 complete, 4 partial · **Last updated:** 2026-06-05
+**Coverage:** 91 complete, 9 partial · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
+
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| complete | 91 | 91.0% |
+| partial | 9 | 9.0% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -99,10 +113,15 @@ Browse **95 FASTag toll plazas** across 36 national highways in Andhra Pradesh. 
 | Veeranjaneyapuram | 565 | Jamni, Dist Jind | [16.530970997573757, 79.38207841412947](https://www.google.com/maps?q=16.530970997573757,79.38207841412947) | 45 | complete |
 | Millampalli | 565 | Km 163.250 | [16.06238, 79.30513](https://www.google.com/maps?q=16.06238,79.30513) | 40 | complete |
 | Raviguntapalli | 565 | PONGALUR | [15.197922, 79.450868](https://www.google.com/maps?q=15.197922,79.450868) | 40 | complete |
+| NagarjunasagarEMC Checkpost |  | NETC 536133; NagarjunasagarEMC Checkpost; Macharla, AndhraPradesh; 16.567540,79.33326 | [16.567540, 79.33326](https://www.google.com/maps?q=16.567540,79.33326) |  | partial |
+| EthipothalaEMC Checkpost |  | NETC 536134; EthipothalaEMC Checkpost; Macharla, AndhraPradesh; 16.541244,79.380177 | [16.541244, 79.380177](https://www.google.com/maps?q=16.541244,79.380177) |  | partial |
+| Narajamalatanda EMC Checkpost |  | NETC 536135; Narajamalatanda EMC Checkpost; Yerragondapalem, AndhraPradesh; 16.164356,79.299771 | [16.164356, 79.299771](https://www.google.com/maps?q=16.164356,79.299771) |  | partial |
+| SirigiripaduEMC Checkpost |  | NETC 536136; SirigiripaduEMC Checkpost; Macharla, AndhraPradesh; 16.307753,79.329601 | [16.307753, 79.329601](https://www.google.com/maps?q=16.307753,79.329601) |  | partial |
 | Thummalacheruvu Toll Plaza |  | NETC 552001; Thummalacheruvu Toll Plaza; Thummalacheruvu, AndhraPradesh; 16.538341,79.798918 | [16.538341, 79.798918](https://www.google.com/maps?q=16.538341,79.798918) | 154 | partial |
 | Elchuru Toll Plaza |  | NETC 552002; Elchuru Toll Plaza; Elchuru, AndhraPradesh; 16.107077,79.928762 | [16.107077, 79.928762](https://www.google.com/maps?q=16.107077,79.928762) | 76 | partial |
 | TTD Saptagiri Toll Plaza |  | NETC 552003; TTD Saptagiri Toll Plaza; Tirupatitown, AndhraPradesh; 13.647300,79.402100 | [13.647300, 79.402100](https://www.google.com/maps?q=13.647300,79.402100) | 50 | partial |
 | Kovvuru |  | NETC 552004; Kovvuru; Vijayawada, AndhraPradesh; 17.027290,81.719536 | [17.027290, 81.719536](https://www.google.com/maps?q=17.027290,81.719536) | 74 | partial |
+| GanpathiForestCheckPost |  | NETC 552005; GanpathiForestCheckPost; Prakasam, AndhraPradesh; 15.929953,79.097636 | [15.929953, 79.097636](https://www.google.com/maps?q=15.929953,79.097636) |  | partial |
 
 ---
 

@@ -1,34 +1,49 @@
 # Toll plazas in Rajasthan — India
 
-Browse **172 FASTag toll plazas** across 56 national highways in Rajasthan. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **392 FASTag toll plazas** across 56 national highways in Rajasthan. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 172 complete · **Last updated:** 2026-06-05
+**Coverage:** 172 complete, 216 partial, 4 verified · **Last updated:** 2026-06-05
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
+
+### Data confidence breakdown
+
+What "confidence" means, so you know how much to trust a given rate:
+- **verified** — hand-curated from an official operator/government rate notification (see per-plaza `rate_source`).
+- **complete** — full rate card from the NHAI RajMargYatra API.
+- **high** — near-complete API data with minor gaps.
+- **partial** — plaza confirmed to exist (location/NETC code) but rates are missing or incomplete; typically a state-highway scaffold entry awaiting curation.
+- **estimated** — approximate rate filled from a secondary source (e.g. routing-API cross-check), not an official notification.
+
+| Confidence | Plazas | Share |
+|---|---|---|
+| verified | 4 | 1.0% |
+| complete | 172 | 43.9% |
+| partial | 216 | 55.1% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Badkapara (Close Loop Toll ) | NE- 4 |  | [26.527359 , 76.250052](https://www.google.com/maps?q=26.527359 ,76.250052) |  | complete |
 | Sheetal (Close Loop Toll ) | NE- 4 | 102 | [28.48477, 76.84497](https://www.google.com/maps?q=28.48477,76.84497) | 0 | complete |
 | Pinan (Close Loop Toll) | NE- 4 | 129.017 | [27.250656, 76.765601](https://www.google.com/maps?q=27.250656,76.765601) | 0 | complete |
-| Gopalpura (Close Loop Toll ) | NE- 4 | 184.02 | [24.906415, 75.958988](https://www.google.com/maps?q=24.906415,75.958988) | 0 | complete |
+| Chechat (Entry Exit ) Toll Plaza   | NE- 4 | 184.02 | [24.759444, 75.908694](https://www.google.com/maps?q=24.759444,75.908694) | 0 | complete |
 | Karadiya ( Close Loop Toll ) | NE- 4 | 184.02 | [25.16616, 76.086059](https://www.google.com/maps?q=25.16616,76.086059) | 0 | complete |
 | Laban ( Close Loop Toll ) | NE- 4 | 184.02 | [25.578171, 76.220970](https://www.google.com/maps?q=25.578171,76.220970) | 0 | complete |
 | Balapura ( Close Loop Toll) | NE- 4 | 184.02 | [25.061568, 76.038416](https://www.google.com/maps?q=25.061568,76.038416) | 0 | complete |
-| Chechat (Entry Exit ) Toll Plaza   | NE- 4 | 184.02 | [24.759444, 75.908694](https://www.google.com/maps?q=24.759444,75.908694) | 0 | complete |
+| Gopalpura (Close Loop Toll ) | NE- 4 | 184.02 | [24.906415, 75.958988](https://www.google.com/maps?q=24.906415,75.958988) | 0 | complete |
 | Mandawara ( Close Loop Toll ) | NE- 4 | 184.02 | [25.38196, 76.198655](https://www.google.com/maps?q=25.38196,76.198655) | 0 | complete |
 | Zalimpura (Close Loop Toll ) | NE- 4 | 184.02 | [25.273466, 76.142686](https://www.google.com/maps?q=25.273466,76.142686) | 0 | complete |
 | Bhandaraj (Entry Exit )Toll | NE- 4 | At Ch. 182.000 | [26.9122222, 76.4294444](https://www.google.com/maps?q=26.9122222,76.4294444) | 0 | complete |
 | Dungarpur (Entry Exit ) Toll | NE- 4 | At Ch. 210.972 | [26.6663888, 76.3191667](https://www.google.com/maps?q=26.6663888,76.3191667) | 0 | complete |
 | Kusthala  (Close Loop Toll ) | NE-4 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [25.968464980634522 ,  76.25313572334733](https://www.google.com/maps?q=25.968464980634522 , 76.25313572334733) |  | complete |
 | Bonli (Close Loop Toll ) | NE- 4 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [26.333262172107283, 76.24529151966289](https://www.google.com/maps?q=26.333262172107283,76.24529151966289) |  | complete |
-| Bagrana  (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.87826754178881 ,  75.92726313807928](https://www.google.com/maps?q=26.87826754178881 , 75.92726313807928) |  | complete |
 | Geela Ki Nangal (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.907642, 75.966994](https://www.google.com/maps?q=26.907642,75.966994) |  | complete |
 | Hingonia (Entry Exit Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.8509 ,  75.9247](https://www.google.com/maps?q=26.8509 , 75.9247) |  | complete |
 | Khurikhud (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.964421080299246 ,  76.29031347489561](https://www.google.com/maps?q=26.964421080299246 , 76.29031347489561) |  | complete |
+| Bagrana  (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.87826754178881 ,  75.92726313807928](https://www.google.com/maps?q=26.87826754178881 , 75.92726313807928) |  | complete |
 | Bedoli (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.994724023164917 ,  76.4183597755617](https://www.google.com/maps?q=26.994724023164917 , 76.4183597755617) |  | complete |
-| Shyamsinghpura Virtual (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.980819207958092,  76.53316629450276](https://www.google.com/maps?q=26.980819207958092, 76.53316629450276) |  | complete |
 | Sundarpura (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.9651364, 76.1572891](https://www.google.com/maps?q=26.9651364,76.1572891) |  | complete |
+| Shyamsinghpura Virtual (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.980819207958092,  76.53316629450276](https://www.google.com/maps?q=26.980819207958092, 76.53316629450276) |  | complete |
 | Gegal | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.5513492, 74.7776251](https://www.google.com/maps?q=26.5513492,74.7776251) | 75 | complete |
 | Pipalaz | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.158466, 74.371725](https://www.google.com/maps?q=26.158466,74.371725) | 70 | complete |
 | Baggad | 8 | BAGGAR (Ch. 136 to 137) | [25.590626, 73.903039](https://www.google.com/maps?q=25.590626,73.903039) | 85 | complete |
@@ -60,8 +75,8 @@ Browse **172 FASTag toll plazas** across 56 national highways in Rajasthan. Data
 | Biratiya Kalan | 25 | Km. 8.442 | [26.121946, 74.062649](https://www.google.com/maps?q=26.121946,74.062649) | 85 | complete |
 | Binawas | 25 | Km. 81.090 | [26.27886, 73.394295](https://www.google.com/maps?q=26.27886,73.394295) | 100 | complete |
 | Gadra Toll Plaza | 25 E | Nalluru (64690) | [25.740142, 70.645659](https://www.google.com/maps?q=25.740142,70.645659) | 85 | complete |
-| Gogunda (Jaswantgarh) | 27 | 184.02 | [24.766166, 73.523999](https://www.google.com/maps?q=24.766166,73.523999) | 90 | complete |
 | Kota Bypass (Sakatpura ) | 27 | 184.02 | [25.156200, 75.776748](https://www.google.com/maps?q=25.156200,75.776748) | 85 | complete |
+| Gogunda (Jaswantgarh) | 27 | 184.02 | [24.766166, 73.523999](https://www.google.com/maps?q=24.766166,73.523999) | 90 | complete |
 | Malera | 27 | 184.02 | [24.712368, 73.093755](https://www.google.com/maps?q=24.712368,73.093755) | 125 | complete |
 | Simliya | 27 | 184.02 | [25.170089, 76.130552](https://www.google.com/maps?q=25.170089,76.130552) | 90 | complete |
 | Bassi | 27 | Km 237.629 | [25.033921, 74.817676](https://www.google.com/maps?q=25.033921,74.817676) | 100 | complete |
@@ -91,8 +106,8 @@ Browse **172 FASTag toll plazas** across 56 national highways in Rajasthan. Data
 | Karel | 58E | Karel | [24.212801, 73.352112](https://www.google.com/maps?q=24.212801,73.352112) | 45 | complete |
 | Nimbi Jodha | 58 | Km. 199.985 | [27.514906, 74.320930](https://www.google.com/maps?q=27.514906,74.320930) | 55 | complete |
 | Harimma | 58 | Km. 258.555 | [27.261126, 73.849745](https://www.google.com/maps?q=27.261126,73.849745) | 70 | complete |
-| Khara | 62 |  | [28.2330309 ,  73.3902644](https://www.google.com/maps?q=28.2330309 , 73.3902644) | 60 | complete |
 | Hindore Toll Plaza | 62 |  | [29.101064 ,  73.853890](https://www.google.com/maps?q=29.101064 , 73.853890) | 45 | complete |
+| Khara | 62 |  | [28.2330309 ,  73.3902644](https://www.google.com/maps?q=28.2330309 , 73.3902644) | 60 | complete |
 | 6ML (Sixml) Toll Plaza | 62 | 229.1 | [29.810574, 73.875389](https://www.google.com/maps?q=29.810574,73.875389) | 80 | complete |
 | Nimbali | 62 | Jodhpur | [26.018464, 73.088679](https://www.google.com/maps?q=26.018464,73.088679) | 60 | complete |
 | Birami | 62 | Km 154.00 | [25.371114, 73.201486](https://www.google.com/maps?q=25.371114,73.201486) | 115 | complete |
@@ -181,6 +196,226 @@ Browse **172 FASTag toll plazas** across 56 national highways in Rajasthan. Data
 | Padla Hadliya Plaza | 927A | at Km/Ch.182.00 | [23.690826, 73.941889](https://www.google.com/maps?q=23.690826,73.941889) | 50 | complete |
 | Parewar Toll Plaza | 968 | NH 968 at Parewar @ Km 19+900 Tehsil Jaisalmer in Jaisalmer district of Rajasthan State | [27.304704, 70.803130](https://www.google.com/maps?q=27.304704,70.803130) | 60 | complete |
 | Dadal |  |  | [25.220295, 72.03811](https://www.google.com/maps?q=25.220295,72.03811) |  | complete |
+| Kaladera Toll Plaza |  | NETC 536129; Kaladera; Chomu, Rajasthan; 27.236583,76.007136 | [27.236583, 76.007136](https://www.google.com/maps?q=27.236583,76.007136) |  | partial |
+| Dholiya Toll Plaza |  | NETC 536130; Dholiya; Rajgard, Rajasthan; 28.667844,75.208264 | [28.667844, 75.208264](https://www.google.com/maps?q=28.667844,75.208264) |  | partial |
+| Palli Toll Plaza |  | NETC 536168; Palli; Jodhpur, Rajasthan; 26.930613,72.670506 | [26.930613, 72.670506](https://www.google.com/maps?q=26.930613,72.670506) |  | partial |
+| Rampura Toll Plaza |  | NETC 536169; Rampura; Suratgarh, Rajasthan; 29.349492,73.921910 | [29.349492, 73.921910](https://www.google.com/maps?q=29.349492,73.921910) |  | partial |
+| Dabli Toll Plaza |  | NETC 536170; Dabli; Hanumangarh, Rajasthan; 29.822510,73.875166 | [29.822510, 73.875166](https://www.google.com/maps?q=29.822510,73.875166) |  | partial |
+| Dehra Shahpur Toll Plaza |  | NETC 536175; Dehra Shahpur; Alwar, Rajasthan; 27.6695,76.5847 | [27.6695, 76.5847](https://www.google.com/maps?q=27.6695,76.5847) |  | partial |
+| Nainasar Toll Plaza |  | NETC 536176; Nainasar; Sardarshahar, Rajasthan; 28.4747,74.6391 | [28.4747, 74.6391](https://www.google.com/maps?q=28.4747,74.6391) |  | partial |
+| Jakhrana Toll Plaza |  | NETC 536177; Jakhrana; Alwar, Rajasthan; 27.9730,76.2011 | [27.9730, 76.2011](https://www.google.com/maps?q=27.9730,76.2011) |  | partial |
+| Aadsar Toll Plaza |  | NETC 536178; Aadsar; Bikaner, Rajasthan; 28.2464,74.1770 | [28.2464, 74.1770](https://www.google.com/maps?q=28.2464,74.1770) |  | partial |
+| Lordiya(Phalodi) Toll Plaza |  | NETC 536185; Lordiya(Phalodi); Jodhpur, Rajasthan; 27.058341,72.414254 | [27.058341, 72.414254](https://www.google.com/maps?q=27.058341,72.414254) |  | partial |
+| Kiramsariya(Osian) Toll Plaza |  | NETC 536186; Kiramsariya(Osian); Jodhpur, Rajasthan; 27.0583,72.4145 | [27.0583, 72.4145](https://www.google.com/maps?q=27.0583,72.4145) |  | partial |
+| Dabok Toll Plaza |  | NETC 536187; Dabok; Udaipur, Rajasthan; 24.64961,73.871801 | [24.64961, 73.871801](https://www.google.com/maps?q=24.64961,73.871801) |  | partial |
+| Rampura (Jodhpur ) Toll Plaza |  | NETC 536188; Rampura (Jodhpur ); Jodhpur, Rajasthan; 26.4731,73.0140 | [26.4731, 73.0140](https://www.google.com/maps?q=26.4731,73.0140) |  | partial |
+| Singhpura Toll Plaza |  | NETC 536189; Singhpura; Chittorgarh, Rajasthan; 24.923471,74.435884 | [24.923471, 74.435884](https://www.google.com/maps?q=24.923471,74.435884) |  | partial |
+| Gopalpura Toll Plaza |  | NETC 536190; Gopalpura; Bhilwada, Rajasthan; 25.2738,75.0933 | [25.2738, 75.0933](https://www.google.com/maps?q=25.2738,75.0933) |  | partial |
+| Kuradiya Toll Plaza |  | NETC 536191; Kuradiya; Bhilwada, Rajasthan; 25.694816,75.336228 | [25.694816, 75.336228](https://www.google.com/maps?q=25.694816,75.336228) |  | partial |
+| Kaladera Toll Plaza |  | NETC 536195; Kaladera; Chomu, Rajasthan; 27.236583,76.007136 | [27.236583, 76.007136](https://www.google.com/maps?q=27.236583,76.007136) |  | partial |
+| Triveni Toll Plaza |  | NETC 536209; Triveni; Jaipur, Rajasthan; 27.403075,75.876376 | [27.403075, 75.876376](https://www.google.com/maps?q=27.403075,75.876376) |  | partial |
+| Dhawali Toll Plaza |  | NETC 536210; Dhawali; Jaipur, Rajasthan; 27.221361,75.829917 | [27.221361, 75.829917](https://www.google.com/maps?q=27.221361,75.829917) |  | partial |
+| Mangalbad(Morwan) Toll Plaza |  | NETC 536211; Mangalbad(Morwan); chittorgarh, Rajasthan; 24.605834,74.343513 | [24.605834, 74.343513](https://www.google.com/maps?q=24.605834,74.343513) |  | partial |
+| Nimbahrda(Dhinwa) Toll Plaza |  | NETC 536212; Nimbahrda(Dhinwa); chittorgarh, Rajasthan; 24.610614,74.647937 | [24.610614, 74.647937](https://www.google.com/maps?q=24.610614,74.647937) |  | partial |
+| Salumba(Isarwas) Toll Plaza |  | NETC 536214; Salumba(Isarwas); Chittorgarh, Rajasthan; 24.17204,74.047535 | [24.17204, 74.047535](https://www.google.com/maps?q=24.17204,74.047535) |  | partial |
+| Kir ki Choki(Bargaon) Toll Plaza |  | NETC 536215; Kir ki Choki(Bargaon); Udaipur, Rajasthan; 24.579950,74.197945 | [24.579950, 74.197945](https://www.google.com/maps?q=24.579950,74.197945) |  | partial |
+| Pipliy Toll Plaza |  | NETC 536218; Pipliy; AnwaliKalan, Rajasthan; 24.43518,75.904012 | [24.43518, 75.904012](https://www.google.com/maps?q=24.43518,75.904012) |  | partial |
+| Bhawanimandi Toll Plaza |  | NETC 536219; Bhawanimandi; Bhawanimandi, Rajasthan; 24.326755,75.832868 | [24.326755, 75.832868](https://www.google.com/maps?q=24.326755,75.832868) |  | partial |
+| Dug Toll Plaza |  | NETC 536220; Dug; dug, Rajasthan; 23.957777,75.860298 | [23.957777, 75.860298](https://www.google.com/maps?q=23.957777,75.860298) |  | partial |
+| Suket Toll Plaza |  | NETC 536221; Suket; Julmi, Rajasthan; 24.570243,75.9917 | [24.570243, 75.9917](https://www.google.com/maps?q=24.570243,75.9917) |  | partial |
+| Kawai Toll Plaza |  | NETC 536222; Kawai; Kawai, Rajasthan; 24.766053,76.674377 | [24.766053, 76.674377](https://www.google.com/maps?q=24.766053,76.674377) |  | partial |
+| Sangod(Borada) Toll Plaza |  | NETC 536223; Sangod(Borada); Sangod, Rajasthan; 24.922047,76.341751 | [24.922047, 76.341751](https://www.google.com/maps?q=24.922047,76.341751) |  | partial |
+| Galana Toll Plaza |  | NETC 536224; Galana; kethun, Rajasthan; 25.079677,76.018948 | [25.079677, 76.018948](https://www.google.com/maps?q=25.079677,76.018948) |  | partial |
+| EKWASA Toll Plaza |  | NETC 536225; EKWASA; Akwasa, Rajasthan; 24.483221,76.250277 | [24.483221, 76.250277](https://www.google.com/maps?q=24.483221,76.250277) |  | partial |
+| Bakani Toll Plaza |  | NETC 536226; Bakani; Bakani, Rajasthan; 24.244104,76.251484 | [24.244104, 76.251484](https://www.google.com/maps?q=24.244104,76.251484) |  | partial |
+| Dakan kotra Toll Plaza |  | NETC 536227; Dakan kotra; kotra, Rajasthan; 24.488905,73.743982 | [24.488905, 73.743982](https://www.google.com/maps?q=24.488905,73.743982) |  | partial |
+| Khairad Toll Plaza |  | NETC 536228; Khairad; kerad, Rajasthan; 24.198053,73.992991 | [24.198053, 73.992991](https://www.google.com/maps?q=24.198053,73.992991) |  | partial |
+| Debari(sakroda) Toll Plaza |  | NETC 536229; Debari(sakroda); sakroda, Rajasthan; 24.564205,73.867124 | [24.564205, 73.867124](https://www.google.com/maps?q=24.564205,73.867124) |  | partial |
+| Bambora(Gudli) Toll Plaza |  | NETC 536230; Bambora(Gudli); Gudli, Rajasthan; 24.402431,74.011058 | [24.402431, 74.011058](https://www.google.com/maps?q=24.402431,74.011058) |  | partial |
+| Samdolar Toll Plaza |  | NETC 536232; Samdolar; Naguar, Rajasthan; 26.499775,74.075707 | [26.499775, 74.075707](https://www.google.com/maps?q=26.499775,74.075707) |  | partial |
+| Gulganv Toll Plaza |  | NETC 536233; Gulganv; Kekri, Rajasthan; 25.818786,75.197771 | [25.818786, 75.197771](https://www.google.com/maps?q=25.818786,75.197771) |  | partial |
+| Sarwar Toll Plaza |  | NETC 536234; Sarwar; Sarwar, Rajasthan; 26.092349,74.991035 | [26.092349, 74.991035](https://www.google.com/maps?q=26.092349,74.991035) |  | partial |
+| AmarpuraRSRDC Toll Plaza |  | NETC 536235; AmarpuraRSRDC; Naguar, Rajasthan; 26.344975,74.126747 | [26.344975, 74.126747](https://www.google.com/maps?q=26.344975,74.126747) |  | partial |
+| Rojhana Toll Plaza |  | NETC 536239; Rojhana; Dug, Rajasthan; 23.951962,75.688271 | [23.951962, 75.688271](https://www.google.com/maps?q=23.951962,75.688271) |  | partial |
+| Chechat(Gumanpura) Toll Plaza |  | NETC 536240; Chechat(Gumanpura); Kota, Rajasthan; 24.741300,75.937582 | [24.741300, 75.937582](https://www.google.com/maps?q=24.741300,75.937582) |  | partial |
+| Undwa Toll Plaza |  | NETC 536241; Undwa; Kota, Rajasthan; 24.616053,75.909212 | [24.616053, 75.909212](https://www.google.com/maps?q=24.616053,75.909212) |  | partial |
+| Barrod Toll Plaza |  | NETC 536247; Barrod; Alwar, Rajasthan; 27.8926,76.3446 | [27.8926, 76.3446](https://www.google.com/maps?q=27.8926,76.3446) |  | partial |
+| Jadankhalsa Toll Plaza |  | NETC 536248; Jadankhalsa; PALI, Rajasthan; 25.854958,73.479906 | [25.854958, 73.479906](https://www.google.com/maps?q=25.854958,73.479906) |  | partial |
+| Khejrali Toll Plaza |  | NETC 536249; Khejrali; Jodhpur, Rajasthan; 26.158353,73.166918 | [26.158353, 73.166918](https://www.google.com/maps?q=26.158353,73.166918) |  | partial |
+| Auwa Toll Plaza |  | NETC 536250; Auwa; MarvarJunction, Rajasthan; 25.614401,73.628414 | [25.614401, 73.628414](https://www.google.com/maps?q=25.614401,73.628414) |  | partial |
+| Kudi Toll Plaza |  | NETC 536251; Kudi; Bhopalgargh, Rajasthan; 26.573902,73.452095 | [26.573902, 73.452095](https://www.google.com/maps?q=26.573902,73.452095) |  | partial |
+| Gwaloo Toll Plaza |  | NETC 536252; Gwaloo; Kuchera, Rajasthan; 26.902365,73.768778 | [26.902365, 73.768778](https://www.google.com/maps?q=26.902365,73.768778) |  | partial |
+| Jajiwal Gehlota Toll Plaza |  | NETC 536253; Jajiwal Gehlota; Jodhpur, Rajasthan; 26.400036,73.166072 | [26.400036, 73.166072](https://www.google.com/maps?q=26.400036,73.166072) |  | partial |
+| Indrapura Toll Plaza |  | NETC 536254; Indrapura; Borawad, Rajasthan; 27.106978,74.392049 | [27.106978, 74.392049](https://www.google.com/maps?q=27.106978,74.392049) |  | partial |
+| Kalawa Toll Plaza |  | NETC 536255; Kalawa; Borawad, Rajasthan; 27.040195,74.630674 | [27.040195, 74.630674](https://www.google.com/maps?q=27.040195,74.630674) |  | partial |
+| Fatehnagar(Sunwar) Toll Plaza |  | NETC 536256; Fatehnagar(Sunwar); Fatehnagar, Rajasthan; 24.848181,74.085506 | [24.848181, 74.085506](https://www.google.com/maps?q=24.848181,74.085506) |  | partial |
+| Dariba(Rajpura) Toll Plaza |  | NETC 536257; Dariba(Rajpura); Fatehnagar, Rajasthan; 24.971666,74.113490 | [24.971666, 74.113490](https://www.google.com/maps?q=24.971666,74.113490) |  | partial |
+| Varaval Toll Plaza |  | NETC 536258; Varaval; Pundwara, Rajasthan; 25.014239,73.156923 | [25.014239, 73.156923](https://www.google.com/maps?q=25.014239,73.156923) |  | partial |
+| Amli Toll Plaza |  | NETC 536259; Amli; Bali, Rajasthan; 24.842156,73.125969 | [24.842156, 73.125969](https://www.google.com/maps?q=24.842156,73.125969) |  | partial |
+| Jhirana Toll Plaza |  | NETC 536260; Jhirana; Diggi, Rajasthan; 26.289373,75.630728 | [26.289373, 75.630728](https://www.google.com/maps?q=26.289373,75.630728) |  | partial |
+| Sohela Toll Plaza |  | NETC 536261; Sohela; Tonk, Rajasthan; 26.244656,75.805087 | [26.244656, 75.805087](https://www.google.com/maps?q=26.244656,75.805087) |  | partial |
+| Meoda kalan Toll Plaza |  | NETC 536262; Meoda kalan; Tonk, Rajasthan; 25.996468,75.206238 | [25.996468, 75.206238](https://www.google.com/maps?q=25.996468,75.206238) |  | partial |
+| Daulat pura Toll Plaza |  | NETC 536263; Daulat pura; Bundi, Rajasthan; 25.402898,75.56853 | [25.402898, 75.56853](https://www.google.com/maps?q=25.402898,75.56853) |  | partial |
+| Ganesh pura Toll Plaza |  | NETC 536264; Ganesh pura; Bundi, Rajasthan; 25.468538,75.743672 | [25.468538, 75.743672](https://www.google.com/maps?q=25.468538,75.743672) |  | partial |
+| Bassi Naaga Toll Plaza |  | NETC 536265; Bassi Naaga; Jobner, Rajasthan; 26.983617,75.506058 | [26.983617, 75.506058](https://www.google.com/maps?q=26.983617,75.506058) |  | partial |
+| Govindi Nagur Toll Plaza |  | NETC 536266; Govindi Nagur; jaipur, Rajasthan; 27.036538,75.120395 | [27.036538, 75.120395](https://www.google.com/maps?q=27.036538,75.120395) |  | partial |
+| Budsu Nagur Toll Plaza |  | NETC 536267; Budsu Nagur; Kuchaman, Rajasthan; 27.130504,74.695302 | [27.130504, 74.695302](https://www.google.com/maps?q=27.130504,74.695302) |  | partial |
+| UnchairaNagaur Toll Plaza |  | NETC 536268; UnchairaNagaur; Kuchaman, Rajasthan; 27.138588,74.204939 | [27.138588, 74.204939](https://www.google.com/maps?q=27.138588,74.204939) |  | partial |
+| Mator Toll Plaza |  | NETC 536269; Mator; jaipur, Rajasthan; 27.775741,76.605992 | [27.775741, 76.605992](https://www.google.com/maps?q=27.775741,76.605992) |  | partial |
+| Sonai Manji Toll Plaza |  | NETC 536270; Sonai Manji; Pali, Rajasthan; 25.682557,73.364228 | [25.682557, 73.364228](https://www.google.com/maps?q=25.682557,73.364228) |  | partial |
+| Jhilwara Toll Plaza |  | NETC 536271; Jhilwara; Pali, Rajasthan; 25.232898,73.668912 | [25.232898, 73.668912](https://www.google.com/maps?q=25.232898,73.668912) |  | partial |
+| Desuri Toll Plaza |  | NETC 536272; Desuri; Pali, Rajasthan; 25.292955,73.561852 | [25.292955, 73.561852](https://www.google.com/maps?q=25.292955,73.561852) |  | partial |
+| Gazipur mod Toll Plaza |  | NETC 536273; Gazipur mod; Dausa, Rajasthan; 26.982670,76.943099 | [26.982670, 76.943099](https://www.google.com/maps?q=26.982670,76.943099) |  | partial |
+| Danpur Toll Plaza |  | NETC 536274; Danpur; Banswara, Rajasthan; 23.513093,74.691906 | [23.513093, 74.691906](https://www.google.com/maps?q=23.513093,74.691906) |  | partial |
+| Kundela Toll Plaza |  | NETC 536275; Kundela; Banswara, Rajasthan; 23.540435,74.501297 | [23.540435, 74.501297](https://www.google.com/maps?q=23.540435,74.501297) |  | partial |
+| Mor Toll Plaza |  | NETC 536276; Mor; Malpura, Rajasthan; 26.157714,75.417082 | [26.157714, 75.417082](https://www.google.com/maps?q=26.157714,75.417082) |  | partial |
+| Sewa (Khareda) Toll Plaza |  | NETC 536277; Sewa (Khareda); Chhan, Rajasthan; 26.532961,76.848043 | [26.532961, 76.848043](https://www.google.com/maps?q=26.532961,76.848043) |  | partial |
+| Chhan (MassiRiver) Toll Plaza |  | NETC 536278; Chhan (MassiRiver); Dudu, Rajasthan; 26.563638,75.297374 | [26.563638, 75.297374](https://www.google.com/maps?q=26.563638,75.297374) |  | partial |
+| Udaliyawas Toll Plaza |  | NETC 536281; Udaliyawas; Jodhpur, Rajasthan; 26.249350,73.774220 | [26.249350, 73.774220](https://www.google.com/maps?q=26.249350,73.774220) |  | partial |
+| Mandala sojat Toll Plaza |  | NETC 536282; Mandala sojat; Pali, Rajasthan; 25.984355,73.729429 | [25.984355, 73.729429](https://www.google.com/maps?q=25.984355,73.729429) |  | partial |
+| Khejarla Toll Plaza |  | NETC 536283; Khejarla; Jodhpur, Rajasthan; 26.444059,73.791591 | [26.444059, 73.791591](https://www.google.com/maps?q=26.444059,73.791591) |  | partial |
+| Joshiraram Toll Plaza |  | NETC 536284; Joshiraram; Jodhpur, Rajasthan; 26.443990,73.791607 | [26.443990, 73.791607](https://www.google.com/maps?q=26.443990,73.791607) |  | partial |
+| Mata magri Toll Plaza |  | NETC 536285; Mata magri; Pali, Rajasthan; 26.511361,73.804889 | [26.511361, 73.804889](https://www.google.com/maps?q=26.511361,73.804889) |  | partial |
+| Ram nagar Toll Plaza |  | NETC 536286; Ram nagar; Pali, Rajasthan; 26.598250,73.764750 | [26.598250, 73.764750](https://www.google.com/maps?q=26.598250,73.764750) |  | partial |
+| Beerampura Toll Plaza |  | NETC 536287; Beerampura; Bharatpur, Rajasthan; 27.034606,77.346731 | [27.034606, 77.346731](https://www.google.com/maps?q=27.034606,77.346731) |  | partial |
+| Suroth(Failikapura) Toll Plaza |  | NETC 536288; Suroth(Failikapura); Bharatpur, Rajasthan; 26.795194,77.127111 | [26.795194, 77.127111](https://www.google.com/maps?q=26.795194,77.127111) |  | partial |
+| Sewa Toll Plaza |  | NETC 536289; Sewa; Bharatpur, Rajasthan; 26.532961,76.848043 | [26.532961, 76.848043](https://www.google.com/maps?q=26.532961,76.848043) |  | partial |
+| Girdharpura Toll Plaza |  | NETC 536290; Girdharpura; Bharatpur, Rajasthan; 27.253055,77.456291 | [27.253055, 77.456291](https://www.google.com/maps?q=27.253055,77.456291) |  | partial |
+| Panhori Toll Plaza |  | NETC 536291; Panhori; Bharatpur, Rajasthan; 27.443447,77.229617 | [27.443447, 77.229617](https://www.google.com/maps?q=27.443447,77.229617) |  | partial |
+| Moraka Toll Plaza |  | NETC 536292; Moraka; Alwer, Rajasthan; 27.431387,77.021263 | [27.431387, 77.021263](https://www.google.com/maps?q=27.431387,77.021263) |  | partial |
+| Randua Pooth Toll Plaza |  | NETC 536293; Randua Pooth; Alwer, Rajasthan; 27.498543,76.796263 | [27.498543, 76.796263](https://www.google.com/maps?q=27.498543,76.796263) |  | partial |
+| Dujod Toll Plaza |  | NETC 536294; Dujod; Kotputli, Rajasthan; 27.547129,75.130863 | [27.547129, 75.130863](https://www.google.com/maps?q=27.547129,75.130863) |  | partial |
+| Nagal Toll Plaza |  | NETC 536295; Nagal; Kotputli, Rajasthan; 27.663358,75.667452 | [27.663358, 75.667452](https://www.google.com/maps?q=27.663358,75.667452) |  | partial |
+| Chala Toll Plaza |  | NETC 536296; Chala; Sikar, Rajasthan; 27.720024,75.441108 | [27.720024, 75.441108](https://www.google.com/maps?q=27.720024,75.441108) |  | partial |
+| Saroond Toll Plaza |  | NETC 536297; Saroond; Sikar, Rajasthan; 27.721588,76.121463 | [27.721588, 76.121463](https://www.google.com/maps?q=27.721588,76.121463) |  | partial |
+| Jiliya Toll Plaza |  | NETC 536298; Jiliya; Sikar, Rajasthan; 27.254926,74.854631 | [27.254926, 74.854631](https://www.google.com/maps?q=27.254926,74.854631) |  | partial |
+| Booteri Toll Plaza |  | NETC 536299; Booteri; Jaipur, Rajasthan; 27.805414,76.665488 | [27.805414, 76.665488](https://www.google.com/maps?q=27.805414,76.665488) |  | partial |
+| Phailipura Toll Plaza |  | NETC 536300; Phailipura; Karauli, Rajasthan; 26.654216,77.000754 | [26.654216, 77.000754](https://www.google.com/maps?q=26.654216,77.000754) |  | partial |
+| Avleshwar Toll Plaza |  | NETC 536301; Avleshwar; Pratapgarh, Rajasthan; 24.028582,74.841448 | [24.028582, 74.841448](https://www.google.com/maps?q=24.028582,74.841448) |  | partial |
+| Punjabipura Toll Plaza |  | NETC 536302; Punjabipura; Dholpur, Rajasthan; 26.678220,77.583379 | [26.678220, 77.583379](https://www.google.com/maps?q=26.678220,77.583379) |  | partial |
+| Brahmbad Toll Plaza |  | NETC 536303; Brahmbad; Dholpur, Rajasthan; 26.916602,77.315772 | [26.916602, 77.315772](https://www.google.com/maps?q=26.916602,77.315772) |  | partial |
+| Bhonda Gaon Toll Plaza |  | NETC 536304; Bhonda Gaon; Dholpur, Rajasthan; 27.023243,77.152344 | [27.023243, 77.152344](https://www.google.com/maps?q=27.023243,77.152344) |  | partial |
+| Aetrampura Toll Plaza |  | NETC 536305; Aetrampura; Karauli, Rajasthan; 27.086250,77.065959 | [27.086250, 77.065959](https://www.google.com/maps?q=27.086250,77.065959) |  | partial |
+| Alipur Mod Toll Plaza |  | NETC 536306; Alipur Mod; Karauli, Rajasthan; 27.167894,77.038309 | [27.167894, 77.038309](https://www.google.com/maps?q=27.167894,77.038309) |  | partial |
+| Devnagar Toll Plaza |  | NETC 536318; Devnagar; Hanumangargh, Rajasthan |  |  | partial |
+| Devrathi Toll Plaza |  | NETC 536319; Devrathi; Nagaur, Rajasthan; 27.476363,74.628261 | [27.476363, 74.628261](https://www.google.com/maps?q=27.476363,74.628261) |  | partial |
+| DhaniGovindpura Toll Plaza |  | NETC 536320; DhaniGovindpura; Jaipur, Rajasthan; 27.793049,74.712908 | [27.793049, 74.712908](https://www.google.com/maps?q=27.793049,74.712908) |  | partial |
+| Mamana Toll Plaza |  | NETC 536321; Mamana; Ajmer, Rajasthan; 26.803808,75.068777 | [26.803808, 75.068777](https://www.google.com/maps?q=26.803808,75.068777) |  | partial |
+| Mandoli Toll Plaza |  | NETC 536322; Mandoli; Jaipur, Rajasthan; 27.486303,74.817188 | [27.486303, 74.817188](https://www.google.com/maps?q=27.486303,74.817188) |  | partial |
+| Sirana Toll Plaza |  | NETC 536323; Sirana; SayalaJalore, Rajasthan; 25.424674,72.048429 | [25.424674, 72.048429](https://www.google.com/maps?q=25.424674,72.048429) |  | partial |
+| Tarnau Toll Plaza |  | NETC 536324; Tarnau; Nagaur, Rajasthan; 27.129654,74.132191 | [27.129654, 74.132191](https://www.google.com/maps?q=27.129654,74.132191) |  | partial |
+| Deora Toll Plaza |  | NETC 536326; Deora; Siwana, Rajasthan; 25.734042,72.531220 | [25.734042, 72.531220](https://www.google.com/maps?q=25.734042,72.531220) |  | partial |
+| Nagana Toll Plaza |  | NETC 536327; Nagana; Jodhpur, Rajasthan; 26.145763,72.523969 | [26.145763, 72.523969](https://www.google.com/maps?q=26.145763,72.523969) |  | partial |
+| Jalore Toll Plaza |  | NETC 536330; Jalore; Jalore, Rajasthan; 25.27474,72.61397 | [25.27474, 72.61397](https://www.google.com/maps?q=25.27474,72.61397) |  | partial |
+| Jaswantpura Toll Plaza |  | NETC 536331; Jaswantpura; Jaswantpura, Rajasthan; 24.82435,72.45910 | [24.82435, 72.45910](https://www.google.com/maps?q=24.82435,72.45910) |  | partial |
+| Miyasani Toll Plaza |  | NETC 536334; Miyasani; Jodhpur, Rajasthan; 26.191558,73.228051 | [26.191558, 73.228051](https://www.google.com/maps?q=26.191558,73.228051) |  | partial |
+| RoopwasLundawas Toll Plaza |  | NETC 536335; RoopwasLundawas; Sojat, Rajasthan; 25.971994,73.614344 | [25.971994, 73.614344](https://www.google.com/maps?q=25.971994,73.614344) |  | partial |
+| Kushalpura Toll Plaza |  | NETC 536338; Kushalpura; Chomu, Rajasthan; 27.15406,75.82069 | [27.15406, 75.82069](https://www.google.com/maps?q=27.15406,75.82069) |  | partial |
+| ROll Toll Plaza |  | NETC 536339; ROll; ROL, Rajasthan; 27.171099,73.90608 | [27.171099, 73.90608](https://www.google.com/maps?q=27.171099,73.90608) |  | partial |
+| Khathoti Toll Plaza |  | NETC 536340; Khathoti; NAGAUR, Rajasthan; 27.263643,74.315108 | [27.263643, 74.315108](https://www.google.com/maps?q=27.263643,74.315108) |  | partial |
+| Bhuma Toll Plaza |  | NETC 536341; Bhuma; BHUMA, Rajasthan; 27.794735,74.920694 | [27.794735, 74.920694](https://www.google.com/maps?q=27.794735,74.920694) |  | partial |
+| Somalsar Toll Plaza |  | NETC 536342; Somalsar; Jhunjhunu, Rajasthan; 27.605443,73.559615 | [27.605443, 73.559615](https://www.google.com/maps?q=27.605443,73.559615) |  | partial |
+| Somasi Toll Plaza |  | NETC 536347; Somasi; Somasi, Rajasthan; 28.406432,74.890265 | [28.406432, 74.890265](https://www.google.com/maps?q=28.406432,74.890265) |  | partial |
+| Budhani Toll Plaza |  | NETC 536348; Budhani; Budhani, Rajasthan; 28.440056,73.810847 | [28.440056, 73.810847](https://www.google.com/maps?q=28.440056,73.810847) |  | partial |
+| Rajasar Toll Plaza |  | NETC 536349; Rajasar; Rajasar, Rajasthan; 28.409706,74.284539 | [28.409706, 74.284539](https://www.google.com/maps?q=28.409706,74.284539) |  | partial |
+| Boya Toll Plaza |  | NETC 536356; Boya; Boya, Rajasthan; 25.150175,73.276114 | [25.150175, 73.276114](https://www.google.com/maps?q=25.150175,73.276114) |  | partial |
+| Mandola Toll Plaza |  | NETC 536357; Mandola; Mandola, Rajasthan; 25.190383,75.374908 | [25.190383, 75.374908](https://www.google.com/maps?q=25.190383,75.374908) |  | partial |
+| Kanwas Toll Plaza |  | NETC 536358; Kanwas; Bachhihera, Rajasthan; 24.85410,76.13733 | [24.85410, 76.13733](https://www.google.com/maps?q=24.85410,76.13733) | 55 | verified |
+| Garh Taknet Toll Plaza |  | NETC 536359; Garh Taknet; Kanwarpura, Rajasthan; 27.460365,75.793327 | [27.460365, 75.793327](https://www.google.com/maps?q=27.460365,75.793327) |  | partial |
+| Aawan Toll Plaza |  | NETC 536360; Aawan; Awan, Rajasthan; 24.94761,76.09814 | [24.94761, 76.09814](https://www.google.com/maps?q=24.94761,76.09814) |  | partial |
+| Bislai Toll Plaza |  | NETC 536361; Bislai; Bislai, Rajasthan; 24.59076,76.45089 | [24.59076, 76.45089](https://www.google.com/maps?q=24.59076,76.45089) |  | partial |
+| Balaran Toll Plaza |  | NETC 536362; Balaran; Mukandgarh, Rajasthan; 27.911179,75.147256 | [27.911179, 75.147256](https://www.google.com/maps?q=27.911179,75.147256) |  | partial |
+| Arruwa Toll Plaza |  | NETC 536363; Arruwa; Arroowa, Rajasthan; 27.280136,77.05917 | [27.280136, 77.05917](https://www.google.com/maps?q=27.280136,77.05917) | 40 | verified |
+| Punaykamilpurpatti Toll Plaza |  | NETC 536364; Punaykamilpurpatti; Sikari, Rajasthan; 27.570033,77.08037 | [27.570033, 77.08037](https://www.google.com/maps?q=27.570033,77.08037) | 55 | verified |
+| Kajla Toll Plaza |  | NETC 536371; Kajla; Noohaniya, Rajasthan; 28.300605,75.939351 | [28.300605, 75.939351](https://www.google.com/maps?q=28.300605,75.939351) |  | partial |
+| Sewad Bari Toll Plaza |  | NETC 536375; Sewad Bari; Sikar, Rajasthan; 27.610019,74.932487 | [27.610019, 74.932487](https://www.google.com/maps?q=27.610019,74.932487) |  | partial |
+| Tanwara Toll Plaza |  | NETC 536376; Tanwara; Sikar, Rajasthan; 27.665791,74.598658 | [27.665791, 74.598658](https://www.google.com/maps?q=27.665791,74.598658) |  | partial |
+| Kharondi Toll Plaza |  | NETC 536390; Kharondi; Khood, Rajasthan; 27.316343,75.110536 | [27.316343, 75.110536](https://www.google.com/maps?q=27.316343,75.110536) |  | partial |
+| Taliyana Toll Plaza |  | NETC 536416; Taliyana; Taliayana, Rajasthan; 25.350736,72.159383 | [25.350736, 72.159383](https://www.google.com/maps?q=25.350736,72.159383) |  | partial |
+| Vateru Toll Plaza |  | NETC 536420; Vateru; Baatera, Rajasthan; 25.222160,71.899543 | [25.222160, 71.899543](https://www.google.com/maps?q=25.222160,71.899543) |  | partial |
+| Chorau Toll Plaza |  | NETC 536421; Chorau; Sayla, Rajasthan; 25.301109,72.301362 | [25.301109, 72.301362](https://www.google.com/maps?q=25.301109,72.301362) |  | partial |
+| Sanderao Toll Plaza |  | NETC 536428; Sanderao; Sanderao, Rajasthan; 25.280848,73.198619 | [25.280848, 73.198619](https://www.google.com/maps?q=25.280848,73.198619) |  | partial |
+| Mandwala Toll Plaza |  | NETC 536429; Mandwala; mandawala, Rajasthan; 25.431909,72.504769 | [25.431909, 72.504769](https://www.google.com/maps?q=25.431909,72.504769) |  | partial |
+| Kusalpura Toll Plaza |  | NETC 536433; Kusalpura; Bhinmal, Rajasthan; 25.06725,72.280853 | [25.06725, 72.280853](https://www.google.com/maps?q=25.06725,72.280853) |  | partial |
+| Khara Toll Plaza |  | NETC 536442; Khara; Jaisalmer, Rajasthan; 28.139799,73.372548 | [28.139799, 73.372548](https://www.google.com/maps?q=28.139799,73.372548) |  | partial |
+| Kawani Toll Plaza |  | NETC 536443; Kawani; Bikaner, Rajasthan; 28.08927,73.186215 | [28.08927, 73.186215](https://www.google.com/maps?q=28.08927,73.186215) |  | partial |
+| Kanasar Toll Plaza |  | NETC 536444; Kanasar; Jaisalmer, Rajasthan; 28.119245,73.273177 | [28.119245, 73.273177](https://www.google.com/maps?q=28.119245,73.273177) |  | partial |
+| Naal Toll Plaza |  | NETC 536445; Naal; Jaisalmer, Rajasthan; 28.048095,73.159223 | [28.048095, 73.159223](https://www.google.com/maps?q=28.048095,73.159223) |  | partial |
+| Ghanmagara Toll Plaza |  | NETC 536446; Ghanmagara; BHAWI, Rajasthan; 26.255426,73.609569 | [26.255426, 73.609569](https://www.google.com/maps?q=26.255426,73.609569) |  | partial |
+| Nadatora Toll Plaza |  | NETC 536447; Nadatora; BHOPALGARGH, Rajasthan; 26.602062,73.531693 | [26.602062, 73.531693](https://www.google.com/maps?q=26.602062,73.531693) |  | partial |
+| Mangeria Toll Plaza |  | NETC 536448; Mangeria; KHIVSAR, Rajasthan; 26.855579,73.43332 | [26.855579, 73.43332](https://www.google.com/maps?q=26.855579,73.43332) |  | partial |
+| Talawali Toll Plaza |  | NETC 536452; Talawali; Gangadhar, Rajasthan |  | 30 | verified |
+| Sarnau Toll Plaza |  | NETC 536453; Sarnau; Barmer, Rajasthan; 25.653467,71.811131 | [25.653467, 71.811131](https://www.google.com/maps?q=25.653467,71.811131) |  | partial |
+| Tehendesar Toll Plaza |  | NETC 536456; Tehendesar; Bikaner, Rajasthan; 27.709744,73.992147 | [27.709744, 73.992147](https://www.google.com/maps?q=27.709744,73.992147) |  | partial |
+| Chalkoi Toll Plaza |  | NETC 536534; Chalkoi; Churu, Rajasthan; 28.540144,74.97547 | [28.540144, 74.97547](https://www.google.com/maps?q=28.540144,74.97547) |  | partial |
+| Bhanin Toll Plaza |  | NETC 536535; Bhanin; Churu, Rajasthan; 28.790489,75.030502 | [28.790489, 75.030502](https://www.google.com/maps?q=28.790489,75.030502) |  | partial |
+| Meghana Toll Plaza |  | NETC 536538; Meghana; Nohar, Rajasthan; 29.015935,74.819824 | [29.015935, 74.819824](https://www.google.com/maps?q=29.015935,74.819824) |  | partial |
+| Chaipura Toll Plaza |  | NETC 536543; Chaipura; Churu, Rajasthan; 28.798493,75.333937 | [28.798493, 75.333937](https://www.google.com/maps?q=28.798493,75.333937) |  | partial |
+| Jethana Toll Plaza |  | NETC 536588; Jethana; Ajmer, Rajasthan; 26.298637,74.453690 | [26.298637, 74.453690](https://www.google.com/maps?q=26.298637,74.453690) |  | partial |
+| Saisara Toll Plaza |  | NETC 536589; Saisara; Ajmer, Rajasthan; 26.581137,74.243030 | [26.581137, 74.243030](https://www.google.com/maps?q=26.581137,74.243030) |  | partial |
+| Gegalpura Toll Plaza |  | NETC 536590; Gegalpura; Ajmer, Rajasthan; 26.219500,74.382370 | [26.219500, 74.382370](https://www.google.com/maps?q=26.219500,74.382370) |  | partial |
+| Ladpura Toll Plaza |  | NETC 536591; Ladpura; Ajmer, Rajasthan; 26.516906,74.399223 | [26.516906, 74.399223](https://www.google.com/maps?q=26.516906,74.399223) |  | partial |
+| Kheruwala Toll Plaza |  | NETC 536592; Kheruwala; Hanumangarh, Rajasthan; 29.8454,74.2353 | [29.8454, 74.2353](https://www.google.com/maps?q=29.8454,74.2353) |  | partial |
+| Rodwal Toll Plaza |  | NETC 536598; Rodwal; Rodwal, Rajasthan; 28.012597,76.336071 | [28.012597, 76.336071](https://www.google.com/maps?q=28.012597,76.336071) |  | partial |
+| Anjana Toll Plaza |  | NETC 536603; Anjana; Anjana, Rajasthan; 23.54387,74.089953 | [23.54387, 74.089953](https://www.google.com/maps?q=23.54387,74.089953) |  | partial |
+| Dheerdhani Toll Plaza |  | NETC 536604; Dheerdhani; Manglana, Rajasthan; 27.017070,74.784271 | [27.017070, 74.784271](https://www.google.com/maps?q=27.017070,74.784271) |  | partial |
+| Kinsariya Toll Plaza |  | NETC 536605; Kinsariya; Parbatsar, Rajasthan; 26.925358,74.711325 | [26.925358, 74.711325](https://www.google.com/maps?q=26.925358,74.711325) |  | partial |
+| Upreda Toll Plaza |  | NETC 536606; Upreda; Banera, Rajasthan; 25.583541,74.741119 | [25.583541, 74.741119](https://www.google.com/maps?q=25.583541,74.741119) |  | partial |
+| Rampura Toll Plaza |  | NETC 536607; Rampura; Hurda, Rajasthan; 25.848718,74.707296 | [25.848718, 74.707296](https://www.google.com/maps?q=25.848718,74.707296) |  | partial |
+| 9Ps Toll Plaza |  | NETC 536609; 9Ps; Bikaner, Rajasthan; 29.57259,73.51361 | [29.57259, 73.51361](https://www.google.com/maps?q=29.57259,73.51361) |  | partial |
+| Shobhashar Toll Plaza |  | NETC 536610; Shobhashar; SriGanganagar, Rajasthan; 28.140791,73.213731 | [28.140791, 73.213731](https://www.google.com/maps?q=28.140791,73.213731) |  | partial |
+| Mudutara Sili Toll Plaza |  | NETC 536616; Mudutara Sili; Bhinmal, Rajasthan; 25.019209,72.458536 | [25.019209, 72.458536](https://www.google.com/maps?q=25.019209,72.458536) |  | partial |
+| Kotra Toll Plaza |  | NETC 536617; Kotra; Raniwara, Rajasthan; 24.808541,72.281935 | [24.808541, 72.281935](https://www.google.com/maps?q=24.808541,72.281935) |  | partial |
+| Gadhwala Toll Plaza |  | NETC 536621; Gadhwala; Village-Gadhwala, Rajasthan; 27.972445,73.467607 | [27.972445, 73.467607](https://www.google.com/maps?q=27.972445,73.467607) |  | partial |
+| Utmamdesar Toll Plaza |  | NETC 536622; Utmamdesar; Village-Uttmamdesar, Rajasthan; 27.83005,73.734925 | [27.83005, 73.734925](https://www.google.com/maps?q=27.83005,73.734925) |  | partial |
+| Benan Toll Plaza |  | NETC 536623; Benan; Jodhpur, Rajasthan; 26.322639,73.425500 | [26.322639, 73.425500](https://www.google.com/maps?q=26.322639,73.425500) |  | partial |
+| Bayad Toll Plaza |  | NETC 536624; Bayad; Nagor, Rajasthan; 26.53450,73.86564 | [26.53450, 73.86564](https://www.google.com/maps?q=26.53450,73.86564) |  | partial |
+| Adoosya Toll Plaza |  | NETC 536662; Adoosya; Adoosya, Rajasthan; 26.332506,75.138257 | [26.332506, 75.138257](https://www.google.com/maps?q=26.332506,75.138257) |  | partial |
+| Jogi Nada Toll Plaza |  | NETC 536663; Jogi Nada; Jogi Nada, Rajasthan; 26.53371,74.919344 | [26.53371, 74.919344](https://www.google.com/maps?q=26.53371,74.919344) |  | partial |
+| Shri Rampura Toll Plaza |  | NETC 536676; Shri Rampura; Rampura, Rajasthan; 26.246905,75.050955 | [26.246905, 75.050955](https://www.google.com/maps?q=26.246905,75.050955) |  | partial |
+| Keetap Toll Plaza |  | NETC 536699; Keetap; Keetap, Rajasthan; 26.14415,74.775235 | [26.14415, 74.775235](https://www.google.com/maps?q=26.14415,74.775235) |  | partial |
+| Lasadiya Toll Plaza |  | NETC 536700; Lasadiya; Lasadiya, Rajasthan; 26.097906,74.369223 | [26.097906, 74.369223](https://www.google.com/maps?q=26.097906,74.369223) |  | partial |
+| Dhanuri Toll Plaza |  | NETC 536773; Dhanuri; Dhanuri, Rajasthan; 28.218186,75.345927 | [28.218186, 75.345927](https://www.google.com/maps?q=28.218186,75.345927) |  | partial |
+| Lambor Badi Toll Plaza |  | NETC 536774; Lambor Badi; LamborBadi, Rajasthan; 28.552472,75.36895 | [28.552472, 75.36895](https://www.google.com/maps?q=28.552472,75.36895) |  | partial |
+| Kasari Toll Plaza |  | NETC 570010; Kasari; Nagaur, Rajasthan; 27.023008,74.811117 | [27.023008, 74.811117](https://www.google.com/maps?q=27.023008,74.811117) |  | partial |
+| Chapri Toll Plaza |  | NETC 570011; Chapri; Nagaur, Rajasthan; 27.349756,74.671431 | [27.349756, 74.671431](https://www.google.com/maps?q=27.349756,74.671431) |  | partial |
+| Padiyara Toll Plaza |  | NETC 570012; Padiyara; Churu, Rajasthan; 27.916553,74.554469 | [27.916553, 74.554469](https://www.google.com/maps?q=27.916553,74.554469) |  | partial |
+| Malasar Toll Plaza |  | NETC 570013; Malasar; Churu, Rajasthan; 28.262625,74.565161 | [28.262625, 74.565161](https://www.google.com/maps?q=28.262625,74.565161) |  | partial |
+| Pallu Toll Plaza |  | NETC 570014; Pallu; Hanumangarh, Rajasthan; 28.951956,74.225031 | [28.951956, 74.225031](https://www.google.com/maps?q=28.951956,74.225031) |  | partial |
+| Kolha Toll Plaza |  | NETC 570015; Kolha; Hanumangarh, Rajasthan; 29.519569,74.335958 | [29.519569, 74.335958](https://www.google.com/maps?q=29.519569,74.335958) |  | partial |
+| Kolu Toll Plaza |  | NETC 570016; Kolu; Jodhpur, Rajasthan; 26.904603,72.312525 | [26.904603, 72.312525](https://www.google.com/maps?q=26.904603,72.312525) |  | partial |
+| Kelankot Toll Plaza |  | NETC 570017; Kelankot; Barmer, Rajasthan; 26.108914,72.376761 | [26.108914, 72.376761](https://www.google.com/maps?q=26.108914,72.376761) |  | partial |
+| Bhooka Toll Plaza |  | NETC 570018; Bhooka; Barmer, Rajasthan; 25.640861,72.000211 | [25.640861, 72.000211](https://www.google.com/maps?q=25.640861,72.000211) |  | partial |
+| Naya Nagar Toll Plaza |  | NETC 570019; Naya Nagar; Barmer, Rajasthan; 25.248178,71.733328 | [25.248178, 71.733328](https://www.google.com/maps?q=25.248178,71.733328) |  | partial |
+| Bagdi KM 14 Toll Plaza |  | NETC 570020; Bagdi KM 14; Dausa, Rajasthan; 26.431950,76.373506 | [26.431950, 76.373506](https://www.google.com/maps?q=26.431950,76.373506) |  | partial |
+| Bhadoti Toll Plaza |  | NETC 570021; Bhadoti; SawaiMadhopur, Rajasthan; 26.224711,76.370728 | [26.224711, 76.370728](https://www.google.com/maps?q=26.224711,76.370728) |  | partial |
+| Indragarh Toll Plaza |  | NETC 570022; Indragarh; Bundi, Rajasthan; 25.743931,76.168992 | [25.743931, 76.168992](https://www.google.com/maps?q=25.743931,76.168992) |  | partial |
+| Patan GudlaPlaza Toll Plaza |  | NETC 570023; Patan GudlaPlaza; Bundi, Rajasthan; 25.285600,75.897097 | [25.285600, 75.897097](https://www.google.com/maps?q=25.285600,75.897097) |  | partial |
+| Khanpur Toll Toll Plaza |  | NETC 570024; Khanpur Toll; Jhalawar, Rajasthan; 24.657272,76.315022 | [24.657272, 76.315022](https://www.google.com/maps?q=24.657272,76.315022) |  | partial |
+| Sikandra Toll Toll Plaza |  | NETC 570025; Sikandra Toll; Dausa, Rajasthan; 26.978589,76.573914 | [26.978589, 76.573914](https://www.google.com/maps?q=26.978589,76.573914) |  | partial |
+| Mahuwa Toll Toll Plaza |  | NETC 570026; Mahuwa Toll; Alwar, Rajasthan; 27.457686,76.607661 | [27.457686, 76.607661](https://www.google.com/maps?q=27.457686,76.607661) |  | partial |
+| Jetpur Toll Plaza |  | NETC 570027; Jetpur; Bikaner, Rajasthan; 28.886175,74.019717 | [28.886175, 74.019717](https://www.google.com/maps?q=28.886175,74.019717) |  | partial |
+| Sangaria Toll Plaza |  | NETC 570028; Sangaria; Bikaner, Rajasthan; 29.720628,74.438664 | [29.720628, 74.438664](https://www.google.com/maps?q=29.720628,74.438664) |  | partial |
+| Papri Toll Toll Plaza |  | NETC 570029; Papri Toll; Alwar, Rajasthan; 27.714361,76.742856 | [27.714361, 76.742856](https://www.google.com/maps?q=27.714361,76.742856) |  | partial |
+| Tijara Toll Toll Plaza |  | NETC 570030; Tijara Toll; Alwar, Rajasthan; 27.922797,76.838581 | [27.922797, 76.838581](https://www.google.com/maps?q=27.922797,76.838581) |  | partial |
+| Bhiwadi Toll Toll Plaza |  | NETC 570031; Bhiwadi Toll; Alwar, Rajasthan; 28.174303,76.824531 | [28.174303, 76.824531](https://www.google.com/maps?q=28.174303,76.824531) |  | partial |
+| KK Toll Plaza |  | NETC 570032; KK; Alwar, Rajasthan; 28.105358,76.708050 | [28.105358, 76.708050](https://www.google.com/maps?q=28.105358,76.708050) |  | partial |
+| Ralayati KM 9 Toll Plaza |  | NETC 570033; Ralayati KM 9; Jhalawar, Rajasthan; 24.562992,76.114578 | [24.562992, 76.114578](https://www.google.com/maps?q=24.562992,76.114578) |  | partial |
+| Rajpura KM 24 Toll Plaza |  | NETC 570034; Rajpura KM 24; Jhalawar, Rajasthan; 23.957803,75.860369 | [23.957803, 75.860369](https://www.google.com/maps?q=23.957803,75.860369) |  | partial |
+| Ujjain-Jhalawar(Binda) Toll Plaza |  | NETC 570035; Ujjain-Jhalawar(Binda); Jhalawar, Rajasthan; 24.418694,76.188203 | [24.418694, 76.188203](https://www.google.com/maps?q=24.418694,76.188203) |  | partial |
+| Toparia Toll Plaza |  | NETC 570036; Toparia; Hanumagarh, Rajasthan; 29.277272,74.631967 | [29.277272, 74.631967](https://www.google.com/maps?q=29.277272,74.631967) |  | partial |
+| Gogamedi Toll Plaza |  | NETC 570037; Gogamedi; Hanumagarh, Rajasthan; 29.134011,75.058531 | [29.134011, 75.058531](https://www.google.com/maps?q=29.134011,75.058531) |  | partial |
+| Amarpura Toll Plaza |  | NETC 570038; Amarpura; Hanumagarh, Rajasthan; 29.085436,75.320028 | [29.085436, 75.320028](https://www.google.com/maps?q=29.085436,75.320028) |  | partial |
+| MB(Gundwa) Toll Plaza |  | NETC 570039; MB(Gundwa); Bharatpur, Rajasthan; 27.248519,77.469328 | [27.248519, 77.469328](https://www.google.com/maps?q=27.248519,77.469328) |  | partial |
+| GB(Newadiya) Toll Plaza |  | NETC 570040; GB(Newadiya); SawaiMadhopur, Rajasthan; 26.378622,76.546867 | [26.378622, 76.546867](https://www.google.com/maps?q=26.378622,76.546867) |  | partial |
+| Ragunathpura Toll Plaza |  | NETC 570048; Ragunathpura; Sikar, Rajasthan; 28.29256,75.70622 | [28.29256, 75.70622](https://www.google.com/maps?q=28.29256,75.70622) |  | partial |
+| Dadiya Toll Plaza |  | NETC 570049; Dadiya; Sikar, Rajasthan; 27.71179,75.21063 | [27.71179, 75.21063](https://www.google.com/maps?q=27.71179,75.21063) |  | partial |
+| Shahpura Toll Plaza |  | NETC 570050; Shahpura; Jaipur, Rajasthan; 25.59767,74.87327 | [25.59767, 74.87327](https://www.google.com/maps?q=25.59767,74.87327) |  | partial |
+| Malpura Toll Plaza |  | NETC 570051; Malpura; Jaipur, Rajasthan; 26.30658,75.41294 | [26.30658, 75.41294](https://www.google.com/maps?q=26.30658,75.41294) |  | partial |
+| Renwal Toll Plaza |  | NETC 570052; Renwal; Jaipur, Rajasthan; 26.67705,75.66506 | [26.67705, 75.66506](https://www.google.com/maps?q=26.67705,75.66506) |  | partial |
+| Dighal Toll Plaza |  | NETC 570053; Dighal; Sikar, Rajasthan; 28.06734,75.34098 | [28.06734, 75.34098](https://www.google.com/maps?q=28.06734,75.34098) |  | partial |
+| Kekri Toll Plaza |  | NETC 570054; Kekri; Jaipur, Rajasthan; 25.93807,75.14053 | [25.93807, 75.14053](https://www.google.com/maps?q=25.93807,75.14053) |  | partial |
+| Mount AbuGreen TaxPlaza Toll Plaza |  | NETC 570056; Mount AbuGreen TaxPlaza; MountAbu, Rajasthan; 24.580674,72.725067 | [24.580674, 72.725067](https://www.google.com/maps?q=24.580674,72.725067) |  | partial |
 
 ---
 
