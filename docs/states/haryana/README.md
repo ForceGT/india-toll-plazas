@@ -1,8 +1,8 @@
 # Toll plazas in Haryana — India
 
-Browse **87 FASTag toll plazas** across 25 national highways in Haryana. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **88 FASTag toll plazas** across 26 national highways in Haryana. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 71 complete, 16 partial · **Last updated:** 2026-06-05
+**Coverage:** 72 complete, 16 partial · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,8 +17,8 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 71 | 81.6% |
-| partial | 16 | 18.4% |
+| complete | 72 | 81.8% |
+| partial | 16 | 18.2% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -91,6 +91,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Bamla | 709E | Bhiwani | [28.804775, 76.223163](https://www.google.com/maps?q=28.804775,76.223163) | 50 | complete |
 | Makrauli Kalan | 709 (71 A) | Km 14.600 | [28.944307, 76.609736](https://www.google.com/maps?q=28.944307,76.609736) | 85 | complete |
 | Dahar | 709 | Km 73.450 | [29.31922, 76.918442](https://www.google.com/maps?q=29.31922,76.918442) | 70 | complete |
+| Tamsabad | 709AD | Moradabad | [29.390801, 77.135678](https://www.google.com/maps?q=29.390801,77.135678) | 75 | complete |
 | Gulzarpur (Close Loop Toll) |  |  | [29.846186, 76.170343](https://www.google.com/maps?q=29.846186,76.170343) | 0 | complete |
 | Pelak (EPE Close Loop Toll) | NE II |  | [28.127789 ,  77.406093](https://www.google.com/maps?q=28.127789 , 77.406093) |  | complete |
 | Kundali |  | NETC 312036; Kundali; Kundali, Haryana; 28.911104,77.025054 | [28.911104, 77.025054](https://www.google.com/maps?q=28.911104,77.025054) | 35 | partial |

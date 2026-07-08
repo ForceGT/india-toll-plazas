@@ -2,7 +2,7 @@
 
 Browse **43 FASTag toll plazas** across 21 national highways in Bihar. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 43 complete · **Last updated:** 2026-06-05
+**Coverage:** 43 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 

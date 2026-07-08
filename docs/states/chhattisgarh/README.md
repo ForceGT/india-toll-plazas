@@ -2,7 +2,7 @@
 
 Browse **25 FASTag toll plazas** across 9 national highways in Chhattisgarh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 25 complete · **Last updated:** 2026-06-05
+**Coverage:** 25 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -36,11 +36,11 @@ What "confidence" means, so you know how much to trust a given rate:
 | Mudipar | 49 New   | at Km 110.300 | [27.2038, 77.5011](https://www.google.com/maps?q=27.2038,77.5011) | 50 | complete |
 | Jhalmala Toll Plaza | 49 | Near village Jhalmala DisttRaigarh (C.G.) | [21.817222, 83.434444](https://www.google.com/maps?q=21.817222,83.434444) | 75 | complete |
 | Kumhari | 53 | At Km 285.40 of Raipur Durg Section from Km 281.00 to 307.600 of NH6 (New NH53) in the State of Chattisgarh | [21.252824, 81.537318](https://www.google.com/maps?q=21.252824,81.537318) | 25 | complete |
-| Mandir Hasaud | 53 | Ch. 258.650 | [21.23198, 81.7591667](https://www.google.com/maps?q=21.23198,81.7591667) | 60 | complete |
+| Mandir Hasaud | 53 | Ch. 258.650 | [21.23198, 81.7591667](https://www.google.com/maps?q=21.23198,81.7591667) | 65 | complete |
 | Chhuhipali | 53 | Km 123.206 | [21.299829, 82.94286](https://www.google.com/maps?q=21.299829,82.94286) | 135 | complete |
 | Dhank | 53 | Km 182.636 | [21.226901, 82.422438](https://www.google.com/maps?q=21.226901,82.422438) | 185 | complete |
-| Durg Bypass (Dhamdanaka) | 53 | Km 312.780 | [21.214518, 81.287962](https://www.google.com/maps?q=21.214518,81.287962) | 75 | complete |
-| Thakurtola (End Of Durg Bypass) | 53 | Km 331.865 | [21.117914, 81.122298](https://www.google.com/maps?q=21.117914,81.122298) | 115 | complete |
+| Durg Bypass (Dhamdanaka) | 53 | Km 312.780 | [21.214518, 81.287962](https://www.google.com/maps?q=21.214518,81.287962) | 80 | complete |
+| Thakurtola (End Of Durg Bypass) | 53 | Km 331.865 | [21.117914, 81.122298](https://www.google.com/maps?q=21.117914,81.122298) | 120 | complete |
 | Chotiya | 130 | Chotiya | [22.7777, 82.48068](https://www.google.com/maps?q=22.7777,82.48068) | 75 | complete |
 | Limha | 130 | Limha | [22.2892962, 82.3030303](https://www.google.com/maps?q=22.2892962,82.3030303) | 115 | complete |
 | Bhojpuri | 130 | Village Bhojpuri | [21.950763, 82.061806](https://www.google.com/maps?q=21.950763,82.061806) | 105 | complete |

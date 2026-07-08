@@ -2,7 +2,7 @@
 
 Browse **15 FASTag toll plazas** across 4 national highways in Himachal Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 4 complete, 11 partial · **Last updated:** 2026-06-05
+**Coverage:** 4 complete, 11 partial · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -22,7 +22,7 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
-| Baloh Fee Plaza | 21(New 205 &amp; 154)  | Baloh Bilaspur | [31.4207637, 76.7979863](https://www.google.com/maps?q=31.4207637,76.7979863) | 110 | complete |
+| Baloh Fee Plaza | 21(New 205 &amp; 154)  | Baloh Bilaspur | [31.4207637, 76.7979863](https://www.google.com/maps?q=31.4207637,76.7979863) | 115 | complete |
 | Moura Toll Plaza | 21(New 205 &amp;154)  | KM. 81.620 | [31.2120516, 76.6407424](https://www.google.com/maps?q=31.2120516,76.6407424) | 150 | complete |
 | Sanwara | 22 (New 5) | Km 80.722 | [30.892075, 77.004646](https://www.google.com/maps?q=30.892075,77.004646) | 115 | complete |
 | Ghatta Toll Plaza | 88 (New  303 and 503) | Shrishikalan (Kabarai-Banda Section) at Km 193.600 | [32.02941 ,  76.246884](https://www.google.com/maps?q=32.02941 , 76.246884) | 25 | complete |

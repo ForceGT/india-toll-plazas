@@ -1,8 +1,8 @@
 # Toll plazas in Uttar Pradesh — India
 
-Browse **134 FASTag toll plazas** across 53 national highways in Uttar Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **133 FASTag toll plazas** across 53 national highways in Uttar Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 134 complete · **Last updated:** 2026-06-05
+**Coverage:** 133 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,7 +17,7 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 134 | 100.0% |
+| complete | 133 | 100.0% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -34,8 +34,8 @@ What "confidence" means, so you know how much to trust a given rate:
 | Kokhraj (Sihori Uparhar) (Close Loop Toll ) | 19 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.576505, 81.529541](https://www.google.com/maps?q=25.576505,81.529541) |  | complete |
 | Nawabganj (Adampur) (Close Loop Toll ) | 19 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.558856, 81.772125](https://www.google.com/maps?q=25.558856,81.772125) |  | complete |
 | Sahson (Bhopatpur)(Close Loop Toll ) | 19 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.490249, 81.996729](https://www.google.com/maps?q=25.490249,81.996729) |  | complete |
-| Soraon (Rajapur Maksudan)(Close Loop Toll ) | 19 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.558856, 81.772125](https://www.google.com/maps?q=25.558856,81.772125) | 0 | complete |
 | Shringverpur Toll Plaza (Close Loop Toll  ) | 19 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.596499, 81.64227](https://www.google.com/maps?q=25.596499,81.64227) |  | complete |
+| Soraon (Rajapur Maksudan)(Close Loop Toll ) | 19 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.558856, 81.772125](https://www.google.com/maps?q=25.558856,81.772125) | 0 | complete |
 | Katoghan | 19 | Km 120.500 | [25.749487, 81.170481](https://www.google.com/maps?q=25.749487,81.170481) | 100 | complete |
 | Mahuvan Toll Plaza | 19 | Km 164.000 | [27.337188, 77.737458](https://www.google.com/maps?q=27.337188,77.737458) | 105 | complete |
 | Lalanagar | 19 | Km 279.120 | [25.266948, 82.491513](https://www.google.com/maps?q=25.266948,82.491513) | 240 | complete |
@@ -62,12 +62,12 @@ What "confidence" means, so you know how much to trust a given rate:
 | Sherpur Chamaraha | 27 | 5.6 | [26.8219, 83.29387](https://www.google.com/maps?q=26.8219,83.29387) | 55 | complete |
 | Muziana Hetim | 27 | Gorakhpur Bypass | [26.7337738, 83.8070921](https://www.google.com/maps?q=26.7337738,83.8070921) | 65 | complete |
 | Tendua  | 27 | Gorakhpur Bypass | [26.723807, 83.273924](https://www.google.com/maps?q=26.723807,83.273924) | 105 | complete |
-| Salemgarh | 27 | Gorakhpur-Kasia-Up Bihar border  | [26.632223, 84.237191](https://www.google.com/maps?q=26.632223,84.237191) | 65 | complete |
 | Chaukadi | 27 | Km 163.000 | [26.7814606, 82.4158285](https://www.google.com/maps?q=26.7814606,82.4158285) | 110 | complete |
 | Mandawnagar | 27 | Km 198.000 | [26.7967445, 82.6939678](https://www.google.com/maps?q=26.7967445,82.6939678) | 110 | complete |
 | Usaka ( Chamari) | 27 | Km 229.913 | [26.036608, 79.577976](https://www.google.com/maps?q=26.036608,79.577976) | 115 | complete |
 | Amdi | 28 | 164.75 | [26.3683393, 82.8865137](https://www.google.com/maps?q=26.3683393,82.8865137) | 105 | complete |
 | Shahabpur | 28 | 5.925 Km | [26.94928, 81.25645](https://www.google.com/maps?q=26.94928,81.25645) | 40 | complete |
+| Salemgarh | 28 | Gorakhpur-Kasia-Up Bihar border  | [26.632223, 84.237191](https://www.google.com/maps?q=26.632223,84.237191) | 65 | complete |
 | Ronahi(Raunahi) | 28 | Km 107.000 | [26.7679111, 81.9492506](https://www.google.com/maps?q=26.7679111,81.9492506) | 115 | complete |
 | Gulalpurva | 28 | Km 125.200 | [27.825548, 81.527252](https://www.google.com/maps?q=27.825548,81.527252) | 55 | complete |
 | Ahmadpur(Ahamadpur) | 28 | Km 53.000 | [26.8584617, 81.4197804](https://www.google.com/maps?q=26.8584617,81.4197804) | 115 | complete |
@@ -91,9 +91,9 @@ What "confidence" means, so you know how much to trust a given rate:
 | Umapur | 35 | KM 377.550 | [25.27192, 81.74293](https://www.google.com/maps?q=25.27192,81.74293) | 50 | complete |
 | Asroga | 56 | 127.37 | [26.305027, 81.945919](https://www.google.com/maps?q=26.305027,81.945919) | 115 | complete |
 | Bara | 56 (New 731) | 51.160 km | [26.6296984, 81.3279137](https://www.google.com/maps?q=26.6296984,81.3279137) | 110 | complete |
-| Siwaya | 58 | Km 75.990 | [29.095601, 77.710995](https://www.google.com/maps?q=29.095601,77.710995) | 110 | complete |
+| Siwaya | 58 (New NH No- 334) | Km 75.990 | [29.095601, 77.710995](https://www.google.com/maps?q=29.095601,77.710995) | 110 | complete |
 | Jorwara | 76 | 320.635 | [25.144848, 81.16331](https://www.google.com/maps?q=25.144848,81.16331) | 40 | complete |
-| Bamhori Kurmin | 76 (New 39) | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [25.357245, 79.427843](https://www.google.com/maps?q=25.357245,79.427843) | 40 | complete |
+| Bamhori Kurmin | 76 (New 339) | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [25.357245, 79.427843](https://www.google.com/maps?q=25.357245,79.427843) | 40 | complete |
 | Shrishikalan | 76 | Shrishikalan (Kabarai-Banda Section) at Km 193.600 | [25.435025, 80.12783](https://www.google.com/maps?q=25.435025,80.12783) | 40 | complete |
 | Kiratpur | 91(New 34) | 167.328 | [27.7918903, 78.286552](https://www.google.com/maps?q=27.7918903,78.286552) | 80 | complete |
 | Basheerapur Toll Plaza | 91(New 34) | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [27.0726764, 79.8422401](https://www.google.com/maps?q=27.0726764,79.8422401) | 125 | complete |
@@ -126,13 +126,12 @@ What "confidence" means, so you know how much to trust a given rate:
 | Amipur Baleni | 334B | Atnear Amipur Bakharpur Baleni | [28.9594301, 77.4432308](https://www.google.com/maps?q=28.9594301,77.4432308) | 45 | complete |
 | Dasna (DME Close Loop Toll) | 334 | Km 29.300 | [28.684924, 77.522471](https://www.google.com/maps?q=28.684924,77.522471) | 0 | complete |
 | Jawr Toll Plaza | 530B | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [27.5998 ,  77.9002](https://www.google.com/maps?q=27.5998 , 77.9002) | 165 | complete |
-| Mujhera Fee Plaza | 709AD |  | [29.303119, 77.921096](https://www.google.com/maps?q=29.303119,77.921096) | 60 | complete |
 | Dabhedi Toll Plaza | 709B |  | [29.64618329907777, 77.43287412883566](https://www.google.com/maps?q=29.64618329907777,77.43287412883566) | 105 | complete |
+| Mujhera Fee Plaza | 709AD |  | [29.303119, 77.921096](https://www.google.com/maps?q=29.303119,77.921096) | 60 | complete |
 | Bhuni | 709A | At Design Km 13.950 of NH709A near Bhuni Village of Meerut district of Uttar Pradesh. | [29.1258156, 77.576857](https://www.google.com/maps?q=29.1258156,77.576857) | 85 | complete |
 | Jagahedi | 709AD | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [29.467742, 77.612222](https://www.google.com/maps?q=29.467742,77.612222) | 90 | complete |
 | Patni Pratapur | 709AA | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [29.5305813, 77.1987441](https://www.google.com/maps?q=29.5305813,77.1987441) | 60 | complete |
 | Jiwana | 709 B | Km 34.500 | [29.164995, 77.276135](https://www.google.com/maps?q=29.164995,77.276135) | 95 | complete |
-| Tamsabad | 709AD | Moradabad | [29.390801, 77.135678](https://www.google.com/maps?q=29.390801,77.135678) | 75 | complete |
 | Akbarganj Simra (Tikri) | 730C, 730B & 731K |  | [28.366675, 79.799810](https://www.google.com/maps?q=28.366675,79.799810) | 45 | complete |
 | Dularpur | 730 | 265.865 | [27.5786686, 81.6335653](https://www.google.com/maps?q=27.5786686,81.6335653) | 60 | complete |
 | Gulhaura | 730 | 407.75 | [27.443591, 82.924243](https://www.google.com/maps?q=27.443591,82.924243) | 30 | complete |
@@ -144,16 +143,16 @@ What "confidence" means, so you know how much to trust a given rate:
 | Badagawn | 730 | Tulsipur Badagawn | [27.505481, 82.375101](https://www.google.com/maps?q=27.505481,82.375101) | 25 | complete |
 | Baiti Kala Toll Plaza | 731 | 175.050 Km. | [26.054515, 82.339368](https://www.google.com/maps?q=26.054515,82.339368) | 150 | complete |
 | Balleepur Toll Plaza | 731 | At ch. 183.627 | [27.2634002, 80.2257525](https://www.google.com/maps?q=27.2634002,80.2257525) | 90 | complete |
-| Badagaon (EPE Close Loop Toll) | NE II |  | [28.86933846808413 ,  77.32394926295241](https://www.google.com/maps?q=28.86933846808413 , 77.32394926295241) |  | complete |
-| Bakhtyarpur Toll Plaza |  |  | [26.873570, 79.116805](https://www.google.com/maps?q=26.873570,79.116805) | 55 | complete |
 | Bautha Toll Plaza |  |  | [27.982242, 80.659293](https://www.google.com/maps?q=27.982242,80.659293) | 50 | complete |
 | Kudaiya Toll Plaza |  |  | [27.816366, 79.669052](https://www.google.com/maps?q=27.816366,79.669052) | 60 | complete |
 | Jakhauli  (EPE Close Loop Toll) | NE II | Km 5.5 | [28.917251, 77.161054](https://www.google.com/maps?q=28.917251,77.161054) | 0 | complete |
+| Mawikalan (EPE Close Loop Toll) | NE II | Km 15.36 | [28.877058, 77.250984](https://www.google.com/maps?q=28.877058,77.250984) | 0 | complete |
 | Duhai (EPE Close Loop Toll) | NE II | Km 44.512 | [28.73377, 77.47471](https://www.google.com/maps?q=28.73377,77.47471) | 0 | complete |
 | Dasna (EPE Close Loop Toll) | NE II | Km 52.192 | [28.68572, 77.53373](https://www.google.com/maps?q=28.68572,77.53373) | 0 | complete |
 | Bilakbarpur (EPE Close Loop Toll) | NE II | Km 72.724 | [28.52294, 77.59598](https://www.google.com/maps?q=28.52294,77.59598) | 0 | complete |
 | Fatehpur Rampur (EPE Close Loop Toll) | NE II | Km 83.005 | [28.43818, 77.58719](https://www.google.com/maps?q=28.43818,77.58719) | 0 | complete |
-| Mawikalan (EPE Close Loop Toll) | NE II | Km 15.36 | [28.877058, 77.250984](https://www.google.com/maps?q=28.877058,77.250984) | 0 | complete |
+| Badagaon (EPE Close Loop Toll) | NE II |  | [28.86933846808413 ,  77.32394926295241](https://www.google.com/maps?q=28.86933846808413 , 77.32394926295241) |  | complete |
+| Bakhtyarpur Toll Plaza |  |  | [26.873570, 79.116805](https://www.google.com/maps?q=26.873570,79.116805) | 55 | complete |
 | Maujpur (EPE Close Loop Toll) | NE II | Km 108.570 | [28.2810361, 77.4389116](https://www.google.com/maps?q=28.2810361,77.4389116) | 0 | complete |
 
 ---

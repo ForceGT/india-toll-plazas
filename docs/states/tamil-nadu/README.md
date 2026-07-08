@@ -1,8 +1,8 @@
 # Toll plazas in Tamil Nadu — India
 
-Browse **103 FASTag toll plazas** across 38 national highways in Tamil Nadu. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **106 FASTag toll plazas** across 40 national highways in Tamil Nadu. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 80 complete, 23 partial · **Last updated:** 2026-06-05
+**Coverage:** 83 complete, 23 partial · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,8 +17,8 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 80 | 77.7% |
-| partial | 23 | 22.3% |
+| complete | 83 | 78.3% |
+| partial | 23 | 21.7% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -82,7 +82,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | H.Pudhupatti | 179 A | 39.76 | [11.96768, 78.42593](https://www.google.com/maps?q=11.96768,78.42593) | 95 | complete |
 | Kadhavani Toll Plaza | 179A | Jamni, Dist Jind | [12.375194 ,  78.545639](https://www.google.com/maps?q=12.375194 , 78.545639) | 70 | complete |
 | Sevugampatti Toll Plaza | 183 | 27+900 | [10.193994 ,  77.794270](https://www.google.com/maps?q=10.193994 , 77.794270) | 85 | complete |
-| Upparpatti | 183 | 83.943 | [9.942697, 77.419667](https://www.google.com/maps?q=9.942697,77.419667) | 55 | complete |
+| Upparpatti | 183 | 83.943 | [9.942697, 77.419667](https://www.google.com/maps?q=9.942697,77.419667) | 60 | complete |
 | S V Puram | 205 | Km 305.800 | [13.525577, 79.532925](https://www.google.com/maps?q=13.525577,79.532925) | 70 | complete |
 | Pattaraiperumbudur  | 205 | Km 31.800 | [13.150776, 79.834675](https://www.google.com/maps?q=13.150776,79.834675) | 20 | complete |
 | Kodikottai | 210 (New   536)) | Km 114.550 | [9.8879515, 78.8477001](https://www.google.com/maps?q=9.8879515,78.8477001) | 45 | complete |
@@ -94,11 +94,14 @@ What "confidence" means, so you know how much to trust a given rate:
 | Thennamadevi | 234 | Thennamadevi Km.198.600 | [11.9829, 79.4835](https://www.google.com/maps?q=11.9829,79.4835) | 35 | complete |
 | Vallam | 234 | Vallam Km.80.600 | [12.770442, 79.148816](https://www.google.com/maps?q=12.770442,79.148816) | 35 | complete |
 | Velampatti Toll Plaza | 381 | Avinashipalayam | [10.99368, 77.41802](https://www.google.com/maps?q=10.99368,77.41802) | 45 | complete |
+| Elurpatti Toll Plaza | 381B | Km 53.441.50 | [11.032578377822981, 78.27430832561208](https://www.google.com/maps?q=11.032578377822981,78.27430832561208) | 50 | complete |
 | Keezhkuppam | 532 | at 97.500 | [11.576895, 78.936138](https://www.google.com/maps?q=11.576895,78.936138) | 50 | complete |
 | U Ponnalagaram | 532 | Jamni, Dist Jind | [11.52775, 79.403611](https://www.google.com/maps?q=11.52775,79.403611) | 50 | complete |
 | Madukkarai | 544 |  | [10.895638, 76.945815](https://www.google.com/maps?q=10.895638,76.945815) | 35 | complete |
-| Vellar Toll Plaza | 544H |  | [11.912405, 78.00445](https://www.google.com/maps?q=11.912405,78.00445) |  | complete |
+| Vellar Toll Plaza | 544H | 06+350 | [11.912405, 78.00445](https://www.google.com/maps?q=11.912405,78.00445) | 40 | complete |
+| Ammapettai | 544H | 60.300 | [11.610713, 77.735715](https://www.google.com/maps?q=11.610713,77.735715) | 30 | complete |
 | IVRCL Chengapally Tollways Limited (Kaniyur) | 544 | Km 136.840 | [11.095622, 77.151091](https://www.google.com/maps?q=11.095622,77.151091) | 125 | complete |
+| Nathampatti Toll Plaza | 744 | - | [9.583867, 77.725264](https://www.google.com/maps?q=9.583867,77.725264) | 85 | complete |
 | Pudur | 785 | Vill-Bagsarai (200.100) | [10.11105862537124, 78.1789878](https://www.google.com/maps?q=10.11105862537124,78.1789878) | 195 | complete |
 | Karagadahalli Toll Plaza | 844 | Rampura | [12.2606576, 78.0796283](https://www.google.com/maps?q=12.2606576,78.0796283) | 85 | complete |
 | Thirupathisaram | 944 | 21.253 | [8.2062014, 77.4602893](https://www.google.com/maps?q=8.2062014,77.4602893) | 45 | complete |

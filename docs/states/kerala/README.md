@@ -2,7 +2,7 @@
 
 Browse **11 FASTag toll plazas** across 5 national highways in Kerala. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 11 complete · **Last updated:** 2026-06-05
+**Coverage:** 11 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -22,6 +22,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Olavanna Fee Plaza | 66 |  Near Mampuzha Bridge,Pantheerankaavu at Km.250+300 | [11.238336, 75.840869](https://www.google.com/maps?q=11.238336,75.840869) | 130 | complete |
+| Vettichira Toll Plaza | NH-66(old NH-17) | 297+540 (new NH Ch.275+783 ) | [10.92749, 76.02848](https://www.google.com/maps?q=10.92749,76.02848) | 145 | complete |
 | Kumbla Toll Plaza | 66 | KM 20+000 | [12.600080, 74.939863](https://www.google.com/maps?q=12.600080,74.939863) | 85 | complete |
 | Kumbalam | 66 | Km 356.500 | [9.89525, 76.313542](https://www.google.com/maps?q=9.89525,76.313542) | 50 | complete |
 | Thiruvallam | 66 | Rampura | [8.4326672, 76.959595](https://www.google.com/maps?q=8.4326672,76.959595) | 160 | complete |
@@ -31,7 +32,6 @@ What "confidence" means, so you know how much to trust a given rate:
 | Paliyekkara | 544 | Km 278.000 | [10.442868, 76.260179](https://www.google.com/maps?q=10.442868,76.260179) | 90 | complete |
 | Panniyankara | 544 | Panniyankara Ch. 239.030 | [10.591108, 76.458583](https://www.google.com/maps?q=10.591108,76.458583) | 120 | complete |
 | Ponnarimangalam |   966 A | 27+900 | [10.010336, 76.257977](https://www.google.com/maps?q=10.010336,76.257977) | 65 | complete |
-| Vettichira Toll Plaza | 968 | 297+540 (new NH Ch.275+783 ) | [10.92749, 76.02848](https://www.google.com/maps?q=10.92749,76.02848) | 145 | complete |
 
 ---
 

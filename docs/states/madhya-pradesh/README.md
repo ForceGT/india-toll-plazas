@@ -1,8 +1,8 @@
 # Toll plazas in Madhya Pradesh — India
 
-Browse **109 FASTag toll plazas** across 53 national highways in Madhya Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **110 FASTag toll plazas** across 54 national highways in Madhya Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 109 complete · **Last updated:** 2026-06-05
+**Coverage:** 110 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,7 +17,7 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 109 | 100.0% |
+| complete | 110 | 100.0% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -87,8 +87,8 @@ What "confidence" means, so you know how much to trust a given rate:
 | Rojwas Toll Plaza | 52 | 291.55 | [23.330918, 76.175973](https://www.google.com/maps?q=23.330918,76.175973) | 150 | complete |
 | Baharagaon Toll Plaza | 53 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [22.314936, 77.249764](https://www.google.com/maps?q=22.314936,77.249764) | 120 | complete |
 | Sendurwafa | 53 | Km 449.260 | [21.088119, 80.032855](https://www.google.com/maps?q=21.088119,80.032855) | 100 | complete |
-| Dattigaon Toll Plaza |  59 (New 47) | (Km 18.585) | [22.741519, 74.836537](https://www.google.com/maps?q=22.741519,74.836537) | 155 | complete |
 | IVRCL ramp plaza (Dattigaon ,Authority's Part) | 59 | (Km 18.585) | [22.741726 ,  74.836322](https://www.google.com/maps?q=22.741726 , 74.836322) | 35 | complete |
+| Dattigaon Toll Plaza |  59 (New 47) | (Km 18.585) | [22.741519, 74.836537](https://www.google.com/maps?q=22.741519,74.836537) | 155 | complete |
 | Methwada (Ghatabillod) Toll Plaza | 59 (New 47) | Km 34.45 | [22.6731595, 75.545744](https://www.google.com/maps?q=22.6731595,75.545744) | 170 | complete |
 | Bagwada Fee Plaza | 69 (New 46) | At Km. 31.700 | [22.7816023, 77.7316125](https://www.google.com/maps?q=22.7816023,77.7316125) | 160 | complete |
 | Sonvarsha Toll Plaza | 75E (New 39) | 58.8 | [24.395686, 81.803255](https://www.google.com/maps?q=24.395686,81.803255) | 65 | complete |
@@ -107,6 +107,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Chikhlikala Toll Plaza | 347 | Km 21.00 | [21.842406, 78.4351696](https://www.google.com/maps?q=21.842406,78.4351696) | 75 | complete |
 | Mengaon Toll Plaza |  347C | Mengaon | [21.901118277001423, 75.60459026368291](https://www.google.com/maps?q=21.901118277001423,75.60459026368291) | 65 | complete |
 | Chhegaon Makhan Toll Plaza | 347 BG 753L | Near Chhegaon Makhan | [21.784182, 76.240264](https://www.google.com/maps?q=21.784182,76.240264) | 105 | complete |
+| Marri Toll Plaza | 543 | Peddakonduru | [21.68647222, 80.22916667](https://www.google.com/maps?q=21.68647222,80.22916667) | 90 | complete |
 | Kelwad Toll Plaza | 547 | Km 13.000 | [21.471322, 78.8726](https://www.google.com/maps?q=21.471322,78.8726) | 85 | complete |
 | Jungawani Toll Plaza | 547 | Km 136.00 | [22.380277, 79.152763](https://www.google.com/maps?q=22.380277,79.152763) | 95 | complete |
 | Jaitpur Toll Plaza | 547 | Km 197.00 | [22.834179, 79.237723](https://www.google.com/maps?q=22.834179,79.237723) | 65 | complete |

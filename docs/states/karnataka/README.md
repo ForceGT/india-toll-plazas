@@ -2,7 +2,7 @@
 
 Browse **68 FASTag toll plazas** across 26 national highways in Karnataka. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 68 complete · **Last updated:** 2026-06-05
+**Coverage:** 68 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 

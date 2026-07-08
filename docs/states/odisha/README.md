@@ -1,8 +1,8 @@
 # Toll plazas in Odisha — India
 
-Browse **37 FASTag toll plazas** across 17 national highways in Odisha. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **38 FASTag toll plazas** across 17 national highways in Odisha. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 34 complete, 3 partial · **Last updated:** 2026-06-05
+**Coverage:** 35 complete, 3 partial · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,8 +17,8 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 34 | 91.9% |
-| partial | 3 | 8.1% |
+| complete | 35 | 92.1% |
+| partial | 3 | 7.9% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -31,6 +31,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Gurapalli | 16 | 27+900 | [19.638667, 85.140365](https://www.google.com/maps?q=19.638667,85.140365) | 105 | complete |
 | Sergarh | 16 | 27+900 | [21.429986, 86.836853](https://www.google.com/maps?q=21.429986,86.836853) | 100 | complete |
 | Bandalo (Manguli )Toll Plaza | 16 | Km 34.624 | [20.565664, 86.011180](https://www.google.com/maps?q=20.565664,86.011180) | 150 | complete |
+| Karapadu (Old Bellupada) | 16 | Km 473.632 | [19.111282, 84.699281](https://www.google.com/maps?q=19.111282,84.699281) | 120 | complete |
 | Padmanavapur | 18 | 27+900 | [21.62325, 86.925376](https://www.google.com/maps?q=21.62325,86.925376) | 75 | complete |
 | Sukhuapada Toll Plaza | 18 | 27+900 | [22.07456, 86.643509](https://www.google.com/maps?q=22.07456,86.643509) | 65 | complete |
 | Banajodi (Padmapur) | 20 (Old 215) | 27+900 | [21.710167, 85.5836](https://www.google.com/maps?q=21.710167,85.5836) | 90 | complete |

@@ -1,8 +1,8 @@
 # Toll plazas in Rajasthan — India
 
-Browse **392 FASTag toll plazas** across 56 national highways in Rajasthan. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **391 FASTag toll plazas** across 56 national highways in Rajasthan. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 172 complete, 216 partial, 4 verified · **Last updated:** 2026-06-05
+**Coverage:** 171 complete, 216 partial, 4 verified · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -18,8 +18,8 @@ What "confidence" means, so you know how much to trust a given rate:
 | Confidence | Plazas | Share |
 |---|---|---|
 | verified | 4 | 1.0% |
-| complete | 172 | 43.9% |
-| partial | 216 | 55.1% |
+| complete | 171 | 43.7% |
+| partial | 216 | 55.2% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -37,18 +37,17 @@ What "confidence" means, so you know how much to trust a given rate:
 | Dungarpur (Entry Exit ) Toll | NE- 4 | At Ch. 210.972 | [26.6663888, 76.3191667](https://www.google.com/maps?q=26.6663888,76.3191667) | 0 | complete |
 | Kusthala  (Close Loop Toll ) | NE-4 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [25.968464980634522 ,  76.25313572334733](https://www.google.com/maps?q=25.968464980634522 , 76.25313572334733) |  | complete |
 | Bonli (Close Loop Toll ) | NE- 4 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [26.333262172107283, 76.24529151966289](https://www.google.com/maps?q=26.333262172107283,76.24529151966289) |  | complete |
-| Geela Ki Nangal (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.907642, 75.966994](https://www.google.com/maps?q=26.907642,75.966994) |  | complete |
-| Hingonia (Entry Exit Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.8509 ,  75.9247](https://www.google.com/maps?q=26.8509 , 75.9247) |  | complete |
-| Khurikhud (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.964421080299246 ,  76.29031347489561](https://www.google.com/maps?q=26.964421080299246 , 76.29031347489561) |  | complete |
 | Bagrana  (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.87826754178881 ,  75.92726313807928](https://www.google.com/maps?q=26.87826754178881 , 75.92726313807928) |  | complete |
 | Bedoli (Close Loop Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.994724023164917 ,  76.4183597755617](https://www.google.com/maps?q=26.994724023164917 , 76.4183597755617) |  | complete |
-| Sundarpura (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.9651364, 76.1572891](https://www.google.com/maps?q=26.9651364,76.1572891) |  | complete |
+| Hingonia (Entry Exit Toll ) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.8509 ,  75.9247](https://www.google.com/maps?q=26.8509 , 75.9247) |  | complete |
+| Khurikhud (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.964421080299246 ,  76.29031347489561](https://www.google.com/maps?q=26.964421080299246 , 76.29031347489561) |  | complete |
+| Geela Ki Nangal (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.907642, 75.966994](https://www.google.com/maps?q=26.907642,75.966994) |  | complete |
 | Shyamsinghpura Virtual (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.980819207958092,  76.53316629450276](https://www.google.com/maps?q=26.980819207958092, 76.53316629450276) |  | complete |
+| Sundarpura (Close Loop Toll) | NE-4C | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [26.9651364, 76.1572891](https://www.google.com/maps?q=26.9651364,76.1572891) |  | complete |
 | Gegal | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.5513492, 74.7776251](https://www.google.com/maps?q=26.5513492,74.7776251) | 75 | complete |
 | Pipalaz | 8 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [26.158466, 74.371725](https://www.google.com/maps?q=26.158466,74.371725) | 70 | complete |
 | Baggad | 8 | BAGGAR (Ch. 136 to 137) | [25.590626, 73.903039](https://www.google.com/maps?q=25.590626,73.903039) | 85 | complete |
 | Chila Chond | 11B | 142.35 | [26.613002, 77.515359](https://www.google.com/maps?q=26.613002,77.515359) | 55 | complete |
-| Konder | 11B | 91.8 | [26.537213, 77.086068](https://www.google.com/maps?q=26.537213,77.086068) | 50 | complete |
 | Titoli | 11A | at km 15.500 (at km. 15.570 existing chainage) | [26.7706, 76.339247](https://www.google.com/maps?q=26.7706,76.339247) | 85 | complete |
 | Rabawata | 11A | at km 78.500 (at km. 77.872 existing chainage) | [26.500317, 76.998323](https://www.google.com/maps?q=26.500317,76.998323) | 35 | complete |
 | Nekawala | 11A  (New 148) | CH 11.750 | [27.242283, 76.064202](https://www.google.com/maps?q=27.242283,76.064202) | 60 | complete |

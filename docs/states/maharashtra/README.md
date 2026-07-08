@@ -2,7 +2,7 @@
 
 Browse **203 FASTag toll plazas** across 48 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 105 complete, 94 partial, 2 verified · **Last updated:** 2026-06-05
+**Coverage:** 105 complete, 96 partial, 2 verified · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -19,8 +19,7 @@ What "confidence" means, so you know how much to trust a given rate:
 |---|---|---|
 | verified | 2 | 1.0% |
 | complete | 105 | 51.7% |
-| high | 2 | 1.0% |
-| partial | 94 | 46.3% |
+| partial | 96 | 47.3% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
@@ -57,8 +56,8 @@ What "confidence" means, so you know how much to trust a given rate:
 | Mathani | 53 | Km 523.400 | [21.139545, 79.365105](https://www.google.com/maps?q=21.139545,79.365105) | 70 | complete |
 | Taroda Kasba | 53 | Taroda Kasba Toll Plaza | [20.6660558, 76.7181721](https://www.google.com/maps?q=20.6660558,76.7181721) | 130 | complete |
 | Hivargaon Pavsa | 60 | Km 138.749 | [19.516452, 74.201583](https://www.google.com/maps?q=19.516452,74.201583) | 115 | complete |
-| Laling (Dhule) | 60 | Km 268.632 | [20.833054, 74.754192](https://www.google.com/maps?q=20.833054,74.754192) | 165 | complete |
-| Chandwad | 60 | Km 356.700 | [20.325014, 74.210751](https://www.google.com/maps?q=20.325014,74.210751) | 165 | complete |
+| Laling (Dhule) | 60 | Km 268.632 | [20.833054, 74.754192](https://www.google.com/maps?q=20.833054,74.754192) | 170 | complete |
+| Chandwad | 60 | Km 356.700 | [20.325014, 74.210751](https://www.google.com/maps?q=20.325014,74.210751) | 170 | complete |
 | Chalakwadi | 60 | Km 91.106 | [19.170738, 74.074993](https://www.google.com/maps?q=19.170738,74.074993) | 135 | complete |
 | Dumberwadi | 61 | 125.7 | [19.24404, 74.013274](https://www.google.com/maps?q=19.24404,74.013274) | 60 | complete |
 | Dhoki | 61 | 178.1 | [19.15597, 74.41116](https://www.google.com/maps?q=19.15597,74.41116) | 45 | complete |
@@ -73,8 +72,8 @@ What "confidence" means, so you know how much to trust a given rate:
 | Nimgaon Khalu Fee Plaza | 160 |  | [18.49946408607375, 74.57615783588396](https://www.google.com/maps?q=18.49946408607375,74.57615783588396) | 95 | complete |
 | Dongrale Toll Plaza | 160H | Derhi toll plaza cholapur varanasi | [20.766214 ,   74.574654](https://www.google.com/maps?q=20.766214 ,  74.574654) | 40 | complete |
 | Baswant (Pimpalgaon) | 160 | Km 390.450 | [20.141701, 73.976492](https://www.google.com/maps?q=20.141701,73.976492) | 235 | complete |
-| Arjunali | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 135 | complete |
-| Ghoti | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 135 | complete |
+| Arjunali | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 140 | complete |
+| Ghoti | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 140 | complete |
 | Pimparwadi | 160 | Pimparwadi | [19.81034, 74.27611](https://www.google.com/maps?q=19.81034,74.27611) | 80 | complete |
 | Salva Jaroda | 161 | At Km. 155.117 (Salva Jaroda) | [19.5988477, 77.3920472](https://www.google.com/maps?q=19.5988477,77.3920472) | 80 | complete |
 | Medshi Sawarkhda | 161 | At km.41.374 | [20.363338, 76.932728](https://www.google.com/maps?q=20.363338,76.932728) | 105 | complete |
@@ -176,7 +175,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Talegaon Toll Plaza |  | NETC 540005; Talegaon Toll Plaza; Mumbai-Pune Expressway (TollGuru barrier "Talegaon", road Mumbai-Pune Expy; route Mumbai Pune Expressway); Talegaon / Pune district area, Maharashtra; barrier ~18.717330,73.626280 | [18.7173296, 73.62628](https://www.google.com/maps?q=18.7173296,73.62628) | 240 | verified |
 | Vashi Toll Plaza |  | NETC 540010; Vashi Toll Plaza; Sion Panvel Expressway (TollGuru barrier "Vashi", road Old Vashi Bridge / Mumbai Hwy); Vashi, Navi Mumbai, Maharashtra; barrier ~19.064647,72.980106 | [19.064647, 72.980106](https://www.google.com/maps?q=19.064647,72.980106) | 0 | partial |
 | Airoli Toll Plaza |  | NETC 540011; Airoli Toll Plaza; Mulund Airoli Road (TollGuru barrier "Airoli", road Mulund-Airoli Rd); Airoli / Mulund area, Mumbai Metropolitan Region, Maharashtra; barrier ~19.152866,72.965768 | [19.152866, 72.965768](https://www.google.com/maps?q=19.152866,72.965768) | 0 | partial |
-| Mulund(EEH) Toll Plaza |  | NETC 540012; Mulund(EEH) Toll Plaza; Eastern Express Highway, Mulund East, Mumbai MMR; TollGuru barrier label "Mulund" on Eastern Express Hwy (~19.16915,72.96655); MEP (MSRDC five Mumbai entry nakas). Distinct from NETC540011 (Airoli / Mulund–Airoli Rd barrier "Airoli"). Legacy NETC extract coords were ~19.1534,72.9657 (~1.7 km S — superseded by booth-aligned point). | [19.169147, 72.966554](https://www.google.com/maps?q=19.169147,72.966554) | 0 | high |
+| Mulund(EEH) Toll Plaza |  | NETC 540012; Mulund(EEH) Toll Plaza; Eastern Express Highway, Mulund East, Mumbai MMR; TollGuru barrier label "Mulund" on Eastern Express Hwy (~19.16915,72.96655); MEP (MSRDC five Mumbai entry nakas). Distinct from NETC540011 (Airoli / Mulund–Airoli Rd barrier "Airoli"). Legacy NETC extract coords were ~19.1534,72.9657 (~1.7 km S — superseded by booth-aligned point). | [19.169147, 72.966554](https://www.google.com/maps?q=19.169147,72.966554) | 0 | partial |
 | Mulund(LBS) Toll Plaza |  | NETC 540013; Mulund(LBS) Toll Plaza; Lal Bahadur Shastri Marg (TollGuru barrier "Mulund", road LBS Rd); Mulund, Mumbai, Maharashtra; barrier ~19.185197,72.954922 | [19.185197, 72.954922](https://www.google.com/maps?q=19.185197,72.954922) | 0 | partial |
 | Dahisar Toll Plaza |  | NETC 540014; Dahisar Toll Plaza (also referred locally as Dahisar toll naka); Western Expressway / Western Express Hwy (TollGuru barrier "Dahisar"); Dahisar, Mumbai, Maharashtra; barrier ~19.256919,72.871520 | [19.256919, 72.87152](https://www.google.com/maps?q=19.256919,72.87152) | 0 | partial |
 | Arambha Toll Plaza |  | NETC 540015; Arambha Toll Plaza; Mancherial Chandrapur Nagpur Road (TollGuru barrier "Arambha", NH-264); Arambha, Maharashtra; barrier ~20.553077,78.971082 | [20.553077, 78.971082](https://www.google.com/maps?q=20.553077,78.971082) | 0 | partial |
@@ -226,7 +225,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Shivaji Interchange Toll Plaza |  | NETC 546034 (provisional — gap in public NETC extract between 546033 and 546040); MTHL / Atal Setu **ramp** barrier "Shivaji interchange" (MMRDA Shivajinagar ramp family; Ulwe / Navi Mumbai side); TollGuru id 924605201; Trans Harbour Link; barrier ~18.967478,73.006191 — verify official NETC plaza code when published | [18.9674778, 73.0061914](https://www.google.com/maps?q=18.9674778,73.0061914) | 200 | partial |
 | Shivre Interchange Toll Plaza |  | NETC 546035 (provisional — gap in public NETC extract between 546033 and 546040); MTHL / Atal Setu **ramp** barrier "Shivre interchange" toward Sewri / BPT side (TollGuru id 924605000); Trans Harbour Link; barrier ~18.998992,72.859726 — verify official NETC plaza code when published | [18.9989915, 72.8597262](https://www.google.com/maps?q=18.9989915,72.8597262) | 200 | partial |
 | Kalyan Kahala Toll Plaza |  | NETC 556050; Kalyan Kahala Toll Plaza (NETC extract KAHALA Toll Plaza); Kahala Toll Plaza route (TollGuru barrier "Kalyan", road Kahala Kh); Kahala area (lon ~77.45°E), Maharashtra; barrier ~18.962080,77.454421 | [18.96208, 77.454421](https://www.google.com/maps?q=18.96208,77.454421) | 0 | partial |
-| Khanapur Toll Plaza |  | NETC 556051; Khanapur Toll Plaza; Vannali area, Maharashtra; NETC coords ~18.619915,77.583351 | [18.619915, 77.583351](https://www.google.com/maps?q=18.619915,77.583351) | 75 | high |
+| Khanapur Toll Plaza |  | NETC 556051; Khanapur Toll Plaza; Vannali area, Maharashtra; NETC coords ~18.619915,77.583351 | [18.619915, 77.583351](https://www.google.com/maps?q=18.619915,77.583351) | 75 | partial |
 
 ---
 

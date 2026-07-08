@@ -2,7 +2,7 @@
 
 Browse **97 FASTag toll plazas** across 25 national highways in Gujarat. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 64 complete, 33 partial · **Last updated:** 2026-06-05
+**Coverage:** 64 complete, 33 partial · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 

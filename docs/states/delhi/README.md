@@ -2,7 +2,7 @@
 
 Browse **21 FASTag toll plazas** across 11 national highways in Delhi. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 21 complete · **Last updated:** 2026-06-05
+**Coverage:** 21 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 

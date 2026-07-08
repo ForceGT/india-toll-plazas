@@ -2,7 +2,7 @@
 
 Browse **12 FASTag toll plazas** across 8 national highways in Assam. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 12 complete · **Last updated:** 2026-06-05
+**Coverage:** 12 complete · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -21,11 +21,11 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
-| Dahalapar , Chirang | 31 (new 27) | Bhavanipur | [26.476288, 90.71244](https://www.google.com/maps?q=26.476288,90.71244) | 100 | complete |
-| Galia | 31 (New 27) | Bhavanipur | [26.44236896, 91.04887551](https://www.google.com/maps?q=26.44236896,91.04887551) | 50 | complete |
-| Patgaon( Kokrajhar ) | 31C (new 27) | Bhavanipur | [26.565182, 90.238792](https://www.google.com/maps?q=26.565182,90.238792) | 110 | complete |
+| Dahalapar , Chirang | 31 (new 27) | Peddakonduru | [26.476288, 90.71244](https://www.google.com/maps?q=26.476288,90.71244) | 100 | complete |
+| Galia | 31 (New 27) | Peddakonduru | [26.44236896, 91.04887551](https://www.google.com/maps?q=26.44236896,91.04887551) | 50 | complete |
+| Patgaon( Kokrajhar ) | 31C (new 27) | Peddakonduru | [26.565182, 90.238792](https://www.google.com/maps?q=26.565182,90.238792) | 110 | complete |
+| Telipara | 31C (new 27) | Peddakonduru | [26.344407, 89.943243](https://www.google.com/maps?q=26.344407,89.943243) | 50 | complete |
 | Madanpur (Assam) Toll | 31 (New 27) | Vill-Bagsarai (200.100) | [26.309387, 91.716408](https://www.google.com/maps?q=26.309387,91.716408) | 140 | complete |
-| Telipara | 31C (new 27) | Vill-Bagsarai (200.100) | [26.344407, 89.943243](https://www.google.com/maps?q=26.344407,89.943243) | 50 | complete |
 | Mikirati Hawgaon | 36 (New 27) | Vill-Bagsarai (200.100) | [26.1311484, 92.8389911](https://www.google.com/maps?q=26.1311484,92.8389911) | 100 | complete |
 | Rangamati Toll Plaza | 37 | At Km 424+500 of NH-37 village Rangamati Golaghat district of Assam | [26.631082, 93.726099](https://www.google.com/maps?q=26.631082,93.726099) | 80 | complete |
 | Nazirakhat Toll Plaza | 37 (New 27) | PALUVAYI (Km 17+800) | [26.100258, 91.879125](https://www.google.com/maps?q=26.100258,91.879125) | 145 | complete |

@@ -116,6 +116,10 @@
     "tollplaza_name": "Amipur Baleni"
   },
   {
+    "tollplaza_id": 1307,
+    "tollplaza_name": "Ammapettai"
+  },
+  {
     "tollplaza_id": 148,
     "tollplaza_name": "Amoli"
   },
@@ -1368,6 +1372,10 @@
     "tollplaza_name": "Eliyarpathi"
   },
   {
+    "tollplaza_id": 1306,
+    "tollplaza_name": "Elurpatti Toll Plaza"
+  },
+  {
     "tollplaza_id": 796,
     "tollplaza_name": "Enamkariyanandal"
   },
@@ -1478,6 +1486,10 @@
   {
     "tollplaza_id": 1007,
     "tollplaza_name": "Garoth (Close Loop Toll )"
+  },
+  {
+    "tollplaza_id": 1305,
+    "tollplaza_name": "Gavarayyapeta Toll Plaza"
   },
   {
     "tollplaza_id": 1204,
@@ -1810,6 +1822,10 @@
   {
     "tollplaza_id": 927,
     "tollplaza_name": "IDTL Toll Plaza-B"
+  },
+  {
+    "tollplaza_id": 1309,
+    "tollplaza_name": "Inagaluru"
   },
   {
     "tollplaza_id": 170,
@@ -2928,6 +2944,10 @@
     "tollplaza_name": "Marripalem"
   },
   {
+    "tollplaza_id": 1310,
+    "tollplaza_name": "Marri Toll Plaza"
+  },
+  {
     "tollplaza_id": 192,
     "tollplaza_name": "Marur"
   },
@@ -3270,6 +3290,10 @@
   {
     "tollplaza_id": 15,
     "tollplaza_name": "Nathakarai*"
+  },
+  {
+    "tollplaza_id": 1308,
+    "tollplaza_name": "Nathampatti Toll Plaza"
   },
   {
     "tollplaza_id": 206,
@@ -3644,6 +3668,10 @@
     "tollplaza_name": "Pedagaruvu Toll Plaza"
   },
   {
+    "tollplaza_id": 1311,
+    "tollplaza_name": "Peddakonduru"
+  },
+  {
     "tollplaza_id": 1172,
     "tollplaza_name": "Pelak (EPE Close Loop Toll)"
   },
@@ -3822,6 +3850,10 @@
   {
     "tollplaza_id": 52,
     "tollplaza_name": "Raksha Toll Plaza"
+  },
+  {
+    "tollplaza_id": 1312,
+    "tollplaza_name": "Ramagopalapuram Toll Plaza"
   },
   {
     "tollplaza_id": 1245,

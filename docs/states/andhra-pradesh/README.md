@@ -1,8 +1,8 @@
 # Toll plazas in Andhra Pradesh — India
 
-Browse **100 FASTag toll plazas** across 36 national highways in Andhra Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **103 FASTag toll plazas** across 37 national highways in Andhra Pradesh. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 91 complete, 9 partial · **Last updated:** 2026-06-05
+**Coverage:** 94 complete, 9 partial · **Last updated:** 2026-07-07
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,15 +17,15 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 91 | 91.0% |
-| partial | 9 | 9.0% |
+| complete | 94 | 91.3% |
+| partial | 9 | 8.7% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Kaza | 5 (New 16) | Km 416.800 | [16.3856, 80.53367](https://www.google.com/maps?q=16.3856,80.53367) | 120 | complete |
 | Panchvati Colony(Vishakapatnam Port Connectivity) | 5 | Km 9.158 | [17.713856, 83.2079988](https://www.google.com/maps?q=17.713856,83.2079988) | 46 | complete |
 | Marripalem | 16 | 722.170 Km | [17.76724, 83.06185](https://www.google.com/maps?q=17.76724,83.06185) | 50 | complete |
-| Venkatapalem Toll Plaza | 16 | Balenahalli | [16.505174, 80.543517](https://www.google.com/maps?q=16.505174,80.543517) | 80 | complete |
+| Venkatapalem Toll Plaza | 16 | Balenahalli | [16.505174, 80.543517](https://www.google.com/maps?q=16.505174,80.543517) | 90 | complete |
 | Kalaparru | 16 | Km 1050.794 | [16.6643911, 81.0027648](https://www.google.com/maps?q=16.6643911,81.0027648) | 95 | complete |
 | Pottipadu | 16 | Km 1072.191 | [16.5723591, 80.8599542](https://www.google.com/maps?q=16.5723591,80.8599542) | 65 | complete |
 | Bolapalli | 16 | Km 1200.000 | [15.886754, 80.070843](https://www.google.com/maps?q=15.886754,80.070843) | 190 | complete |
@@ -33,7 +33,6 @@ What "confidence" means, so you know how much to trust a given rate:
 | Tangutur | 16 | Km 1264.000 | [15.358166, 80.040105](https://www.google.com/maps?q=15.358166,80.040105) | 105 | complete |
 | Sunambatti (Musunuru) | 16 | Km 1326.000 | [14.851896, 79.987757](https://www.google.com/maps?q=14.851896,79.987757) | 65 | complete |
 | Venkatachallam Fee Plaza | 16 | Km 155.000 | [14.312218, 79.916296](https://www.google.com/maps?q=14.312218,79.916296) | 35 | complete |
-| Karapadu (Old Bellupada) | 16 | Km 473.632 | [19.111282, 84.699281](https://www.google.com/maps?q=19.111282,84.699281) | 120 | complete |
 | Laxmipuram | 16 | Km 530.404 | [18.05799, 83.52111](https://www.google.com/maps?q=18.05799,83.52111) | 155 | complete |
 | Madapam | 16 | Km 589.554 | [18.377344, 84.000528](https://www.google.com/maps?q=18.377344,84.000528) | 100 | complete |
 | Nathavalasa | 16 | Km 656.704 | [18.057967, 83.521081](https://www.google.com/maps?q=18.057967,83.521081) | 115 | complete |
@@ -45,6 +44,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Manapuram Toll Plaza | 26 | At Km. 515+100 on NH-26 | [18.36998388, 83.33476543](https://www.google.com/maps?q=18.36998388,83.33476543) | 55 | complete |
 | Jonnada | 26 | Jonnada | [18.011291, 83.407712](https://www.google.com/maps?q=18.011291,83.407712) | 60 | complete |
 | Badava | 30 | 35.8 | [16.850428, 80.633633](https://www.google.com/maps?q=16.850428,80.633633) | 75 | complete |
+| Ramagopalapuram Toll Plaza | 30 | Km.188+100 | [17.70272500, 17.70272500](https://www.google.com/maps?q=17.70272500,17.70272500) | 60 | complete |
 | Bandapalli | 40 | 119.945 Bandaplli | [13.30534, 79.11473](https://www.google.com/maps?q=13.30534,79.11473) | 55 | complete |
 | Thenepalli | 40 | 336.543 km of NH40 | [13.3921666, 79.0783889](https://www.google.com/maps?q=13.3921666,79.0783889) | 35 | complete |
 | Nannuru | 40 | 349.7 | [15.741038, 78.070783](https://www.google.com/maps?q=15.741038,78.070783) | 95 | complete |
@@ -79,6 +79,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Halaharvi | 167 | Km. 101.650 | [15.818714, 77.453999](https://www.google.com/maps?q=15.818714,77.453999) | 50 | complete |
 | Kothapalli | 167B | MPD Gate No-9 Vasco Da Gama | [15.09369641012573,  79.16530395133555](https://www.google.com/maps?q=15.09369641012573, 79.16530395133555) | 40 | complete |
 | Paluvai | 167AD | MPD Gate No-9 Vasco Da Gama | [16.533920, 79.510770](https://www.google.com/maps?q=16.533920,79.510770) | 50 | complete |
+| Peddakonduru | 167BG | Peddakonduru | [14.826982469247136, 79.7247835889564](https://www.google.com/maps?q=14.826982469247136,79.7247835889564) | 75 | complete |
 | Upputuru Toll Plaza | 167C | Upputuru | [15.934849, 80.290413](https://www.google.com/maps?q=15.934849,80.290413) | 100 | complete |
 | Seetharampuram |  216 |  (Ch-92+000) | [16.42327, 81.6388](https://www.google.com/maps?q=16.42327,81.6388) | 65 | complete |
 | Annampalli | 216 | Annampalli | [16.6761, 82.1428](https://www.google.com/maps?q=16.6761,82.1428) | 60 | complete |
@@ -99,6 +100,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Painampalli Khalu | 365A | Painampalli | [17.072777, 80.038874](https://www.google.com/maps?q=17.072777,80.038874) | 65 | complete |
 | Gantyada | 516E | At Km 20.650 of NH 516 E | [18.1458333, 83.2836111](https://www.google.com/maps?q=18.1458333,83.2836111) | 25 | complete |
 | Goshtani | 516 C | KM 0.00 For a length of 10.336km On NH16 | [17.71389, 83.212158](https://www.google.com/maps?q=17.71389,83.212158) | 12 | complete |
+| Gavarayyapeta Toll Plaza | 516E | Km.84+150 | [17.35886111, 82.10677778](https://www.google.com/maps?q=17.35886111,82.10677778) | 65 | complete |
 | Pedagaruvu Toll Plaza | 516E | Varshamedi | [18.1773686, 82.7445108](https://www.google.com/maps?q=18.1773686,82.7445108) | 60 | complete |
 | Kadarampalli Toll Plaza | 544DD |  | [14.6995, 77.004255](https://www.google.com/maps?q=14.6995,77.004255) | 40 | complete |
 | Cholasamudram | 544E | Cholasamudram | [13.8115929, 77.5769661](https://www.google.com/maps?q=13.8115929,77.5769661) | 65 | complete |
@@ -113,6 +115,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Veeranjaneyapuram | 565 | Jamni, Dist Jind | [16.530970997573757, 79.38207841412947](https://www.google.com/maps?q=16.530970997573757,79.38207841412947) | 45 | complete |
 | Millampalli | 565 | Km 163.250 | [16.06238, 79.30513](https://www.google.com/maps?q=16.06238,79.30513) | 40 | complete |
 | Raviguntapalli | 565 | PONGALUR | [15.197922, 79.450868](https://www.google.com/maps?q=15.197922,79.450868) | 40 | complete |
+| Inagaluru | 716G | Marri | [14.051297, 78.032786](https://www.google.com/maps?q=14.051297,78.032786) | 85 | complete |
 | NagarjunasagarEMC Checkpost |  | NETC 536133; NagarjunasagarEMC Checkpost; Macharla, AndhraPradesh; 16.567540,79.33326 | [16.567540, 79.33326](https://www.google.com/maps?q=16.567540,79.33326) |  | partial |
 | EthipothalaEMC Checkpost |  | NETC 536134; EthipothalaEMC Checkpost; Macharla, AndhraPradesh; 16.541244,79.380177 | [16.541244, 79.380177](https://www.google.com/maps?q=16.541244,79.380177) |  | partial |
 | Narajamalatanda EMC Checkpost |  | NETC 536135; Narajamalatanda EMC Checkpost; Yerragondapalem, AndhraPradesh; 16.164356,79.299771 | [16.164356, 79.299771](https://www.google.com/maps?q=16.164356,79.299771) |  | partial |
