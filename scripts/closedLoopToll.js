@@ -2,22 +2,27 @@ const fs = require('fs');
 const path = require('path');
 
 function loadCorridors() {
+  if (loadCorridors._cache) return loadCorridors._cache;
   const filePath = path.join(__dirname, '../data/sources/curated/closed_loop_corridors.json');
-  return JSON.parse(fs.readFileSync(filePath, 'utf8')).corridors;
+  loadCorridors._cache = JSON.parse(fs.readFileSync(filePath, 'utf8')).corridors;
+  return loadCorridors._cache;
 }
+
 
 function calculateClosedLoopToll(corridorKey, entryRampId, exitRampId, vehicleClass = 'car', roundToNearest = 5) {
   const corridors = loadCorridors();
   const corridor = corridors[corridorKey];
-  if (!corridor) throw new Error('Unknown corridor: ' + corridorKey);
+  if (!corridor) throw new Error('invalid corridor key: ' + corridorKey);
 
-  const entry = corridor.ramps.find(r => r.id === entryRampId);
+  const entry = corridor.rates.ramps ? corridor.ramps.find(r => r.id === entryRampId) : corridor.ramps.find(r => r.id === entryRampId);
   const exit = corridor.ramps.find(r => r.id === exitRampId);
 
   if (!entry || !exit) throw new Error('invalid ramp ID: entry=' + entryRampId + ', exit=' + exitRampId);
 
+  const ratePerkm = corridor.rates_per_km ? corridor.rates_per_km[vehicleClass] : undefined;
+  if (ratePerKm == null) { throw new Error('Unknown vehicle class: ' + vehicleClass + ' for corridor ' + corridorKey); }
+
   const distanceKm = Math.round(Math.abs(exit.chainage_km - entry.chainage_km) * 100) / 100;
-  const ratePerKm = corridor.rates_per_km[vehicleClass] || corridor.rates_per_km['car'];
   const rawToll = distanceKm * ratePerKm;
   const tollAmount = roundToNearest > 0 ? Math.round(rawToll / roundToNearest) * roundToNearest : Math.round(rawToll);
 
