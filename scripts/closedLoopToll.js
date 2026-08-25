@@ -8,18 +8,17 @@ function loadCorridors() {
   return loadCorridors._cache;
 }
 
-
 function calculateClosedLoopToll(corridorKey, entryRampId, exitRampId, vehicleClass = 'car', roundToNearest = 5) {
   const corridors = loadCorridors();
   const corridor = corridors[corridorKey];
-  if (!corridor) throw new Error('invalid corridor key: ' + corridorKey);
+  if (!corridor) throw new Error('Invalid corridor key: ' + corridorKey);
 
-  const entry = corridor.rates.ramps ? corridor.ramps.find(r => r.id === entryRampId) : corridor.ramps.find(r => r.id === entryRampId);
+  const entry = corridor.ramps.find(r => r.id === entryRampId);
   const exit = corridor.ramps.find(r => r.id === exitRampId);
 
-  if (!entry || !exit) throw new Error('invalid ramp ID: entry=' + entryRampId + ', exit=' + exitRampId);
+  if (!entry || !exit) throw new Error('Invalid ramp ID: entry=' + entryRampId + ', exit=' + exitRampId);
 
-  const ratePerkm = corridor.rates_per_km ? corridor.rates_per_km[vehicleClass] : undefined;
+  const ratePerKm = corridor.rates_per_km ? corridor.rates_per_km[vehicleClass] : undefined;
   if (ratePerKm == null) { throw new Error('Unknown vehicle class: ' + vehicleClass + ' for corridor ' + corridorKey); }
 
   const distanceKm = Math.round(Math.abs(exit.chainage_km - entry.chainage_km) * 100) / 100;
