@@ -1,0 +1,65 @@
+name: 🚀 Report Toll Rate Discrepancy
+description: Submit an updated or crowdsourced toll rate for verification
+title: "[Toll Report]: <Plaza Name or Code>"
+labels: ["crowdsourced-report", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to India Toll Plazas open data!
+  - type: input
+    id: netc_plaza_code
+    attributes:
+      label: NETC Plaza Code / NHAI ID
+      description: 6-digit NETC Code (e.g., 540003) or NHAI ID if known.
+      placeholder: "540003"
+    validations:
+      required: true
+  - type: input
+    id: plaza_name
+    attributes:
+      label: Plaza Name
+      placeholder: "Khalapur Toll Plaza"
+    validations:
+      required: true
+  - type: dropdown
+    id: vehicle_class
+    attributes:
+      label: Vehicle Class
+      options:
+        - car
+        - lcv
+        - bus_truck_2axle
+        - 3axle_commercial
+        - mav_4_6_axle
+        - oversized_7_plus
+    validations:
+      required: true
+  - type: input
+    id: actual_toll_inr
+    attributes:
+      label: Actual Toll Amount Paid (INR)
+      placeholder: "80"
+    validations:
+      required: true
+  - type: dropdown
+    id: trip_type
+    attributes:
+      label: Trip Type
+      options:
+        - single_journey
+        - return_journey
+        - monthly_pass
+    validations:
+      required: true
+  - type: input
+    id: direction_heading
+    attributes:
+      label: Compass Bearing / Direction (Optional)
+      description: Approximate heading in degrees (0-360) or description
+      placeholder: "310"
+  - type: textarea
+    id: proof_note
+    attributes:
+      label: FASTag SMS / Receipt / Additional Notes
+      description: Paste SMS snippet or details.
