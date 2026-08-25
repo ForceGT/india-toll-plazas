@@ -1,0 +1,29 @@
+{
+  "description": "Authoritative split-barrier and multi-leg corridor rate configurations where complementary plazas charge asymmetrical rates depending on travel direction",
+  "corridors": {
+    "mumbai_pune_expressway": {
+      "corridor_name": "Mumbai-Pune Expressway",
+      "operator": "MSRDC",
+      "total_toll_car": 320,
+      "valid_until": "2030-03-31",
+      "directions": {
+        "mumbai_to_pune": {
+          "bearing_bounds": [100, 160],
+          "description": "Mumbai towards Pune",
+          "barriers": [
+            { "sequence": 1, "plaza_id": "NETC540003", "plaza_name": "Khalapur", "toll_car": 240, "role": "entry_heavy_split" },
+            { "sequence": 2, "plaza_id": "NETC540005", "plaza_name": "Urse", "toll_car": 80, "role": "exit_remainder_split" }
+          ]
+        },
+        "pune_to_mumbai": {
+          "bearing_bounds": [280, 340],
+          "description": "Pune towards Mumbai",
+          "barriers": [
+            { "sequence": 1, "plaza_id": "NETC540005", "plaza_name": "Urse", "toll_car": 240, "role": "entry_heavy_split" },
+            { "sequence": 2, "plaza_id": "NETC540003", "plaza_name": "Khalapur", "toll_car": 80, "role": "exit_remainder_split" }
+          ]
+        }
+      }
+    }
+  }
+}
