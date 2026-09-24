@@ -3,9 +3,9 @@
     "description": "Operator/concessionaire worklist for rajasthan state-highway plazas",
     "state": "rajasthan",
     "state_slug": "rajasthan",
-    "scaffold_file": "data/sources/states/rajasthan/state_highways.json",
-    "netc_file": "data/sources/netc/netc_state_plazas.json",
-    "generated_at": "2026-07-06T17:36:21.997Z",
+    "scaffold_file": "data\\sources\\states\\rajasthan\\state_highways.json",
+    "netc_file": "data\\sources\\netc\\netc_state_plazas.json",
+    "generated_at": "2026-08-22T04:25:17.609Z",
     "generator": "scripts/analyzeOperators.js"
   },
   "total_plazas": 220,

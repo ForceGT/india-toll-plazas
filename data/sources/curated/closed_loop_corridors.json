@@ -1,0 +1,97 @@
+{
+  "description": "Corridor ramp network and per-km rate definitions for closed-loop expressways",
+  "corridors": {
+    "samruddhi_mahamarg": {
+      "corridor_name": "Hindu Hrudaysamrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg",
+      "operator": "MSRDC",
+      "state": "MAHARASHTRA",
+      "rates_per_km": {
+        "car": 1.73,
+        "lcv": 2.79,
+        "bus_truck_2axle": 5.85,
+        "3axle_commercial": 6.38,
+        "mav_4_6_axle": 9.18,
+        "oversized_7_plus": 11.17
+      },
+      "ramps": [
+        {
+          "id": "RAMP_NGP",
+          "name": "Nagpur (Zero Point)",
+          "chainage_km": 0,
+          "latitude": "21.1458",
+          "longitude": "79.0882"
+        },
+        {
+          "id": "RAMP_WRD",
+          "name": "Wardha Interchange",
+          "chainage_km": 64.2,
+          "latitude": "20.7453",
+          "longitude": "78.6022"
+        },
+        {
+          "id": "RAMP_AMR",
+          "name": "Amravati Interchange",
+          "chainage_km": 128.5,
+          "latitude": "20.9320",
+          "longitude": "77.7523"
+        },
+        {
+          "id": "RAMP_SHR",
+          "name": "Shirdi (Kokanthan)",
+          "chainage_km": 502,
+          "latitude": "19.8967",
+          "longitude": "74.4762"
+        },
+        {
+          "id": "RAMP_IGP",
+          "name": "Igatpuri (Nashik)",
+          "chainage_km": 625,
+          "latitude": "19.6967",
+          "longitude": "73.5583"
+        }
+      ]
+    },
+    "yamuna_expressway": {
+      "corridor_name": "Yamuna Expressway (Greater Noida to Agra)",
+      "operator": "YEIDA",
+      "state": "UTTAR PRADESH",
+      "rates_per_km": {
+        "car": 2.65,
+        "lcv": 4.15,
+        "bus_truck_2axle": 8.45,
+        "mav_4_6_axle": 12.9,
+        "oversized_7_plus": 16.4
+      },
+      "ramps": [
+        {
+          "id": "RAMP_GR_NOIDA",
+          "name": "Greater Noida (Zero Point)",
+          "chainage_km": 0,
+          "latitude": "28.4682",
+          "longitude": "77.5132"
+        },
+        {
+          "id": "RAMP_JEWAR",
+          "name": "Jewar Interchange",
+          "chainage_km": 38,
+          "latitude": "28.1250",
+          "longitude": "77.5560"
+        },
+        {
+          "id": "RAMP_MATHURA",
+          "name": "Mathura Interchange",
+          "chainage_km": 105,
+          "latitude": "27.5640",
+          "longitude": "77.7320"
+        },
+        {
+          "id": "RAMP_AGRA",
+          "name": "Agra (Kuberpur)",
+          "chainage_km": 165,
+          "latitude": "27.2280",
+          "longitude": "78.0980"
+        }
+      ]
+    }
+  }
+}
