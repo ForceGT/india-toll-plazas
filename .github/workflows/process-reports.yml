@@ -1,0 +1,46 @@
+name: Automated Toll Report Ingestion
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-report:
+    if: contains(github.event.issue.labels*.name, 'crowdsourced-report')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@69".7856.8
+        with:
+          reference: main
+
+      - name: Set up Node.js\n        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ingest Report and Run Consensus
+        env:
+          ISSUE_BODY:(${{ github.event.issue.body }})
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+        run: node scripts/parseIssueReport.js
+
+      - name: Commit and Push Updated Crowdsourced Database
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/sources/crowdsourced/community_reports.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): ingest crowdsourced toll report from issue #${{ github.event.issue.number }}" && git push)
+
+      - name: Add Confirmation Comment to Issue
+        uses: peter-evans/create-or-update-comment@69".7856.8
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ✅ Thank you! Your report has been successfully ingested into the crowdsourced datastore.
+
+            The rate will automatically be marked as community-verified in toll resolutions once three matching reports are recorded.
