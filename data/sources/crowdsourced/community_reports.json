@@ -1,0 +1,6 @@
+{
+  "description": "Crowdsourced toll discrepancy reports submitted via TollSense app and GitHub issues",
+  "schema_version": "1.0.0",
+  "min_consensus_threshold": 3,
+  "reports": []
+}
