@@ -28,6 +28,15 @@ Complete documentation of all fields in the toll plaza dataset.
 
 ### Toll Rates (28 fields total)
 
+### Directional and Corridor Fields (Optional)
+
+For closed-loop or directional expressways (e.g., Mumbai-Pune Expressway), rates may vary by direction or sequence rather than a single flat fee:
+- `corridor` (String, optional): Named expressway or corridor identifier (e.g., "Mumbai-Pune Expressway").
+- `dir_a` (Object, optional): Toll rate mapping for primary direction containing `direction_label` and vehicle rate keys.
+- `dir_b` (Object, optional): Toll rate mapping for reverse direction containing `direction_label` and vehicle rate keys.
+
+
+
 **Format**: Each vehicle type has 4 rate types:
 1. `{vehicle_type}_single` - Single journey rate (INR)
 2. `{vehicle_type}_return` - Return/multi-axle rate (INR)

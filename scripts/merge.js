@@ -22,6 +22,9 @@ function applyCuratedRates(entry, cur) {
   if (cur.rate_source_url) entry.rate_source_url = cur.rate_source_url;
   if (cur.rate_effective_date) entry.rate_effective_date = cur.rate_effective_date;
   if (cur.rate_valid_until) entry.rate_valid_until = cur.rate_valid_until;
+  if (cur.corridor) entry.corridor = cur.corridor;
+  if (cur.dir_a) entry.dir_a = cur.dir_a;
+  if (cur.dir_b) entry.dir_b = cur.dir_b;
 }
 
 /**

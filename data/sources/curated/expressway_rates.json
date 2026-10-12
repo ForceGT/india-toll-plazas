@@ -11,6 +11,14 @@
       "note": "Full-length car toll is Rs.320 one-way, split across two MSRDC plazas: Khalapur Rs.80 + Urse Rs.240. Rates frozen until Apr 2030 per MSRDC (no hike 2023-2030). Per-class (LCV/bus/truck/crane) per-plaza split not yet verified from the MSRDC notification - left untouched until cited.",
       "rates": {
         "car_single": "80"
+      },
+      "dir_a": {
+        "direction_label": "Mumbai to Pune",
+        "car_single": "80"
+      },
+      "dir_b": {
+        "direction_label": "Pune to Mumbai",
+        "car_single": "0"
       }
     },
     "code:NETC540005": {
@@ -23,6 +31,14 @@
       "note": "Urse plaza car toll Rs.240 (the larger share of the Rs.320 full-length car toll). Frozen until Apr 2030 per MSRDC.",
       "rates": {
         "car_single": "240"
+      },
+      "dir_a": {
+        "direction_label": "Mumbai to Pune",
+        "car_single": "240"
+      },
+      "dir_b": {
+        "direction_label": "Pune to Mumbai",
+        "car_single": "320"
       }
     }
   }
