@@ -1,8 +1,8 @@
 # Toll plazas in Bihar — India
 
-Browse **43 FASTag toll plazas** across 21 national highways in Bihar. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **44 FASTag toll plazas** across 21 national highways in Bihar. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 43 complete · **Last updated:** 2026-07-07
+**Coverage:** 44 complete · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,14 +17,14 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 43 | 100.0% |
+| complete | 44 | 100.0% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Daffi | 2 | Fee Plaza at Semalikankad Village/ District Mandsaur | [25.24944488, 82.99940227](https://www.google.com/maps?q=25.24944488,82.99940227) | 85 | complete |
 | Sasaram | 2 | Km 907.100 | [24.957125, 83.954997](https://www.google.com/maps?q=24.957125,83.954997) | 150 | complete |
 | Mohania | 2 | Varanasi-Gorakhpur | [25.18834928, 83.56179035](https://www.google.com/maps?q=25.18834928,83.56179035) | 65 | complete |
-| Saukala | 2 | Vill-Bagsarai (200.100) | [24.599579, 84.70284](https://www.google.com/maps?q=24.599579,84.70284) | 70 | complete |
+| Saukala | 2 | Vill-Bagsarai (200.100) | [24.599579, 84.70284](https://www.google.com/maps?q=24.599579,84.70284) | 100 | complete |
 | Jindapur Toll Plaza | 22 |  | [24.6721 ,  84.9609](https://www.google.com/maps?q=24.6721 , 84.9609) | 130 | complete |
 | Devkuli Toll Plaza | 22 |  | [25.1366 ,  84.9862](https://www.google.com/maps?q=25.1366 , 84.9862) | 140 | complete |
 | Saidpur Patedha | 22 | 27+900 | [25.802861, 85.283461](https://www.google.com/maps?q=25.802861,85.283461) | 110 | complete |
@@ -42,9 +42,9 @@ What "confidence" means, so you know how much to trust a given rate:
 | Kharik | 31 | 27+900 | [25.385796, 87.01154](https://www.google.com/maps?q=25.385796,87.01154) | 65 | complete |
 | Maranga | 31 | 27+900 | [25.728646, 87.458249](https://www.google.com/maps?q=25.728646,87.458249) | 75 | complete |
 | Shahpur | 31 | 27+900 | [25.410189, 86.212352](https://www.google.com/maps?q=25.410189,86.212352) | 125 | complete |
-| Biharibigha Toll Plaza | 31 | Biharibigha | [25.58056, 84.76861](https://www.google.com/maps?q=25.58056,84.76861) | 125 | complete |
+| Biharibigha Toll Plaza | 31 | Biharibigha | [25.58056, 84.76861](https://www.google.com/maps?q=25.58056,84.76861) | 130 | complete |
 | Karigawan | 31 (New 20) | Karigawan | [24.6804174, 85.5054165](https://www.google.com/maps?q=24.6804174,85.5054165) | 80 | complete |
-| Paithna | 31 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [25.297260 ,  85.524077](https://www.google.com/maps?q=25.297260 , 85.524077) | 215 | complete |
+| Paithna | 31 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [25.297260 ,  85.524077](https://www.google.com/maps?q=25.297260 , 85.524077) | 225 | complete |
 | Bhadeswar Toll Plaza | 57A | At Km. 2.850 | [26.34313, 87.236893](https://www.google.com/maps?q=26.34313,87.236893) | 25 | complete |
 | Balgudar | 80 | 27+900 | [25.250014, 86.034744](https://www.google.com/maps?q=25.250014,86.034744) | 60 | complete |
 |  Jichho Toll Plaza (Bhagalpur) | 80 | 27+900 | [25.23225, 87.01002](https://www.google.com/maps?q=25.23225,87.01002) | 25 | complete |
@@ -52,17 +52,18 @@ What "confidence" means, so you know how much to trust a given rate:
 | Mahanth Maniyari | 122 | Km 534.669 | [26.038799, 85.447437](https://www.google.com/maps?q=26.038799,85.447437) | 45 | complete |
 | Govindpur | 122 | Km 602.200 | [25.590289, 85.875945](https://www.google.com/maps?q=25.590289,85.875945) | 45 | complete |
 | Routara | 131A | At Km 42.180 | [25.673552, 87.522361](https://www.google.com/maps?q=25.673552,87.522361) | 90 | complete |
-| Mamrejpur Fee Plaza | 131G | Chohilanwali | [25.486270 ,  84.998221](https://www.google.com/maps?q=25.486270 , 84.998221) | 75 | complete |
+| Mamrejpur Fee Plaza | 131G | Chohilanwali | [25.486270 ,  84.998221](https://www.google.com/maps?q=25.486270 , 84.998221) | 80 | complete |
 | Babhniyawan | 319 | 27+900 | [25.498326, 84.488251](https://www.google.com/maps?q=25.498326,84.488251) | 80 | complete |
 | Katiyara Toll Plaza | 319 | Katiyara | [25.241094, 83.984790](https://www.google.com/maps?q=25.241094,83.984790) | 95 | complete |
 | Jeerangachh Toll Plaza | 327 E | At Km 22.410 | [26.34924, 88.0535763](https://www.google.com/maps?q=26.34924,88.0535763) | 90 | complete |
 | Kakan Toll Plaza | 327E | Chohilanwali | [26.144405 ,  87.580533](https://www.google.com/maps?q=26.144405 , 87.580533) | 90 | complete |
+| Rahua Toll Plaza | 327E | Rahua (Saharsa) | [25.912353, 86.539642](https://www.google.com/maps?q=25.912353,86.539642) | 30 | complete |
 | Malhipur Toll Plaza | 333B | Khagaria | [25.426448, 86.442151](https://www.google.com/maps?q=25.426448,86.442151) | 60 | complete |
 | Chainwa (Chapraitha)  Fee Plaza | 531 | 27+900 | [26.0265694, 84.4909778](https://www.google.com/maps?q=26.0265694,84.4909778) | 50 | complete |
 | Thawe (Brindavan) | 531 | 27+900 | [26.4229472, 84.3869972](https://www.google.com/maps?q=26.4229472,84.3869972) | 45 | complete |
 | Pokhraira | 722 | 27+900 | [26.055956, 85.182733](https://www.google.com/maps?q=26.055956,85.182733) | 35 | complete |
 | Sonho | 722 | Sonho | [25.924072, 84.967898](https://www.google.com/maps?q=25.924072,84.967898) | 45 | complete |
-| Kulhariya | 922 | 27+900 | [25.58056, 84.76861](https://www.google.com/maps?q=25.58056,84.76861) | 105 | complete |
+| Kulhariya | 922 | 27+900 | [25.58056, 84.76861](https://www.google.com/maps?q=25.58056,84.76861) | 110 | complete |
 | Dalsagar | 922 | Vill Dalsagar P.S Behea Dist Buxar | [25.580548, 84.060688](https://www.google.com/maps?q=25.580548,84.060688) | 100 | complete |
 
 ---

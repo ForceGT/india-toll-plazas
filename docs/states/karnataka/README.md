@@ -2,7 +2,7 @@
 
 Browse **68 FASTag toll plazas** across 26 national highways in Karnataka. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 68 complete · **Last updated:** 2026-07-07
+**Coverage:** 68 complete · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -22,7 +22,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Bankapur Toll Plaza |  4 ( New 48) | Km 352.550 | [14.91044602, 75.27940293](https://www.google.com/maps?q=14.91044602,75.27940293) | 105 | complete |
-| Hirebgewadi Toll plaza | 4 (New 48) | Km 482.600 | [15.76311, 74.64785](https://www.google.com/maps?q=15.76311,74.64785) | 125 | complete |
+| Hirebagewadi Toll plaza | 4 (New 48) | Km 482.600 | [15.76311, 74.64785](https://www.google.com/maps?q=15.76311,74.64785) | 125 | complete |
 | Hattargi | 4 (New 48) | Km 537.770 | [16.1433, 74.51696](https://www.google.com/maps?q=16.1433,74.51696) | 25 | complete |
 | Kognoli Toll Plaza | 4 (New 48) | Km 591.240 | [16.5422, 74.31825](https://www.google.com/maps?q=16.5422,74.31825) | 60 | complete |
 | Ganebail Toll Plaza | 4A  ( New 748) | Km. 19.200 Ganebail | [15.69158618, 74.50351799](https://www.google.com/maps?q=15.69158618,74.50351799) | 40 | complete |
@@ -34,7 +34,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Attibele (Betl) | 7 (New 44) | Km 32.700 | [12.776883, 77.777119](https://www.google.com/maps?q=12.776883,77.777119) | 35 | complete |
 | Kananakatte | 13 (New 50) | Kananakatte | [14.53805878, 76.42680472](https://www.google.com/maps?q=14.53805878,76.42680472) | 95 | complete |
 | Thimmalapura Toll Plaza | 13 ( New 50) | Thimmalpura | [15.057368, 76.3569133](https://www.google.com/maps?q=15.057368,76.3569133) | 95 | complete |
-| Bagepalli Toll Plaza | 44 | KM 20+000 | [13.793094, 77.764384](https://www.google.com/maps?q=13.793094,77.764384) | 120 | complete |
+| Bagepalli Toll Plaza | 44 | KM 20+000 | [13.793094, 77.764384](https://www.google.com/maps?q=13.793094,77.764384) | 125 | complete |
 | Devanahalli ( Sadahalli) Toll Plaza | 44 | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [13.19357978, 77.64970853](https://www.google.com/maps?q=13.19357978,77.64970853) | 120 | complete |
 | Kulumapalya Toll Plaza | 48 |  | [13.114638 ,  77.37463](https://www.google.com/maps?q=13.114638 , 77.37463) | 25 | complete |
 | Nelamangala Toll Plaza (Doddakarenahalli ) | 48 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [13.09267233, 77.39452412](https://www.google.com/maps?q=13.09267233,77.39452412) | 60 | complete |
@@ -80,7 +80,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Gananguru Plaza | 275 | 116.5 | [12.472697, 76.760373](https://www.google.com/maps?q=12.472697,76.760373) | 175 | complete |
 | Sheshagirihalli Toll Plaza | 275 | Near Kengeri Kaniminke Toll Plaza Km 23.900 26.800 | [12.840393417724071, 77.41831598915633](https://www.google.com/maps?q=12.840393417724071,77.41831598915633) | 180 | complete |
 | Kaniminike Toll Plaza | 275 | Sameerapalem(V), Voletivaripalem (M), SPSR Nellore District | [12.8596555, 77.4311167](https://www.google.com/maps?q=12.8596555,77.4311167) | 180 | complete |
-| Rampura (NH-548 B) | 548B | PALUVAYI (Km 17+800) | [16.823268, 75.473624](https://www.google.com/maps?q=16.823268,75.473624) | 85 | complete |
+| Rampura Toll Plaza (NH-548 B) | 548B | PALUVAYI (Km 17+800) | [16.823268, 75.473624](https://www.google.com/maps?q=16.823268,75.473624) | 90 | complete |
 | Nalluru Devanahalli Toll Plaza | 648 | KM 20+000 | [13.20745569, 77.76247749](https://www.google.com/maps?q=13.20745569,77.76247749) | 85 | complete |
 | Hulikunte | 648 | KM 20+000 | [13.27084, 77.34821](https://www.google.com/maps?q=13.27084,77.34821) | 110 | complete |
 | Kannegala Toll Plaza | 766 | At km 144.130 | [11.78008, 76.61368](https://www.google.com/maps?q=11.78008,76.61368) | 35 | complete |

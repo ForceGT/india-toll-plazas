@@ -1,8 +1,8 @@
 # Toll plazas in Odisha — India
 
-Browse **38 FASTag toll plazas** across 17 national highways in Odisha. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **39 FASTag toll plazas** across 17 national highways in Odisha. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 35 complete, 3 partial · **Last updated:** 2026-07-07
+**Coverage:** 36 complete, 3 partial · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -17,26 +17,26 @@ What "confidence" means, so you know how much to trust a given rate:
 
 | Confidence | Plazas | Share |
 |---|---|---|
-| complete | 35 | 92.1% |
-| partial | 3 | 7.9% |
+| complete | 36 | 92.3% |
+| partial | 3 | 7.7% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Badeibadkudar Toll Plaza | 6 (New 49) | 27+900 | [21.5058155, 85.0582372](https://www.google.com/maps?q=21.5058155,85.0582372) | 145 | complete |
-| Jansanpur | 6 (New 49) | 27+900 | [21.4483033, 85.3733547](https://www.google.com/maps?q=21.4483033,85.3733547) | 65 | complete |
-| Khereitangiri | 6 (New 49) | 27+900 | [21.7056475, 85.6972661](https://www.google.com/maps?q=21.7056475,85.6972661) | 105 | complete |
+| Janasanpur Toll Plaza | 6 (New 49) | 27+900 | [21.4483033, 85.3733547](https://www.google.com/maps?q=21.4483033,85.3733547) | 70 | complete |
+| Khereitangiri | 6 (New 49) | 27+900 | [21.7056475, 85.6972661](https://www.google.com/maps?q=21.7056475,85.6972661) | 110 | complete |
 | Baragarh (Barhaguda) | 6 | Km 41.00 | [21.353251, 83.684222](https://www.google.com/maps?q=21.353251,83.684222) | 165 | complete |
 | Bhagada Narayanpur | 16 | 102.5 | [20.944516, 86.327633](https://www.google.com/maps?q=20.944516,86.327633) | 155 | complete |
 | Gudipada ( Gangapada) | 16 | 27+900 | [20.207918, 85.679331](https://www.google.com/maps?q=20.207918,85.679331) | 120 | complete |
-| Gurapalli | 16 | 27+900 | [19.638667, 85.140365](https://www.google.com/maps?q=19.638667,85.140365) | 105 | complete |
+| Gurapalli | 16 | 27+900 | [19.638667, 85.140365](https://www.google.com/maps?q=19.638667,85.140365) | 110 | complete |
 | Sergarh | 16 | 27+900 | [21.429986, 86.836853](https://www.google.com/maps?q=21.429986,86.836853) | 100 | complete |
 | Bandalo (Manguli )Toll Plaza | 16 | Km 34.624 | [20.565664, 86.011180](https://www.google.com/maps?q=20.565664,86.011180) | 150 | complete |
 | Karapadu (Old Bellupada) | 16 | Km 473.632 | [19.111282, 84.699281](https://www.google.com/maps?q=19.111282,84.699281) | 120 | complete |
 | Padmanavapur | 18 | 27+900 | [21.62325, 86.925376](https://www.google.com/maps?q=21.62325,86.925376) | 75 | complete |
 | Sukhuapada Toll Plaza | 18 | 27+900 | [22.07456, 86.643509](https://www.google.com/maps?q=22.07456,86.643509) | 65 | complete |
-| Banajodi (Padmapur) | 20 (Old 215) | 27+900 | [21.710167, 85.5836](https://www.google.com/maps?q=21.710167,85.5836) | 90 | complete |
-| Hasanpur (Sainkul) | 20 (Old 215) | 27+900 | [21.147001, 86.117538](https://www.google.com/maps?q=21.147001,86.117538) | 95 | complete |
-| Kantaghar (Dhenkikote) | 20 (Old 215) | 27+900 | [21.508544, 85.826198](https://www.google.com/maps?q=21.508544,85.826198) | 80 | complete |
+| Banajodi (Padmapur) | 20 (Old 215) | 27+900 | [21.710167, 85.5836](https://www.google.com/maps?q=21.710167,85.5836) | 95 | complete |
+| Hasanpur (Sainkul) | 20 (Old 215) | 27+900 | [21.147001, 86.117538](https://www.google.com/maps?q=21.147001,86.117538) | 100 | complete |
+| Kantaghar (Dhenkikote) | 20 (Old 215) | 27+900 | [21.508544, 85.826198](https://www.google.com/maps?q=21.508544,85.826198) | 85 | complete |
 | Nunmath Toll Plaza | 26 | Nunmath | [20.28276, 83.295998](https://www.google.com/maps?q=20.28276,83.295998) | 40 | complete |
 | Jharpokharia | 49 | 216.36 | [22.180518, 86.636253](https://www.google.com/maps?q=22.180518,86.636253) | 90 | complete |
 | Govindpur (Old Name Brajrajnagar) | 49 | 27+900 | [21.769873, 83.680755](https://www.google.com/maps?q=21.769873,83.680755) | 60 | complete |
@@ -49,13 +49,14 @@ What "confidence" means, so you know how much to trust a given rate:
 | Hatibari Toll Plaza | 55 | at Km/Ch.182.00 | [21.32169416524077 ,  84.0997248781604](https://www.google.com/maps?q=21.32169416524077 , 84.0997248781604) | 110 | complete |
 | Bolangir | 57 | BOLANGIR | [20.740808, 83.631083](https://www.google.com/maps?q=20.740808,83.631083) | 40 | complete |
 | Rangamatia Toll Plaza | 57 | RANGAMATIA DASPALLA | [20.365667, 84.793588](https://www.google.com/maps?q=20.365667,84.793588) | 75 | complete |
+| Tikatala Toll Plaza | 57 | Tikatala  | [20.190552, 85.407023](https://www.google.com/maps?q=20.190552,85.407023) | 55 | complete |
 | Laxmannath | 60 (New 16) | 51.700 | [21.838491, 87.246479](https://www.google.com/maps?q=21.838491,87.246479) | 85 | complete |
 | Darjing Toll Plaza | 143 | Darjing | [21.9314712, 84.8929657](https://www.google.com/maps?q=21.9314712,84.8929657) | 135 | complete |
-| Balani toll Plaza | 143 | KM 331.200 | [21.587744, 84.992368](https://www.google.com/maps?q=21.587744,84.992368) | 70 | complete |
+| Balani toll Plaza | 143 | KM 331.200 | [21.587744, 84.992368](https://www.google.com/maps?q=21.587744,84.992368) | 85 | complete |
 | Khamar Toll Plaza | 149 | 27+900 | [21.249853, 85.192952](https://www.google.com/maps?q=21.249853,85.192952) | 60 | complete |
 | Kadaligarh Toll PLaza | 153 B | Kadaligarh | [20.958433, 84.313559](https://www.google.com/maps?q=20.958433,84.313559) | 50 | complete |
-| Kandra Toll Plaza | 215 (New 520) | 27+900 | [22.0521055, 85.4941527](https://www.google.com/maps?q=22.0521055,85.4941527) | 70 | complete |
-| Jhamudihi Toll Plaza | 215 ( New 520) | PONGALUR | [21.991254, 85.119382](https://www.google.com/maps?q=21.991254,85.119382) | 85 | complete |
+| Kandra Toll Plaza | 215 (New 520) | 27+900 | [22.0521055, 85.4941527](https://www.google.com/maps?q=22.0521055,85.4941527) | 75 | complete |
+| Jhamudihi Toll Plaza | 215 ( New 520) | PONGALUR | [21.991254, 85.119382](https://www.google.com/maps?q=21.991254,85.119382) | 90 | complete |
 | Paat Sahanipur (Pipli) | 316 | 27+900 | [20.137113, 85.83902](https://www.google.com/maps?q=20.137113,85.83902) | 140 | complete |
 | Masnikani Toll Plaza |  | NETC 536438; Masnikani Toll Plaza; Sundargarh, Odisha; 22.0313,84.0351 | [22.0313, 84.0351](https://www.google.com/maps?q=22.0313,84.0351) | 100 | partial |
 | Laing Toll Plaza |  | NETC 536439; Laing Toll Plaza; Sundargarh, Odisha; 22.2394,84.6334 | [22.2394, 84.6334](https://www.google.com/maps?q=22.2394,84.6334) | 65 | partial |

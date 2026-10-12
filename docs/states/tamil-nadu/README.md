@@ -1,8 +1,8 @@
 # Toll plazas in Tamil Nadu — India
 
-Browse **106 FASTag toll plazas** across 40 national highways in Tamil Nadu. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **106 FASTag toll plazas** across 41 national highways in Tamil Nadu. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 83 complete, 23 partial · **Last updated:** 2026-07-07
+**Coverage:** 83 complete, 23 partial · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -24,38 +24,38 @@ What "confidence" means, so you know how much to trust a given rate:
 |---|---|---|---|---|---|
 | Surapattu (Chennai Bypass II) | 4 | Km 28.600 | [13.136678, 80.181624](https://www.google.com/maps?q=13.136678,80.181624) | 75 | complete |
 | Nallur | 5 | Km 21.625 | [13.216958, 80.169353](https://www.google.com/maps?q=13.216958,80.169353) | 85 | complete |
-| L and T Krishnagiri Thopur (Palayam) Toll Plaza | 7 (New 44) | Km 154.440 | [12.00643, 78.08042](https://www.google.com/maps?q=12.00643,78.08042) | 120 | complete |
+| L and T Krishnagiri Thopur (Palayam) Toll Plaza | 7 (New 44) | 187 | [12.00643, 78.08042](https://www.google.com/maps?q=12.00643,78.08042) | 160 | complete |
 | Omalur (Kottagoundapatty) | 7 (New 44) | Km 191.800 | [11.72034, 78.07338](https://www.google.com/maps?q=11.72034,78.07338) | 95 | complete |
 | Seliyamedu Fee Plaza | 32 | Seliyamedu | [11.823296, 79.759146](https://www.google.com/maps?q=11.823296,79.759146) | 75 | complete |
-| Manambadi Toll Plaza | 36 |  | [11.07103, 79.42715](https://www.google.com/maps?q=11.07103,79.42715) | 105 | complete |
-| Shenbagampettai | 36 | 92.957 | [10.158744, 78.651128](https://www.google.com/maps?q=10.158744,78.651128) | 85 | complete |
+| Manambadi Toll Plaza | 36 |  | [11.07103, 79.42715](https://www.google.com/maps?q=11.07103,79.42715) | 110 | complete |
+| Shenbagampettai | 36 | 92.957 | [10.158744, 78.651128](https://www.google.com/maps?q=10.158744,78.651128) | 80 | complete |
 | Palaya Gandharvakottai | 36 | Km 16.095 | [10.612499, 79.0306](https://www.google.com/maps?q=10.612499,79.0306) | 55 | complete |
-| Vembukudi Toll Plaza | 36 | Vill-Bagsarai (200.100) | [10.874965, 79.211381](https://www.google.com/maps?q=10.874965,79.211381) | 105 | complete |
-| Chittampatti | 38 | Km 113.630 | [9.989594, 78.244086](https://www.google.com/maps?q=9.989594,78.244086) | 110 | complete |
-| Eliyarpathi | 38 | Km 143.580 | [9.78299, 78.094492](https://www.google.com/maps?q=9.78299,78.094492) | 115 | complete |
+| Vembukudi Toll Plaza | 36 | Vill-Bagsarai (200.100) | [10.874965, 79.211381](https://www.google.com/maps?q=10.874965,79.211381) | 110 | complete |
+| Chittampatti | 38 | Km 113.630 | [9.989594, 78.244086](https://www.google.com/maps?q=9.989594,78.244086) | 115 | complete |
+| Eliyarpathi | 38 | Km 143.580 | [9.78299, 78.094492](https://www.google.com/maps?q=9.78299,78.094492) | 120 | complete |
 | Sengurichi | 38 | Km 192.750 | [11.706434, 79.322335](https://www.google.com/maps?q=11.706434,79.322335) | 70 | complete |
-| Boothakudi | 38 | Km 21.020 | [10.64127, 78.581277](https://www.google.com/maps?q=10.64127,78.581277) | 105 | complete |
+| Boothakudi | 38 | Km 21.020 | [10.64127, 78.581277](https://www.google.com/maps?q=10.64127,78.581277) | 110 | complete |
 | Thirumandurai | 38 | Km 244.000 | [11.396808, 78.99356](https://www.google.com/maps?q=11.396808,78.99356) | 70 | complete |
 | Pudhurpandiyapuram | 38 | Km 254.940 | [8.862935, 78.117106](https://www.google.com/maps?q=8.862935,78.117106) | 115 | complete |
 | Samayapuram | 38 | Km 307.241 | [10.92937, 78.744056](https://www.google.com/maps?q=10.92937,78.744056) | 55 | complete |
-| Kodai Road (Kozhinjipatti) | 44 |  | [10.194334, 77.909215](https://www.google.com/maps?q=10.194334,77.909215) | 75.00 | complete |
+| Kodai Road (Kozhinjipatti) | 44 |  | [10.194334, 77.909215](https://www.google.com/maps?q=10.194334,77.909215) | 95 | complete |
 | Salaipudhur | 44 | Km 125.350 | [8.975702, 77.774608](https://www.google.com/maps?q=8.975702,77.774608) | 130 | complete |
 | Kappalur | 44 | Km 18.652 | [9.844294, 78.011209](https://www.google.com/maps?q=9.844294,78.011209) | 105 | complete |
 | Nanguneri | 44 | Km 185.387 | [8.527035, 77.663289](https://www.google.com/maps?q=8.527035,77.663289) | 120 | complete |
-| Rasampalayam | 44 | Km 259.500 | [11.193895, 78.103219](https://www.google.com/maps?q=11.193895,78.103219) | 55 | complete |
+| Rasampalayam | 44 | Km 259.500 | [11.193895, 78.103219](https://www.google.com/maps?q=11.193895,78.103219) | 80 | complete |
 | Velanchettiyur | 44 | Km 338.000 | [10.194266, 77.909368](https://www.google.com/maps?q=10.194266,77.909368) | 115 | complete |
 | Etturvattam | 44 | Km 74.930 | [9.385445, 77.914347](https://www.google.com/maps?q=9.385445,77.914347) | 105 | complete |
-| Krishnagiri | 44 | Km 87.500 | [12.544583, 78.201132](https://www.google.com/maps?q=12.544583,78.201132) | 90 | complete |
-| Gangarampalayam | 45A (New 332) | Jamni, Dist Jind | [11.920771, 79.616346](https://www.google.com/maps?q=11.920771,79.616346) | 60 | complete |
-| Vikravandi(Villupuram)* | 45 | Km 150.400 | [12.024441, 79.538059](https://www.google.com/maps?q=12.024441,79.538059) | 105 | complete |
+| Krishnagiri | 44 | Km 87.500 | [12.544583, 78.201132](https://www.google.com/maps?q=12.544583,78.201132) | 95 | complete |
+| Gangarampalayam | 45A (New 332) | Jamni, Dist Jind | [11.920771, 79.616346](https://www.google.com/maps?q=11.920771,79.616346) | 65 | complete |
+| Vikravandi(Villupuram) | 45 | Km 150.400 | [12.024441, 79.538059](https://www.google.com/maps?q=12.024441,79.538059) | 110 | complete |
 | Vanagaram (Chennai Bypass) | 45 | Km 16.500 | [13.043526, 80.149598](https://www.google.com/maps?q=13.043526,80.149598) | 55 | complete |
 | Paranur (Chengalpet) | 45 | Km 52.820 | [12.723887, 79.981917](https://www.google.com/maps?q=12.723887,79.981917) | 75 | complete |
-| Kothattai | 45A (New 32) | Kothattai Village at Km.81.000 | [11.517634, 79.719535](https://www.google.com/maps?q=11.517634,79.719535) | 130 | complete |
+| Kothattai | 45A (New 32) | Kothattai Village at Km.81.000 | [11.517634, 79.719535](https://www.google.com/maps?q=11.517634,79.719535) | 90 | complete |
 | Athur (Tindivanam) | 45 | Vill-Bagsarai (200.100) | [12.346862, 79.779856](https://www.google.com/maps?q=12.346862,79.779856) | 75 | complete |
-| Vijayamangalam Toll Plaza | 47 (New 544) | 27+900 | [11.245714, 77.519702](https://www.google.com/maps?q=11.245714,77.519702) | 65 | complete |
-| Vaiguntham | 47 (New 544) | Km 27.697 | [11.513282, 77.923946](https://www.google.com/maps?q=11.513282,77.923946) | 75 | complete |
-| Chennasamudram | 48 | Km 104.900 | [12.910943, 79.40121](https://www.google.com/maps?q=12.910943,79.40121) | 50 | complete |
-| Nemili (Sriperumbudur) | 48 | Km 37.800 | [12.982155, 79.968944](https://www.google.com/maps?q=12.982155,79.968944) | 60 | complete |
+| Vijayamangalam Toll Plaza | 47 (New 544) | 27+900 | [11.245714, 77.519702](https://www.google.com/maps?q=11.245714,77.519702) | 75 | complete |
+| Vaiguntham | 47 (New 544) | Km 27.697 | [11.513282, 77.923946](https://www.google.com/maps?q=11.513282,77.923946) | 80 | complete |
+| Chennasamudram | 48 | Km 104.900 | [12.910943, 79.40121](https://www.google.com/maps?q=12.910943,79.40121) | 45 | complete |
+| Nemili (Sriperumbudur) | 48 | Km 37.800 | [12.982155, 79.968944](https://www.google.com/maps?q=12.982155,79.968944) | 50 | complete |
 | Vaniyambadi | 48 | Km 46.800 | [12.648554, 78.5833](https://www.google.com/maps?q=12.648554,78.5833) | 125 | complete |
 | Pallikonda | 48 | Km 98.520 | [12.905829, 78.951686](https://www.google.com/maps?q=12.905829,78.951686) | 115 | complete |
 | Kariyamangalam Fee Plaza | 66 (New 77) | Km. 139.255 | [12.288234, 78.828432](https://www.google.com/maps?q=12.288234,78.828432) | 60 | complete |
@@ -64,46 +64,46 @@ What "confidence" means, so you know how much to trust a given rate:
 | Morattandi | 66 | Seliyamedu | [11.983278, 79.78836](https://www.google.com/maps?q=11.983278,79.78836) | 70 | complete |
 | Thiruparaithurai | 67 | Km 157.500 | [10.885791, 78.557668](https://www.google.com/maps?q=10.885791,78.557668) | 35 | complete |
 | Thuvakudi | 67 (New 83) | Km. 111.255 | [10.739075, 78.825026](https://www.google.com/maps?q=10.739075,78.825026) | 35 | complete |
-| Veeracholapuram (West)* | 68 (New 79) | Km 105.000 | [11.736464, 79.010409](https://www.google.com/maps?q=11.736464,79.010409) | 65 | complete |
-| Mettupatti* | 68 (New 79) | Km 21.750 | [11.66167, 78.330768](https://www.google.com/maps?q=11.66167,78.330768) | 65 | complete |
-| Nathakarai* | 68 (New 79) | Km 73.760 | [11.592809, 78.780812](https://www.google.com/maps?q=11.592809,78.780812) | 65 | complete |
+| Veeracholapuram (West) | 68 (New 79) | Km 105.000 | [11.736464, 79.010409](https://www.google.com/maps?q=11.736464,79.010409) | 65 | complete |
+| Mettupatti | 68 (New 79) | Km 21.750 | [11.66167, 78.330768](https://www.google.com/maps?q=11.66167,78.330768) | 65 | complete |
+| Nathakarai | 68 (New 79) | Km 73.760 | [11.592809, 78.780812](https://www.google.com/maps?q=11.592809,78.780812) | 65 | complete |
 | Managethi | 81 | 27+900 | [11.133873, 79.242871](https://www.google.com/maps?q=11.133873,79.242871) | 75 | complete |
 | Kallakudi | 81 | Kallakudi | [10.9971037, 78.9667498](https://www.google.com/maps?q=10.9971037,78.9667498) | 80 | complete |
 | Manavasi | 81 | Km 198.500 | [10.930934, 78.215268](https://www.google.com/maps?q=10.930934,78.215268) | 55 | complete |
 | Pongalur Toll Plaza | 81 | PONGALUR | [10.977841, 77.345121](https://www.google.com/maps?q=10.977841,77.345121) | 85 | complete |
-| Kovilvenni Toll Plaza | 83 |  | [10.782061, 79.353558](https://www.google.com/maps?q=10.782061,79.353558) | 75 | complete |
+| Kovilvenni Toll Plaza | 83 |  | [10.782061, 79.353558](https://www.google.com/maps?q=10.782061,79.353558) | 80 | complete |
 | Chatrapatti  | 83 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [10.4804872, 77.6369547](https://www.google.com/maps?q=10.4804872,77.6369547) | 105 | complete |
-| Valavanthankottai | 83 | Km 120.900 | [10.744371, 78.834044](https://www.google.com/maps?q=10.744371,78.834044) | 90 | complete |
+| Valavanthankottai | 83 | Km 120.900 | [10.744371, 78.834044](https://www.google.com/maps?q=10.744371,78.834044) | 95 | complete |
 | Ponnambalapatti | 83 | Km 382.850 | [10.536361, 78.257067](https://www.google.com/maps?q=10.536361,78.257067) | 125 | complete |
 | Bogalur | 87 | 98.129 | [9.398195, 78.71394](https://www.google.com/maps?q=9.398195,78.71394) | 90 | complete |
 | Thiruppachethi | 87 | Km. 30.188 | [9.780999, 78.335299](https://www.google.com/maps?q=9.780999,78.335299) | 95 | complete |
-| Pudukottai (Vagaikulam) | 138 | Km 17.000 | [8.755472, 78.065264](https://www.google.com/maps?q=8.755472,78.065264) | 80 | complete |
-| Sameerapalem Toll Plaza | 167B | Sameerapalem(V), Voletivaripalem (M), SPSR Nellore District | [15.103900, 79.463900](https://www.google.com/maps?q=15.103900,79.463900) | 45 | complete |
+| Pudukottai (Vagaikulam) | 138 | Km 17.000 | [8.755472, 78.065264](https://www.google.com/maps?q=8.755472,78.065264) | 85 | complete |
+| Sameerapalem Toll Plaza | 167B | Sameerapalem(V), Voletivaripalem (M), SPSR Nellore District | [15.103900, 79.463900](https://www.google.com/maps?q=15.103900,79.463900) | 50 | complete |
 | H.Pudhupatti | 179 A | 39.76 | [11.96768, 78.42593](https://www.google.com/maps?q=11.96768,78.42593) | 95 | complete |
 | Kadhavani Toll Plaza | 179A | Jamni, Dist Jind | [12.375194 ,  78.545639](https://www.google.com/maps?q=12.375194 , 78.545639) | 70 | complete |
-| Sevugampatti Toll Plaza | 183 | 27+900 | [10.193994 ,  77.794270](https://www.google.com/maps?q=10.193994 , 77.794270) | 85 | complete |
 | Upparpatti | 183 | 83.943 | [9.942697, 77.419667](https://www.google.com/maps?q=9.942697,77.419667) | 60 | complete |
-| S V Puram | 205 | Km 305.800 | [13.525577, 79.532925](https://www.google.com/maps?q=13.525577,79.532925) | 70 | complete |
+| S V Puram | 205 | Km 305.800 | [13.525577, 79.532925](https://www.google.com/maps?q=13.525577,79.532925) | 75 | complete |
 | Pattaraiperumbudur  | 205 | Km 31.800 | [13.150776, 79.834675](https://www.google.com/maps?q=13.150776,79.834675) | 20 | complete |
-| Kodikottai | 210 (New   536)) | Km 114.550 | [9.8879515, 78.8477001](https://www.google.com/maps?q=9.8879515,78.8477001) | 45 | complete |
-| Vennathur | 210 (New   536)) | Km 154.960 | [9.5424934, 78.8632246](https://www.google.com/maps?q=9.5424934,78.8632246) | 35 | complete |
+| Vennathur | 210 (New   536) | Km 154.960 | [9.5424934, 78.8632246](https://www.google.com/maps?q=9.5424934,78.8632246) | 40 | complete |
 | Lechchumanapatti |  210 (New 336  ,36   ,536) | Km 19.000 | [10.624244, 78.747767](https://www.google.com/maps?q=10.624244,78.747767) | 50 | complete |
 | Lembalakudi |  210 (New 336,  36    ,536) | Km 57.317 | [10.299776, 78.770713](https://www.google.com/maps?q=10.299776,78.770713) | 45 | complete |
 | Kurungudi ( Veerananallur ) | 227 (New 81) | Ch. 107.750 | [11.268025, 79.545356](https://www.google.com/maps?q=11.268025,79.545356) | 45 | complete |
 | Enamkariyanandal | 234 | Enamkariyanandal Km.138.600 | [12.2955, 79.0553](https://www.google.com/maps?q=12.2955,79.0553) | 35 | complete |
 | Thennamadevi | 234 | Thennamadevi Km.198.600 | [11.9829, 79.4835](https://www.google.com/maps?q=11.9829,79.4835) | 35 | complete |
-| Vallam | 234 | Vallam Km.80.600 | [12.770442, 79.148816](https://www.google.com/maps?q=12.770442,79.148816) | 35 | complete |
+| Vallam | 234 | Vallam Km.80.600 | [12.770442, 79.148816](https://www.google.com/maps?q=12.770442,79.148816) | 40 | complete |
 | Velampatti Toll Plaza | 381 | Avinashipalayam | [10.99368, 77.41802](https://www.google.com/maps?q=10.99368,77.41802) | 45 | complete |
 | Elurpatti Toll Plaza | 381B | Km 53.441.50 | [11.032578377822981, 78.27430832561208](https://www.google.com/maps?q=11.032578377822981,78.27430832561208) | 50 | complete |
 | Keezhkuppam | 532 | at 97.500 | [11.576895, 78.936138](https://www.google.com/maps?q=11.576895,78.936138) | 50 | complete |
-| U Ponnalagaram | 532 | Jamni, Dist Jind | [11.52775, 79.403611](https://www.google.com/maps?q=11.52775,79.403611) | 50 | complete |
+| U Ponnalagaram | 532 | Jamni, Dist Jind | [11.52775, 79.403611](https://www.google.com/maps?q=11.52775,79.403611) | 90 | complete |
+| Kodikottai | 536 | Km 114.550 | [9.8879515, 78.8477001](https://www.google.com/maps?q=9.8879515,78.8477001) | 45 | complete |
 | Madukkarai | 544 |  | [10.895638, 76.945815](https://www.google.com/maps?q=10.895638,76.945815) | 35 | complete |
 | Vellar Toll Plaza | 544H | 06+350 | [11.912405, 78.00445](https://www.google.com/maps?q=11.912405,78.00445) | 40 | complete |
-| Ammapettai | 544H | 60.300 | [11.610713, 77.735715](https://www.google.com/maps?q=11.610713,77.735715) | 30 | complete |
+| Ammapettai | 544H | 60.300 | [11.610713, 77.735715](https://www.google.com/maps?q=11.610713,77.735715) | 35 | complete |
 | IVRCL Chengapally Tollways Limited (Kaniyur) | 544 | Km 136.840 | [11.095622, 77.151091](https://www.google.com/maps?q=11.095622,77.151091) | 125 | complete |
 | Nathampatti Toll Plaza | 744 | - | [9.583867, 77.725264](https://www.google.com/maps?q=9.583867,77.725264) | 85 | complete |
-| Pudur | 785 | Vill-Bagsarai (200.100) | [10.11105862537124, 78.1789878](https://www.google.com/maps?q=10.11105862537124,78.1789878) | 195 | complete |
-| Karagadahalli Toll Plaza | 844 | Rampura | [12.2606576, 78.0796283](https://www.google.com/maps?q=12.2606576,78.0796283) | 85 | complete |
+| Pudur | 785 | Vill-Bagsarai (200.100) | [10.11105862537124, 78.1789878](https://www.google.com/maps?q=10.11105862537124,78.1789878) | 200 | complete |
+| Karagadahalli Toll Plaza | 844 | Rampura | [12.2606576, 78.0796283](https://www.google.com/maps?q=12.2606576,78.0796283) | 90 | complete |
+| Thayanathuragam Fee Plaza | 844 | Thayanathuragam | [12.62660532, 77.92292307](https://www.google.com/maps?q=12.62660532,77.92292307) | 40 | complete |
 | Thirupathisaram | 944 | 21.253 | [8.2062014, 77.4602893](https://www.google.com/maps?q=8.2062014,77.4602893) | 45 | complete |
 | Mathur Toll Plaza |  | NETC 360042; Mathur Toll Plaza; Madharam, TamilNadu; 13.176269,80.244793 | [13.176269, 80.244793](https://www.google.com/maps?q=13.176269,80.244793) | 45 | partial |
 | Chinnar 9/6checkpost |  | NETC 536474; Chinnar 9/6checkpost; Chinnar, TamilNadu; 10.449630,77.240929 | [10.449630, 77.240929](https://www.google.com/maps?q=10.449630,77.240929) | 100 | partial |

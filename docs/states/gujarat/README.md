@@ -2,7 +2,7 @@
 
 Browse **97 FASTag toll plazas** across 25 national highways in Gujarat. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 64 complete, 33 partial · **Last updated:** 2026-07-07
+**Coverage:** 64 complete, 33 partial · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -56,15 +56,15 @@ What "confidence" means, so you know how much to trust a given rate:
 | Khemana | 27 | Km 602.750 | [24.241335, 72.462709](https://www.google.com/maps?q=24.241335,72.462709) | 80 | complete |
 | Dhumiyani | 27 (New 8A) | Km 82.215 | [21.751451, 70.326793](https://www.google.com/maps?q=21.751451,70.326793) | 125 | complete |
 | Pithai | 47 | Jamudihi, Koida, Sundergarh (At 110.436Km) | [22.9128, 72.957428](https://www.google.com/maps?q=22.9128,72.957428) | 130 | complete |
-| Vavadikhurd | 47 | Jamudihi, Koida, Sundergarh (At 110.436Km) | [22.792571, 73.533274](https://www.google.com/maps?q=22.792571,73.533274) | 145 | complete |
+| Vavadikhurd | 47 | Jamudihi, Koida, Sundergarh (At 110.436Km) | [22.792571, 73.533274](https://www.google.com/maps?q=22.792571,73.533274) | 150 | complete |
 | Bhatwada | 47(Old 59) | Km 146.400 | [22.792886, 73.842871](https://www.google.com/maps?q=22.792886,73.842871) | 190 | complete |
 | Radhvanaj (Kheda ) Toll Plaza | 48 |  (Ch-92+000) | [22.715971, 72.740887](https://www.google.com/maps?q=22.715971,72.740887) | 115 | complete |
 | Vasad Toll Plaza | 48 |  (Ch-92+000) | [22.453254, 73.070539](https://www.google.com/maps?q=22.453254,73.070539) | 160 | complete |
 | Mandva | 48 | Km 195.800 | [21.702698, 73.059975](https://www.google.com/maps?q=21.702698,73.059975) | 30 | complete |
-| Choryasi | 48 | Km 245.650 | [21.303367, 72.95418](https://www.google.com/maps?q=21.303367,72.95418) | 125 | complete |
+| Choryasi  | 48 | Km 245.650 | [21.303367, 72.95418](https://www.google.com/maps?q=21.303367,72.95418) | 125 | complete |
 | Boriach | 48 | Km 297.300 | [20.885548, 73.052162](https://www.google.com/maps?q=20.885548,73.052162) | 120 | complete |
 | Bhagwada | 48 | Km 356.200 | [20.43495, 72.917204](https://www.google.com/maps?q=20.43495,72.917204) | 125 | complete |
-| Kathpur | 48 | Km. 518.285 | [23.410181, 72.828618](https://www.google.com/maps?q=23.410181,72.828618) | 70 | complete |
+| Kathpur | 48 | Km. 518.285 | [23.410181, 72.828618](https://www.google.com/maps?q=23.410181,72.828618) | 75 | complete |
 | Vantada | 48 | Km. 518.285 | [23.61615, 73.254472](https://www.google.com/maps?q=23.61615,73.254472) | 35 | complete |
 | Velva Toll Plaza | 51 | 212.325 | [20.805689, 70.813503](https://www.google.com/maps?q=20.805689,70.813503) | 80 | complete |
 | Rohisa | 51 | At 79.370 Km (Rohisa village) | [21.190534, 71.8638496](https://www.google.com/maps?q=21.190534,71.8638496) | 120 | complete |

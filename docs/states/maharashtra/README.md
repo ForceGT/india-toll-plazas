@@ -1,8 +1,8 @@
 # Toll plazas in Maharashtra — India
 
-Browse **203 FASTag toll plazas** across 48 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **204 FASTag toll plazas** across 49 national highways in Maharashtra. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 105 complete, 96 partial, 2 verified · **Last updated:** 2026-07-07
+**Coverage:** 106 complete, 96 partial, 2 verified · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -18,14 +18,14 @@ What "confidence" means, so you know how much to trust a given rate:
 | Confidence | Plazas | Share |
 |---|---|---|
 | verified | 2 | 1.0% |
-| complete | 105 | 51.7% |
-| partial | 96 | 47.3% |
+| complete | 106 | 52.0% |
+| partial | 96 | 47.1% |
 
 | Toll Plaza | NH | Location | Coordinates | Car (single ₹) | Confidence |
 |---|---|---|---|---|---|
 | Songir | 3 (New 52) | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [21.050995, 74.785116](https://www.google.com/maps?q=21.050995,74.785116) | 90 | complete |
-| Dehuroad  (Close Loop Toll ) | 4 [New NH-48] |  | [18.700286, 73.692154](https://www.google.com/maps?q=18.700286,73.692154) |  | complete |
 | Kusgaon (Close Loop Toll ) | 4 [New NH-48] |  | [18.760253, 73.439713](https://www.google.com/maps?q=18.760253,73.439713) |  | complete |
+| Dehuroad  (Close Loop Toll ) | 4 [New NH-48] |  | [18.700286, 73.692154](https://www.google.com/maps?q=18.700286,73.692154) |  | complete |
 | Kini | 4 (New 48) | Km 634.500 | [16.8767054, 74.2983001](https://www.google.com/maps?q=16.8767054,74.2983001) | 65 | complete |
 | Tasawade | 4 (New 48) | Km 694.150 | [17.365756, 74.122928](https://www.google.com/maps?q=17.365756,74.122928) | 70 | complete |
 | NAGPUR BYPASS CHECK TOLL PLAZA | 7 (New 44) | Hatiwale | [20.2299353 , 79.0131934](https://www.google.com/maps?q=20.2299353 ,79.0131934) | 155 | complete |
@@ -40,42 +40,43 @@ What "confidence" means, so you know how much to trust a given rate:
 | Khumari (Kamptee - Kanhan Bypass)/ Tekadi | 44 | Km 690.600 | [21.382332, 79.253327](https://www.google.com/maps?q=21.382332,79.253327) | 175 | complete |
 | Bhagemari  (Patanswangi ) Toll Plaza | 47 (old 69) | Km 25.700 | [21.343724, 79.009038](https://www.google.com/maps?q=21.343724,79.009038) | 110 | complete |
 | Shedung  (Close Loop Toll ) | 48 |  | [18.947388, 73.178849](https://www.google.com/maps?q=18.947388,73.178849) |  | complete |
-| Khaniwade | 48 | 27+900 | [19.520454, 72.916883](https://www.google.com/maps?q=19.520454,72.916883) | 130 | complete |
+| Khaniwade | 48 | 27+900 | [19.520454, 72.916883](https://www.google.com/maps?q=19.520454,72.916883) | 135 | complete |
 | Shilphata  (Close Loop Toll ) | 48 | Bhavanipur | [19.097790, 73.071728](https://www.google.com/maps?q=19.097790,73.071728) |  | complete |
 | Charoti | 48 | Km 420.340 | [19.890544, 72.942644](https://www.google.com/maps?q=19.890544,72.942644) | 95 | complete |
 | Anewadi | 48 | Km 748.600 | [17.810312, 73.971381](https://www.google.com/maps?q=17.810312,73.971381) | 85 | complete |
 | Khed Shivapur | 48 | Km 819.240 | [18.3313849, 73.8525197](https://www.google.com/maps?q=18.3313849,73.8525197) | 125 | complete |
 | Nashik Sinner Tollways Limited | 48 | Shinde village Nashik | [19.9119216 ,  73.9006299](https://www.google.com/maps?q=19.9119216 , 73.9006299) | 45 | complete |
+| Fulval Toll Plaza | NH-50 | At Village Fulval, Dist. Nanded | [18.840371, 77.211286](https://www.google.com/maps?q=18.840371,77.211286) | 60 | complete |
 | Gondhkhairi/ Kondhali | 53 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [21.137001, 78.89666](https://www.google.com/maps?q=21.137001,78.89666) | 55 | complete |
-| Karanja (Ghadge) | 53 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [21.162103, 78.399287](https://www.google.com/maps?q=21.162103,78.399287) | 45 | complete |
 | Nandgaon Peth | 53 | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [20.951008, 77.788359](https://www.google.com/maps?q=20.951008,77.788359) | 130 | complete |
 | Nashirabad | 53 | At Km 415.980 near Nashirabad Village Jalgaon | [ 21.0171682, 75.68514](https://www.google.com/maps?q= 21.0171682,75.68514) | 110 | complete |
 | Kurankhed Toll Plaza | 53 | Derhi toll plaza cholapur varanasi | [20.6952865, 77.2625729](https://www.google.com/maps?q=20.6952865,77.2625729) | 125 | complete |
 | Dasarkhed Toll Plaza | 53 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [20.9725608, 76.1792864](https://www.google.com/maps?q=20.9725608,76.1792864) | 80 | complete |
 | Sub Gavhan Kh (Sabgavhan ) | 53 | Hauj fee plaza at Km.237.765 at sultanpur-Varansi section design km.209.320 to km.272.590 | [20.863029, 74.971346](https://www.google.com/maps?q=20.863029,74.971346) | 165 | complete |
+| Karanja (Ghadge) | 53 | Karanja (Ghadge),District Wardha,Maharashtra 442203 | [21.162103, 78.399287](https://www.google.com/maps?q=21.162103,78.399287) | 70 | complete |
 | Mathani | 53 | Km 523.400 | [21.139545, 79.365105](https://www.google.com/maps?q=21.139545,79.365105) | 70 | complete |
 | Taroda Kasba | 53 | Taroda Kasba Toll Plaza | [20.6660558, 76.7181721](https://www.google.com/maps?q=20.6660558,76.7181721) | 130 | complete |
 | Hivargaon Pavsa | 60 | Km 138.749 | [19.516452, 74.201583](https://www.google.com/maps?q=19.516452,74.201583) | 115 | complete |
-| Laling (Dhule) | 60 | Km 268.632 | [20.833054, 74.754192](https://www.google.com/maps?q=20.833054,74.754192) | 170 | complete |
-| Chandwad | 60 | Km 356.700 | [20.325014, 74.210751](https://www.google.com/maps?q=20.325014,74.210751) | 170 | complete |
+| Laling (Dhule) | 60 | Km 268.632 | [20.833054, 74.754192](https://www.google.com/maps?q=20.833054,74.754192) | 100 | complete |
+| Chandwad | 60 | Km 356.700 | [20.325014, 74.210751](https://www.google.com/maps?q=20.325014,74.210751) | 95 | complete |
 | Chalakwadi | 60 | Km 91.106 | [19.170738, 74.074993](https://www.google.com/maps?q=19.170738,74.074993) | 135 | complete |
 | Dumberwadi | 61 | 125.7 | [19.24404, 74.013274](https://www.google.com/maps?q=19.24404,74.013274) | 60 | complete |
 | Dhoki | 61 | 178.1 | [19.15597, 74.41116](https://www.google.com/maps?q=19.15597,74.41116) | 45 | complete |
 | Badewadi | 61 | 290.65 | [19.17306, 75.3424](https://www.google.com/maps?q=19.17306,75.3424) | 50 | complete |
 | Ahilyanagar (Ahmednagar) Bypass Toll Plaza | 61 | Km 1+110 of NH-166S near  Sukekulan village in North Goa  District of Goa  | [19.087090 ,  74.697590](https://www.google.com/maps?q=19.087090 , 74.697590) | 90 | complete |
-| Sardewadi / Indapur | 65 | Km 140.100 | [18.844903, 73.09453](https://www.google.com/maps?q=18.844903,73.09453) | 100 | complete |
 | Patas | 65 | Km 65.000 | [18.424491, 74.466193](https://www.google.com/maps?q=18.424491,74.466193) | 95 | complete |
 | Hativale Fee Plaza | 66 |  | [16.611829 ,  73.545512](https://www.google.com/maps?q=16.611829 , 73.545512) | 85 | complete |
 | Osargaon Toll Plaza | 66 |  | [16.174444 ,  73.692500](https://www.google.com/maps?q=16.174444 , 73.692500) | 115 | complete |
+| Kharpada | 66 | Kharpada village | [18.504182, 73.054110](https://www.google.com/maps?q=18.504182,73.054110) | 100 | complete |
 | Sukekulan Mopa Toll Plaza | 66 | Km 1+110 of NH-166S near  Sukekulan village in North Goa  District of Goa  | [15.689516, 73.837917](https://www.google.com/maps?q=15.689516,73.837917) | 45 | complete |
 | Valsang |    150E | (Village)Burakayalakota , (District)Annamaya , Andhra Pradesh, 517351 | [17.5901, 76.0748](https://www.google.com/maps?q=17.5901,76.0748) | 65 | complete |
 | Nimgaon Khalu Fee Plaza | 160 |  | [18.49946408607375, 74.57615783588396](https://www.google.com/maps?q=18.49946408607375,74.57615783588396) | 95 | complete |
 | Dongrale Toll Plaza | 160H | Derhi toll plaza cholapur varanasi | [20.766214 ,   74.574654](https://www.google.com/maps?q=20.766214 ,  74.574654) | 40 | complete |
 | Baswant (Pimpalgaon) | 160 | Km 390.450 | [20.141701, 73.976492](https://www.google.com/maps?q=20.141701,73.976492) | 235 | complete |
-| Arjunali | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 140 | complete |
-| Ghoti | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 140 | complete |
+| Arjunali | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 75 | complete |
+| Ghoti | 160 | Km 532.690 | [19.361481, 73.165874](https://www.google.com/maps?q=19.361481,73.165874) | 70 | complete |
 | Pimparwadi | 160 | Pimparwadi | [19.81034, 74.27611](https://www.google.com/maps?q=19.81034,74.27611) | 80 | complete |
-| Salva Jaroda | 161 | At Km. 155.117 (Salva Jaroda) | [19.5988477, 77.3920472](https://www.google.com/maps?q=19.5988477,77.3920472) | 80 | complete |
+| Salva Jaroda | 161 | At Km. 155.117 (Salva Jaroda) | [19.5988477, 77.3920472](https://www.google.com/maps?q=19.5988477,77.3920472) | 85 | complete |
 | Medshi Sawarkhda | 161 | At km.41.374 | [20.363338, 76.932728](https://www.google.com/maps?q=20.363338,76.932728) | 105 | complete |
 | Sonari Toll Plaza | 161A | At Village Sonari, Tq. Himaytnagar, Dist. Nanded | [19.353279, 77.785449](https://www.google.com/maps?q=19.353279,77.785449) | 30 | complete |
 | Tuptakli Toll Plaza |  161A | Hatiwale | [20.079417 ,  77.762278](https://www.google.com/maps?q=20.079417 , 77.762278) | 35 | complete |
@@ -98,22 +99,22 @@ What "confidence" means, so you know how much to trust a given rate:
 | Devghat  Toll Plaza | 353 B | Devghat  | [19.746234   , 79.036936](https://www.google.com/maps?q=19.746234   ,79.036936) | 95 | complete |
 | Pawangaon Plaza | 353J | Jamni, Dist Jind | [21.181694, 79.18094](https://www.google.com/maps?q=21.181694,79.18094) | 70 | complete |
 | Nimbhi  | 353K | Plaza located at Renigunta-Niadupeta stretch (Km15+600) | [21.255970 ,  77.967044](https://www.google.com/maps?q=21.255970 , 77.967044) | 40 | complete |
-| Bijora | 361 |  | [19.712792, 77.729483](https://www.google.com/maps?q=19.712792,77.729483) | 110 | complete |
+| Bijora | 361 |  | [19.712792, 77.729483](https://www.google.com/maps?q=19.712792,77.729483) | 115 | complete |
 | Pardi Makta | 361 |  | [19.335278, 77.387778](https://www.google.com/maps?q=19.335278,77.387778) | 85 | complete |
 | Ashiv | 361 | 35.200 Km | [18.127774, 76.358179](https://www.google.com/maps?q=18.127774,76.358179) | 105 | complete |
 | Husnapur | 361 | 443.042 | [20.551197, 78.039108](https://www.google.com/maps?q=20.551197,78.039108) | 110 | complete |
-| Malegaon Toll Plaza | 361 | at Ch. 156.468 | [18.829528, 77.013361](https://www.google.com/maps?q=18.829528,77.013361) | 125 | complete |
-| Ashta Toll Plaza | 361 | at Ch. 96.965 | [18.469251, 76.751367](https://www.google.com/maps?q=18.469251,76.751367) | 100 | complete |
+| Malegaon Toll Plaza | 361 | at Ch. 156.468 | [18.829528, 77.013361](https://www.google.com/maps?q=18.829528,77.013361) | 130 | complete |
+| Ashta Toll Plaza | 361 | at Ch. 96.965 | [18.469251, 76.751367](https://www.google.com/maps?q=18.469251,76.751367) | 105 | complete |
 | Umred | 361 B | FP 1 Wadgaon and FP 2 Umred | [20.293963, 78.683800](https://www.google.com/maps?q=20.293963,78.683800) | 45 | complete |
 | Wadgaon  | 361 B | FP 1 Wadgaon and FP 2 Umred | [20.449097, 78.37049](https://www.google.com/maps?q=20.449097,78.37049) | 45 | complete |
-| Bhamb Raja | 361 | Km 382.920 | [20.234893, 78.017434](https://www.google.com/maps?q=20.234893,78.017434) | 125 | complete |
+| Bhamb Raja | 361 | Km 382.920 | [20.234893, 78.017434](https://www.google.com/maps?q=20.234893,78.017434) | 130 | complete |
 | Haldgaon | 361 | Km. 510.865 | [20.857818, 78.876369](https://www.google.com/maps?q=20.857818,78.876369) | 105 | complete |
 | Selu | 547 E | Ketapar | [21.1929176, 78.8967733](https://www.google.com/maps?q=21.1929176,78.8967733) | 65 | complete |
 | Loni Toll Plaza | 548C |  | [19.324600, 76.200001](https://www.google.com/maps?q=19.324600,76.200001) | 45 | complete |
 | Nayagaon Toll Plaza | 548C |  | [19.799842, 76.394048](https://www.google.com/maps?q=19.799842,76.394048) | 60 | complete |
 | Vaidyakinhi |   548D | km.154.400 at Village Vaidyakinhi Tal. Patoda Dist. Beed | [18.7896671, 75.578125](https://www.google.com/maps?q=18.7896671,75.578125) | 30 | complete |
 | Umri Toll Plaza | 548D | MPD Gate No-9 Vasco Da Gama | [18.737284, 76.003798](https://www.google.com/maps?q=18.737284,76.003798) | 80 | complete |
-| Selu Ambu | 548B | Selu Ambu at Km 39.250 | [18.67605, 76.39189](https://www.google.com/maps?q=18.67605,76.39189) | 45 | complete |
+| Selu Ambu | 548B | Selu Ambu at Km 39.250 | [18.67605, 76.39189](https://www.google.com/maps?q=18.67605,76.39189) | 50 | complete |
 | Undri | 548CC | Undari | [20.439943, 76.459241](https://www.google.com/maps?q=20.439943,76.459241) | 50 | complete |
 | Banpimpri Toll Plaza | 561-A | Km 1+110 of NH-166S near  Sukekulan village in North Goa  District of Goa  | [18.824670, 74.886262](https://www.google.com/maps?q=18.824670,74.886262) | 135 | complete |
 | Pimparkhed Toll Plaza | 753J | Hatiwale | [20.3029330 ,  74.7588787](https://www.google.com/maps?q=20.3029330 , 74.7588787) | 55 | complete |

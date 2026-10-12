@@ -1,8 +1,8 @@
 # Toll plazas in West Bengal — India
 
-Browse **32 FASTag toll plazas** across 21 national highways in West Bengal. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
+Browse **32 FASTag toll plazas** across 20 national highways in West Bengal. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 31 complete, 1 partial · **Last updated:** 2026-07-07
+**Coverage:** 31 complete, 1 partial · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -28,6 +28,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Rajchandrapur  (Howrah) Toll Plaza* | 2 | SECOND VIVEKANANDA BRIDGE TOLLWAY COMPANY PVT. LTD. | [22.653889, 88.325](https://www.google.com/maps?q=22.653889,88.325) | 65 | complete |
 | Balibhasa | 6 | 43.350 | [22.3446262, 87.1266524](https://www.google.com/maps?q=22.3446262,87.1266524) | 95 | complete |
 | Ayeshpur Toll Plaza | 12 | KM 20+000 | [22.979416, 88.45605](https://www.google.com/maps?q=22.979416,88.45605) | 115 | complete |
+| Sali Bamandanga | 12 | KM 20+000 | [23.629195, 88.36003](https://www.google.com/maps?q=23.629195,88.36003) | 105 | complete |
 | Debra | 16 | Km 112.245 | [22.397144, 87.522855](https://www.google.com/maps?q=22.397144,87.522855) | 80 | complete |
 | Jaladhulagori (Dhulagarh) | 16 | Km 35.250 | [22.57319, 88.181739](https://www.google.com/maps?q=22.57319,88.181739) | 140 | complete |
 | Dankuni Toll Plaza** | 19 | 27+900 | [22.698891, 88.288862](https://www.google.com/maps?q=22.698891,88.288862) | 110 | complete |
@@ -43,7 +44,6 @@ What "confidence" means, so you know how much to trust a given rate:
 | Tetla Toll Plaza  | 32 (New 18) | Km. 142+300 | [22.963702, 86.109463](https://www.google.com/maps?q=22.963702,86.109463) | 30 | complete |
 | Barai Toll Plaza | 34 (New 12) | Barai Toll Plaza, Raiganj, Uttar Dinajppur (Km. 411.850) | [25.6710495, 88.0793655](https://www.google.com/maps?q=25.6710495,88.0793655) | 110 | complete |
 | Chandermore (Kishorpur  ) Toll Plaza | 34 ( 12, New) | Chandermore (Km.260.850) | [24.563182, 88.019993](https://www.google.com/maps?q=24.563182,88.019993) | 75 | complete |
-| Sali Bamandanga | 34  | KM 20+000 | [23.629195, 88.36003](https://www.google.com/maps?q=23.629195,88.36003) | 105 | complete |
 | Shibpur Toll Plaza | 34 ( 12, New) | Shibpur (Km.206.562) | [24.150449, 88.18629](https://www.google.com/maps?q=24.150449,88.18629) | 125 | complete |
 | Gazole (Bagsarai )Toll Plaza | 34 | Vill-Bagsarai | [25.194964, 88.182156](https://www.google.com/maps?q=25.194964,88.182156) | 65 | complete |
 | 18th Mile (Lakshmipur ) Toll Plaza | 34 | Vill-Lakshmipur | [24.822792, 87.96668](https://www.google.com/maps?q=24.822792,87.96668) | 140 | complete |

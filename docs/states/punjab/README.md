@@ -2,7 +2,7 @@
 
 Browse **44 FASTag toll plazas** across 23 national highways in Punjab. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 44 complete · **Last updated:** 2026-07-07
+**Coverage:** 44 complete · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -31,7 +31,7 @@ What "confidence" means, so you know how much to trust a given rate:
 | Balluana | 7 | 12.3 | [30.2275, 74.7638](https://www.google.com/maps?q=30.2275,74.7638) | 60 | complete |
 | Badbar | 7 | 139.72 | [30.247772, 75.640226](https://www.google.com/maps?q=30.247772,75.640226) | 110 | complete |
 | Lehrabega | 7 | Km 191.929 | [30.233092, 75.102496](https://www.google.com/maps?q=30.233092,75.102496) | 75 | complete |
-| Kalajhar | 7 | Km 85.950 | [30.265789, 76.148309](https://www.google.com/maps?q=30.265789,76.148309) | 110 | complete |
+| Kalajhar | 7 | Km 85.950 | [30.265789, 76.148309](https://www.google.com/maps?q=30.265789,76.148309) | 115 | complete |
 | Abul Khurana  | 9 | 11.15 | [30.120780, 74.553523](https://www.google.com/maps?q=30.120780,74.553523) | 35 | complete |
 | Khuian Malkan | 9 | Km. 302.250 | [29.880807, 74.793687](https://www.google.com/maps?q=29.880807,74.793687) | 65 | complete |
 | Chandimandir |  22 | Km 51.400 | [30.738834, 76.897977](https://www.google.com/maps?q=30.738834,76.897977) | 40 | complete |
@@ -44,20 +44,20 @@ What "confidence" means, so you know how much to trust a given rate:
 | Jassi Bagwali | 54 | Gurthari | [30.032462, 74.802473](https://www.google.com/maps?q=30.032462,74.802473) | 30 | complete |
 | Pathrala Toll Plaza | 54 | Gurthari | [30.005443, 74.77082](https://www.google.com/maps?q=30.005443,74.77082) |  | complete |
 | Zidda | 54 | Km 267.488 | [30.3848746, 74.9829043](https://www.google.com/maps?q=30.3848746,74.9829043) | 125 | complete |
-| Dhareri Jattan | 64 (New 7) | 42.6 | [30.3912, 76.499525](https://www.google.com/maps?q=30.3912,76.499525) | 45 | complete |
+| Dhareri Jattan | 64 (New 7) | 42.6 | [30.3912, 76.499525](https://www.google.com/maps?q=30.3912,76.499525) | 50 | complete |
 | Azizpur | 64 (New 7) | 9.120 Km | [30.593881, 76.760016](https://www.google.com/maps?q=30.593881,76.760016) | 45 | complete |
-| Milk Majra |  73 (344) | 98.750 Km | [30.21128, 77.194411](https://www.google.com/maps?q=30.21128,77.194411) | 100 | complete |
+| Milk Majra |  73 (344) | 98.750 Km | [30.21128, 77.194411](https://www.google.com/maps?q=30.21128,77.194411) | 105 | complete |
 | Gurhe(Chowikiman) | 95 | 104.58 | [30.824455, 75.590539](https://www.google.com/maps?q=30.824455,75.590539) | 70 | complete |
 | Darapur | 95 | 164 | [30.840280, 74.976308](https://www.google.com/maps?q=30.840280,74.976308) | 65 | complete |
 | Ferozeshah | 95 | 183.73 | [30.8695, 74.7731](https://www.google.com/maps?q=30.8695,74.7731) | 35 | complete |
 | Chahar | 95 | Km 12.200 | [30.9887, 75.7908](https://www.google.com/maps?q=30.9887,75.7908) | 40 | complete |
-| Chhotian | 148B | Chhotian | [29.829659, 75.785717](https://www.google.com/maps?q=29.829659,75.785717) | 50 | complete |
+| Chhotian | 148B | Chhotian | [29.829659, 75.785717](https://www.google.com/maps?q=29.829659,75.785717) | 55 | complete |
 | Dappar (Ambala Chandigarh ) | 152 | Km 23.080 | [30.527449, 76.813037](https://www.google.com/maps?q=30.527449,76.813037) | 50 | complete |
 | Bajheri Toll Plaza | 205A | Bajheri Village  | [30.745148, 76.593468](https://www.google.com/maps?q=30.745148,76.593468) | 80 | complete |
 | Kurali (Behrampur) | 205 | Km 35.000 | [30.908140, 76.542771](https://www.google.com/maps?q=30.908140,76.542771) | 60 | complete |
 | Bachhuan | 344 | Bacchuan Km 70.240 | [31.014469, 76.389203](https://www.google.com/maps?q=31.014469,76.389203) | 65 | complete |
 | Behram | 344 | Behram at Km 15.300 | [31.204433, 75.876799](https://www.google.com/maps?q=31.204433,75.876799) | 105 | complete |
-| Chandi Toll Plaza | 352 |  | [29.007097, 76.508305](https://www.google.com/maps?q=29.007097,76.508305) | 85 | complete |
+| Chandi Toll Plaza | 352 |  | [29.007097, 76.508305](https://www.google.com/maps?q=29.007097,76.508305) | 90 | complete |
 | Manan | 354 | 200.100 | [31.516036, 74.800179](https://www.google.com/maps?q=31.516036,74.800179) | 50 | complete |
 | Kala Tibba | 354 E | Kala Tibba | [30.1043537, 74.26151](https://www.google.com/maps?q=30.1043537,74.26151) | 50 | complete |
 | Bhagupur | 703 B | 200.100 | [31.250049, 74.827552](https://www.google.com/maps?q=31.250049,74.827552) | 40 | complete |

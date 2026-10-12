@@ -2,7 +2,7 @@
 
 Browse **21 FASTag toll plazas** across 11 national highways in Delhi. Data sourced from [NHAI RajMargyatra](https://rajmargyatra.nhai.gov.in) and curated state sources.
 
-**Coverage:** 21 complete · **Last updated:** 2026-07-07
+**Coverage:** 21 complete · **Last updated:** 2026-10-12
 
 [← All states](../../README.md) · [Download full dataset](../../../data/latest.json)
 
@@ -31,8 +31,8 @@ What "confidence" means, so you know how much to trust a given rate:
 | Karman | 19 | Km. 94.00 | [27.855659, 77.403025](https://www.google.com/maps?q=27.855659,77.403025) | 100 | complete |
 | Badarpur | 19 | Near Sarai Metro Station | [28.4762963, 77.3056512](https://www.google.com/maps?q=28.4762963,77.3056512) | 35 | complete |
 | Gadpuri | 19 | Palwal | [28.27806, 77.29797](https://www.google.com/maps?q=28.27806,77.29797) | 130 | complete |
-| Bijwasan Toll Plaza  | 24BB |  | [28.52277778, 77.37111111](https://www.google.com/maps?q=28.52277778,77.37111111) | 225 | complete |
-| Kherki Daula | 48 | Km 690.600 | [28.395604, 76.98176](https://www.google.com/maps?q=28.395604,76.98176) | 100 | complete |
+| Bijwasan Toll Plaza  | 24BB |  | [28.533600, 77.033600](https://www.google.com/maps?q=28.533600,77.033600) | 235 | complete |
+| Kherki Daula | 48 | Km 690.600 | [28.395604, 76.98176](https://www.google.com/maps?q=28.395604,76.98176) | 105 | complete |
 | Jita Kherli Kiranj Toll Plaza | 148 | Near Kiranj Village in District Nuh (Haryana) at Ch. 55880 | [28.1887273, 77.1729976](https://www.google.com/maps?q=28.1887273,77.1729976) | 155 | complete |
 | Sirohi Bahali | 148B, 11 | Sirohi Bahali Village | [27.9327, 76.12727](https://www.google.com/maps?q=27.9327,76.12727) | 140 | complete |
 | Ghamroj | 248A | KM.13.000 | [28.333785, 77.067456](https://www.google.com/maps?q=28.333785,77.067456) | 130 | complete |
