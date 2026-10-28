@@ -2,14 +2,23 @@ const https = require('https');
 const http = require('http');
 const zlib = require('zlib');
 
+// Persistent agents prevent socket churn and connection drops across 1,200+ requests
+const httpsAgent = new https.Agent({ keepAlive: true, maxSockets: 25, timeout: 30000 });
+const httpAgent = new http.Agent({ keepAlive: true, maxSockets: 25, timeout: 30000 });
+
 function makeRequest(url, method, data, headers) {
   return makeDirectRequest(url, method, data, headers);
 }
 
 function makeDirectRequest(url, method, data, headers) {
   return new Promise((resolve, reject) => {
+    const isHttps = url.startsWith('https');
+    const protocol = isHttps ? https : http;
+    const agent = isHttps ? httpsAgent : httpAgent;
+
     const options = {
       method,
+      agent,
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json, text/plain, */*',
@@ -29,22 +38,43 @@ function makeDirectRequest(url, method, data, headers) {
       timeout: 30000
     };
 
-    const protocol = url.startsWith('https') ? https : http;
+    let isSettled = false;
+    const safeResolve = (val) => {
+      if (!isSettled) {
+        isSettled = true;
+        resolve(val);
+      }
+    };
+    const safeReject = (err) => {
+      if (!isSettled) {
+        isSettled = true;
+        reject(err);
+      }
+    };
+
     const req = protocol.request(url, options, (res) => {
       let stream = res;
 
-      // Handle compression
-      if (res.headers['content-encoding'] === 'gzip') {
-        stream = res.pipe(zlib.createGunzip());
-      } else if (res.headers['content-encoding'] === 'deflate') {
-        stream = res.pipe(zlib.createInflate());
-      } else if (res.headers['content-encoding'] === 'br') {
-        stream = res.pipe(zlib.createBrotliDecompress());
+      const encoding = res.headers['content-encoding'];
+      if (encoding === 'gzip') {
+        const gunzip = zlib.createGunzip();
+        res.pipe(gunzip);
+        stream = gunzip;
+      } else if (encoding === 'deflate') {
+        const inflate = zlib.createInflate();
+        res.pipe(inflate);
+        stream = inflate;
+      } else if (encoding === 'br') {
+        const brotli = zlib.createBrotliDecompress();
+        res.pipe(brotli);
+        stream = brotli;
       }
 
-      let body = '';
+      res.on('error', safeReject);
+      stream.on('error', safeReject);
 
-      stream.on('data', chunk => {
+      let body = '';
+      stream.on('data', (chunk) => {
         body += chunk;
       });
 
@@ -55,23 +85,21 @@ function makeDirectRequest(url, method, data, headers) {
             error.statusCode = res.statusCode;
             error.body = body;
             error.headers = res.headers;
-            reject(error);
+            safeReject(error);
           } else {
             const parsed = JSON.parse(body);
-            resolve(parsed);
+            safeResolve(parsed);
           }
         } catch (error) {
-          reject(error);
+          safeReject(error);
         }
       });
-
-      stream.on('error', reject);
     });
 
-    req.on('error', reject);
+    req.on('error', safeReject);
     req.on('timeout', () => {
-      req.destroy();
-      reject(new Error('Request timeout'));
+      req.destroy(new Error('Request timeout'));
+      safeReject(new Error('Request timeout'));
     });
 
     if (data) {
